@@ -1,0 +1,7 @@
+{
+  "name": "DLU_Connect",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
