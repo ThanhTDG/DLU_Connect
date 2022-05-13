@@ -24,3 +24,24 @@
 @import "~@ionic/angular/css/text-alignment.css";
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
+
+/* Fonts*/
+// @import url(./theme/fonts/Montserrat-Regular.otf);
+// @import url(./theme/fonts/Montserrat-Bold.otf);
+@font-face {
+    font-family: 'Montserrat';
+    src: url('./theme/fonts/Montserrat-Regular.otf');//path to your font file
+}
+@font-face {
+    font-family: 'Montserrat Bold';
+    src: url('./theme/fonts/Montserrat-Bold.otf');//path to your font file
+}
+
+@font-face {
+    font-family: 'Montserrat Italic';
+    src: url('./theme/fonts/Montserrat-Italic.otf');//path to your font file
+}
+  
+* {
+    font-family: 'Montserrat';
+}

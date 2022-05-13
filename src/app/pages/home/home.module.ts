@@ -1,10 +1,14 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { IonicModule } from '@ionic/angular';
 import { FormsModule } from '@angular/forms';
-import { HomePage } from './home.page';
+
+import { IonicModule } from '@ionic/angular';
 
 import { HomePageRoutingModule } from './home-routing.module';
+
+import { HomePage } from './home.page';
+
+import {NavigationBarComponent} from '../../components/navigation-bar/navigation-bar.component';
 
 
 @NgModule({
@@ -14,6 +18,7 @@ import { HomePageRoutingModule } from './home-routing.module';
     IonicModule,
     HomePageRoutingModule
   ],
-  declarations: [HomePage]
+  entryComponents:[NavigationBarComponent],
+  declarations: [HomePage, NavigationBarComponent]
 })
 export class HomePageModule {}
