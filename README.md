@@ -7,3 +7,7 @@
 - 1914745 - Cao Dương Sơn Hiếu - Developer
 - 1911185 - Nguyễn Thành Phú - Developer
 - 1911211 - Nguyễn Ngọc Thiên Thư - Designer
+
+#Notes:
+- B1: Clone về
+- B2: chạy lệnh: npm i
