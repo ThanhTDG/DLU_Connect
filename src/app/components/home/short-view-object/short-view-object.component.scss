@@ -1,0 +1,30 @@
+#sort-view-object{
+    #svo-container{
+        width: 120px;
+        height: 48px;
+        border-radius: 60px;
+        background-color: var(--ion-color-app-green-light);
+        position: relative;
+        display: flex;
+        justify-items: center;
+        padding-left: 56px;
+        padding-top: 4px;
+        p{
+            font-size: 12px;
+        }
+        #svo-title{
+            width: 40px;
+            height: 40px;
+            background-color: var(--ion-color-app-green-dark);
+            border-radius: 20px;
+            position: absolute;
+            top: 4px;
+            left: 4px;
+            padding-top: 4px;
+            span{
+                font-size: 24px;
+                color: white;
+            }
+        }
+    }
+}

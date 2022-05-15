@@ -1,3 +1,4 @@
+/* eslint-disable max-len */
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
@@ -8,17 +9,16 @@ import { HomePageRoutingModule } from './home-routing.module';
 
 import { HomePage } from './home.page';
 
-import {NavigationBarComponent} from '../../components/navigation-bar/navigation-bar.component';
-
+import { ComponentsModule } from 'src/app/components/components.module';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    HomePageRoutingModule
+    HomePageRoutingModule,
+    ComponentsModule
   ],
-  entryComponents:[NavigationBarComponent],
-  declarations: [HomePage, NavigationBarComponent]
+  declarations: [HomePage]
 })
 export class HomePageModule {}

@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "DLU_Connect",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}
