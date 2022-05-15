@@ -1,0 +1,64 @@
+#short-post{
+    padding: 0px;
+    margin: 0px;
+    #sp-container{
+        #sp-header{
+            position: relative;
+            width: 100%;
+            height: 64px;
+            background-color: var(--ion-color-app-green-dark);
+            border-radius: 32px 32px 0 0;
+            img{
+                position: absolute;
+                left: 0px;
+            }
+            span{
+                font-size: 12px;
+                display: block;
+                text-align: left;
+                padding-left: 72px;
+            }
+            #sp-user-name{
+                padding-top: 16px;
+                color: var(--ion-color-app-white);
+            }
+            #sp-time{
+                padding-top: 4px;
+                color: var(--ion-color-app-gray-dark);
+            }
+        }
+        #sp-body{
+            #sp-bd-text{
+                width: 100%;
+                height: 162px;
+                padding-left: 4px;
+                padding-top: 4px;
+                padding-right: 4px;
+                padding-bottom: 0px;
+                text-align: left;
+                background-color: var(--ion-color-app-primary);
+                span{
+                    font-size: 12px;
+                    display: block;
+                }
+                #sp-bd-text-content{
+                    padding-top: 4px;
+                    a{
+                        color: var(--ion-color-app-gray-light);
+                    }
+                }
+            }
+            #sp-bd-image{
+                width: 100%;
+                height: 162px;
+                
+                img{
+                    width: 100%;
+                    height: 100%;
+                    border-radius: 0 0 32px 32px ;
+                    object-fit: cover;
+                }
+            }
+        }
+    }
+}

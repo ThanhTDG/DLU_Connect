@@ -1,0 +1,111 @@
+#full-post{
+    padding:0 12px 24px 12px;
+    margin: 0px;
+    #fp-container{
+        #fp-header{
+            position: relative;
+            width: 100%;
+            height: 64px;
+            background-color: var(--ion-color-app-green-dark);
+            border-radius: 32px 32px 0 0;
+            #fp-hd-userAvatar{
+                position: absolute;
+                left: 0px;
+            }
+            span{
+                font-size: 12px;
+                display: block;
+                text-align: left;
+                padding-left: 72px;
+            }
+            #fp-user-name{
+                padding-top: 16px;
+                color: var(--ion-color-app-white);
+            }
+            #fp-time{
+                padding-top: 4px;
+                color: var(--ion-color-app-gray-dark);
+            }
+            #fp-hd-options{
+                position: absolute;
+                top: 8px;
+                right: 8px;
+                img{
+                    display: block;
+                }
+            }
+        }
+        #fp-body{
+            #fp-bd-text{
+                width: 100%;
+                height: 162px;
+                padding-left: 4px;
+                padding-top: 4px;
+                padding-right: 4px;
+                padding-bottom: 0px;
+                text-align: left;
+                background-color: var(--ion-color-app-primary);
+                span{
+                    font-size: 12px;
+                    display: block;
+                }
+                #fp-bd-text-content{
+                    padding-top: 4px;
+                    a{
+                        color: var(--ion-color-app-gray-light);
+                    }
+                }
+            }
+            #fp-bd-image{
+                width: 100%;
+                height: 162px;
+                
+                img{
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
+        }
+        #fp-footer{
+            #fp-details{
+                width: 100%;
+                height: 32px;
+                background-color: var(--ion-color-app-green-lighter);
+                display: flex;
+                justify-content: space-between;
+                padding-top: 8px;
+                padding-left: 24px;
+                padding-right: 24px;
+                span{
+                    color: var(--ion-color-app-gray-dark);
+                    font-size: 12px;
+                }
+            }
+            #fp-controls{
+                width: 100%;
+                height: 32px;
+                display: flex;
+                justify-content: space-between;
+                border-radius: 0 0 32px 32px;
+                padding-left: 12px;
+                padding-right: 12px;
+                background-color: var(--ion-color-app-green-dark);
+                .fp-ct-container{
+                    display: flex;
+                    
+                    img{
+                        padding-top: 4px;
+                        padding-bottom: 4px;
+                    }
+                    div{
+                        display: inline;
+                        font-size: 12px;
+                        color: var(--ion-color-app-white);
+                        padding-top: 10px;
+                    }
+                }
+            }
+        }
+    }
+}
