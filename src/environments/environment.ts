@@ -11,8 +11,8 @@ export const environment = {
     storageBucket: 'dlu-connect.appspot.com',
     messagingSenderId: '511044761048',
     appId: '1:511044761048:web:fb0c898c3b0911af34eead',
-    measurementId: 'G-PCZKVZHQCG'
-  }
+    measurementId: 'G-PCZKVZHQCG',
+  },
 };
 
 /*

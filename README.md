@@ -8,6 +8,7 @@
 - 1911185 - Nguyễn Thành Phú - Developer
 - 1911211 - Nguyễn Ngọc Thiên Thư - Designer
 
-#Notes:
-- B1: Clone về
-- B2: chạy lệnh: npm i
+## Note:
+
+- B1: clone dự án về
+- B2: cài đặt thư viện dự án: `npm i`

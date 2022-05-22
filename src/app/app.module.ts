@@ -14,7 +14,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { NativePageTransitions } from '@awesome-cordova-plugins/native-page-transitions/ngx';
 import { environment } from 'src/environments/environment';
 
-
 @NgModule({
   declarations: [AppComponent],
   entryComponents: [],
@@ -27,7 +26,10 @@ import { environment } from 'src/environments/environment';
     provideFirestore(() => getFirestore()),
     provideStorage(() => getStorage()),
   ],
-  providers: [{ provide: RouteReuseStrategy, useClass: IonicRouteStrategy }, NativePageTransitions],
+  providers: [
+    { provide: RouteReuseStrategy, useClass: IonicRouteStrategy },
+    NativePageTransitions,
+  ],
   bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
