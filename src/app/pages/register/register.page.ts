@@ -17,6 +17,6 @@ export class RegisterPage implements OnInit {
     this.navctr.back();
   }
   btn_Next(){
-    this.router.navigate(['register-final']);
+    this.router.navigate(['register-part2']);
   }
 }

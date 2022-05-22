@@ -1,11 +1,11 @@
 
 <ion-content>
   <div style="text-align: left;margin-top:47px;margin-left:12px">
-    <img  id="rh-back-btn" src="../../../assets/icon/login/back.png" alt="">
+    <img (click)="backbtn()"  id="rh-back-btn" src="../../../assets/icon/login/back.png" alt="">
 
   </div>
 
-
+<form action="">
   <ion-grid fixed style="padding-left:12px ;padding-right:12px;">
     <div style="margin-top:22px ;">
       <img  src="../../../assets/icon/login/DLU_connect.png" alt="" class="center">
@@ -60,11 +60,13 @@
       </ion-button>
     </div>
     <div id="div_btnSubmit">
-      <ion-button id="btn_Submit" expand="block" fill="clear" shape="round">
+      <ion-button id="btn_Submit" (click)="btn_Next()" expand="block" fill="clear" shape="round">
         Tiếp tục
       </ion-button>
     </div>
   </ion-grid>
+</form>
+
 
 
 </ion-content>

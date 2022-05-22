@@ -29,9 +29,12 @@ export class LoginPage implements OnInit {
       password: ['', [Validators.required, Validators.minLength(6)]],
     });
   }
+  registerBtn(){
+    this.router.navigate(['register'])
+  }
 
-  registerBtn() {
-    this.router.navigate(['register']);
+  forgotPassword(){
+    this.router.navigate(['forgot-password'])
   }
 
   async login() {

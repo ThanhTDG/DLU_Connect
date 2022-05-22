@@ -7,36 +7,39 @@
       </ion-text>
     <img style="margin-right:12px;position:relative;left: 60px;top:15px" id="rh-back-btn" src="../../../assets/icon/login/Postbtn.png" alt="">
   </div> -->
-  <div style="text-align: left;margin-top:47px;margin-left:12px">
-    <img  id="rh-back-btn" src="../../../assets/icon/login/back.png" alt="">
-    <ion-text style="color: #237A73;margin-left:24px;font-size:23px;position:relative;bottom:5px;" color="primary">
-      Tạo bài viết
-     </ion-text>
-     <img style="margin-right:12px;position:relative;left: 60px;top:10px" id="rh-back-btn" src="../../../assets/icon/login/Postbtn.png" alt="">
-  </div>
-  <ion-grid fixed style="padding-left:12px ;padding-right:12px;">
-    <ion-row>
-      <ion-col size="2">
-        <img src="../../../assets/icon/login/User.png" alt="">
-      </ion-col>
-      <ion-col size="6">
-        <ion-text color="primary">
-          User Name
-        </ion-text>
-      </ion-col>
-      <ion-col size="4" >
-        <div style="background-color:red;position: relative;right:155px;top:25px;">
-            abc
-        </div>
-      </ion-col>
-      <ion-col size="12" >
-        <input type="text" placeholder="Bạn đang nghĩ tới việc gì?" style="width: 290px;">
-      </ion-col>
-      <ion-col size="12" >
-        <ion-textarea></ion-textarea>
-      </ion-col>
-    </ion-row>
-  </ion-grid>
+  <form action="">
+    <div style="text-align: left;margin-top:47px;margin-left:12px">
+      <img (click)="backbtn()"  id="rh-back-btn" src="../../../assets/icon/login/back.png" alt="">
+      <ion-text style="color: #237A73;margin-left:24px;font-size:23px;position:relative;bottom:5px;" color="primary">
+        Tạo bài viết
+       </ion-text>
+       <img style="margin-right:12px;position:relative;left: 60px;top:10px" id="rh-back-btn" src="../../../assets/icon/login/Postbtn.png" alt="">
+    </div>
+    <ion-grid fixed style="padding-left:12px ;padding-right:12px;">
+      <ion-row>
+        <ion-col size="2">
+          <img src="../../../assets/icon/login/User.png" alt="">
+        </ion-col>
+        <ion-col size="6">
+          <ion-text color="primary">
+            User Name
+          </ion-text>
+        </ion-col>
+        <ion-col size="4" >
+          <div style="background-color:red;position: relative;right:155px;top:25px;">
+              abc
+          </div>
+        </ion-col>
+        <ion-col size="12" >
+          <input type="text" placeholder="Bạn đang nghĩ tới việc gì?" style="width: 290px;">
+        </ion-col>
+        <ion-col size="12" >
+          <ion-textarea></ion-textarea>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </form>
+
 
 </ion-content>
 
