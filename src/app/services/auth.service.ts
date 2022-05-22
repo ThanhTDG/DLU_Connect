@@ -19,7 +19,7 @@ export class AuthService {
         email,
         password
       );
-      return user.user;
+      return user;
     } catch (e) {
       console.log(e);
       return null;

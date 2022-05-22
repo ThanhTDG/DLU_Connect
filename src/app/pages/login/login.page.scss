@@ -1,76 +1,73 @@
-ion-input{
+ion-input {
   // border-radius: 20px;
   // background-color: #E0E9E0;
   // text-align: left;
   height: 42px;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
   line-height: 15px;
-  color:#B3BAB3;
+  color: #b3bab3;
 }
 
-.padding-lr12px{
+.padding-lr12px {
   padding-left: 12px;
-  padding-right:12px;
+  padding-right: 12px;
 }
-#labelLogin{
-margin-left: 12px;
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 700;
-font-size: 24px;
-line-height: 29px;
-color: #237A73;
+#labelLogin {
+  margin-left: 12px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #237a73;
 }
 
-.center{
+.center {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
 }
 
-#email_input{
-
+#email_input {
   width: 100%;
   margin-top: 12px;
   border-radius: 20px;
-  background-color: #E0E9E0;
+  background-color: #e0e9e0;
   text-align: left;
   height: 52px;
 }
 
-#password_input{
+#password_input {
   width: 100%;
   margin-top: 12px;
   border-radius: 20px;
-  background-color: #E0E9E0;
+  background-color: #e0e9e0;
   text-align: left;
   height: 54px;
 }
 
-#btn_login{
+#btn_login {
   width: 100%;
   margin-top: 12px;
   height: 53px;
   font-size: 13px;
-  color: #FFFFFF;
-  background: #70A8A4;
+  color: #ffffff;
+  background: #70a8a4;
   border-radius: 30px;
-
 }
 
-
-#forgot_Password{
+#forgot_Password {
   width: 100%;
   margin-top: 20px;
   font-size: small;
-  color:#70A8A4;
+  color: #70a8a4;
 }
 
-#suggest_register{
+#suggest_register {
   width: 100%;
   margin-right: 62px;
   margin-left: 62px;
@@ -82,24 +79,21 @@ color: #237A73;
   top: 50px;
 }
 
-#div_btnRegis{
+#div_btnRegis {
   margin-bottom: 24px;
   width: 100%;
   position: relative;
   height: 52px;
-  background: #B2D1CE;
+  background: #b2d1ce;
   border-radius: 30px;
   top: 50px;
 }
 
-#btn_Regis{
-
+#btn_Regis {
   width: 100%;
-  font-size:smaller;
-  text-align:center;
-  position:relative;
-  top:4px;
-  color:#237A73;
+  font-size: smaller;
+  text-align: center;
+  position: relative;
+  top: 4px;
+  color: #237a73;
 }
-
-

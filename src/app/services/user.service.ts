@@ -24,5 +24,5 @@ export class UserService {
     return docData(userDocRef);
   }
 
-  async uploadImage() {}
+  async update() {}
 }
