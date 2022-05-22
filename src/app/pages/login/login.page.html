@@ -1,0 +1,61 @@
+<!-- <ion-header>
+  <ion-toolbar>
+    <ion-title>login</ion-title>
+  </ion-toolbar>
+</ion-header> -->
+
+<ion-content>
+  <div style="margin-top:49px;margin-bottom:69px;">
+    <img  src="../../../assets/icon/login/DLU_connect.png" alt="" class="center">
+  </div>
+
+  <ion-grid fixed style="padding-left:12px ;padding-right:12px;">
+    <ion-row>
+      <ion-col size="12" style="padding:0 ;" class="">
+        <ion-text id="labelLogin" color="primary">
+          Đăng nhập
+        </ion-text>
+      </ion-col>
+      <ion-col size="12" style="padding:0 ;">
+          <div  id="email_input"[ngStyle]="ngStyleEmailInput" class="padding-lr12px" > <ion-input type="text" placeholder="Email/MSSV"></ion-input></div>
+      </ion-col>
+      <ion-col size="12" style="padding:0 ;">
+          <div id="password_input"[ngStyle]="ngStylePasswordInput" class="padding-lr12px" > <ion-input type="password" placeholder="Mật khẩu"></ion-input></div>
+      </ion-col>
+      <ion-col size="12" style="padding:0 ;">
+
+          <ion-button id="btn_login" (click)="login()"  expand="block" fill="clear" shape="round">
+            Đăng nhập
+          </ion-button>
+
+      </ion-col>
+      <ion-col size="12" style="padding:0 ;">
+        <a id="forgot_Password" href="">Quên mật khẩu ?</a>
+      </ion-col>
+      <ion-col size="12" style="padding:0 ;">
+        <div  style="text-align: center;margin-top:20px;">
+          <img [ngStyle]="ngStyleImageError" style="height: 1em; width: auto; float:left;display:none ;" src="../../../assets/icon/login/Vector.png" alt="" class="center">
+         <ion-text style="display: none;color:red;text-align:left;font-size:small;clear:right;" [ngStyle]="ngStyleTextError" color="red">
+          Không tim thấy tài khoản vui lòng kiểm tra lại email,MSSV và mật khẩu
+         </ion-text>
+        </div>
+      </ion-col>
+    </ion-row>
+
+    <div id="suggest_register">
+      <ion-text color="black">
+        Chưa có tài khoản? Đăng ký ngay bây giờ!
+      </ion-text>
+    </div>
+    <div>
+      <div id="div_btnRegis">
+        <ion-button id="btn_Regis" (click)="registerBtn()" expand="block" fill="clear" shape="round">
+          Đăng ký
+        </ion-button>
+      </div>
+    </div>
+  </ion-grid>
+
+
+
+</ion-content>
