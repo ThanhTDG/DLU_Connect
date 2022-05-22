@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import { NavController } from '@ionic/angular';
 @Component({
   selector: 'app-create-post-page',
   templateUrl: './create-post-page.page.html',
@@ -7,11 +7,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CreatePostPagePage implements OnInit {
 
-  constructor() { }
+  constructor(private navctr:NavController) { }
 
   ngOnInit() {
   }
- 
+  backbtn(){
+    this.navctr.back();
+  }
 
 
 }

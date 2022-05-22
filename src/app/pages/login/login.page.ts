@@ -33,6 +33,8 @@ export class LoginPage implements OnInit {
       display:"inline"
     };
   }
-
+  forgotPassword(){
+    this.router.navigate(['forgot-password'])
+  }
 
 }
