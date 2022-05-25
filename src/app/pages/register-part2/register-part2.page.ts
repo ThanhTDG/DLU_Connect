@@ -1,10 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { FormBuilder, FormGroup } from '@angular/forms';
 import { Router } from '@angular/router';
-import { NavController } from '@ionic/angular';
-import { Observable } from 'rxjs';
+import { AlertController, NavController } from '@ionic/angular';
 import { AuthService } from 'src/app/services/auth.service';
-import { UserService } from 'src/app/services/user.service';
 
 @Component({
   selector: 'app-register-part2',
@@ -12,40 +9,37 @@ import { UserService } from 'src/app/services/user.service';
   styleUrls: ['./register-part2.page.scss'],
 })
 export class RegisterPart2Page implements OnInit {
-  credentials: FormGroup;
-
   constructor(
-    private formBuilder: FormBuilder,
     private auth: AuthService,
+    private alert: AlertController,
     private nav: NavController,
     private router: Router
   ) {}
 
-  ngOnInit() {
-    // TODO: auto verify
-    // const user = this.auth.getUser();
-    // user.reload().then(() =>
-    //   this.auth.isVerified(() => {
-    //     this.router.navigate(['register-final']);
-    //   })
-    // );
+  async ngOnInit() {}
+
+  async resendVerify() {
+    this.auth.sendVerify().catch((err) => console.log(err));
   }
 
-  async resendCode() {
-    // await this.user
-    //   .verify()
-    //   .then((res) => console.log(res))
-    //   .catch((err) => console.log(err));
-    const user = this.auth.getUser();
-    // user.reload();
-    console.log(user);
-  }
-
-  btn_Next() {
-    this.router.navigate(['register-final']);
-  }
-
-  backbtn() {
+  back() {
     this.nav.back();
+  }
+
+  async next() {
+    await this.auth.reload();
+
+    const user = this.auth.getUser();
+    if (user?.emailVerified) {
+      this.router.navigate(['register-final']);
+    } else {
+      const alert = await this.alert.create({
+        header: 'Thông báo',
+        message:
+          'Email chưa được xác thực, vui lòng xác thực email hoặc gửi lại email xác thực!',
+        buttons: ['OK'],
+      });
+      await alert.present();
+    }
   }
 }

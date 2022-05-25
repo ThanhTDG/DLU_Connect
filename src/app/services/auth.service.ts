@@ -39,7 +39,7 @@ export class AuthService {
     return await signOut(this.auth);
   }
 
-  async verify() {
+  async sendVerify() {
     return await sendEmailVerification(this.auth.currentUser);
   }
 
@@ -47,17 +47,8 @@ export class AuthService {
     return await sendPasswordResetEmail(this.auth, email);
   }
 
-  isVerified(callback: () => void) {
-    // this.auth.beforeAuthStateChanged((user) => {
-    //   if (user.emailVerified) {
-    //     callback();
-    //   }
-    // });
-    this.auth.onAuthStateChanged((user) => {
-      if (user.emailVerified) {
-        callback();
-      }
-    });
+  async reload() {
+    return await this.auth.currentUser.reload();
   }
 
   getUser() {

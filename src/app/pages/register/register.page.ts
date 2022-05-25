@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { NavController } from '@ionic/angular';
+import { LoadingController, NavController } from '@ionic/angular';
 import { Router } from '@angular/router';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 
@@ -17,6 +17,7 @@ export class RegisterPage implements OnInit {
   constructor(
     private formBuilder: FormBuilder,
     private auth: AuthService,
+    private loading: LoadingController,
     private nav: NavController,
     private router: Router
   ) {}
@@ -47,15 +48,21 @@ export class RegisterPage implements OnInit {
   }
 
   async register() {
+    const loading = await this.loading.create({
+      message: 'Đang đăng nhập, vui lòng chờ xíu...',
+    });
+    await loading.present();
+
     await this.auth
       .register(this.credentials.value)
       .then(async (res) => {
-        await this.auth.verify();
+        await this.auth.sendVerify();
         this.router.navigate(['register-part2']);
       })
       .catch((err) => {
         console.log(err);
       });
+    await loading.dismiss();
   }
 
   back() {

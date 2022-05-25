@@ -70,7 +70,7 @@ export class LoginPage implements OnInit {
     await this.auth
       .login(this.credentials.value)
       .then((res) => {
-        console.log(res.user);
+        this.router.navigate(['home']);
       })
       .catch((err) => {
         console.log(err);

@@ -14,7 +14,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { NativePageTransitions } from '@awesome-cordova-plugins/native-page-transitions/ngx';
 
 import { environment } from '../environments/environment';
-import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [AppComponent],
