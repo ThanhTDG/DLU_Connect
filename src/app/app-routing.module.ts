@@ -4,7 +4,7 @@ import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
 const routes: Routes = [
   {
     path: '',
-    redirectTo: 'create-post-page',
+    redirectTo: 'register-part2',
     pathMatch: 'full'
   },
   {
