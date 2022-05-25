@@ -1,28 +1,22 @@
 import { Injectable } from '@angular/core';
-import { Auth } from '@angular/fire/auth';
+import { Auth, updateProfile } from '@angular/fire/auth';
 import { doc, docData, Firestore } from '@angular/fire/firestore';
-import { Storage } from '@angular/fire/storage';
+import {
+  getDownloadURL,
+  ref,
+  Storage,
+  uploadString,
+} from '@angular/fire/storage';
+import { Photo } from '@capacitor/camera';
 
 @Injectable({
   providedIn: 'root',
 })
 export class UserService {
-  constructor(
-    private auth: Auth,
-    private firestore: Firestore,
-    private storage: Storage
-  ) {}
+  constructor(private auth: Auth, private firestore: Firestore) {}
 
-  getUserProfile() {
-    const user = this.auth.currentUser;
-    const userDocRef = doc(this.firestore, `users/${user.uid}`);
-    return docData(userDocRef);
-  }
-
-  getUser(uid: string) {
+  getUserProfile(uid: string) {
     const userDocRef = doc(this.firestore, `users/${uid}`);
     return docData(userDocRef);
   }
-
-  async update() {}
 }

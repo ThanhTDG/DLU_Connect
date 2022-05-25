@@ -1,76 +1,108 @@
-
 <ion-content>
-  <div style="text-align: left;margin-top:47px;margin-left:12px">
-    <img (click)="backbtn()"  id="rh-back-btn" src="../../../assets/icon/login/back.png" alt="">
-
+  <div style="text-align: left; margin-top: 47px; margin-left: 12px">
+    <img
+      (click)="backbtn()"
+      id="rh-back-btn"
+      src="../../../assets/icon/login/back.png"
+      alt=""
+    />
   </div>
 
-<form action="">
-  <ion-grid fixed style="padding-left:12px ;padding-right:12px;">
-    <div style="margin-top:22px ;">
-      <img  src="../../../assets/icon/login/DLU_connect.png" alt="" class="center">
-    </div>
+  <form action="">
+    <ion-grid fixed style="padding-left: 12px; padding-right: 12px">
+      <div style="margin-top: 22px">
+        <img
+          src="../../../assets/icon/login/DLU_connect.png"
+          alt=""
+          class="center"
+        />
+      </div>
 
-    <ion-row>
-      <ion-col size="12" style="padding:0 ;">
+      <ion-row>
+        <ion-col size="12" style="padding: 0"> </ion-col>
 
-      </ion-col>
-
-      <ion-col size="12" style="padding:0 ;">
-          <div style="margin-top:69px ;" >
-            <ion-text color="primary" style="font-size: large;color:#237A73;">
+        <ion-col size="12" style="padding: 0">
+          <div style="margin-top: 69px">
+            <ion-text color="primary" style="font-size: large; color: #237a73">
               Xác minh
             </ion-text>
           </div>
-      </ion-col>
-      <ion-col size="12" style="padding:0 ;">
-        <div>
-          <div id="name_display" > <ion-input type="text" placeholder="Tên hiển thị"></ion-input></div>
-        </div>
-      </ion-col>
+        </ion-col>
 
-      <ion-col size="12" style="padding:0 ;">
-        <div >
-          <ion-text style="text-align: center;margin-top: 20px;font-size: 9.5px;" color="">
-            <div style="margin-top: 10px;" >
-              <ion-text style="text-align: center;font-family: 'Montserrat';
-              font-style: normal;
-              font-weight: 400;
-              font-size: 11.5px;
-              line-height: 15px;" color="">
-                <div id="contract">
-                 Chúng tôi đã gửi mã xác nhận qua email của bạn. Vui lòng nhập mã vào ô bên trên.
-
-                </div>
-              </ion-text>
+        <ion-col size="12" style="padding: 0">
+          <div>
+            <div id="name_display">
+              <ion-input type="text" placeholder="Tên hiển thị"></ion-input>
             </div>
+          </div>
+        </ion-col>
+
+        <ion-col size="12" style="padding: 0">
+          <div>
+            <ion-text
+              style="text-align: center; margin-top: 20px; font-size: 9.5px"
+              color=""
+            >
+              <div style="margin-top: 10px">
+                <ion-text
+                  style="
+                    text-align: center;
+                    font-family: 'Montserrat';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 11.5px;
+                    line-height: 15px;
+                  "
+                  color=""
+                >
+                  <div id="contract">
+                    Chúng tôi đã gửi mã xác nhận qua email của bạn. Vui lòng
+                    nhập mã vào ô bên trên.
+                  </div>
+                </ion-text>
+              </div>
+            </ion-text>
+          </div>
+        </ion-col>
+
+        <ion-col size="12" style="padding: 0">
+          <ion-text
+            style="
+              top: 5px;
+              position: relative;
+              margin-bottom: 96px;
+              margin-left: 40px;
+              font-size: 9.5px;
+              text-align: center;
+            "
+          >
           </ion-text>
-        </div>
+        </ion-col>
+      </ion-row>
 
+      <div id="div_btnSendcode">
+        <ion-button
+          id="btn_Submit"
+          expand="block"
+          fill="clear"
+          shape="round"
+          (click)="resendCode()"
+        >
+          Gửi lại mã
+        </ion-button>
+      </div>
 
-      </ion-col>
-      <ion-col size="12" style="padding:0 ;">
-        <ion-text style="top: 5px;position: relative;margin-bottom: 96px;margin-left: 40px;font-size: 9.5px;text-align:center ;">
-        </ion-text>
-      </ion-col>
-    </ion-row>
-    <div id="div_btnSendcode">
-      <ion-button id="btn_Submit" expand="block" fill="clear" shape="round">
-        Gửi lại mã
-      </ion-button>
-    </div>
-    <div id="div_btnSubmit">
-      <ion-button id="btn_Submit" (click)="btn_Next()" expand="block" fill="clear" shape="round">
-        Tiếp tục
-      </ion-button>
-    </div>
-  </ion-grid>
-</form>
-
-
-
+      <div id="div_btnSubmit">
+        <ion-button
+          id="btn_Submit"
+          (click)="btn_Next()"
+          expand="block"
+          fill="clear"
+          shape="round"
+        >
+          Tiếp tục
+        </ion-button>
+      </div>
+    </ion-grid>
+  </form>
 </ion-content>
-
-
-
-

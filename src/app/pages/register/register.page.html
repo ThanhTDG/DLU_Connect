@@ -1,68 +1,111 @@
 <ion-content>
-
-  <div style="text-align: left;margin-top:30px;margin-left:12px;margin-bottom:65px;">
-    <img (click)="backbtn()" id="rh-back-btn" src="../../../assets/icon/login/back.png" alt="">
-    <img  src="../../../assets/icon/login/DLU_connect.png" alt="" class="center">
-
+  <div
+    style="
+      text-align: left;
+      margin-top: 30px;
+      margin-left: 12px;
+      margin-bottom: 65px;
+    "
+  >
+    <img
+      (click)="back()"
+      id="rh-back-btn"
+      src="../../../assets/icon/login/back.png"
+      alt=""
+    />
+    <img
+      src="../../../assets/icon/login/DLU_connect.png"
+      alt=""
+      class="center"
+    />
   </div>
 
-  <form action="">
-    <ion-grid fixed style="padding-left:12px ;padding-right:12px;">
-
+  <form [formGroup]="credentials" (ngSubmit)="register()">
+    <ion-grid fixed style="padding-left: 12px; padding-right: 12px">
       <ion-row>
-        <ion-col size="12" style="padding:0 ;">
-          <ion-text id="labelLogin" color="primary">
-            Đăng ký
+        <ion-col size="12" style="padding: 0">
+          <ion-text id="labelLogin" color="primary"> Đăng ký </ion-text>
+        </ion-col>
+        <ion-col size="12" style="padding: 0">
+          <div id="email_input" class="padding-lr12px">
+            <ion-input
+              type="email"
+              placeholder="Email"
+              formControlName="email"
+            ></ion-input>
+          </div>
+        </ion-col>
+
+        <!-- <ion-col size="12" style="padding: 0"> -->
+        <!--   <div id="mssv_input" class="padding-lr12px"> -->
+        <!--     <ion-input type="text" placeholder="Mã số sinh viên"></ion-input> -->
+        <!--   </div> -->
+        <!-- </ion-col> -->
+
+        <ion-col size="12" style="padding: 0">
+          <div id="password_input" class="padding-lr12px">
+            <ion-input
+              type="password"
+              placeholder="Mật khẩu"
+              formControlName="password"
+            ></ion-input>
+          </div>
+        </ion-col>
+
+        <ion-col size="12" style="padding: 0">
+          <div id="exact_password_input" class="padding-lr12px">
+            <ion-input
+              type="password"
+              placeholder="Nhập lại mật khẩu"
+              formControlName="confirmPassword"
+            ></ion-input>
+          </div>
+        </ion-col>
+
+        <ion-col size="12" style="padding: 0">
+          <ion-text
+            style="text-align: center; margin-top: 20px; font-size: 9.5px"
+            color=""
+          >
+            <div id="contract">
+              <p>
+                Bằng việc đăng ký, bạn chấp nhận
+                <a href="#"> Điều khoản dịch vụ </a>
+                <span
+                  >và <a href="#"> Chính Sách Bảo Mật </a> của chúng tôi.</span
+                >
+              </p>
+            </div>
           </ion-text>
         </ion-col>
-        <ion-col size="12" style="padding:0 ;">
 
-            <div id="email_input" class="padding-lr12px" > <ion-input type="text" placeholder="Email"></ion-input></div>
-
-        </ion-col>
-        <ion-col size="12" style="padding:0 ;">
-
-            <div id="mssv_input" class="padding-lr12px" > <ion-input type="text" placeholder="Mã số sinh viên"></ion-input></div>
-
-        </ion-col>
-        <ion-col size="12" style="padding:0 ;">
-
-            <div id="password_input" class="padding-lr12px" > <ion-input type="text" placeholder="Mật khẩu"></ion-input></div>
-
-        </ion-col>
-        <ion-col size="12" style="padding:0 ;">
-
-            <div id="exact_password_input" class="padding-lr12px" > <ion-input type="text" placeholder="Nhập lại mật khẩu"></ion-input></div>
-
-        </ion-col>
-        <ion-col size="12" style="padding:0 ;">
-
-            <ion-text style="text-align: center;margin-top: 20px;font-size: 9.5px;" color="">
-              <div id="contract">
-                <p> Bằng việc đăng ký, bạn chấp nhận <a href=""> Điều khoản dịch vụ </a> <span>và <a href=""> Chính Sách Bảo Mật </a> của chúng tôi.</span></p>
-              </div>
-            </ion-text>
-
-        </ion-col>
-        <ion-col size="12" style="padding:0 ;">
-          <ion-text style="top: 5px;position: relative;margin-bottom: 96px;margin-left: 40px;font-size: 9.5px;text-align:center ;">
-
+        <ion-col size="12" style="padding: 0">
+          <ion-text
+            style="
+              top: 5px;
+              position: relative;
+              margin-bottom: 96px;
+              margin-left: 40px;
+              font-size: 9.5px;
+              text-align: center;
+            "
+          >
           </ion-text>
         </ion-col>
       </ion-row>
+
       <div id="div_btnSubmit">
-        <ion-button id="btn_Submit" (click)="btn_Next()" expand="block" fill="clear" shape="round">
+        <ion-button
+          id="btn_Submit"
+          type="submit"
+          expand="block"
+          fill="clear"
+          shape="round"
+          [disabled]="!credentials.valid"
+        >
           Tiếp tục
         </ion-button>
       </div>
     </ion-grid>
   </form>
-
-
-
-
 </ion-content>
-
-
-
-

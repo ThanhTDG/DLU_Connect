@@ -4,7 +4,6 @@
   </ion-toolbar>
 </ion-header> -->
 
-
 <ion-content>
   <div style="margin-top: 49px; margin-bottom: 69px">
     <img
@@ -14,42 +13,83 @@
     />
   </div>
 
-  <form action="">
-    <ion-grid fixed style="padding-left:12px ;padding-right:12px;">
+  <form [formGroup]="credentials" (ngSubmit)="login()">
+    <ion-grid fixed style="padding-left: 12px; padding-right: 12px">
       <ion-row>
-        <ion-col size="12" style="padding:0 ;" class="">
-          <ion-text id="labelLogin" color="primary">
+        <ion-col size="12" style="padding: 0" class="">
+          <ion-text id="labelLogin" color="primary"> Đăng nhập </ion-text>
+        </ion-col>
+
+        <ion-col size="12" style="padding: 0">
+          <div
+            id="email_input"
+            [ngStyle]="ngStyleEmailInput"
+            class="padding-lr12px"
+          >
+            <ion-input
+              type="email"
+              placeholder="Email/MSSV"
+              formControlName="email"
+            ></ion-input>
+          </div>
+        </ion-col>
+
+        <ion-col size="12" style="padding: 0">
+          <div
+            id="password_input"
+            [ngStyle]="ngStylePasswordInput"
+            class="padding-lr12px"
+          >
+            <ion-input
+              type="password"
+              placeholder="Mật khẩu"
+              formControlName="password"
+            ></ion-input>
+          </div>
+        </ion-col>
+
+        <ion-col size="12" style="padding: 0">
+          <ion-button
+            id="btn_login"
+            type="submit"
+            expand="block"
+            fill="clear"
+            shape="round"
+            [disabled]="!credentials.valid"
+          >
             Đăng nhập
-          </ion-text>
+          </ion-button>
         </ion-col>
 
-        <ion-col size="12" style="padding:0 ;">
-
-            <div  id="email_input"[ngStyle]="ngStyleEmailInput" class="padding-lr12px" > <ion-input type="text" placeholder="Email/MSSV"></ion-input></div>
-        </ion-col>
-        <ion-col size="12" style="padding:0 ;">
-            <div id="password_input"[ngStyle]="ngStylePasswordInput" class="padding-lr12px" > <ion-input type="password" placeholder="Mật khẩu"></ion-input></div>
-        </ion-col>
-        <ion-col size="12" style="padding:0 ;">
-
-            <ion-button id="btn_login" (click)="login()"  expand="block" fill="clear" shape="round">
-              Đăng nhập
-            </ion-button>
-
-        </ion-col>
-        <ion-col size="12" style="padding:0 ;">
+        <ion-col size="12" style="padding: 0">
           <!-- <a id="forgot_Password" (click)="forgotPassword()" href="">Quên mật khẩu ?</a> -->
           <a id="forgot_Password" (click)="forgotPassword()">
             Quên mật khẩu ?
           </a>
-
         </ion-col>
-        <ion-col size="12" style="padding:0 ;">
-          <div  style="text-align: center;margin-top:20px;">
-            <img [ngStyle]="ngStyleImageError" style="height: 1em; width: auto; float:left;display:none ;" src="../../../assets/icon/login/Vector.png" alt="" class="center">
-           <ion-text style="display: none;color:red;text-align:left;font-size:small;clear:right;" [ngStyle]="ngStyleTextError" color="red">
-            Không tim thấy tài khoản vui lòng kiểm tra lại email,MSSV và mật khẩu
-           </ion-text>
+
+        <ion-col size="12" style="padding: 0">
+          <div style="text-align: center; margin-top: 20px">
+            <img
+              [ngStyle]="ngStyleImageError"
+              style="height: 1em; width: auto; float: left; display: none"
+              src="../../../assets/icon/login/Vector.png"
+              alt=""
+              class="center"
+            />
+            <ion-text
+              style="
+                display: none;
+                color: red;
+                text-align: left;
+                font-size: small;
+                clear: right;
+              "
+              [ngStyle]="ngStyleTextError"
+              color="red"
+            >
+              Không tim thấy tài khoản vui lòng kiểm tra lại email hoặc mật khẩu
+            </ion-text>
           </div>
         </ion-col>
       </ion-row>
@@ -61,7 +101,13 @@
       </div>
       <div>
         <div id="div_btnRegis">
-          <ion-button id="btn_Regis" (click)="registerBtn()" expand="block" fill="clear" shape="round">
+          <ion-button
+            id="btn_Regis"
+            (click)="registerBtn()"
+            expand="block"
+            fill="clear"
+            shape="round"
+          >
             Đăng ký
           </ion-button>
         </div>

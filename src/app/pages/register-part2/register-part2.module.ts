@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 import { IonicModule } from '@ionic/angular';
 
@@ -13,8 +13,9 @@ import { RegisterPart2Page } from './register-part2.page';
     CommonModule,
     FormsModule,
     IonicModule,
-    RegisterPart2PageRoutingModule
+    RegisterPart2PageRoutingModule,
+    ReactiveFormsModule,
   ],
-  declarations: [RegisterPart2Page]
+  declarations: [RegisterPart2Page],
 })
 export class RegisterPart2PageModule {}

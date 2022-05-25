@@ -1,8 +1,10 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { Router } from '@angular/router';
-import { AlertController, LoadingController } from '@ionic/angular';
-import { AuthService } from 'src/app/services/auth.service';
+import { LoadingController } from '@ionic/angular';
+
+import { AuthService } from '../../services/auth.service';
+
 @Component({
   selector: 'app-login',
   templateUrl: './login.page.html',
@@ -26,15 +28,23 @@ export class LoginPage implements OnInit {
   ngOnInit() {
     this.credentials = this.formBuilder.group({
       email: ['', [Validators.required, Validators.email]],
-      password: ['', [Validators.required, Validators.minLength(6)]],
+      password: [
+        '',
+        [
+          Validators.required,
+          Validators.minLength(6),
+          Validators.maxLength(40),
+        ],
+      ],
     });
   }
-  registerBtn(){
-    this.router.navigate(['register'])
+
+  registerBtn() {
+    this.router.navigate(['register']);
   }
 
-  forgotPassword(){
-    this.router.navigate(['forgot-password'])
+  forgotPassword() {
+    this.router.navigate(['forgot-password']);
   }
 
   async login() {
@@ -57,13 +67,14 @@ export class LoginPage implements OnInit {
     });
     await loading.present();
 
-    const user = await this.auth.login(this.credentials.value);
+    await this.auth
+      .login(this.credentials.value)
+      .then((res) => {
+        console.log(res.user);
+      })
+      .catch((err) => {
+        console.log(err);
+      });
     await loading.dismiss();
-
-    if (user) {
-      // TODO: navigate home
-    } else {
-      // TODO: alert error
-    }
   }
 }
