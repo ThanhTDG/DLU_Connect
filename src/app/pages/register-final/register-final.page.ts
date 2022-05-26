@@ -5,7 +5,12 @@ import {
   NavController,
 } from '@ionic/angular';
 import { Router } from '@angular/router';
-import { Camera, CameraResultType, CameraSource } from '@capacitor/camera';
+import {
+  Camera,
+  CameraResultType,
+  CameraSource,
+  Photo,
+} from '@capacitor/camera';
 import { AuthService } from 'src/app/services/auth.service';
 
 @Component({
@@ -23,11 +28,11 @@ export class RegisterFinalPage implements OnInit {
     private alert: AlertController,
     private nav: NavController,
     private router: Router
-  ) {
-    this.user = auth.getUser();
-  }
+  ) {}
 
-  ngOnInit() {}
+  ngOnInit() {
+    this.user = this.auth.getUser();
+  }
 
   async changeImage() {
     const image = await Camera.getPhoto({
@@ -38,36 +43,35 @@ export class RegisterFinalPage implements OnInit {
     });
 
     if (image) {
-      const loading = await this.loading.create();
-      await loading.present();
-
-      await this.auth
-        .uploadPhoto(image)
-        .then(() => console.log(this.user))
-        .catch(async (err) => {
-          const alert = await this.alert.create({
-            header: 'Lỗi',
-            message: `Xảy ra vấn đề khi lấy hình ảnh của bạn: ${err}`,
-            buttons: ['OK'],
-          });
-          await alert.present();
-        });
-      await loading.dismiss();
+      await this.loadImage(image);
     }
   }
 
-  async changeName() {
+  async loadImage(image: Photo) {
+    const loading = await this.loading.create();
+    await loading.present();
+
     await this.auth
-      .modifyName(this.name)
-      .then(() => console.log(this.user))
-      .catch((err) => console.log(err));
+      .uploadPhoto(image)
+      // .then(() => console.log(this.user))
+      .catch(async (err) => {
+        console.log(err);
+        const alert = await this.alert.create({
+          header: 'Lỗi',
+          message: 'Xảy ra vấn đề khi lấy hình ảnh của bạn',
+          buttons: ['OK'],
+        });
+        await alert.present();
+      });
+    await loading.dismiss();
   }
 
   back() {
     this.router.navigate(['register']);
   }
 
-  complete() {
+  async complete() {
+    await this.auth.modifyName(this.name);
     this.router.navigate(['login']);
   }
 }

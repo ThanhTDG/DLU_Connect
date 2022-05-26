@@ -34,6 +34,11 @@
               formControlName="email"
             ></ion-input>
           </div>
+          <ion-note
+            color="danger"
+            *ngIf="(email.dirty || email.touched) && email.errors"
+            >Email không hợp lệ</ion-note
+          >
         </ion-col>
 
         <!-- <ion-col size="12" style="padding: 0"> -->
@@ -50,6 +55,11 @@
               formControlName="password"
             ></ion-input>
           </div>
+          <ion-note
+            color="danger"
+            *ngIf="(password.dirty || password.touched) && password.errors"
+            >Mật khẩu cần 6 ký tự trở lên</ion-note
+          >
         </ion-col>
 
         <ion-col size="12" style="padding: 0">
@@ -60,6 +70,11 @@
               formControlName="confirmPassword"
             ></ion-input>
           </div>
+          <ion-note
+            color="danger"
+            *ngIf="(confirmPassword.dirty || confirmPassword.touched) && confirmPassword.errors"
+            >Mật khẩu xác nhận không đúng</ion-note
+          >
         </ion-col>
 
         <ion-col size="12" style="padding: 0">

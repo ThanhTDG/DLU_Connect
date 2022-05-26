@@ -28,10 +28,15 @@
           >
             <ion-input
               type="email"
-              placeholder="Email/MSSV"
+              placeholder="Email"
               formControlName="email"
             ></ion-input>
           </div>
+          <ion-note
+            color="danger"
+            *ngIf="(email.dirty || email.touched) && email.errors"
+            >Email không hợp lệ</ion-note
+          >
         </ion-col>
 
         <ion-col size="12" style="padding: 0">
@@ -46,6 +51,11 @@
               formControlName="password"
             ></ion-input>
           </div>
+          <ion-note
+            color="danger"
+            *ngIf="(password.dirty || password.touched) && password.errors"
+            >Mật khẩu cần 6 ký tự trở lên</ion-note
+          >
         </ion-col>
 
         <ion-col size="12" style="padding: 0">
@@ -62,7 +72,6 @@
         </ion-col>
 
         <ion-col size="12" style="padding: 0">
-          <!-- <a id="forgot_Password" (click)="forgotPassword()" href="">Quên mật khẩu ?</a> -->
           <a id="forgot_Password" (click)="forgotPassword()">
             Quên mật khẩu ?
           </a>
@@ -99,11 +108,12 @@
           Chưa có tài khoản? Đăng ký ngay bây giờ!
         </ion-text>
       </div>
+
       <div>
         <div id="div_btnRegis">
           <ion-button
             id="btn_Regis"
-            (click)="registerBtn()"
+            (click)="register()"
             expand="block"
             fill="clear"
             shape="round"

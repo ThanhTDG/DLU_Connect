@@ -1,6 +1,10 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
-import { AlertController, NavController } from '@ionic/angular';
+import {
+  AlertController,
+  NavController,
+  ToastController,
+} from '@ionic/angular';
 import { AuthService } from 'src/app/services/auth.service';
 
 @Component({
@@ -12,6 +16,7 @@ export class RegisterPart2Page implements OnInit {
   constructor(
     private auth: AuthService,
     private alert: AlertController,
+    private toast: ToastController,
     private nav: NavController,
     private router: Router
   ) {}
@@ -19,7 +24,16 @@ export class RegisterPart2Page implements OnInit {
   async ngOnInit() {}
 
   async resendVerify() {
-    this.auth.sendVerify().catch((err) => console.log(err));
+    await this.auth
+      .sendVerify()
+      .then(async () => {
+        const toast = await this.toast.create({
+          message: 'Email xác nhận đã được gửi, vui lòng vào mail để kiểm tra.',
+          duration: 2000,
+        });
+        await toast.present();
+      })
+      .catch((err) => console.log(err));
   }
 
   back() {
@@ -36,7 +50,7 @@ export class RegisterPart2Page implements OnInit {
       const alert = await this.alert.create({
         header: 'Thông báo',
         message:
-          'Email chưa được xác thực, vui lòng xác thực email hoặc gửi lại email xác thực!',
+          'Email chưa được xác thực, vui lòng vào mail để xác thực hoặc gửi lại email xác thực!',
         buttons: ['OK'],
       });
       await alert.present();

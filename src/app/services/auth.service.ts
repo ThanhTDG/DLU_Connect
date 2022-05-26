@@ -61,9 +61,19 @@ export class AuthService {
     return docData(userDocRef);
   }
 
+  async setDefault() {
+    const user = this.auth.currentUser;
+    const name = user.email.split('@')[0];
+
+    const path = 'default/avatar/avatar1.png';
+    const storageRef = ref(this.storage, path);
+    const photoUrl = await getDownloadURL(storageRef);
+    return await updateProfile(user, { displayName: name, photoURL: photoUrl });
+  }
+
   async uploadPhoto(cameraFile: Photo) {
     const user = this.auth.currentUser;
-    const path = `photos/${user.uid}/profile.png`;
+    const path = `photos/${user.uid}/avatar.png`;
     const storageRef = ref(this.storage, path);
 
     await uploadString(storageRef, cameraFile.base64String, 'base64');

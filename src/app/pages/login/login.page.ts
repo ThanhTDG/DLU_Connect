@@ -39,7 +39,15 @@ export class LoginPage implements OnInit {
     });
   }
 
-  registerBtn() {
+  get email() {
+    return this.credentials.get('email');
+  }
+
+  get password() {
+    return this.credentials.get('password');
+  }
+
+  register() {
     this.router.navigate(['register']);
   }
 
@@ -48,20 +56,6 @@ export class LoginPage implements OnInit {
   }
 
   async login() {
-    // this.ngStyleEmailInput = {
-    //   'border-style': 'solid',
-    //   'border-color': 'red',
-    // };
-    // this.ngStylePasswordInput = {
-    //   'border-style': 'solid',
-    //   'border-color': 'red',
-    // };
-    // this.ngStyleImageError = {
-    //   display: 'inline',
-    // };
-    // this.ngStyleTextError = {
-    //   display: 'inline',
-    // };
     const loading = await this.loading.create({
       message: 'Đang đăng nhập, vui lòng chờ xíu...',
     });
@@ -74,6 +68,21 @@ export class LoginPage implements OnInit {
       })
       .catch((err) => {
         console.log(err);
+
+        this.ngStyleEmailInput = {
+          'border-style': 'solid',
+          'border-color': 'red',
+        };
+        this.ngStylePasswordInput = {
+          'border-style': 'solid',
+          'border-color': 'red',
+        };
+        this.ngStyleImageError = {
+          display: 'inline',
+        };
+        this.ngStyleTextError = {
+          display: 'inline',
+        };
       });
     await loading.dismiss();
   }

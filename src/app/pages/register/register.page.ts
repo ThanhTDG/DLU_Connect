@@ -47,9 +47,21 @@ export class RegisterPage implements OnInit {
     );
   }
 
+  get email() {
+    return this.credentials.get('email');
+  }
+
+  get password() {
+    return this.credentials.get('password');
+  }
+
+  get confirmPassword() {
+    return this.credentials.get('confirmPassword');
+  }
+
   async register() {
     const loading = await this.loading.create({
-      message: 'Đang đăng nhập, vui lòng chờ xíu...',
+      message: 'Đang đăng ký, vui lòng chờ xíu...',
     });
     await loading.present();
 
@@ -57,6 +69,8 @@ export class RegisterPage implements OnInit {
       .register(this.credentials.value)
       .then(async (res) => {
         await this.auth.sendVerify();
+        await this.auth.setDefault();
+
         this.router.navigate(['register-part2']);
       })
       .catch((err) => {
