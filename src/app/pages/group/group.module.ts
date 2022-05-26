@@ -8,6 +8,7 @@ import { GroupPageRoutingModule } from './group-routing.module';
 
 import { GroupPage } from './group.page';
 import { ComponentsModule } from 'src/app/components/components.module';
+import { SharedDirectivesModule } from 'src/app/directives/shared-directives.module';
 
 @NgModule({
   imports: [
@@ -15,7 +16,8 @@ import { ComponentsModule } from 'src/app/components/components.module';
     FormsModule,
     IonicModule,
     GroupPageRoutingModule,
-    ComponentsModule
+    ComponentsModule,
+    SharedDirectivesModule
   ],
   declarations: [GroupPage]
 })
