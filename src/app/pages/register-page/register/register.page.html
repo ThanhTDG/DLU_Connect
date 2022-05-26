@@ -1,5 +1,5 @@
-<ion-content>
-  <div style="text-align: left; margin-top: 10px; margin-left: 12px">
+<ion-header>
+  <div style="text-align: left; margin-top: 30px; margin-left: 12px">
     <img
       (click)="back()"
       id="rh-back-btn"
@@ -12,6 +12,9 @@
       class="center"
     />
   </div>
+</ion-header>
+<ion-content>
+
 
   <form [formGroup]="credentials" (submit)="register()">
     <ion-grid
@@ -101,18 +104,21 @@
         </ion-col>
       </ion-row>
 
-      <div id="div_btnSubmit">
-        <ion-button
-          id="btn_Submit"
-          type="submit"
-          expand="block"
-          fill="clear"
-          shape="round"
-          [disabled]="!credentials.valid"
-        >
-          Tiếp tục
-        </ion-button>
-      </div>
+
     </ion-grid>
   </form>
 </ion-content>
+<ion-footer id="footer">
+  <div id="div_btnSubmit">
+    <ion-button
+      id="btn_Submit"
+      type="submit"
+      expand="block"
+      fill="clear"
+      shape="round"
+      [disabled]="!credentials.valid"
+    >
+      Tiếp tục
+    </ion-button>
+  </div>
+</ion-footer>

@@ -1,10 +1,13 @@
-<ion-content>
+<ion-header>
   <div style="text-align: left;margin-top:10px;margin-left:12px;position:relative;">
     <img (click)="back()" id="rh-back-btn" src="../../../assets/icon/login/back.png" alt="">
-    <ion-text style="color: #237A73;margin-left:24px;font-size:23px;position:relative;bottom:5px;" color="primary">
+    <ion-text style="color: #237A73;margin-left:24px;font-size:18px;position:relative;bottom:5px;" color="primary">
       Hoàn tất đăng ký
     </ion-text>
   </div>
+</ion-header>
+<ion-content>
+
 
   <ion-grid fixed style="padding-left: 12px; padding-right: 12px">
     <div style="margin-top: 22px">
@@ -26,14 +29,14 @@
       <ion-col size="12" style="padding: 0">
         <div>
           <a style="color: #70a8a4; text-align: center" href="">
-            <p style="margin-top: 0px; margin-bottom: 0px">Chọn ảnh đại diện</p>
+            <p style="margin-top: 0px; margin-bottom: 0px;font-size:smaller;">Chọn ảnh đại diện</p>
           </a>
         </div>
       </ion-col>
 
       <ion-col size="12" style="padding: 0">
         <div style="margin-top: 10px; position: relative; padding: 0">
-          <p style="text-align: center; margin-top: 0px">
+          <p style="text-align: center; margin-top: 0px;font-size:smaller;">
             (Bạn có thể bỏ qua bước này)
           </p>
         </div>
@@ -85,16 +88,19 @@
       </ion-col>
     </ion-row>
 
-    <div id="div_btnSubmit">
-      <ion-button
-        id="btn_Submit"
-        expand="block"
-        fill="clear"
-        shape="round"
-        (click)="complete()"
-      >
-        Hoàn thành
-      </ion-button>
-    </div>
+
   </ion-grid>
 </ion-content>
+<ion-footer id="footer">
+  <div id="div_btnSubmit">
+    <ion-button
+      id="btn_Submit"
+      expand="block"
+      fill="clear"
+      shape="round"
+      (click)="complete()"
+    >
+      Hoàn thành
+    </ion-button>
+  </div>
+</ion-footer>

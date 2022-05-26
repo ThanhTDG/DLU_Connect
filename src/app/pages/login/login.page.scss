@@ -53,7 +53,7 @@ ion-input {
 #btn_login {
   width: 100%;
   margin-top: 12px;
-  height: 53px;
+  height: 48px;
   font-size: 13px;
   color: #ffffff;
   background: #70a8a4;
@@ -75,8 +75,8 @@ ion-input {
   text-align: center;
   position: relative;
   right: 60px;
-  margin-bottom: 20px;
-  top: 50px;
+  margin-bottom: 8px;
+
 }
 
 #div_btnRegis {
@@ -86,7 +86,7 @@ ion-input {
   height: 52px;
   background: #b2d1ce;
   border-radius: 30px;
-  top: 50px;
+
 }
 
 #btn_Regis {
@@ -96,4 +96,8 @@ ion-input {
   position: relative;
   top: 4px;
   color: #237a73;
+}
+
+#footer{
+  background-color: transparent;
 }
