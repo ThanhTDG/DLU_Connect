@@ -1,5 +1,6 @@
 /* eslint-disable @typescript-eslint/quotes */
 import { Component, OnInit } from '@angular/core';
+import { NavController } from '@ionic/angular';
 
 @Component({
   selector: 'app-search-bar',
@@ -9,11 +10,15 @@ import { Component, OnInit } from '@angular/core';
 export class SearchBarComponent implements OnInit {
   hint: any;
   srcBtnSearch: any;
-  constructor() { }
+  constructor(private navCtrl: NavController) { }
 
   ngOnInit() {
     this.hint = "Tìm kiếm bài viết...";
     this.srcBtnSearch = "../../../../assets/icon/main/search.png";
+  }
+
+  onClick(){
+    this.navCtrl.navigateRoot('search-page');
   }
 
 }

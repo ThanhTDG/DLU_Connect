@@ -1,8 +1,9 @@
-<div id="sort-view-object">
-  <div id="svo-container">
+<div id="sort-view-object" (click)="toViewDetails()">
+  <div id="svo-container" [ngStyle]="ngStyleContainer">
     <p>{{title}}</p>
-    <div id="svo-title">
-      <span>{{fTitle}}</span>
+    <div id="svo-title" [ngStyle]="ngStyleTitle">
+      <span [ngStyle]="ngStyleContentTitle">{{fTitle}}</span>
+      <img src="{{imgAvatar}}" [ngStyle]="ngStyleAvatar">
     </div>
   </div>
 </div>

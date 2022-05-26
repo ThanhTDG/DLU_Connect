@@ -10,7 +10,7 @@
   <ion-slides [options]="{ slidesPerView: 'auto', zoom: false, grabCursor: true }">
     <ion-slide id="home-follow-short-object" *ngFor="let card of [0,1,2,3,4,5,6]" >
       <ion-col>
-        <app-short-view-object></app-short-view-object>
+        <app-short-view-object color="{{card}}"></app-short-view-object>
       </ion-col>
     </ion-slide>
   </ion-slides>
@@ -24,7 +24,6 @@
     </ion-slide>
   </ion-slides>
   <div id="home-follow">{{homeContentFollow}}</div>
-  <app-full-post></app-full-post>
   <app-full-post></app-full-post>
   <app-full-post></app-full-post>
   <app-full-post></app-full-post>

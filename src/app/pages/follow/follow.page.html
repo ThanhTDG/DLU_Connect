@@ -1,11 +1,28 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>follow</ion-title>
+    <ion-title>Đang theo dõi</ion-title>
+    <div id="follow-bar-search-btn">
+      <img src="../../../assets/icon/main/search.png">
+    </div>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
-
+  <div class="container">
+    <div id="content-department">
+      <div class="title" id="ct-dep-title">Khoa</div>
+      <div id="ct-dep-content">
+        <app-follow-item *ngFor="let item of [0,1,2]" title="CNTT" content="{{content}}" imgBackground="{{backgrounds[item]}}" ></app-follow-item>
+      </div>
+    </div>
+    <div id="content-student">
+      <div class="title" id="ct-st-title">Sinh Viên</div>
+      <div id="ct-st-content">
+        <app-follow-item *ngFor="let item of [3,4,5]" title="CNTT" content="{{content}}" imgBackground="{{backgrounds[item]}}"></app-follow-item>
+        <app-follow-item *ngFor="let item of [3,4,5]" title="CNTT" content="{{content}}" imgBackground="{{backgrounds[item]}}"></app-follow-item>
+      </div>
+    </div>
+  </div>
 </ion-content>
 <ion-footer>
   <app-navigation-bar [location]="2"></app-navigation-bar>

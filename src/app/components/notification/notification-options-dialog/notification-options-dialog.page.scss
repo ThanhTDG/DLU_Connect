@@ -1,0 +1,71 @@
+#container {
+  background-color: var(--ion-color-app-green-light);
+  border-radius: 12px 12px 0 0;
+  height: 100%;
+  padding-top: 30%;
+  position: relative;
+  #description {
+    #avatar {
+      background-color: var(--ion-color-app-green-dark);
+      width: 40px;
+      height: 40px;
+      border-radius: 20px;
+      padding-left: 11px;
+      padding-top: 5px;
+      position: absolute;
+      top: 6%;
+      left: 50%;
+      -ms-transform: translateY(-50%);
+      transform: translateY(-50%);
+      -ms-transform: translateX(-50%);
+      transform: translateX(-50%);
+
+      span {
+        color: white;
+        font-size: 24px;
+      }
+    }
+    #d-text {
+      text-align: center;
+      padding-left: 12px;
+      padding-right: 12px;
+      span {
+        display: block;
+      }
+      #d-t-title {
+        font-size: 12px;
+      }
+      #d-t-content {
+        font-size: 8px;
+      }
+    }
+    #options {
+      padding-left: 12px;
+      padding-right: 12px;
+      padding-top: 12%;
+
+      button {
+        width: 100%;
+        height: 32px;
+        border-radius: 16px;
+        font-size: 12px;
+        color: var(--ion-color-app-green-darker);
+        padding-left: 44px;
+        text-align: left;
+        margin-bottom: 4px;
+        background-color: var(--ion-color-app-primary);
+      }
+      #ot-remove {
+        position: relative;
+      }
+      #ot-block {
+        position: relative;
+      }
+      .ot-btn-img {
+        position: absolute;
+        top: 4px;
+        left: 8px;
+      }
+    }
+  }
+}

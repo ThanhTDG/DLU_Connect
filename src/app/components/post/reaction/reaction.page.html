@@ -1,0 +1,45 @@
+<ion-content>
+  <ion-toolbar>
+    <ion-title>Phản hồi</ion-title>
+  </ion-toolbar>
+  <div id="container">
+    <div id="options-bar">
+      <div class="op-item" id="op-i-comment" (click)="onClickOption(options[0])" [ngStyle]="ngStyleComment">{{numComment}} bình luận</div>
+      <div class="op-item" id="op-i-like" (click)="onClickOption(options[1])"><img src="{{imgLike}}"><span [ngStyle]="ngStyleLike">{{numLike}}</span></div>
+      <div class="op-item" id="op-i-share" (click)="onClickOption(options[2])"><img src="{{imgShare}}"><span [ngStyle]="ngStyleShare">{{numShare}}</span></div>
+    </div>
+    <div id="content">
+      <div id="content-comment" [ngStyle]="ngStyleContentComment">
+        <app-comment *ngFor="let comment of comments" title="Người dùng" time="1 giờ trước" content="{{comment}}" imgAvatar="{{commentAvatar}}" imgContents="{{toSendTagImages}}"></app-comment>
+      </div>
+      <div id="content-like" [ngStyle]="ngStyleContentLike">
+        <app-nearly-search *ngFor="let item of [0,1,2,3,4,5]" inputTitle="Người dùng" inputContent="relationship" option="student" avatar="{{avatar}}" viewed="false"></app-nearly-search>
+      </div>
+      <div id="content-share" [ngStyle]="ngStyleContentShare">
+        share
+      </div>
+    </div>
+  </div>
+
+</ion-content>
+<ion-footer>
+  <div id="image-tag-container" [ngStyle]="ngStyleImgaeTag">
+    <ion-slides [options]="{slidesPerView: 'auto', zoom: false, grabCursor: true }">
+      <ion-slide class="tag-image" *ngFor="let image of tagImages">
+        <img class="ti-image" src="{{image}}">
+        <div class="ti-remove-button" (click)="removeTagImage(image)">
+          <img class="ti-rbtn-item" src="{{imgTagImageRemove}}">
+        </div>
+      </ion-slide>
+    </ion-slides>
+  </div>
+  <div id="send-button-container">
+    <div id="send-button" (click)="onClickSendComment()">
+      <img src="{{imgSendButton}}">
+    </div>
+    <div id="send-input-field">
+      <input id="sif-input" type="text" name="send-comment-input" placeholder="Viết bình luận ... " (input)="onInputComment()" [(ngModel)]="inputComment">
+      <img src="{{imgInputOption}}" (click)="addTagImages()">
+    </div>
+  </div>
+<ion-footer>

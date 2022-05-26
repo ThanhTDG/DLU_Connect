@@ -1,0 +1,49 @@
+#follow-item{
+    background-image: url("../../../../assets/icon/default/default-post-bd-image.png");
+    background-size: cover;
+    width: 100%;
+    height: 64px;
+    border-radius: 12px;
+    margin-bottom: 4px;
+    #container{
+        position: relative;
+        #avtar{
+            width: 40px;
+            height: 40px;
+            border-radius: 20px;
+            background-color: var(--ion-color-app-orange-dark);
+            position: absolute;
+            top: 12px;
+            left: 10px;
+
+            padding-top: 5px;
+            padding-left: 11px;
+            span{
+                font-size: 24px;
+                color: white;
+            }
+            img{
+                display: none;
+            }
+        }
+        #content{
+            padding-left: 58px;
+            padding-top: 8px;
+            padding-right: 24px;
+            span{
+                display: block;
+            }
+            #content-title{
+                font-size: 12px;
+            }
+            #content-content{
+                font-size: 8px;
+            }
+        }
+        #options{
+            position: absolute;
+            top: 24px;
+            right: 12px;
+        }
+    }
+}
