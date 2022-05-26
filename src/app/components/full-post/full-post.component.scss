@@ -59,10 +59,18 @@
             #fp-bd-image{
                 width: 100%;
                 height: 162px;
-                
+                background-color: var(--ion-color-app-primary);
+                padding: 4px;
+                padding-right: 0px;
+                .fp-bd-images{
+                    width: 100%;
+                    height: 162px;
+                    padding-inline-end: 4px;
+                }
                 img{
                     width: 100%;
-                    height: 100%;
+                    height: 162px;
+                    border-radius: 8px;
                     object-fit: cover;
                 }
             }

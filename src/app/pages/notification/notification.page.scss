@@ -1,0 +1,56 @@
+ion-header::after {
+  background-image: none;
+}
+ion-header {
+  ion-toolbar {
+    position: relative;
+    width: 100%;
+    padding-bottom: 8px;
+    #notifcation-bar-search-btn {
+      background-color: var(--ion-color-app-green-dark);
+      border-radius: 20px;
+      width: 40px;
+      height: 40px;
+      padding: 8px;
+      position: absolute;
+      top: 12px;
+      right: 12px;
+    }
+    ion-title {
+      padding-top: 8px;
+      padding-left: 12px;
+      font-size: 24px;
+      font-family: "Montserrat Bold";
+      color: var(--ion-color-app-green-darker);
+    }
+  }
+}
+
+ion-content {
+  --offset-bottom: auto !important;
+  --overflow: hidden;
+  overflow: auto;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+
+  background-color: var(--ion-color-app-white);
+
+  .nt-container {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+  .nt-title {
+    font-size: 24px;
+    font-family: "Montserrat Bold";
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+  #nt-tt-nearly {
+    padding-top: 0px;
+    color: var(--ion-color-app-orange-dark);
+  }
+  #nt-tt-later {
+    color: var(--ion-color-app-green-darker);
+  }
+}

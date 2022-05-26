@@ -1,7 +1,6 @@
 /* eslint-disable @typescript-eslint/quotes */
 /* eslint-disable @typescript-eslint/naming-convention */
 import { AfterViewInit, Component, Input, NgModule, OnInit } from '@angular/core';
-import { Router } from  '@angular/router';
 import { NativePageTransitions, NativeTransitionOptions } from '@awesome-cordova-plugins/native-page-transitions/ngx';
 import { NavController } from '@ionic/angular';
 
@@ -49,7 +48,7 @@ export class NavigationBarComponent implements OnInit, AfterViewInit {
     fixedPixelsBottom: 60
   };
 
-  constructor(private  router:  Router,private navCtrl: NavController, private nativePageTransitions: NativePageTransitions) {}
+  constructor(private navCtrl: NavController, private nativePageTransitions: NativePageTransitions) {}
 
   ngOnInit(){
     this.setSrc();

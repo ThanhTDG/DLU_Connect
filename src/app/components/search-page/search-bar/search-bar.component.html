@@ -1,0 +1,21 @@
+<div id="search-bar-adv">
+  <div id="search-bar-adv-container">
+    <div id="sba-btn-back">
+      <img src="{{imgBtnBack}}" (click)="onPressBack()">
+    </div>
+    <div id="sba-bounder">
+      <div id="sba-content">
+        <div id="sba-search-btn" >
+          <img src="{{imgBtnSearch}}">
+        </div>
+        <form>
+          <input type="text" placeholder="{{hint}}" name="search" ngDefaultControl id="sba-search-field" (input)="onSearch()" [(ngModel)]="searchValue" [ngModelOptions]="{standalone: true}">
+        </form>
+          <div id="sba-remove-text" (click)="onRemoveText()"> 
+          <img [ngStyle]="ngStyleBtnRemoveText" id="sba-btn-remove-text" src="{{imgRemoveText}}">
+        </div>
+        
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,14 @@
+<div id="reply">
+  <div id="avatar">
+    <img src="{{imgAvatar}}">
+  </div>
+  <div id="content">
+    <span id="cont-title">{{title}}</span>
+    <span id="cont-time">{{time}}</span>
+    <div id="cont-container">
+      <span id="cont-content">{{content}}</span>
+      <img *ngFor="let image of images" src="{{image}}">
+    </div>
+    
+  </div>
+</div>

@@ -1,0 +1,16 @@
+<div id="notification" [ngStyle]="ngStyleContainer">
+  <div id="notification-container" (click)="onViewNotification()">
+    <div id="nt-avatar" [ngStyle]="ngStyleAvatar">
+      <span>{{ftitle}}</span>
+    </div>
+    <div id="nt-content">
+      <span id="nt-c-title">{{title}}</span>
+      <span id="nt-c-content">{{content}}</span>
+      <span id="nt-c-hours">{{hours}}</span>
+    </div>
+  </div>
+  <div id="nt-option" (click)="onViewOptions()">
+    <img src="{{imgOption}}">
+  </div>
+</div>
+

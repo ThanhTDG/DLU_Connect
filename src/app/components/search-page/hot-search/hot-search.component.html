@@ -1,0 +1,14 @@
+<div id="hot-search" [ngStyle]="ngStyleHotSearch">
+  <div id="hot-search-container">
+    <div id="hs-avatar">
+      <span>{{ftitle}}</span>
+    </div>
+    <div id="hs-content">
+      <span id="hs-c-title">{{title}}</span>
+      <span id="hs-c-content">{{content}}<span id="hs-c-more">{{more}}</span></span>
+    </div>
+    <div id="hs-option" (click)="onOption()">
+      <img src="{{imgRemove}}">
+    </div>
+  </div>
+</div>

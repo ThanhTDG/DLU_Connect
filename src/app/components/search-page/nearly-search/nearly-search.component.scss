@@ -1,0 +1,48 @@
+#nearly-search{
+    padding-bottom: 4px;
+    #nearly-search-container{
+        width: 100%;
+        height: 48px;
+        background-color: var(--ion-color-app-green-light);
+        border-radius: 12px;
+        padding-left: 48px;
+        padding-right: 36px;
+        padding-top: 16px;
+        position: relative;
+        #ns-avatar{
+            position: absolute;
+            top: 4px;
+            left: 4px;
+            width: 40px;
+            height: 40px;
+            border-radius: 20px;
+            background-color: var(--ion-color-app-green-dark);
+            padding-top: 6px;
+            padding-left: 11px;
+            span{
+                font-size: 24px;
+                color: var(--ion-color-app-white);
+            }
+            img{
+                display: none;
+            }
+        }
+        #ns-content{
+            
+            #ns-c-title{
+                display: block;
+                font-size: 12px;
+            }
+            #ns-c-content{
+                font-size: 8px;
+                display: block;
+                color: var(--ion-color-app-gray-light);
+            }
+        }
+        #ns-option{
+            position: absolute;
+            right:8px;
+            top: 12px;
+        }
+    }
+}

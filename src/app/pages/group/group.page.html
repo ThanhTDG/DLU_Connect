@@ -1,10 +1,41 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>group</ion-title>
+    <ion-title>{{groupName}}</ion-title>
+    <div id="group-bar-search-btn">
+      <img src="../../../assets/icon/main/search.png">
+    </div>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
+  <div class="container">
+    <div id="c-header">
+      <img id="ch-back-image" src="{{imgBackground}}">
+      <div id="ch-content">
+        <div id="ch-c-title">
+          <span id="ch-c-group-name">{{groupName}}</span>
+          <span id="ch-c-description">Sĩ số: {{groupNumber}}</span>
+          <img id="ch-c-more" src="{{imgMore}}">
+        </div>
+        <app-members-bar></app-members-bar>
+      </div>
+    </div>
+    <app-to-create-post></app-to-create-post>
+    <div id="c-content">
+      <div id="group-hot">{{groupContentHot}}</div>
+      <ion-slides [options]="{ slidesPerView: 'auto', zoom: false, grabCursor: true }">
+        <ion-slide id="group-follow-short-post" *ngFor="let card of [0,1,2,3,4,5,6]" >
+          <ion-col>
+            <app-short-post></app-short-post>
+          </ion-col>
+        </ion-slide>
+      </ion-slides>
+      <div id="group-follow">{{groupContent}}</div>
+      <app-full-post></app-full-post>
+      <app-full-post></app-full-post>
+      <app-full-post></app-full-post>
+    </div>
+  </div>
 
 </ion-content>
 <ion-footer>

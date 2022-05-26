@@ -12,8 +12,10 @@ import { IonicModule, IonicRouteStrategy } from '@ionic/angular';
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 import { NativePageTransitions } from '@awesome-cordova-plugins/native-page-transitions/ngx';
+import { FormsModule } from '@angular/forms';
+import { Camera } from '@awesome-cordova-plugins/camera/ngx';
 
-import { environment } from '../environments/environment';
+import { environment } from 'src/environments/environment';
 
 @NgModule({
   declarations: [AppComponent],
@@ -26,6 +28,7 @@ import { environment } from '../environments/environment';
     provideAuth(() => getAuth()),
     provideFirestore(() => getFirestore()),
     provideStorage(() => getStorage()),
+    FormsModule,
   ],
   providers: [
     { provide: RouteReuseStrategy, useClass: IonicRouteStrategy },

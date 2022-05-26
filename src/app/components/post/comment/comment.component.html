@@ -1,0 +1,19 @@
+<div id="container">
+  <div id="comment">
+    <div id="avatar">
+      <img src="{{imgAvatar}}">
+    </div>
+    <div id="content">
+      <span id="title-name">{{title}}</span>
+      <span id="title-time">{{time}}</span>
+      <span id="content-content">{{content}}</span>
+      <img *ngFor="let image of images" src="{{image}}">
+    </div>
+  </div>
+  <div id="options">
+    <app-post-option-button (replyEmitter)="receiveReplyValue($event)"></app-post-option-button>
+  </div>
+  <div id="replies" [ngStyle]="ngStyleReplies">
+    <app-reply *ngFor="let item of replies" content="{{item}}" imgContents="{{replyImages}}"></app-reply>
+  </div>
+</div>

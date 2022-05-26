@@ -1,0 +1,14 @@
+<div id="setting-item">
+  <div id="container" [ngStyle]="ngStyleContainer">
+    <div id="description-image" [ngStyle]="ngStyleAvatar">
+      <img src="{{imgDescription}}">
+    </div>
+    <div id="content" [ngStyle]="ngStyleContent">
+      <span id="content-title" [ngStyle]="ngStyleContentTitle">{{title}}</span>
+      <span id="content-content">{{content}}</span>
+    </div>
+    <div id="options" (click)="onOption()" [ngStyle]="ngStyleOption">
+      <img src="{{imgOption}}">
+    </div>
+  </div>
+</div>
