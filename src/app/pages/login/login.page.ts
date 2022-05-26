@@ -3,7 +3,7 @@ import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { Router } from '@angular/router';
 import { LoadingController } from '@ionic/angular';
 
-import { AuthService } from '../../services/auth.service';
+import { AuthService } from 'src/app/services/auth.service';
 
 @Component({
   selector: 'app-login',
@@ -12,11 +12,7 @@ import { AuthService } from '../../services/auth.service';
 })
 export class LoginPage implements OnInit {
   credentials: FormGroup;
-
-  ngStyleEmailInput: any;
-  ngStylePasswordInput: any;
-  ngStyleImageError: any;
-  ngStyleTextError: any;
+  success: boolean = true;
 
   constructor(
     private formBuilder: FormBuilder,
@@ -47,6 +43,10 @@ export class LoginPage implements OnInit {
     return this.credentials.get('password');
   }
 
+  onInput() {
+    this.success = true;
+  }
+
   register() {
     this.router.navigate(['register']);
   }
@@ -64,25 +64,13 @@ export class LoginPage implements OnInit {
     await this.auth
       .login(this.credentials.value)
       .then((res) => {
-        this.router.navigate(['home']);
+        if (res.user) {
+          this.router.navigate(['home']);
+        }
       })
       .catch((err) => {
         console.log(err);
-
-        this.ngStyleEmailInput = {
-          'border-style': 'solid',
-          'border-color': 'red',
-        };
-        this.ngStylePasswordInput = {
-          'border-style': 'solid',
-          'border-color': 'red',
-        };
-        this.ngStyleImageError = {
-          display: 'inline',
-        };
-        this.ngStyleTextError = {
-          display: 'inline',
-        };
+        this.success = false;
       });
     await loading.dismiss();
   }

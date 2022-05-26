@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { Router } from '@angular/router';
+import { FormBuilder, FormGroup, Validators } from '@angular/forms';
+import { NavController } from '@ionic/angular';
+import { AuthService } from 'src/app/services/auth.service';
 
 @Component({
   selector: 'app-forgot-password',
@@ -7,11 +9,37 @@ import { Router } from '@angular/router';
   styleUrls: ['./forgot-password.page.scss'],
 })
 export class ForgotPasswordPage implements OnInit {
-  constructor(private router: Router) {}
+  credentials: FormGroup;
+  isSend: boolean = false;
 
-  ngOnInit() {}
+  constructor(
+    private formBuilder: FormBuilder,
+    private auth: AuthService,
+    private nav: NavController
+  ) {}
 
-  next() {
-    this.router.navigate(['forgot-password-part2']);
+  get email() {
+    return this.credentials.get('email');
+  }
+
+  ngOnInit() {
+    this.credentials = this.formBuilder.group({
+      email: ['', [Validators.required, Validators.email]],
+    });
+  }
+
+  back() {
+    this.nav.back();
+  }
+
+  async submit() {
+    await this.auth
+      .resetPassword(this.email.value)
+      .then(() => {
+        this.isSend = true;
+      })
+      .catch((err) => {
+        console.log(err);
+      });
   }
 }

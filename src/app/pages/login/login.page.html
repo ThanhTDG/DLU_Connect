@@ -1,9 +1,3 @@
-<!-- <ion-header>
-  <ion-toolbar>
-    <ion-title>login</ion-title>
-  </ion-toolbar>
-</ion-header> -->
-
 <ion-content>
   <div style="margin-top: 49px; margin-bottom: 69px">
     <img
@@ -30,13 +24,16 @@
               type="email"
               placeholder="Email"
               formControlName="email"
+              (input)="onInput()"
             ></ion-input>
           </div>
           <ion-note
             color="danger"
             *ngIf="(email.dirty || email.touched) && email.errors"
-            >Email không hợp lệ</ion-note
           >
+            <ion-icon name="alert-circle-outline"></ion-icon>
+            Email không hợp lệ
+          </ion-note>
         </ion-col>
 
         <ion-col size="12" style="padding: 0">
@@ -49,13 +46,16 @@
               type="password"
               placeholder="Mật khẩu"
               formControlName="password"
+              (input)="onInput()"
             ></ion-input>
           </div>
           <ion-note
             color="danger"
             *ngIf="(password.dirty || password.touched) && password.errors"
-            >Mật khẩu cần 6 ký tự trở lên</ion-note
           >
+            <ion-icon name="alert-circle-outline"></ion-icon>
+            Mật khẩu cần ít nhất 6 ký tự
+          </ion-note>
         </ion-col>
 
         <ion-col size="12" style="padding: 0">
@@ -79,26 +79,11 @@
 
         <ion-col size="12" style="padding: 0">
           <div style="text-align: center; margin-top: 20px">
-            <img
-              [ngStyle]="ngStyleImageError"
-              style="height: 1em; width: auto; float: left; display: none"
-              src="../../../assets/icon/login/Vector.png"
-              alt=""
-              class="center"
-            />
-            <ion-text
-              style="
-                display: none;
-                color: red;
-                text-align: left;
-                font-size: small;
-                clear: right;
-              "
-              [ngStyle]="ngStyleTextError"
-              color="red"
-            >
-              Không tim thấy tài khoản vui lòng kiểm tra lại email hoặc mật khẩu
-            </ion-text>
+            <ion-note color="danger" *ngIf="!success">
+              <ion-icon name="alert-circle-outline"></ion-icon>
+              Đăng nhập không thành công! Vui lòng kiểm tra lại email hoặc mật
+              khẩu!
+            </ion-note>
           </div>
         </ion-col>
       </ion-row>

@@ -1,6 +1,11 @@
 <ion-content>
-  <div style="text-align: left;margin-top:20px;margin-left:12px">
-    <img (click)="back()"  id="rh-back-btn" src="../../../assets/icon/login/back.png" alt="">
+  <div style="text-align: left; margin-top: 20px; margin-left: 12px">
+    <img
+      (click)="back()"
+      id="rh-back-btn"
+      src="../../../assets/icon/login/back.png"
+      alt=""
+    />
   </div>
 
   <form action="">
@@ -37,7 +42,7 @@
                 >
                   <div id="">
                     Vui lòng vào mail để xác nhận đăng ký. Nếu chưa nhận được
-                    vui lòng nhấn nút gửi lại mã.
+                    mail vui lòng Gửi lại mã.
                   </div>
                 </ion-text>
               </div>
@@ -67,7 +72,7 @@
           shape="round"
           (click)="resendVerify()"
         >
-          Gửi lại mã
+          Gửi lại email xác nhận
         </ion-button>
       </div>
       <div id="div_btnSubmit">
@@ -78,7 +83,7 @@
           shape="round"
           (click)="next()"
         >
-          Tiếp tục
+          Tiếp tục
         </ion-button>
       </div>
     </ion-grid>

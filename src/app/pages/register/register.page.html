@@ -28,20 +28,17 @@
               type="email"
               placeholder="Email"
               formControlName="email"
+              (input)="onInput()"
             ></ion-input>
           </div>
           <ion-note
             color="danger"
             *ngIf="(email.dirty || email.touched) && email.errors"
-            >Email không hợp lệ</ion-note
           >
+            <ion-icon name="alert-circle-outline"></ion-icon>
+            Email không hợp lệ
+          </ion-note>
         </ion-col>
-
-        <!-- <ion-col size="12" style="padding: 0"> -->
-        <!--   <div id="mssv_input" class="padding-lr12px"> -->
-        <!--     <ion-input type="text" placeholder="Mã số sinh viên"></ion-input> -->
-        <!--   </div> -->
-        <!-- </ion-col> -->
 
         <ion-col size="12" style="padding: 0">
           <div id="password_input" class="padding-lr12px">
@@ -49,13 +46,16 @@
               type="password"
               placeholder="Mật khẩu"
               formControlName="password"
+              (input)="onInput()"
             ></ion-input>
           </div>
           <ion-note
             color="danger"
             *ngIf="(password.dirty || password.touched) && password.errors"
-            >Mật khẩu cần 6 ký tự trở lên</ion-note
           >
+            <ion-icon name="alert-circle-outline"></ion-icon>
+            Mật khẩu cần ít nhất 6 ký tự
+          </ion-note>
         </ion-col>
 
         <ion-col size="12" style="padding: 0">
@@ -64,13 +64,16 @@
               type="password"
               placeholder="Nhập lại mật khẩu"
               formControlName="confirmPassword"
+              (input)="onInput()"
             ></ion-input>
           </div>
           <ion-note
             color="danger"
             *ngIf="(confirmPassword.dirty || confirmPassword.touched) && confirmPassword.errors"
-            >Mật khẩu xác nhận không đúng</ion-note
           >
+            <ion-icon name="alert-circle-outline"></ion-icon>
+            Mật khẩu xác nhận không đúng
+          </ion-note>
         </ion-col>
 
         <ion-col size="12" style="padding: 0">
@@ -81,27 +84,20 @@
             <div id="contract">
               <p>
                 Bằng việc đăng ký, bạn chấp nhận
-                <a href="#"> Điều khoản dịch vụ </a>
-                <span
-                  >và <a href="#"> Chính Sách Bảo Mật </a> của chúng tôi.</span
-                >
+                <a href="#">Điều khoản dịch vụ</a>
+                và
+                <a href="#">Chính Sách Bảo Mật</a>
+                của chúng tôi.
               </p>
             </div>
           </ion-text>
         </ion-col>
 
         <ion-col size="12" style="padding: 0">
-          <ion-text
-            style="
-              top: 5px;
-              position: relative;
-              margin-bottom: 96px;
-              margin-left: 40px;
-              font-size: 9.5px;
-              text-align: center;
-            "
-          >
-          </ion-text>
+          <ion-note color="danger" *ngIf="!success">
+            <ion-icon name="alert-circle-outline"></ion-icon>
+            Đăng ký không thành công! Vui lòng kiểm tra lại email!
+          </ion-note>
         </ion-col>
       </ion-row>
 
@@ -114,7 +110,7 @@
           shape="round"
           [disabled]="!credentials.valid"
         >
-          Tiếp tục
+          Tiếp tục
         </ion-button>
       </div>
     </ion-grid>

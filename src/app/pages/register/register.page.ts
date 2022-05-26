@@ -13,6 +13,7 @@ import { AuthService } from 'src/app/services/auth.service';
 })
 export class RegisterPage implements OnInit {
   credentials: FormGroup;
+  success: boolean = true;
 
   constructor(
     private formBuilder: FormBuilder,
@@ -59,6 +60,10 @@ export class RegisterPage implements OnInit {
     return this.credentials.get('confirmPassword');
   }
 
+  onInput() {
+    this.success = true;
+  }
+
   async register() {
     const loading = await this.loading.create({
       message: 'Đang đăng ký, vui lòng chờ xíu...',
@@ -75,6 +80,7 @@ export class RegisterPage implements OnInit {
       })
       .catch((err) => {
         console.log(err);
+        this.success = false;
       });
     await loading.dismiss();
   }
