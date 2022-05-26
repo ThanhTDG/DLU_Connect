@@ -73,10 +73,11 @@ export class RegisterPage implements OnInit {
     await this.auth
       .register(this.credentials.value)
       .then(async (res) => {
-        await this.auth.sendVerify();
-        await this.auth.setDefault();
-
-        this.router.navigate(['register-part2']);
+        if (res.user) {
+          await this.auth.sendVerify();
+          await this.auth.setDefault();
+          this.router.navigate(['register-part2']);
+        }
       })
       .catch((err) => {
         console.log(err);
