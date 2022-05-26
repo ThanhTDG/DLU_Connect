@@ -65,7 +65,7 @@ export class AuthService {
     const user = this.auth.currentUser;
     const name = user.email.split('@')[0];
 
-    const path = 'default/avatar/avatar1.png';
+    const path = 'default/avatar/avatar.png';
     const storageRef = ref(this.storage, path);
     const photoUrl = await getDownloadURL(storageRef);
     return await updateProfile(user, { displayName: name, photoURL: photoUrl });
