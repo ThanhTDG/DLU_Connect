@@ -31,9 +31,9 @@ export class LoginPage implements OnInit {
 
   ngOnInit() {
     this.credentials = this.formBuilder.group({
-      email: ['', [Validators.required, Validators.email]],
+      email: ['1914745@dlu.edu.vn', [Validators.required, Validators.email]],
       password: [
-        '',
+        '123456',
         [
           Validators.required,
           Validators.minLength(6),

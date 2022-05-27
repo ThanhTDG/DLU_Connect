@@ -21,7 +21,11 @@ export class RegisterPart2Page implements OnInit {
     private router: Router
   ) {}
 
-  async ngOnInit() {}
+  async ngOnInit() {
+    this.auth.isVerified((user) => {
+      this.router.navigate(['register-final']);
+    });
+  }
 
   async resendVerify() {
     await this.auth

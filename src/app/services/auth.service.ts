@@ -58,6 +58,14 @@ export class AuthService {
     return await sendPasswordResetEmail(this.auth, email);
   }
 
+  isVerified(callback: (user?: User) => void) {
+    this.auth.onAuthStateChanged((user) => {
+      if (user?.emailVerified) {
+        callback(user);
+      }
+    });
+  }
+
   async reload() {
     return await this.auth.currentUser.reload();
   }
