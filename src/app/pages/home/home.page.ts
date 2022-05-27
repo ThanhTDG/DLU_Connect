@@ -1,6 +1,7 @@
 /* eslint-disable @typescript-eslint/quotes */
-import {AfterViewInit, Component, OnInit } from '@angular/core';
+import { AfterViewInit, Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
+import { AuthService } from 'src/app/services/auth.service';
 
 @Component({
   selector: 'app-home',
@@ -12,30 +13,40 @@ export class HomePage implements OnInit, AfterViewInit {
   homeContentHot: any;
   homeContentFollow: any;
 
-  postTitle ="";
-  postContent = "";
-  postImages= "";
+  postTitle = '';
+  postContent = '';
+  postImages = '';
 
-  constructor(private router: Router, private route: ActivatedRoute) { }
+  constructor(
+    private auth: AuthService,
+    private router: Router,
+    private route: ActivatedRoute
+  ) {}
+
   ngAfterViewInit(): void {
     //this.getPostData();
   }
 
   ngOnInit() {
-    this.appName = "../../../assets/icon/app-name.png";
-    this.homeContentHot = "Nổi bật";
-    this.homeContentFollow = "Đang theo dõi";
+    this.appName = '../../../assets/icon/app-name.png';
+    this.homeContentHot = 'Nổi bật';
+    this.homeContentFollow = 'Đang theo dõi';
     //this.getPostData();
   }
-  randomNumber(){
+
+  randomNumber() {
     return Math.floor(Math.random() * (4 - 1 + 1) + 1);
   }
-  getPostData(){
-    this.route.queryParams.subscribe(params => {
+
+  getPostData() {
+    this.route.queryParams.subscribe((params) => {
       if (this.router.getCurrentNavigation().extras.state) {
-        this.postTitle= this.router.getCurrentNavigation().extras.state.postTitle;
-        this.postContent = this.router.getCurrentNavigation().extras.state.postContent;
-        this.postImages = this.router.getCurrentNavigation().extras.state.postImages;
+        this.postTitle =
+          this.router.getCurrentNavigation().extras.state.postTitle;
+        this.postContent =
+          this.router.getCurrentNavigation().extras.state.postContent;
+        this.postImages =
+          this.router.getCurrentNavigation().extras.state.postImages;
       }
     });
     console.log(this.postTitle);

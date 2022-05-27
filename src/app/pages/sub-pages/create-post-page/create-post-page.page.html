@@ -1,47 +1,80 @@
 <ion-content>
   <form action="">
     <div class="header">
-      <img (click)="backbtn()"  id="rh-back-btn" src="../../../assets/icon/login/back.png" alt="">
-      <ion-text id="text-header" color="primary">
-        Tạo bài viết
-       </ion-text>
-       <img style="margin-right:12px;position:relative;left: 40px;top:10px" id="rh-back-btn" src="../../../assets/icon/login/Postbtn.png" alt="">
+      <img
+        (click)="backbtn()"
+        id="rh-back-btn"
+        src="../../../assets/icon/login/back.png"
+        alt=""
+      />
+      <ion-text id="text-header" color="primary"> Tạo bài viết </ion-text>
+      <img
+        style="margin-right: 12px; position: relative; left: 40px; top: 10px"
+        id="rh-back-btn"
+        src="../../../assets/icon/login/Postbtn.png"
+        alt=""
+      />
     </div>
-    <ion-grid fixed style="padding-left:12px ;padding-right:12px;">
+    <ion-grid fixed style="padding-left: 12px; padding-right: 12px">
       <ion-row>
-        <ion-col size="2" style="padding:0px ;">
-          <img src="../../../assets/icon/login/User.png" alt="">
+        <ion-col size="2" style="padding: 0px">
+          <img src="../../../assets/icon/login/User.png" alt="" />
         </ion-col>
-        <ion-col size="6" style="padding:0px ;">
-          <ion-text color="black" style="font-family: 'Montserrat Bold';">
+        <ion-col size="6" style="padding: 0px">
+          <ion-text color="black" style="font-family: 'Montserrat Bold'">
             User Name
           </ion-text>
         </ion-col>
-        <ion-col size="4" style="padding:0px; ;" >
+        <ion-col size="4" style="padding: 0px ;">
           <div class="selector">
             <div id="selectField" (click)="presentAlertRadio()">
-              <p id="type-select" ><img id="img-select1" class="center" src="../../../assets/icon/login/world.png" alt="">   Công khai   <img id="img-dropdownbtn" class="center" src="../../../assets/icon/login/dropdown.png" alt=""></p>
+              <p id="type-select">
+                <img
+                  id="img-select1"
+                  class="center"
+                  src="../../../assets/icon/login/world.png"
+                  alt=""
+                />
+                Công khai
+                <img
+                  id="img-dropdownbtn"
+                  class="center"
+                  src="../../../assets/icon/login/dropdown.png"
+                  alt=""
+                />
+              </p>
             </div>
           </div>
         </ion-col>
-        <ion-col size="12" style="padding:0px ;" >
-          <div  id="search_input"> <ion-input id="i-input" type="text" placeholder="Bạn đang nghĩ tới việc gì?"></ion-input></div>
-
+        <ion-col size="12" style="padding: 0px">
+          <div id="search_input">
+            <ion-input
+              id="i-input"
+              type="text"
+              placeholder="Bạn đang nghĩ tới việc gì?"
+            ></ion-input>
+          </div>
         </ion-col>
-        <ion-col size="12" style="padding:0px ;" >
+        <ion-col size="12" style="padding: 0px">
           <ion-textarea id="text-area"></ion-textarea>
         </ion-col>
-        <ion-col size="12" style="padding:0px ;" >
+        <ion-col size="12" style="padding: 0px">
           <div id="button_bar">
-              <div >
-                <img id="img-addpicture" src="../../../assets/icon/login/addpicture.png" alt="">
-                <img id="img-addfriend" src="../../../assets/icon/login/addfriend.png" alt="">
-              </div>
-        </div>
+            <div>
+              <img
+                id="img-addpicture"
+                src="../../../assets/icon/login/addpicture.png"
+                alt=""
+              />
+              <img
+                id="img-addfriend"
+                src="../../../assets/icon/login/addfriend.png"
+                alt=""
+              />
+            </div>
+          </div>
         </ion-col>
       </ion-row>
     </ion-grid>
   </form>
 </ion-content>
-
-

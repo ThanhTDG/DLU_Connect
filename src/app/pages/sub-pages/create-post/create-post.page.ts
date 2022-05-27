@@ -2,9 +2,15 @@
 /* eslint-disable @typescript-eslint/quotes */
 import { AfterViewInit, Component, OnInit } from '@angular/core';
 import { Camera, CameraOptions } from '@awesome-cordova-plugins/camera/ngx';
-import { ActivatedRoute, NavigationExtras, Router, RoutesRecognized } from '@angular/router';
+import {
+  ActivatedRoute,
+  NavigationExtras,
+  Router,
+  RoutesRecognized,
+} from '@angular/router';
 import { filter, pairwise } from 'rxjs/operators';
 import { NavController } from '@ionic/angular';
+import { AuthService } from 'src/app/services/auth.service';
 
 @Component({
   selector: 'app-create-post',
@@ -35,50 +41,70 @@ export class CreatePostPage implements OnInit, AfterViewInit {
   ngStyleCreatePostBtn: any;
   ngStyleTags: any;
 
-  toSendTagImages = "";
+  toSendTagImages = '';
   tagImages: Array<string> = [];
   tagImagesBackUp: Array<string> = [];
 
   currentUrl = '';
   previousUrl = '';
-  constructor(private router: Router, private route: ActivatedRoute, private navCtrl: NavController, private camera: Camera) {
+  constructor(
+    private auth: AuthService,
+    private router: Router,
+    private route: ActivatedRoute,
+    private navCtrl: NavController,
+    private camera: Camera
+  ) {
     //this.initRouterPath();
   }
+
   ngAfterViewInit(): void {
     this.getExtras();
-    console.log(this.previousUrl+"  after");
+    console.log(this.previousUrl + '  after');
   }
 
   ngOnInit() {
+    console.log(this.auth.currentUser);
+    this.imgAvatar = this.auth.currentUser.photoURL;
+    this.userName = this.auth.currentUser.displayName;
+
     this.getExtras();
-    console.log(this.previousUrl+"  alo");
+    console.log(this.previousUrl + '  alo');
   }
-  initRouterPath(){
+
+  initRouterPath() {
     this.currentUrl = this.router.url;
   }
+
   toBack() {
     this.router.navigateByUrl(this.previousUrl);
   }
-  getExtras(){
-    this.route.queryParams.subscribe(params => {
+
+  getExtras() {
+    this.route.queryParams.subscribe((params) => {
       if (this.router.getCurrentNavigation().extras.state) {
-        this.previousUrl= this.router.getCurrentNavigation().extras.state.prvUrl;
+        this.previousUrl =
+          this.router.getCurrentNavigation().extras.state.prvUrl;
       }
     });
   }
-  createPost(){
-    if(this.canPost===true){
-      const navigationExtras: NavigationExtras = { state: { postTitle: this.ngModelTitle,
-        postContent: this.ngModelContent, postImages: this.toSendTagImages}};
-        if(this.previousUrl.includes('/')){
-          this.previousUrl = this.previousUrl.slice(1, this.previousUrl.length);
-        }
-        console.log(this.ngModelTitle);
-        console.log(this.ngModelContent);
-        console.log(this.toSendTagImages);
+  createPost() {
+    if (this.canPost === true) {
+      const navigationExtras: NavigationExtras = {
+        state: {
+          postTitle: this.ngModelTitle,
+          postContent: this.ngModelContent,
+          postImages: this.toSendTagImages,
+        },
+      };
+      if (this.previousUrl.includes('/')) {
+        this.previousUrl = this.previousUrl.slice(1, this.previousUrl.length);
+      }
+      console.log(this.ngModelTitle);
+      console.log(this.ngModelContent);
+      console.log(this.toSendTagImages);
 
-        const prvUrl = this.previousUrl;
-        this.router.navigateByUrl(prvUrl, navigationExtras);
+      const prvUrl = this.previousUrl;
+      this.router.navigateByUrl(prvUrl, navigationExtras);
     }
   }
   onSelectScopeOption(e) {

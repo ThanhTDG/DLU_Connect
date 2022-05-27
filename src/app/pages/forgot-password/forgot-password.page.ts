@@ -10,7 +10,7 @@ import { AuthService } from 'src/app/services/auth.service';
 })
 export class ForgotPasswordPage implements OnInit {
   credentials: FormGroup;
-  isSend: boolean = false;
+  isSend= false;
 
   constructor(
     private formBuilder: FormBuilder,

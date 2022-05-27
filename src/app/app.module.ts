@@ -16,6 +16,7 @@ import { FormsModule } from '@angular/forms';
 import { Camera } from '@awesome-cordova-plugins/camera/ngx';
 
 import { environment } from 'src/environments/environment';
+import { AuthService } from './services/auth.service';
 
 @NgModule({
   declarations: [AppComponent],
@@ -34,6 +35,7 @@ import { environment } from 'src/environments/environment';
     { provide: RouteReuseStrategy, useClass: IonicRouteStrategy },
     NativePageTransitions,
     Camera,
+    AuthService,
   ],
   bootstrap: [AppComponent],
 })

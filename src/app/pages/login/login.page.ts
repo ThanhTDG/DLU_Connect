@@ -12,7 +12,7 @@ import { AuthService } from 'src/app/services/auth.service';
 })
 export class LoginPage implements OnInit {
   credentials: FormGroup;
-  success: boolean = true;
+  success = true;
 
   constructor(
     private formBuilder: FormBuilder,
@@ -20,6 +20,14 @@ export class LoginPage implements OnInit {
     private loading: LoadingController,
     private router: Router
   ) {}
+
+  get email() {
+    return this.credentials.get('email');
+  }
+
+  get password() {
+    return this.credentials.get('password');
+  }
 
   ngOnInit() {
     this.credentials = this.formBuilder.group({
@@ -33,14 +41,6 @@ export class LoginPage implements OnInit {
         ],
       ],
     });
-  }
-
-  get email() {
-    return this.credentials.get('email');
-  }
-
-  get password() {
-    return this.credentials.get('password');
   }
 
   onInput() {

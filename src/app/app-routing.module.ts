@@ -16,6 +16,40 @@ const routes: Routes = [
     pathMatch: 'full',
   },
   {
+    path: 'login',
+    loadChildren: () =>
+      import('./pages/login/login.module').then((m) => m.LoginPageModule),
+    ...canActivate(redirectLoggedInToHome),
+  },
+  {
+    path: 'register',
+    loadChildren: () =>
+      import('./pages/register-page/register/register.module').then(
+        (m) => m.RegisterPageModule
+      ),
+  },
+  {
+    path: 'register-part2',
+    loadChildren: () =>
+      import('./pages/register-page/register-part2/register-part2.module').then(
+        (m) => m.RegisterPart2PageModule
+      ),
+  },
+  {
+    path: 'register-final',
+    loadChildren: () =>
+      import('./pages/register-page/register-final/register-final.module').then(
+        (m) => m.RegisterFinalPageModule
+      ),
+  },
+  {
+    path: 'forgot-password',
+    loadChildren: () =>
+      import(
+        './pages/forgot-password/forgot-password.module'
+      ).then((m) => m.ForgotPasswordPageModule),
+  },
+  {
     path: 'home',
     loadChildren: () =>
       import('./pages/home/home.module').then((m) => m.HomePageModule),
@@ -46,58 +80,10 @@ const routes: Routes = [
       import('./pages/group/group.module').then((m) => m.GroupPageModule),
   },
   {
-    path: 'login',
-    loadChildren: () =>
-      import('./pages/login/login.module').then((m) => m.LoginPageModule),
-    ...canActivate(redirectLoggedInToHome),
-  },
-  {
     path: 'create-post-page',
     loadChildren: () =>
       import('./pages/sub-pages/create-post-page/create-post-page.module').then(
         (m) => m.CreatePostPagePageModule
-      ),
-  },
-  {
-    path: 'forgot-password',
-    loadChildren: () =>
-      import(
-        './pages/forgot-password-page/forgot-password/forgot-password.module'
-      ).then((m) => m.ForgotPasswordPageModule),
-  },
-  {
-    path: 'forgot-password-part2',
-    loadChildren: () =>
-      import(
-        './pages/forgot-password-page/forgot-password-part2/forgot-password-part2.module'
-      ).then((m) => m.ForgotPasswordPart2PageModule),
-  },
-  {
-    path: 'forgot-password-final',
-    loadChildren: () =>
-      import(
-        './pages/forgot-password-page/forgot-password-final/forgot-password-final.module'
-      ).then((m) => m.ForgotPasswordFinalPageModule),
-  },
-  {
-    path: 'register-final',
-    loadChildren: () =>
-      import('./pages/register-page/register-final/register-final.module').then(
-        (m) => m.RegisterFinalPageModule
-      ),
-  },
-  {
-    path: 'register',
-    loadChildren: () =>
-      import('./pages/register-page/register/register.module').then(
-        (m) => m.RegisterPageModule
-      ),
-  },
-  {
-    path: 'register-part2',
-    loadChildren: () =>
-      import('./pages/register-page/register-part2/register-part2.module').then(
-        (m) => m.RegisterPart2PageModule
       ),
   },
   {
@@ -150,4 +136,4 @@ const routes: Routes = [
   ],
   exports: [RouterModule],
 })
-export class AppRoutingModule {}
+export class AppRoutingModule { }

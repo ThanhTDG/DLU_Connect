@@ -88,8 +88,8 @@ export class AuthService {
     return await updateProfile(user, { photoURL: photoUrl });
   }
 
-  async modifyName(displayName: string) {
+  async modifyName(name: string) {
     const user = this.auth.currentUser;
-    return await updateProfile(user, { displayName: displayName });
+    return await updateProfile(user, { displayName: name });
   }
 }

@@ -7,11 +7,13 @@ import { AlertController } from '@ionic/angular';
   styleUrls: ['./create-post-page.page.scss'],
 })
 export class CreatePostPagePage implements OnInit {
-  constructor(private navctr:NavController,private alertCtrl:AlertController) { }
+  constructor(
+    private navctr: NavController,
+    private alertCtrl: AlertController
+  ) {}
 
-  ngOnInit() {
-  }
-  backbtn(){
+  ngOnInit() {}
+  backbtn() {
     this.navctr.back();
   }
   async presentAlertRadio() {
@@ -27,7 +29,7 @@ export class CreatePostPagePage implements OnInit {
           handler: () => {
             console.log('Radio 1 selected');
           },
-          checked: true
+          checked: true,
         },
         {
           name: 'Riêng tư',
@@ -36,8 +38,8 @@ export class CreatePostPagePage implements OnInit {
           value: 'value2',
           handler: () => {
             console.log('Radio 2 selected');
-          }
-        }
+          },
+        },
       ],
       buttons: [
         {
@@ -46,14 +48,15 @@ export class CreatePostPagePage implements OnInit {
           cssClass: 'secondary',
           handler: () => {
             console.log('Confirm Cancel');
-          }
-        }, {
+          },
+        },
+        {
           text: 'Ok',
           handler: () => {
             console.log('Confirm Ok');
-          }
-        }
-      ]
+          },
+        },
+      ],
     });
 
     await alert.present();

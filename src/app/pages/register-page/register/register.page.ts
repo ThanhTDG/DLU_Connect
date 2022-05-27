@@ -13,7 +13,7 @@ import { AuthService } from 'src/app/services/auth.service';
 })
 export class RegisterPage implements OnInit {
   credentials: FormGroup;
-  success: boolean = true;
+  success = true;
 
   constructor(
     private formBuilder: FormBuilder,
@@ -22,6 +22,18 @@ export class RegisterPage implements OnInit {
     private nav: NavController,
     private router: Router
   ) {}
+
+  get email() {
+    return this.credentials.get('email');
+  }
+
+  get password() {
+    return this.credentials.get('password');
+  }
+
+  get confirmPassword() {
+    return this.credentials.get('confirmPassword');
+  }
 
   ngOnInit() {
     this.credentials = this.formBuilder.group(
@@ -46,18 +58,6 @@ export class RegisterPage implements OnInit {
       },
       { validators: [Validation.match('password', 'confirmPassword')] }
     );
-  }
-
-  get email() {
-    return this.credentials.get('email');
-  }
-
-  get password() {
-    return this.credentials.get('password');
-  }
-
-  get confirmPassword() {
-    return this.credentials.get('confirmPassword');
   }
 
   onInput() {

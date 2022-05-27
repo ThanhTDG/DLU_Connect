@@ -1,5 +1,3 @@
-/* eslint-disable max-len */
-/* eslint-disable @typescript-eslint/quotes */
 import { Component, OnInit } from '@angular/core';
 import { NavigationExtras, Router } from '@angular/router';
 import { NativeTransitionOptions } from '@awesome-cordova-plugins/native-page-transitions';
@@ -38,9 +36,9 @@ export class PersonalPage implements OnInit {
 
   ngOnInit() {
     this.imgBtnNext = '../../../assets/icon/main/next.png';
-    this.imgAvatar = '../../../../assets/icon/personal/default-avatar.png';
+    this.imgAvatar = this.auth.currentUser.photoURL;
     this.imgBackground = '../../../../assets/icon/personal/default-bg.png';
-    this.title = 'Account Name';
+    this.title = this.auth.currentUser.displayName;
     this.content = 'Chi đoàn CTK43';
   }
 

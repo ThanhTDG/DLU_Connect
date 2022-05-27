@@ -67,7 +67,8 @@ export class RegisterFinalPage implements OnInit {
   }
 
   back() {
-    this.router.navigate(['register']);
+    // this.router.navigate(['register']);
+    this.nav.back();
   }
 
   async complete() {

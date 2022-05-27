@@ -5,10 +5,15 @@
 </ion-header>
 
 <ion-content [scrollEvents]="true">
-  <div id="app-name"><img src={{appName}}></div>
+  <div id="app-name"><img src="{{appName}}" /></div>
   <app-search-bar></app-search-bar>
-  <ion-slides [options]="{ slidesPerView: 'auto', zoom: false, grabCursor: true }">
-    <ion-slide id="home-follow-short-object" *ngFor="let card of [0,1,2,3,4,5,6]" >
+  <ion-slides
+    [options]="{ slidesPerView: 'auto', zoom: false, grabCursor: true }"
+  >
+    <ion-slide
+      id="home-follow-short-object"
+      *ngFor="let card of [0,1,2,3,4,5,6]"
+    >
       <ion-col>
         <app-short-view-object color="{{card}}"></app-short-view-object>
       </ion-col>
@@ -16,8 +21,10 @@
   </ion-slides>
   <app-to-create-post></app-to-create-post>
   <div id="home-hot">{{homeContentHot}}</div>
-  <ion-slides [options]="{ slidesPerView: 'auto', zoom: false, grabCursor: true }">
-    <ion-slide id="home-follow-short-post" *ngFor="let card of [0,1,2,3,4,5,6]" >
+  <ion-slides
+    [options]="{ slidesPerView: 'auto', zoom: false, grabCursor: true }"
+  >
+    <ion-slide id="home-follow-short-post" *ngFor="let card of [0,1,2,3,4,5,6]">
       <ion-col>
         <app-short-post></app-short-post>
       </ion-col>
@@ -29,5 +36,5 @@
   <app-full-post></app-full-post>
 </ion-content>
 <ion-footer>
-  <app-navigation-bar [location] = "0"></app-navigation-bar>
+  <app-navigation-bar [location]="0"></app-navigation-bar>
 </ion-footer>
