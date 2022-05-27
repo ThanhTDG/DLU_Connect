@@ -51,7 +51,7 @@ export class AuthService {
   }
 
   async sendVerify() {
-    return await sendEmailVerification(this.auth.currentUser);
+    return await sendEmailVerification(this.currentUser);
   }
 
   async resetPassword(email: string) {
@@ -67,17 +67,17 @@ export class AuthService {
   }
 
   async reload() {
-    return await this.auth.currentUser.reload();
+    return await this.currentUser?.reload();
   }
 
   getUserProfile() {
-    const user = this.auth.currentUser;
+    const user = this.currentUser;
     const userDocRef = doc(this.firestore, `users/${user.uid}`);
     return docData(userDocRef);
   }
 
   async setDefault() {
-    const user = this.auth.currentUser;
+    const user = this.currentUser;
     const name = user.email.split('@')[0];
 
     const path = 'default/avatar/avatar.png';
@@ -87,7 +87,7 @@ export class AuthService {
   }
 
   async uploadPhoto(cameraFile: Photo) {
-    const user = this.auth.currentUser;
+    const user = this.currentUser;
     const path = `photos/${user.uid}/avatar.png`;
     const storageRef = ref(this.storage, path);
 
@@ -97,7 +97,7 @@ export class AuthService {
   }
 
   async modifyName(name: string) {
-    const user = this.auth.currentUser;
+    const user = this.currentUser;
     return await updateProfile(user, { displayName: name });
   }
 }

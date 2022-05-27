@@ -14,7 +14,8 @@ export class ToCreatePostComponent implements OnInit {
 
   constructor(private auth: AuthService, private router: Router) {}
 
-  ngOnInit() {
+  async ngOnInit() {
+    await this.auth.reload();
     console.log(this.auth.currentUser);
     this.question = 'Bạn đang nghĩ gì?';
     this.userAvatar = this.auth.currentUser?.photoURL ?? this.userAvatar;
