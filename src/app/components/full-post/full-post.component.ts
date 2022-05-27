@@ -59,8 +59,8 @@ export class FullPostComponent implements OnInit {
   async onViewComment(){
     const modal = await this.modalCtrl.create({
       component: ReactionPage,
-      breakpoints: [0, 1],
-      initialBreakpoint: 1,
+      breakpoints: [0, 0.8],
+      initialBreakpoint: 0.8,
       //componentProps: {title: this.title, content: this.content}
       cssClass: 'custom-modal'
     });
