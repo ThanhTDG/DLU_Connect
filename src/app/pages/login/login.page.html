@@ -1,77 +1,46 @@
 <ion-content>
   <div style="margin-top: 49px; margin-bottom: 69px">
-    <img
-      src="../../../assets/icon/login/DLU_connect.png"
-      alt=""
-      class="center"
-    />
+    <img src="../../../assets/icon/login/DLU_connect.png" alt="" class="center" />
   </div>
-
   <form [formGroup]="credentials" (ngSubmit)="login()">
     <ion-grid fixed style="padding-left: 12px; padding-right: 12px">
       <ion-row>
         <ion-col size="12" style="padding: 0" class="">
           <ion-text id="labelLogin" color="primary"> Đăng nhập </ion-text>
         </ion-col>
-
         <ion-col size="12" style="padding: 0">
-          <div id="email_input" class="padding-lr12px">
-            <ion-input
-              type="email"
-              placeholder="Email"
-              formControlName="email"
-              (input)="onInput()"
-            ></ion-input>
+          <div id="email_input">
+            <ion-input type="email" placeholder="Email" formControlName="email" (input)="onInput()"></ion-input>
           </div>
-          <ion-note
-            color="danger"
-            *ngIf="(email.dirty || email.touched) && email.errors"
-          >
+          <ion-note class="warring-input" *ngIf="(email.dirty || email.touched) && email.errors">
             <ion-icon name="alert-circle-outline"></ion-icon>
             Email không hợp lệ
           </ion-note>
         </ion-col>
-
         <ion-col size="12" style="padding: 0">
-          <div id="password_input" class="padding-lr12px">
-            <ion-input
-              type="password"
-              placeholder="Mật khẩu"
-              formControlName="password"
-              (input)="onInput()"
-            ></ion-input>
+          <div id="password_input">
+            <ion-input type="password" placeholder="Mật khẩu" formControlName="password" (input)="onInput()">
+            </ion-input>
           </div>
-          <ion-note
-            color="danger"
-            *ngIf="(password.dirty || password.touched) && password.errors"
-          >
+          <ion-note class="warring-input" *ngIf="(password.dirty || password.touched) && password.errors">
             <ion-icon name="alert-circle-outline"></ion-icon>
             Mật khẩu cần ít nhất 6 ký tự
           </ion-note>
         </ion-col>
-
         <ion-col size="12" style="padding: 0">
-          <ion-button
-            id="btn_login"
-            type="submit"
-            expand="block"
-            fill="clear"
-            shape="round"
-            [disabled]="!credentials.valid"
-          >
+          <button id="btn_login" type="submit" expand="block" fill="clear" shape="round"
+            [disabled]="!credentials.valid">
             Đăng nhập
-          </ion-button>
+          </button>
         </ion-col>
-
         <ion-col size="12" style="padding: 0">
           <a id="forgot_Password" (click)="forgotPassword()">
             Quên mật khẩu ?
           </a>
         </ion-col>
-
         <ion-col size="12" style="padding: 0">
           <div style="text-align: center; margin-top: 20px">
-            <ion-note color="danger" *ngIf="!success">
+            <ion-note class="warring-input" *ngIf="!success">
               <ion-icon name="alert-circle-outline"></ion-icon>
               Đăng nhập không thành công! Vui lòng kiểm tra lại email hoặc mật
               khẩu!
@@ -79,30 +48,18 @@
           </div>
         </ion-col>
       </ion-row>
-
-
-
-
     </ion-grid>
   </form>
 </ion-content>
 <ion-footer id="footer" class="ion-no-border">
   <div id="suggest_register">
-    <ion-text color="black">
+    <span>
       Chưa có tài khoản? Đăng ký ngay bây giờ!
-    </ion-text>
+    </span>
   </div>
   <div>
-    <div id="div_btnRegis">
-      <ion-button
-        id="btn_Regis"
-        (click)="register()"
-        expand="block"
-        fill="clear"
-        shape="round"
-      >
-        Đăng ký
-      </ion-button>
-    </div>
+    <button id="btn_Regis" (click)="register()" expand="block" fill="clear" shape="round">
+      Đăng ký
+    </button>
   </div>
 </ion-footer>

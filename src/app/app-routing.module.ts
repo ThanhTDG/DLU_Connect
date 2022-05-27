@@ -53,14 +53,6 @@ const routes: Routes = [
     loadChildren: () => import('./pages/forgot-password-page/forgot-password/forgot-password.module').then( m => m.ForgotPasswordPageModule)
   },
   {
-    path: 'forgot-password-part2',
-    loadChildren: () => import('./pages/forgot-password-page/forgot-password-part2/forgot-password-part2.module').then( m => m.ForgotPasswordPart2PageModule)
-  },
-  {
-    path: 'forgot-password-final',
-    loadChildren: () => import('./pages/forgot-password-page/forgot-password-final/forgot-password-final.module').then( m => m.ForgotPasswordFinalPageModule)
-  },
-  {
     path: 'register-final',
     loadChildren: () => import('./pages/register-page/register-final/register-final.module').then( m => m.RegisterFinalPageModule)
   },

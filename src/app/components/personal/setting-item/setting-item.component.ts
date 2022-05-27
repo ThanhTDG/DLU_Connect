@@ -24,6 +24,7 @@ export class SettingItemComponent implements OnInit {
   "../../../../assets/icon/personal/setting/light.png",
   "../../../../assets/icon/personal/setting/switch-on.png",
   "../../../../assets/icon/personal/setting/switch-off.png",];
+  imgLogout = "../../../../assets/icon/personal/setting/logout.png";
   constructor() { }
 
   ngOnInit() {
@@ -79,6 +80,18 @@ export class SettingItemComponent implements OnInit {
           top: "6px"
         };
         this.isSwitch = false;
+        break;
+      case "-1":
+        this.imgDescription=this.imgLogout;
+        this.ngStyleContainer={
+          "background-color": "var(--ion-color-app-orange-light)"
+        };
+        this.ngStyleAvatar={
+          "background-color": "var(--ion-color-app-orange-dark)"
+        };
+        this.ngStyleOption={
+          display:"none"
+        };
         break;
     }
   }
