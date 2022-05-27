@@ -13,7 +13,6 @@ import { AuthService } from 'src/app/services/auth.service';
   styleUrls: ['./register-part2.page.scss'],
 })
 export class RegisterPart2Page implements OnInit {
-
   constructor(
     private auth: AuthService,
     private alert: AlertController,
@@ -44,7 +43,7 @@ export class RegisterPart2Page implements OnInit {
   async next() {
     await this.auth.reload();
 
-    const user = this.auth.getUser();
+    const user = this.auth.currentUser;
     if (user?.emailVerified) {
       this.router.navigate(['register-final']);
     } else {

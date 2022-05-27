@@ -31,7 +31,7 @@ export class RegisterFinalPage implements OnInit {
   ) {}
 
   ngOnInit() {
-    this.user = this.auth.getUser();
+    this.user = this.auth.currentUser;
   }
 
   async changeImage() {
@@ -67,7 +67,8 @@ export class RegisterFinalPage implements OnInit {
   }
 
   back() {
-    this.router.navigate(['register']);
+    // this.router.navigate(['register']);
+    this.nav.back();
   }
 
   async complete() {

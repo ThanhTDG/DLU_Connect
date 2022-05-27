@@ -14,8 +14,6 @@
   </div>
 </ion-header>
 <ion-content>
-
-
   <form [formGroup]="credentials" (submit)="register()">
     <ion-grid
       fixed
@@ -103,8 +101,6 @@
           </ion-note>
         </ion-col>
       </ion-row>
-
-
     </ion-grid>
   </form>
 </ion-content>
@@ -117,6 +113,7 @@
       fill="clear"
       shape="round"
       [disabled]="!credentials.valid"
+      (click)="register()"
     >
       Tiếp tục
     </ion-button>

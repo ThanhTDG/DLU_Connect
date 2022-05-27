@@ -33,6 +33,7 @@ import { environment } from 'src/environments/environment';
   providers: [
     { provide: RouteReuseStrategy, useClass: IonicRouteStrategy },
     NativePageTransitions,
+    Camera,
   ],
   bootstrap: [AppComponent],
 })

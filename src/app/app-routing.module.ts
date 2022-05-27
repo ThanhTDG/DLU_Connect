@@ -1,5 +1,13 @@
 import { NgModule } from '@angular/core';
 import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
+import {
+  redirectLoggedInTo,
+  redirectUnauthorizedTo,
+  canActivate,
+} from '@angular/fire/auth-guard';
+
+const redirectUnauthorizedToLogin = () => redirectUnauthorizedTo(['login']);
+const redirectLoggedInToHome = () => redirectLoggedInTo(['home']);
 
 const routes: Routes = [
   {
@@ -18,6 +26,7 @@ const routes: Routes = [
       import('./pages/personal/personal.module').then(
         (m) => m.PersonalPageModule
       ),
+    ...canActivate(redirectUnauthorizedToLogin),
   },
   {
     path: 'notification',
@@ -40,6 +49,7 @@ const routes: Routes = [
     path: 'login',
     loadChildren: () =>
       import('./pages/login/login.module').then((m) => m.LoginPageModule),
+    ...canActivate(redirectLoggedInToHome),
   },
   {
     path: 'create-post-page',
@@ -50,27 +60,45 @@ const routes: Routes = [
   },
   {
     path: 'forgot-password',
-    loadChildren: () => import('./pages/forgot-password-page/forgot-password/forgot-password.module').then( m => m.ForgotPasswordPageModule)
+    loadChildren: () =>
+      import(
+        './pages/forgot-password-page/forgot-password/forgot-password.module'
+      ).then((m) => m.ForgotPasswordPageModule),
   },
   {
     path: 'forgot-password-part2',
-    loadChildren: () => import('./pages/forgot-password-page/forgot-password-part2/forgot-password-part2.module').then( m => m.ForgotPasswordPart2PageModule)
+    loadChildren: () =>
+      import(
+        './pages/forgot-password-page/forgot-password-part2/forgot-password-part2.module'
+      ).then((m) => m.ForgotPasswordPart2PageModule),
   },
   {
     path: 'forgot-password-final',
-    loadChildren: () => import('./pages/forgot-password-page/forgot-password-final/forgot-password-final.module').then( m => m.ForgotPasswordFinalPageModule)
+    loadChildren: () =>
+      import(
+        './pages/forgot-password-page/forgot-password-final/forgot-password-final.module'
+      ).then((m) => m.ForgotPasswordFinalPageModule),
   },
   {
     path: 'register-final',
-    loadChildren: () => import('./pages/register-page/register-final/register-final.module').then( m => m.RegisterFinalPageModule)
+    loadChildren: () =>
+      import('./pages/register-page/register-final/register-final.module').then(
+        (m) => m.RegisterFinalPageModule
+      ),
   },
   {
     path: 'register',
-    loadChildren: () => import('./pages/register-page/register/register.module').then( m => m.RegisterPageModule)
+    loadChildren: () =>
+      import('./pages/register-page/register/register.module').then(
+        (m) => m.RegisterPageModule
+      ),
   },
   {
     path: 'register-part2',
-    loadChildren: () => import('./pages/register-page/register-part2/register-part2.module').then( m => m.RegisterPart2PageModule)
+    loadChildren: () =>
+      import('./pages/register-page/register-part2/register-part2.module').then(
+        (m) => m.RegisterPart2PageModule
+      ),
   },
   {
     path: 'search-page',

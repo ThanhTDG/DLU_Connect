@@ -7,6 +7,7 @@ import {
   signInWithEmailAndPassword,
   signOut,
   updateProfile,
+  User,
 } from '@angular/fire/auth';
 import { doc, docData, Firestore } from '@angular/fire/firestore';
 import {
@@ -21,11 +22,21 @@ import { Photo } from '@capacitor/camera';
   providedIn: 'root',
 })
 export class AuthService {
+  currentUser: User;
+
   constructor(
     private auth: Auth,
     private firestore: Firestore,
     private storage: Storage
-  ) {}
+  ) {
+    auth.onAuthStateChanged((user) => {
+      if (user) {
+        this.currentUser = user;
+      } else {
+        this.currentUser = null;
+      }
+    });
+  }
 
   async register({ email, password }) {
     return await createUserWithEmailAndPassword(this.auth, email, password);
@@ -49,10 +60,6 @@ export class AuthService {
 
   async reload() {
     return await this.auth.currentUser.reload();
-  }
-
-  getUser() {
-    return this.auth.currentUser;
   }
 
   getUserProfile() {

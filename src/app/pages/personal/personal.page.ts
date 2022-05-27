@@ -1,10 +1,11 @@
 /* eslint-disable max-len */
 /* eslint-disable @typescript-eslint/quotes */
 import { Component, OnInit } from '@angular/core';
-import { NavigationExtras } from '@angular/router';
+import { NavigationExtras, Router } from '@angular/router';
 import { NativeTransitionOptions } from '@awesome-cordova-plugins/native-page-transitions';
 import { NativePageTransitions } from '@awesome-cordova-plugins/native-page-transitions/ngx';
 import { NavController } from '@ionic/angular';
+import { AuthService } from 'src/app/services/auth.service';
 
 @Component({
   selector: 'app-personal',
@@ -25,27 +26,50 @@ export class PersonalPage implements OnInit {
     iosdelay: 100,
     androiddelay: 150,
     fixedPixelsTop: 0,
-    fixedPixelsBottom: 60
+    fixedPixelsBottom: 60,
   };
-  constructor(private navCtrl: NavController, private nativePageTransitions: NativePageTransitions) {
 
-  }
+  constructor(
+    private auth: AuthService,
+    private navCtrl: NavController,
+    private nativePageTransitions: NativePageTransitions,
+    private router: Router
+  ) {}
 
   ngOnInit() {
-    this.imgBtnNext = "../../../assets/icon/main/next.png";
-    this.imgAvatar = "../../../../assets/icon/personal/default-avatar.png";
-    this.imgBackground="../../../../assets/icon/personal/default-bg.png";
-    this.title="Account Name";
-    this.content="Chi đoàn CTK43";
+    this.imgBtnNext = '../../../assets/icon/main/next.png';
+    this.imgAvatar = '../../../../assets/icon/personal/default-avatar.png';
+    this.imgBackground = '../../../../assets/icon/personal/default-bg.png';
+    this.title = 'Account Name';
+    this.content = 'Chi đoàn CTK43';
   }
-  onViewYourPost(){
-    const navigationExtras: NavigationExtras = { state: { imgAvatar: this.imgAvatar, title: this.title, content: this.content, imgBackground: this.imgBackground} };
+
+  onViewYourPost() {
+    const navigationExtras: NavigationExtras = {
+      state: {
+        imgAvatar: this.imgAvatar,
+        title: this.title,
+        content: this.content,
+        imgBackground: this.imgBackground,
+      },
+    };
     this.nativePageTransitions.fade(this.options);
     this.navCtrl.navigateRoot('personal-detail', navigationExtras);
   }
-  gotoFollowPage(){
+
+  gotoFollowPage() {
     this.nativePageTransitions.slide(this.options);
     this.navCtrl.navigateRoot('follow');
   }
 
+  async logout() {
+    await this.auth
+      .logout()
+      .then(() => {
+        this.router.navigate(['login']);
+      })
+      .catch((err) => {
+        console.log(err);
+      });
+  }
 }
