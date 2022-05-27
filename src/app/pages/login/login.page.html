@@ -80,26 +80,29 @@
         </ion-col>
       </ion-row>
 
-      <div id="suggest_register">
-        <ion-text color="black">
-          Chưa có tài khoản? Đăng ký ngay bây giờ!
-        </ion-text>
-      </div>
 
-      <div>
-        <div id="div_btnRegis">
-          <ion-button
-            id="btn_Regis"
-            (click)="register()"
-            expand="block"
-            fill="clear"
-            shape="round"
-          >
-            Đăng ký
-          </ion-button>
-        </div>
-      </div>
+
+
     </ion-grid>
   </form>
 </ion-content>
-<ion-footer> </ion-footer>
+<ion-footer id="footer" class="ion-no-border">
+  <div id="suggest_register">
+    <ion-text color="black">
+      Chưa có tài khoản? Đăng ký ngay bây giờ!
+    </ion-text>
+  </div>
+  <div>
+    <div id="div_btnRegis">
+      <ion-button
+        id="btn_Regis"
+        (click)="register()"
+        expand="block"
+        fill="clear"
+        shape="round"
+      >
+        Đăng ký
+      </ion-button>
+    </div>
+  </div>
+</ion-footer>

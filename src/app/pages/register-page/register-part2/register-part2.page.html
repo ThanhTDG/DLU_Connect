@@ -1,7 +1,14 @@
-<ion-content>
-  <div style="text-align: left;margin-top:20px;margin-left:12px">
-    <img (click)="back()"  id="rh-back-btn" src="../../../assets/icon/login/back.png" alt="">
+<ion-header class="ion-no-border">
+  <div style="text-align: left; margin-top: 30px; margin-left: 12px">
+    <img
+      (click)="back()"
+      id="rh-back-btn"
+      src="../../../assets/icon/login/back.png"
+      alt=""
+    />
   </div>
+</ion-header>
+<ion-content>
 
   <form action="">
     <ion-grid fixed style="padding-left: 12px; padding-right: 12px">
@@ -59,28 +66,31 @@
           </ion-text>
         </ion-col>
       </ion-row>
-      <div id="div_btnSendcode">
-        <ion-button
-          id="btn_Submit"
-          expand="block"
-          fill="clear"
-          shape="round"
-          (click)="resendVerify()"
-        >
-          Gửi lại mã
-        </ion-button>
-      </div>
-      <div id="div_btnSubmit">
-        <ion-button
-          id="btn_Submit"
-          expand="block"
-          fill="clear"
-          shape="round"
-          (click)="next()"
-        >
-          Tiếp tục
-        </ion-button>
-      </div>
+
     </ion-grid>
   </form>
 </ion-content>
+<ion-footer id="footer" class="ion-no-border">
+  <div id="div_btnSendcode">
+    <ion-button
+      id="btn_Submit"
+      expand="block"
+      fill="clear"
+      shape="round"
+      (click)="resendVerify()"
+    >
+      Gửi lại mã
+    </ion-button>
+  </div>
+  <div id="div_btnSubmit">
+    <ion-button
+      id="btn_Submit"
+      expand="block"
+      fill="clear"
+      shape="round"
+      (click)="next()"
+    >
+      Tiếp tục
+    </ion-button>
+  </div>
+</ion-footer>
