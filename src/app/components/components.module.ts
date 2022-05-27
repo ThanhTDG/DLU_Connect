@@ -23,6 +23,7 @@ import { ReplyComponent } from './post/reply/reply.component';
 import { IonicModule } from '@ionic/angular';
 import { MembersBarComponent } from './group/members-bar/members-bar.component';
 import { TeacherProfileComponent } from './department/teacher-profile/teacher-profile.component';
+import { HeaderPageComponent } from './header-page/header-page.component';
 
 @NgModule({
     imports: [
@@ -49,7 +50,8 @@ import { TeacherProfileComponent } from './department/teacher-profile/teacher-pr
       PostOptionButtonComponent,
       ReplyComponent,
       MembersBarComponent,
-      TeacherProfileComponent
+      TeacherProfileComponent,
+      HeaderPageComponent
     ],
     exports: [
       NavigationBarComponent,
@@ -70,7 +72,8 @@ import { TeacherProfileComponent } from './department/teacher-profile/teacher-pr
       PostOptionButtonComponent,
       ReplyComponent,
       MembersBarComponent,
-      TeacherProfileComponent
+      TeacherProfileComponent,
+      HeaderPageComponent
     ]
 })
 export class ComponentsModule{}

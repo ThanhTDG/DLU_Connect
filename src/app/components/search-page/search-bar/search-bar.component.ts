@@ -1,7 +1,8 @@
 /* eslint-disable @typescript-eslint/quotes */
 import { AfterViewInit, ChangeDetectorRef, Component, OnInit, Output } from '@angular/core';
 import { EventEmitter } from '@angular/core';
-import { Router } from '@angular/router';
+import { ActivatedRoute, Router} from '@angular/router';
+import { NavController } from '@ionic/angular';
 
 @Component({
   selector: 'app-search-bar-advance',
@@ -15,9 +16,10 @@ export class SearchBarAdvanceComponent implements OnInit, AfterViewInit {
   imgRemoveText: any;
   ngStyleBtnRemoveText: any;
   searchValue: string;
+  previousUrl = null;
   // eslint-disable-next-line @typescript-eslint/member-ordering
   @Output() searchEmitter = new EventEmitter<string>();
-  constructor(private router: Router, private cdr: ChangeDetectorRef) { }
+  constructor(private router: Router, private cdr: ChangeDetectorRef, private route: ActivatedRoute, private navCtrl: NavController) { }
   ngAfterViewInit(): void {
     this.cdr.detectChanges();
   }
@@ -31,6 +33,7 @@ export class SearchBarAdvanceComponent implements OnInit, AfterViewInit {
       display: 'none'
     };
     this.searchValue = "";
+    this.getExtras();
   }
   onSearch(){
     this.cdr.detectChanges();
@@ -47,7 +50,15 @@ export class SearchBarAdvanceComponent implements OnInit, AfterViewInit {
     this.searchEmitter.emit("#1409!:null:");
   }
   onPressBack(){
-    this.router.navigateByUrl("home");
+    this.router.navigateByUrl(this.previousUrl);
+  }
+  getExtras() {
+    this.route.queryParams.subscribe((params) => {
+      if (this.router.getCurrentNavigation().extras.state) {
+        this.previousUrl =
+          this.router.getCurrentNavigation().extras.state.prvUrl;
+      }
+    });
   }
 
 }
