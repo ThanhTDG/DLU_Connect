@@ -1,22 +1,17 @@
 import { Injectable } from '@angular/core';
 import { Firestore } from '@angular/fire/firestore';
-import { User } from '../models/user';
+import { Group } from '../models/group';
 import { FirestoreService } from './firestore.service';
 
 @Injectable({
   providedIn: 'root',
 })
-export class UserService extends FirestoreService<User> {
+export class GroupService extends FirestoreService<Group> {
   constructor(protected firestore: Firestore) {
-    super(firestore, 'users');
+    super(firestore, 'groups');
   }
 
   protected override fromFirestore(data: any) {
-    return new User(
-      data.firstName,
-      data.lastName,
-      new Date(data.birthDate.seconds * 1000),
-      data.sex
-    );
+    return new Group(data.userUid, data.pageUid, data.name, data.description);
   }
 }

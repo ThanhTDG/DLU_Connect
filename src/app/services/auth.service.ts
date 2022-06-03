@@ -9,7 +9,7 @@ import {
   updateProfile,
   User,
 } from '@angular/fire/auth';
-import { doc, docData, Firestore } from '@angular/fire/firestore';
+import { Firestore } from '@angular/fire/firestore';
 import {
   getDownloadURL,
   ref,
@@ -68,12 +68,6 @@ export class AuthService {
 
   async reload() {
     return await this.currentUser?.reload();
-  }
-
-  getUserProfile() {
-    const user = this.currentUser;
-    const userDocRef = doc(this.firestore, `users/${user.uid}`);
-    return docData(userDocRef);
   }
 
   async setDefault() {
