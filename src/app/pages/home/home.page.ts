@@ -1,8 +1,9 @@
 /* eslint-disable @typescript-eslint/quotes */
 import { AfterViewInit, Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
-import { Group } from 'src/app/models/group';
-import { User } from 'src/app/models/user';
+import { connectableObservableDescriptor } from 'rxjs/internal/observable/ConnectableObservable';
+import { Group } from 'src/app/interfaces/group';
+import { Profile } from 'src/app/interfaces/profile';
 import { AuthService } from 'src/app/services/auth.service';
 import { GroupService } from 'src/app/services/group.service';
 import { UserService } from 'src/app/services/user.service';
@@ -39,13 +40,9 @@ export class HomePage implements OnInit, AfterViewInit {
     this.homeContentFollow = 'Đang theo dõi';
     //this.getPostData();
 
-    // const user = new User('Hieu', 'Duong', new Date(2001, 0, 1), 'M');
-    // console.log(user);
-
-    // this.user.add(user);
     this.user.getAll().then((res) => {
-      res.forEach((data) => {
-        console.log(data.id, data.data());
+      res.forEach((value) => {
+        console.log(value.data());
       });
     });
   }

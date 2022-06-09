@@ -8,6 +8,7 @@ import {
   Firestore,
   getDoc,
   getDocs,
+  QueryDocumentSnapshot,
   updateDoc,
 } from '@angular/fire/firestore';
 
@@ -16,16 +17,16 @@ import {
 })
 export abstract class FirestoreService<T> {
   protected converter = {
-    fromFirestore: (snapshot: any, options?: any) => {
-      const data = snapshot.data(options);
-      return this.fromFirestore(data);
-    },
+    fromFirestore: this.fromFirestore,
     toFirestore: this.toFirestore,
   };
 
-  private collection: CollectionReference<T>;
+  protected collection: CollectionReference<T>;
 
-  constructor(protected firestore: Firestore, private collectionName: string) {
+  constructor(
+    protected firestore: Firestore,
+    protected collectionName?: string
+  ) {
     this.collection = collection(firestore, collectionName).withConverter(
       this.converter
     );
@@ -54,17 +55,16 @@ export abstract class FirestoreService<T> {
     return await deleteDoc(ref);
   }
 
-  protected fromFirestore(data: any) {
-    return { ...data } as T;
-  }
-
-  protected toFirestore(data: T) {
-    return Object.assign({}, data);
-  }
-
-  private doc(uid: string) {
+  protected doc(uid: string) {
     return doc(this.firestore, this.collectionName, uid).withConverter(
       this.converter
     );
   }
+
+  protected abstract fromFirestore(
+    snapshot: QueryDocumentSnapshot,
+    options?: any
+  ): T;
+
+  protected abstract toFirestore(data: T): any;
 }
