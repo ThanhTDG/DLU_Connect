@@ -1,9 +1,11 @@
 <app-header-page pageTitle="{{groupName}}"></app-header-page>
 
 <ion-content appParallaxHeader [scrollEvents]="true">
+  <div class="cover" [style.background-image]="'url(' + imgBackground + ')'"></div>
   <div class="container">
     <div id="c-header">
-      <img id="ch-back-image" src="{{imgBackground}}">
+      <!-- <img id="ch-back-image" src="{{imgBackground}}"> -->
+      <!-- <div class="ch-back-image" [style.background-image]="'url(' + imgBackground + ')'"></div> -->
       <div id="ch-content">
         <div id="ch-c-title">
           <span id="ch-c-group-name">{{groupName}}</span>
