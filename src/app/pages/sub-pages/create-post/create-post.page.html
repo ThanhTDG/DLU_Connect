@@ -1,0 +1,80 @@
+<ion-header>
+  <ion-toolbar>
+    <div id="tb-back" (click)="toBack()">
+      <img src="../../../../assets/icon/main/back.png" />
+    </div>
+    <ion-title>Tạo bài viết</ion-title>
+    <div
+      id="create-post-btn"
+      [ngStyle]="ngStyleCreatePostBtn"
+      (click)="createPost()"
+    >
+      <img src="../../../assets/icon/post/create-post/create-post.png" />
+    </div>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div id="container">
+    <div id="cp-options">
+      <img id="cp-avatar" src="{{imgAvatar}}" />
+      <span id="cp-title">{{userName}}</span>
+      <div id="sl-options">
+        <img src="{{imgScopeOption}}" />
+        <select
+          name="scope-options"
+          id="scope-options"
+          (change)="onSelectScopeOption($event)"
+        >
+          <option value="public">Công khai</option>
+          <option value="private">Riêng tư</option>
+        </select>
+        <img src="../../../../assets/icon/post/create-post/arrow-down.png" />
+      </div>
+    </div>
+    <div id="cp-content">
+      <div id="ct-title">
+        <input
+          type="text"
+          name="ip-title"
+          placeholder="{{ipTitleHint}}"
+          [(ngModel)]="ngModelTitle"
+          (input)="onInputTitle()"
+        />
+      </div>
+      <div id="ct-content">
+        <textarea
+          rows="{{taRows}}"
+          cols="{{taCols}}"
+          placeholder="{{ipContentHint}}"
+          [(ngModel)]="ngModelContent"
+          (input)="onInputContent()"
+        ></textarea>
+      </div>
+    </div>
+  </div>
+</ion-content>
+<ion-footer>
+  <div id="options-bar">
+    <div id="tag-content" [ngStyle]="ngStyleTags">
+      <ion-slides
+        [options]="{slidesPerView: 'auto', zoom: false, grabCursor: true }"
+      >
+        <ion-slide class="tag-image" *ngFor="let image of tagImages">
+          <img class="ti-image" src="{{image}}" />
+          <div class="ti-remove-button" (click)="removeTagImage(image)">
+            <img class="ti-rbtn-item" src="{{imgTagImageRemove}}" />
+          </div>
+        </ion-slide>
+      </ion-slides>
+    </div>
+    <div id="ob-options">
+      <img
+        class="tag-options"
+        src="{{imgAddTagImages}}"
+        (click)="addTagImage()"
+      />
+      <img class="tag-options" src="{{imgAddTagPeople}}" />
+    </div>
+  </div>
+</ion-footer>

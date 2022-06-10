@@ -1,21 +1,33 @@
-<ion-header class="ion-no-border">
-  <ion-toolbar>
-    <ion-title class="group-name">{{groupName}}</ion-title>
-    <div id="btn-more" slot="end">
-      <img src={{srcBtnMore}}>
-    </div>
-    <div id="btn-search" [ngStyle]="ngStyleSearch" slot="primary">
-      <img src={{srcBtnSearch}}>
-    </div>
-  </ion-toolbar>
-</ion-header>
+<app-header-page pageTitle="{{groupName}}"></app-header-page>
 
 <ion-content appParallaxHeader [scrollEvents]="true">
-  
-  <div class="cover" [style.background-image]="'url(' + srcImgCover + ')'"></div>
-
-  <div class="main-content">
-    <div class="group-name">{{groupName}}</div>
+  <div class="container">
+    <div id="c-header">
+      <img id="ch-back-image" src="{{imgBackground}}">
+      <div id="ch-content">
+        <div id="ch-c-title">
+          <span id="ch-c-group-name">{{groupName}}</span>
+          <span id="ch-c-description">Sĩ số: {{groupNumber}}</span>
+          <img id="ch-c-more" src="{{imgMore}}">
+        </div>
+        <app-members-bar></app-members-bar>
+      </div>
+    </div>
+    <app-to-create-post></app-to-create-post>
+    <div id="c-content">
+      <div id="group-hot">{{groupContentHot}}</div>
+      <ion-slides [options]="{ slidesPerView: 'auto', zoom: false, grabCursor: true }">
+        <ion-slide id="group-follow-short-post" *ngFor="let card of [0,1,2,3,4,5,6]" >
+          <ion-col>
+            <app-short-post></app-short-post>
+          </ion-col>
+        </ion-slide>
+      </ion-slides>
+      <div id="group-follow">{{groupContent}}</div>
+      <app-full-post></app-full-post>
+      <app-full-post></app-full-post>
+      <app-full-post></app-full-post>
+    </div>
   </div>
 
 </ion-content>

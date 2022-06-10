@@ -1,0 +1,74 @@
+<ion-header class="ion-no-border">
+  <ion-toolbar>
+    <div id="tb-back" (click)="back()">
+      <img src="../../../../assets/icon/main/back.png">
+    </div>
+  </ion-toolbar>
+</ion-header>
+<ion-content>
+  <img src="../../../assets/icon/login/DLU_connect.png" alt="" class="center" />
+  <form [formGroup]="credentials">
+    <ion-row>
+      <ion-col size="12" style="padding: 0">
+        <span id="labelRegis">Đăng ký</span>
+      </ion-col>
+
+      <ion-col size="12" style="padding: 0">
+        <div id="email_input" class="input-container">
+          <ion-input type="email" placeholder="Email" formControlName="email" (input)="onInput()"></ion-input>
+        </div>
+        <ion-note class="warring-input" *ngIf="(email.dirty || email.touched) && email.errors">
+          <ion-icon name="alert-circle-outline"></ion-icon>
+          Email không hợp lệ
+        </ion-note>
+      </ion-col>
+
+      <ion-col size="12" style="padding: 0">
+        <div id="password_input" class="input-container">
+          <ion-input type="password" placeholder="Mật khẩu" formControlName="password" (input)="onInput()">
+          </ion-input>
+        </div>
+        <ion-note class="warring-input" *ngIf="(password.dirty || password.touched) && password.errors">
+          <ion-icon name="alert-circle-outline"></ion-icon>
+          Mật khẩu cần ít nhất 6 ký tự
+        </ion-note>
+      </ion-col>
+
+      <ion-col size="12" style="padding: 0">
+        <div id="exact_password_input" class="input-container">
+          <ion-input type="password" placeholder="Nhập lại mật khẩu" formControlName="confirmPassword"
+            (input)="onInput()"></ion-input>
+        </div>
+        <ion-note class="warring-input"
+          *ngIf="(confirmPassword.dirty || confirmPassword.touched) && confirmPassword.errors">
+          <ion-icon name="alert-circle-outline"></ion-icon>
+          Mật khẩu xác nhận không đúng
+        </ion-note>
+      </ion-col>
+
+      <ion-col size="12" style="padding: 0">
+          <div id="contract">
+            <span>
+              Bằng việc đăng ký, bạn chấp nhận
+              <a href="#">Điều khoản dịch vụ</a>
+              và
+              <a href="#">Chính Sách Bảo Mật</a>
+              của chúng tôi.
+            </span>
+          </div>
+      </ion-col>
+
+      <ion-col size="12" style="padding: 0">
+        <ion-note class="warring-input" *ngIf="!success">
+          <ion-icon name="alert-circle-outline"></ion-icon>
+          Đăng ký không thành công! Vui lòng kiểm tra lại email!
+        </ion-note>
+      </ion-col>
+    </ion-row>
+  </form>
+</ion-content>
+<ion-footer id="footer" class="ion-no-border">
+  <button id="btn_Submit" (click)="register()" type="submit" expand="block" fill="clear" shape="round" [disabled]="!credentials.valid">
+    Tiếp tục
+  </button>
+</ion-footer>

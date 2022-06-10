@@ -15,7 +15,11 @@
         <span id="fp-bd-text-content">{{textContent}}<a>...Xem thêm</a></span>
       </div>
       <div id="fp-bd-image">
-        <img src="{{image}}"/>
+        <ion-slides [options]="{ slidesPerView: 'auto', zoom: false, grabCursor: true }">
+          <ion-slide class="fp-bd-images" *ngFor="let image of images" >
+            <img src="{{image}}"/>
+          </ion-slide>
+        </ion-slides>
       </div>
     </div>
     <div id="fp-footer">
@@ -29,7 +33,7 @@
           <img src="{{ctLike}}">
           <div>{{ctlbLike}}</div>
         </div> 
-        <div class="fp-ct-container">
+        <div class="fp-ct-container" (click)="onViewComment()">
           <img src="{{ctComment}}">
           <div>{{ctlbComment}}</div>
         </div> 

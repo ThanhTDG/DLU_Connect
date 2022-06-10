@@ -17,6 +17,12 @@
   --ion-color-app-orange-dark: #F68B74;
   --ion-color-app-orange-darker: #F46E51;
 
+  --ion-color-app-blue-dark: #517C96;
+  --ion-color-app-blue-light: #93ADBE;
+
+  --ion-color-app-tea-dark: #ADC999;
+  --ion-color-app-tea-light: #CCDEBF;
+
   --ion-color-app-gray-light: #B3BAB3;
   --ion-color-app-gray-dark: #707470;
 
@@ -95,16 +101,12 @@
 
 }
 
-@media (prefers-color-scheme: light) {
+@media (prefers-color-scheme: darks) {
   /*
    * Dark Colors
    * -------------------------------------------
    */
-
-  body {
-    
-    
-
+  body.dark {
     --ion-color-primary: #428cff;
     --ion-color-primary-rgb: 66,140,255;
     --ion-color-primary-contrast: #ffffff;

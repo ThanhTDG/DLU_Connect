@@ -1,0 +1,27 @@
+<div id="post-option-button" [ngStyle]="ngStyleOptionButton">
+  <div id="button" (click)="onClickOptionButton()">
+    <img src="{{imgOptionButton}}">
+  </div>
+  <div id="option">
+    <div id="option-reply" [ngStyle]="ngStyleOptionReply">
+      <input id="option-reply-ipnut" type="text" placeholder="{{hinInput}}" name="textReply" (input)="onReply()"  [(ngModel)]="replyValue">
+      <img id="reply-option" src="{{imgReplyOption}}" (click)="onClickOptionReply()">
+    </div>
+    <div id="option-view" [ngStyle]="ngStyleOptionView" (click)="onViewReply()">
+      <div id="op-view-num">
+        <span id="op-v-n-number">{{numReply}}</span>
+      </div>
+      <span id="op-v-n-description">{{description}}</span>
+    </div>
+  </div>
+  <div id="image-tag-container" [ngStyle]="ngStyleImgaeTag">
+    <ion-slides [options]="{slidesPerView: 'auto', zoom: false, grabCursor: true }">
+      <ion-slide class="tag-image" *ngFor="let image of tagImages">
+        <img class="ti-image" src="{{image}}">
+        <div class="ti-remove-button" (click)="removeTagImage(image)">
+          <img class="ti-rbtn-item" src="{{imgTagImageRemove}}">
+        </div>
+      </ion-slide>
+    </ion-slides>
+  </div>
+</div>

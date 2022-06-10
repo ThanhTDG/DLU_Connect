@@ -1,10 +1,16 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>notification</ion-title>
-  </ion-toolbar>
-</ion-header>
+<app-header-page pageTitle="Thông báo"></app-header-page>
 
 <ion-content>
+  <div class="nt-container">
+    <div class="nt-title" id="nt-tt-nearly">Gần đây</div>
+    <div id="nt-nearly-container">
+      <app-notification-item ipTitle="CNTT" ipContent="Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam aliquam..." ipHours="1 hours ago" *ngFor="let item of [0,1,2,3,4]"></app-notification-item>
+    </div>
+    <div class="nt-title" id="nt-tt-later">Trước đó</div>
+    <div id="nt-later-container">
+      <app-notification-item ipTitle="CNTT" ipContent="Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam aliquam..." ipHours="1 hours ago" *ngFor="let item of [0,1,2,3,4]"></app-notification-item>
+    </div>
+  </div>
 
 </ion-content>
 <ion-footer>

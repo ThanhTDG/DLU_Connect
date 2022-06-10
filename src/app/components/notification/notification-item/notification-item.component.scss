@@ -1,0 +1,50 @@
+#notification{
+    width: 100%;
+    height: 48px;
+    background-color: var(--ion-color-app-orange-light);
+    border-radius: 24px;
+    margin-bottom: 4px;
+    position: relative;
+    #notification-container{
+        padding-top: 2px;
+        position: relative;
+        #nt-avatar{
+            position: absolute;
+            width: 40px;
+            height: 40px;
+            border-radius: 20px;
+            background-color: var(--ion-color-app-orange-dark);
+            padding-left: 11px;
+            padding-top: 5px;
+            top: 4px;
+            left: 4px;
+            span{
+                font-size: 24px;
+                color: white;
+            }
+
+        }
+        #nt-content{
+            padding-left: 48px;
+            padding-right: 34px;
+            span{
+                display: block;
+            }
+            #nt-c-title{
+                font-size: 12px;
+            }
+            #nt-c-content{
+                font-size: 8px;
+            }
+            #nt-c-hours{
+                color: var(--ion-color-app-gray-light);
+                font-size: 8px;
+            }
+        }
+    }
+    #nt-option{
+        position: absolute;
+        top: 16px;
+        right: 20px;
+    }
+}

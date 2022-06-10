@@ -1,0 +1,29 @@
+<ion-header class="ion-no-border">
+  <ion-toolbar>
+    <div id="tb-back" (click)="back()">
+      <img src="../../../../assets/icon/main/back.png">
+    </div>
+  </ion-toolbar>
+</ion-header>
+<ion-content>
+  <img src="../../../assets/icon/login/DLU_connect.png" alt="" class="center" />
+  <form action="">
+    <ion-grid fixed>
+      <ion-row>
+        <ion-col size="12" style="padding: 0">
+          <div id="text-guide">
+            Vui lòng vào mail để xác nhận đăng ký. Nếu chưa nhận được vui lòng nhấn nút gửi lại mã.
+          </div>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </form>
+</ion-content>
+<ion-footer id="footer" class="ion-no-border">
+  <button id="btn_Submit" expand="block" fill="clear" shape="round" (click)="resendVerify()">
+    Gửi lại mã
+  </button>
+  <button id="btn_Submit" expand="block" fill="clear" shape="round" (click)="next()">
+    Tiếp tục
+  </button>
+</ion-footer>

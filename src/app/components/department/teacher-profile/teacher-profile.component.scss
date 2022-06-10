@@ -1,0 +1,22 @@
+#teacher-profile{
+    #teacher-container{
+        img{
+            width: 120px;
+            height: 120px;
+            border-radius: 60px;
+            object-fit: cover;
+        }
+        #tc-content{
+            #title{
+                font-size: 18px;
+                font-family: "Montserrat Bold";
+                color: var(--ion-color-app-green-darker);
+            }
+            #description{
+                font-size: 12px;
+                display: block;
+                color: var(--ion-color-app-green-dark);
+            }
+        }
+    }
+}

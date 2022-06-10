@@ -1,0 +1,28 @@
+ion-content {
+  --offset-bottom: auto !important;
+  --overflow: hidden;
+  overflow: auto;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+
+  background-color: var(--ion-color-app-white);
+
+  .nt-container {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+  .nt-title {
+    font-size: 24px;
+    font-family: "Montserrat Bold";
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+  #nt-tt-nearly {
+    padding-top: 0px;
+    color: var(--ion-color-app-orange-dark);
+  }
+  #nt-tt-later {
+    color: var(--ion-color-app-green-darker);
+  }
+}

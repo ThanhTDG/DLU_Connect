@@ -1,14 +1,13 @@
-<div id="to-create-post">
+<div id="to-create-post" (click)="toCreatePostPage()">
   <div id="tcp-container">
     <div id="tcp-text-field">
-      <p>{{question}}</p>
+      <span>{{ question }}</span>
     </div>
     <div id="tcp-add-image">
-      <img src={{btnAddImage}}>
+      <img src="{{ btnAddImage }}" />
     </div>
     <div id="tcp-avatar">
-      <img src={{userAvatar}}>
+      <img src="{{ userAvatar }}" />
     </div>
-
   </div>
 </div>

@@ -1,0 +1,61 @@
+<ion-header class="ion-no-border">
+  <ion-toolbar>
+    <div id="tb-back" (click)="back()">
+      <img src="../../../../assets/icon/main/back.png">
+    </div>
+    <ion-title>
+      Hoàn tất đăng ký
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-grid fixed>
+    <ion-avatar (click)="changeImage()" class="center">
+      <img *ngIf="user?.photoURL; else placeholder_avatar" [src]="user.photoURL" />
+
+      <ng-template #placeholder_avatar>
+        <img src="../../../assets/icon/default/default-avater-higher.png" alt="" />
+      </ng-template>
+    </ion-avatar>
+
+    <ion-row>
+      <ion-col size="12" style="padding: 0">
+        <a href="" id="chose-avatar">
+          Chọn ảnh đại diện
+        </a>
+      </ion-col>
+
+      <ion-col size="12" style="padding: 0">
+        <span>
+          (Bạn có thể bỏ qua bước này)
+        </span>
+      </ion-col>
+
+      <ion-col size="12" style="padding: 0">
+        <div class="input-container">
+          <ion-input type="text" placeholder="Tên hiển thị" [(ngModel)]="name"></ion-input>
+        </div>
+      </ion-col>
+
+      <ion-col size="12" style="padding: 0">
+        <div>
+          <div id="contract">
+            <span>
+              Bằng việc đăng ký, bạn chấp nhận
+              <a href="">Điều khoản dịch vụ</a>
+              và
+              <a href="">Chính Sách Bảo Mật</a> của
+              chúng tôi.
+            </span>
+          </div>
+        </div>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>
+<ion-footer id="footer" class="ion-no-border">
+  <button id="btn_Submit" expand="block" fill="clear" shape="round" (click)="complete()">
+    Hoàn thành
+  </button>
+</ion-footer>

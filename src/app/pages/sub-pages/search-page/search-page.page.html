@@ -1,0 +1,52 @@
+<ion-header>
+  <ion-toolbar>
+    <app-search-bar-advance (searchEmitter)="receiveSearchValue($event)"></app-search-bar-advance>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [scrollEvents]="true">
+  <div class="sp-container">
+    <div id="sp-bounder" [ngStyle]="ngStyleBounder">
+      <img src="{{imgHotSearch}}">
+      <app-hot-search inputTitle="CNTT" inputContent="Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam aliquam. Lorem ipsum dolor sit amet, consi"></app-hot-search>
+      <app-hot-search inputTitle="CNTT" inputContent="Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam aliquam. Lorem ipsum dolor sit amet, consi"></app-hot-search>
+      <app-hot-search inputTitle="CNTT" inputContent="Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam aliquam. Lorem ipsum dolor sit amet, consi"></app-hot-search>
+      <app-hot-search inputTitle="CNTT" inputContent="Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam aliquam. Lorem ipsum dolor sit amet, consi"></app-hot-search>
+      <div class="sp-search-title">Tìm kiếm gần đây</div>
+      <app-nearly-search inputTitle="CNTT" inputContent="" option="department"></app-nearly-search>
+      <app-nearly-search *ngFor="let data of datas" inputTitle="CNTT" inputContent="relationship" option="student" avatar="{{avatar}}" ></app-nearly-search>
+    </div>
+    <div id="sp-results" [ngStyle]="ngStyleSearchResult">
+      <div class="sp-search-title" id="sp-search-value">Kết quả cho <span>{{toViewSearchValue}}</span></div>
+      <app-nearly-search inputTitle="CNTT" inputContent="" option="department" viewed="false"></app-nearly-search>
+      <div id="sp-r-no-result" (click)="onViewSearchResult()">
+        <app-nearly-search inputTitle="" inputContent="" option="noResult"></app-nearly-search>
+        <span>{{noResultsearch}}</span>
+      </div>
+    </div>
+  </div>
+  <div id="sp-view-results" [ngStyle]="ngStyleViewResults">
+    <app-search-options [ipDatas]="['Tất cả', 'Khoa', 'Sinh Viên', 'Bài viết']" (choseOptionEmitter)="receiveChoseOptionEmitter($event)"></app-search-options>
+  </div>
+  <div class="sp-container" id="sp-cont-view-results" [ngStyle]="ngStyleViewResults">
+    <div id="so-cont-{{datas[1]}}" [ngStyle]="ngStyle1">
+      <div class="sp-search-title">{{datas[1]}}</div>
+      <app-nearly-search *ngFor="let data of datas" inputTitle="CNTT" inputContent="" option="department" followed="false" ></app-nearly-search>
+      <button class="btn-show-more">Xem thêm</button>
+    </div>
+    <div id="so-cont-{{datas[2]}}" [ngStyle]="ngStyle2">
+      <div class="sp-search-title">{{datas[2]}}</div>
+      <app-nearly-search *ngFor="let data of datas" inputTitle="CNTT" inputContent="relationship" option="student" avatar="{{avatar}}" followed="false" ></app-nearly-search>
+      <button class="btn-show-more">Xem thêm</button>
+    </div>
+    <div id="so-cont-{{datas[3]}}" [ngStyle]="ngStyle3">
+      <div class="sp-search-title" >{{datas[3]}}</div>
+      <div class="reSize">
+        <app-full-post></app-full-post>
+        <button class="btn-show-more">Xem thêm</button>
+      </div>
+    </div>
+  </div>
+
+
+</ion-content>

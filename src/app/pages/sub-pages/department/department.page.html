@@ -1,0 +1,54 @@
+<ion-header>
+  <ion-toolbar>
+    <div id="tb-back" (click)="toBack()">
+      <img src="../../../../assets/icon/main/back.png">
+    </div>
+    <ion-title>{{departmentName}}</ion-title>
+    <div id="department-bar-search-btn">
+      <img src="../../../assets/icon/main/search.png">
+    </div>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="container">
+    <div id="c-header">
+      <img id="ch-back-image" src="{{imgBackground}}">
+      <div id="ch-content">
+        <div id="ch-c-title">
+          <span id="ch-c-department-name">{{departmentName}}</span>
+          <div id="ch-c-desciption-container">
+            <span id="ch-c-description">{{classNumber}} lớp trực thuộc</span>
+            <span id="ch-c-description-2">{{studentNumber}} sinh viên</span>
+          </div>
+          <img id="ch-c-more" src="{{imgMore}}">
+        </div>
+        <button id="btn-follow" [ngStyle]="ngStyleBtnFollow" (click)="follow()">{{btnFollowStatus}}</button>
+        <app-members-bar></app-members-bar>
+      </div>
+    </div>
+    <div id="c-content">
+      <div id="department-teachers">{{departmentContentTeachers}}</div>
+      <ion-slides [options]="{ slidesPerView: 'auto', zoom: false, grabCursor: true }">
+        <ion-slide id="department-teacher-slide" *ngFor="let card of [0,1,2,3,4,5,6]" >
+          <ion-col>
+            <app-teacher-profile></app-teacher-profile>
+          </ion-col>
+        </ion-slide>
+      </ion-slides>
+      <div id="department-hot">{{departmentContentHot}}</div>
+      <ion-slides [options]="{ slidesPerView: 'auto', zoom: false, grabCursor: true }">
+        <ion-slide id="department-follow-short-post" *ngFor="let card of [0,1,2,3,4,5,6]" >
+          <ion-col>
+            <app-short-post></app-short-post>
+          </ion-col>
+        </ion-slide>
+      </ion-slides>
+      <div id="department-follow">{{departmentContent}}</div>
+      <app-full-post></app-full-post>
+      <app-full-post></app-full-post>
+      <app-full-post></app-full-post>
+    </div>
+  </div>
+
+</ion-content>

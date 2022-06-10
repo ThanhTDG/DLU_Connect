@@ -1,5 +1,7 @@
 /* eslint-disable @typescript-eslint/quotes */
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
+import { ModalController } from '@ionic/angular';
+import { ReactionPage } from '../post/reaction/reaction.page';
 
 @Component({
   selector: 'app-full-post',
@@ -7,12 +9,15 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./full-post.component.scss'],
 })
 export class FullPostComponent implements OnInit {
+  @Input() ipTitle: string;
+  @Input() ipContent: string;
+  @Input() ipImages: string;
   userAvatar: any;
   userName: any;
   time: any;
   textTitle: any;
   textContent: any;
-  image: any;
+  images: Array<string>=[];
   otRemove: any;
   otMore: any;
   numLike: any;
@@ -25,7 +30,7 @@ export class FullPostComponent implements OnInit {
   ctlbComment: any;
   ctShare: any;
   ctlbShare: any;
-  constructor() { }
+  constructor(private modalCtrl: ModalController) { }
 
   ngOnInit() {
     this.userAvatar = "../../../assets/icon/default/default-user-avatar.png";
@@ -34,8 +39,8 @@ export class FullPostComponent implements OnInit {
     this.textTitle = "Lorem ipsum dolor sit amet";
     // eslint-disable-next-line max-len
     this.textContent = "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel.Lorem ipsum dolor sit amet, consectetur";
-    this.image = "../../../assets/icon/default/default-post-bd-image.png";
-
+    this.images.push("../../../assets/icon/default/default-post-bd-image.png");
+    this.images.push("../../../assets/icon/default/default-post-bd-image.png");
     this.otRemove = "../../../assets/icon/main/close.png";
     this.otMore = "../../../assets/icon/main/more.png";
 
@@ -51,5 +56,22 @@ export class FullPostComponent implements OnInit {
     this.ctlbComment = "Bình luận";
     this.ctlbShare = "Chia sẻ";
   }
-
+  async onViewComment(){
+    const modal = await this.modalCtrl.create({
+      component: ReactionPage,
+      breakpoints: [0, 0.8],
+      initialBreakpoint: 0.8,
+      //componentProps: {title: this.title, content: this.content}
+      cssClass: 'custom-modal'
+    });
+    await modal.present();
+  }
+  getData(){
+    this.textTitle = this.ipTitle;
+    this.textContent = this.ipContent;
+    const imgs = this.ipImages.split('!1409!');
+    imgs.forEach(element => {
+      this.images.push(element);
+    });
+  }
 }

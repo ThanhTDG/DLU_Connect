@@ -1,0 +1,172 @@
+ion-header::after{
+    background-image: none;
+    
+}
+
+ion-toolbar{
+    padding-top: 12px;
+    ion-title{
+        font-size: 24px;
+        color: var(--ion-color-app-green-darker);
+        font-family: "Montserrat Bold";
+    }
+}
+
+ion-content {
+    --offset-bottom: auto !important;
+    --overflow: hidden;
+    overflow: auto;
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  
+    background-color: var(--ion-color-app-white);
+}
+
+#container{
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-bottom: 12px;
+    #options-bar{
+        background-color: var(--ion-color-app-green-dark);
+        height: 48px;
+        border-radius: 24px;
+        padding-left: 12px;
+        padding-right: 12px;
+        display: flex;
+        .op-item{
+            font-size: 12px;
+            font-family: "Montserrat Bold";
+            color: white;
+            span{
+                font-size: 12px;
+                font-family: "Montserrat Bold";
+                color: white;
+            }
+        }
+        #op-i-comment{
+            padding-top: 15px;
+            padding-right: 8px;
+        }
+        #op-i-like{
+            width: 74px;
+            height: 100%;
+            padding-top: 15px;
+            padding-left: 36px;
+            position: relative;
+            img{
+                position: absolute;
+                top: 8px;
+                left: 8px;
+            }
+        }
+        #op-i-share{
+            width: 64px;
+            height: 100%;
+            padding-top: 15px;
+            padding-left: 36px;
+            position: relative;
+            img{
+                position: absolute;
+                top: 8px;
+                left: 8px;
+            }
+        }
+    }
+    #content{
+        padding-top: 12px;
+        height: 100%;
+        #content-comment{
+
+        }
+        #content-like{
+
+        }
+        #content-share{
+
+        }
+    }
+}
+
+ion-footer{
+    &.footer-md::before {
+        background-image: none;
+    }
+    #image-tag-container{
+        display: none;
+        margin-bottom: 4px;
+        width: 100%;
+        justify-content: left;
+        ion-slides{
+            width: 100%;
+        }
+        .tag-image{
+            display: block;
+            width: 120px;
+            height: 48px;
+            border-radius: 24px;
+            position: relative;
+            margin-right: 4px;
+            background-color: var(--ion-color-app-green-dark);
+            .ti-image{
+                width: 120px;
+                height: 48px;
+                border-radius: 24px;
+                object-fit: cover;
+            }
+            .ti-remove-button{
+                position: absolute;
+                top: 12px;
+                right: 12px;
+                width: 24px;
+                height: 24px;
+                border-radius: 12px;
+                background-color: var(--ion-color-app-primary);
+            }
+        }
+
+    }
+    #send-button-container{
+        background-color: var(--ion-color-app-green-dark);
+        width: 100%;
+        height: 48px;
+        border-radius: 24px;
+        position: relative;
+        #send-button{
+            position: absolute;
+            top: 0px;
+            right: 0px;
+            z-index: 1;
+        }
+        #send-input-field{
+            padding-left: 12px;
+            padding-top: 8px;
+            padding-right: 58px;
+            position: relative;
+            input{
+                font-size: 12px;
+                width: 100%;
+                height: 32px;
+                background-color: var(--ion-color-app-primary);
+                border: none;
+                border-radius: 16px;
+                ::placeholder{
+                    color: var(--ion-color-app-gray-light);
+                }
+                padding-left: 8px;
+                padding-right: 32px;
+            }
+            input:focus{
+                outline: none;
+            }
+            img{
+                position: absolute;
+                right: 64px;
+                top: 12px;
+            }
+        }
+    }
+}
+ion-footer::after{
+    background-image: none;
+}

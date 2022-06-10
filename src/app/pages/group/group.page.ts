@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/quotes */
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -7,27 +8,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class GroupPage implements OnInit {
   groupName: any;
-  srcBtnSearch: any;
-  ngStyleSearch: any;
-  srcBtnMore: any;
-  srcImgCover: any;
-
+  imgBackground: any;
+  groupNumber: any;
+  imgMore: any;
+  groupContentHot="Đáng lưu ý";
+  groupContent="Bài viết";
   constructor() { }
 
   ngOnInit() {
-    this.groupName = "CTK43";
-    this.srcBtnSearch = "../../../assets/icon/main/search.png";
-    this.ngStyleSearch = {
-      width: '40px' ,
-      height: '40px' ,
-      'background-color' : 'var(--ion-color-app-green-dark)' ,
-      'border-radius' : '20px' ,
-      'display' : 'flex' ,
-      'justify-items' : 'center' ,
-      padding: '8px' ,
-    };
-    this.srcBtnMore = "../../../assets/icon/main/more.png";
-    this.srcImgCover = "../../../assets/img/group-cover.png";
+    this.groupName="CNTT";
+    this.imgBackground="../../../../assets/icon/group/default-background.png";
+    this.imgMore = "../../../../assets/icon/group/more.png";
+    this.groupNumber=40;
   }
 
 }

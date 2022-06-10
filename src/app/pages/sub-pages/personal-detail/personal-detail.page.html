@@ -1,0 +1,39 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Bài viết của bạn</ion-title>
+    <div id="personal-detail-bar-search-btn">
+      <img src="../../../assets/icon/main/search.png">
+    </div>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div id="options-bar">
+    <div id="ob-container" [ngStyle]="ngStyleOptionBarContainer">
+      <div id="ob-c-avatar">
+        <img src="{{imgAvatar}}">
+        <div id="avatar-content">
+          <span id="ava-c-title">{{title}}</span>
+          <span id="ava-c-content">{{content}}</span>
+        </div>
+      </div>
+      <div id="ob-c-options">
+        <app-search-options (choseOptionEmitter)="receiveChoseOptionEmitter($event)" [ipDatas]="['Tất cả', 'Của bạn', 'Liên quan']" radius="false"></app-search-options>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div id="cont-{{datas[1]}}" [ngStyle]="ngStyle1">
+      <div class="cont-title" id="cont-yours-title">{{datas[1]}}</div>
+      <app-full-post *ngFor="let i of [0,1,2]"></app-full-post>
+    </div>
+    <div id="cont-{{datas[2]}}" [ngStyle]="ngStyle2">
+      <div class="cont-title">{{datas[2]}}</div>
+      <app-full-post *ngFor="let i of [0,1,2]"></app-full-post>
+    </div>
+  </div>
+
+</ion-content>
+<ion-footer>
+  <app-navigation-bar [location]="4"></app-navigation-bar>
+</ion-footer>
