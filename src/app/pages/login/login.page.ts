@@ -1,9 +1,10 @@
+import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { Router } from '@angular/router';
 import { LoadingController } from '@ionic/angular';
-
-import { AuthService } from 'src/app/services/auth.service';
+import { AuthService } from 'src/app/services/auth/auth.service';
+import { loadFake } from 'src/utils/fakedata';
 
 @Component({
   selector: 'app-login',
@@ -17,6 +18,7 @@ export class LoginPage implements OnInit {
   constructor(
     private formBuilder: FormBuilder,
     private auth: AuthService,
+    private http: HttpClient,
     private loading: LoadingController,
     private router: Router
   ) {}
@@ -41,6 +43,9 @@ export class LoginPage implements OnInit {
         ],
       ],
     });
+
+    // TODO: Fake data
+    loadFake(this.auth, this.http);
   }
 
   onInput() {

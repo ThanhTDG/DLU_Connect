@@ -1,0 +1,22 @@
+﻿[
+  {
+    "uid": "1",
+    "name": "Chủ group",
+    "description": "Chủ của group"
+  },
+  {
+    "uid": "2",
+    "name": "Hội phó",
+    "description": "Hội phó của group"
+  },
+  {
+    "uid": "3",
+    "name": "Quản lý",
+    "description": "Quản lý của group"
+  },
+  {
+    "uid": "4",
+    "name": "Thành viên",
+    "description": "Thành viên của group"
+  }
+]

@@ -1,0 +1,37 @@
+﻿[
+  {
+    "uid": "1",
+    "owner_uid": "1",
+    "name": "Thanh",
+    "description": "Nhóm học tập",
+    "createdDate": "6/9/21 21:51"
+  },
+  {
+    "uid": "2",
+    "owner_uid": "2",
+    "name": "Thư",
+    "description": "Nhóm sáng tạo",
+    "createdDate": "6/9/21 21:51"
+  },
+  {
+    "uid": "3",
+    "owner_uid": "3",
+    "name": "Hiếu",
+    "description": "Nhóm nghiên cứu",
+    "createdDate": "6/9/21 21:51"
+  },
+  {
+    "uid": "4",
+    "owner_uid": "4",
+    "name": "Hữu",
+    "description": "Nhóm hội hoạ",
+    "createdDate": "6/9/21 21:51"
+  },
+  {
+    "uid": "5",
+    "owner_uid": "5",
+    "name": "Phú",
+    "description": "Nhóm ý tưởng",
+    "createdDate": "6/9/21 21:51"
+  }
+]

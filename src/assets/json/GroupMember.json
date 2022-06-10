@@ -1,0 +1,122 @@
+﻿[
+  {
+    "uid": "1",
+    "group_uid": "1",
+    "member_uid": "1",
+    "role_uid": "1"
+  },
+  {
+    "uid": "2",
+    "group_uid": "1",
+    "member_uid": "6",
+    "role_uid": "2"
+  },
+  {
+    "uid": "3",
+    "group_uid": "1",
+    "member_uid": "11",
+    "role_uid": "3"
+  },
+  {
+    "uid": "4",
+    "group_uid": "1",
+    "member_uid": "16",
+    "role_uid": "4"
+  },
+  {
+    "uid": "5",
+    "group_uid": "2",
+    "member_uid": "2",
+    "role_uid": "1"
+  },
+  {
+    "uid": "6",
+    "group_uid": "2",
+    "member_uid": "7",
+    "role_uid": "2"
+  },
+  {
+    "uid": "7",
+    "group_uid": "2",
+    "member_uid": "12",
+    "role_uid": "3"
+  },
+  {
+    "uid": "8",
+    "group_uid": "2",
+    "member_uid": "17",
+    "role_uid": "4"
+  },
+  {
+    "uid": "9",
+    "group_uid": "3",
+    "member_uid": "3",
+    "role_uid": "1"
+  },
+  {
+    "uid": "10",
+    "group_uid": "3",
+    "member_uid": "8",
+    "role_uid": "2"
+  },
+  {
+    "uid": "11",
+    "group_uid": "3",
+    "member_uid": "13",
+    "role_uid": "3"
+  },
+  {
+    "uid": "12",
+    "group_uid": "3",
+    "member_uid": "18",
+    "role_uid": "4"
+  },
+  {
+    "uid": "13",
+    "group_uid": "4",
+    "member_uid": "4",
+    "role_uid": "1"
+  },
+  {
+    "uid": "14",
+    "group_uid": "4",
+    "member_uid": "9",
+    "role_uid": "2"
+  },
+  {
+    "uid": "15",
+    "group_uid": "4",
+    "member_uid": "14",
+    "role_uid": "3"
+  },
+  {
+    "uid": "16",
+    "group_uid": "4",
+    "member_uid": "19",
+    "role_uid": "4"
+  },
+  {
+    "uid": "17",
+    "group_uid": "5",
+    "member_uid": "5",
+    "role_uid": "1"
+  },
+  {
+    "uid": "18",
+    "group_uid": "5",
+    "member_uid": "10",
+    "role_uid": "2"
+  },
+  {
+    "uid": "19",
+    "group_uid": "5",
+    "member_uid": "15",
+    "role_uid": "3"
+  },
+  {
+    "uid": "20",
+    "group_uid": "5",
+    "member_uid": "20",
+    "role_uid": "4"
+  }
+]

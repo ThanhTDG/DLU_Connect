@@ -1,12 +1,13 @@
-/* eslint-disable @typescript-eslint/quotes */
+import { HttpClient } from '@angular/common/http';
 import { AfterViewInit, Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
-import { connectableObservableDescriptor } from 'rxjs/internal/observable/ConnectableObservable';
-import { Group } from 'src/app/interfaces/group';
-import { Profile } from 'src/app/interfaces/profile';
-import { AuthService } from 'src/app/services/auth.service';
-import { GroupService } from 'src/app/services/group.service';
-import { UserService } from 'src/app/services/user.service';
+import { Post } from 'src/app/interfaces/post';
+import { AuthService } from 'src/app/services/auth/auth.service';
+import { GroupService } from 'src/app/services/firestores/group.service';
+import { PageService } from 'src/app/services/firestores/page.service';
+import { PostService } from 'src/app/services/firestores/post.service';
+import { ProfileService } from 'src/app/services/firestores/profile.service';
+import { RoleService } from 'src/app/services/firestores/role.service';
 
 @Component({
   selector: 'app-home',
@@ -23,9 +24,13 @@ export class HomePage implements OnInit, AfterViewInit {
   postImages = '';
 
   constructor(
+    private http: HttpClient,
     private auth: AuthService,
-    private user: UserService,
+    private profile: ProfileService,
+    private post: PostService,
+    private role: RoleService,
     private group: GroupService,
+    private page: PageService,
     private router: Router,
     private route: ActivatedRoute
   ) {}
@@ -38,13 +43,60 @@ export class HomePage implements OnInit, AfterViewInit {
     this.appName = '../../../assets/icon/app-name.png';
     this.homeContentHot = 'Nổi bật';
     this.homeContentFollow = 'Đang theo dõi';
-    //this.getPostData();
+    // this.getPostData();
 
-    this.user.getAll().then((res) => {
-      res.forEach((value) => {
-        console.log(value.data());
-      });
-    });
+    // this.page.getAll().then((res) => {
+    //   res.forEach((val) => {
+    //     console.log(val.data());
+    //   });
+    // });
+    const post: Post = {
+      uid: null,
+      ref: null,
+      author: null,
+      content: 'Bai viet na',
+      images: [],
+      updatedDate: new Date(),
+      createdDate: new Date(),
+      comments: [
+        {
+          uid: null,
+          ref: null,
+          author: null,
+          content: 'binh luan 1 na',
+          images: [],
+          createdDate: new Date(),
+          comments: [
+            {
+              uid: null,
+              ref: null,
+              author: null,
+              content: 'binh luan 2 na',
+              images: [],
+              createdDate: new Date(),
+              comments: [],
+            },
+          ],
+        },
+        {
+          uid: null,
+          ref: null,
+          author: null,
+          content: 'binh luan 3 na',
+          images: [],
+          createdDate: new Date(),
+          comments: [],
+        },
+      ],
+    };
+
+    // this.post.getAll().then((res) => {
+    //   res.forEach((val) => {
+    //     console.log(val.data());
+    //   });
+    // });
+
+    // this.post.add(post);
   }
 
   randomNumber() {

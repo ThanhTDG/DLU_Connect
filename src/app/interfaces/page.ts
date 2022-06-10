@@ -1,8 +1,8 @@
+import { Followable } from './followable';
 import { Profile } from './profile';
 
-export interface Page {
-  readonly uid: string;
-  creator: Profile;
+export interface Page extends Followable {
+  user: Profile;
   name: string;
   description: string;
   photoUrl: string;

@@ -8,15 +8,21 @@ import {
   Firestore,
   getDoc,
   getDocs,
+  limit,
+  orderBy,
+  OrderByDirection,
+  query,
   QueryDocumentSnapshot,
   updateDoc,
+  where,
+  WhereFilterOp,
 } from '@angular/fire/firestore';
 
 @Injectable({
   providedIn: 'root',
 })
 export abstract class FirestoreService<T> {
-  protected converter = {
+  readonly converter = {
     fromFirestore: this.fromFirestore,
     toFirestore: this.toFirestore,
   };
@@ -25,9 +31,9 @@ export abstract class FirestoreService<T> {
 
   constructor(
     protected firestore: Firestore,
-    protected collectionName?: string
+    protected collectionPath: string
   ) {
-    this.collection = collection(firestore, collectionName).withConverter(
+    this.collection = collection(firestore, collectionPath).withConverter(
       this.converter
     );
   }
@@ -55,8 +61,26 @@ export abstract class FirestoreService<T> {
     return await deleteDoc(ref);
   }
 
-  protected doc(uid: string) {
-    return doc(this.firestore, this.collectionName, uid).withConverter(
+  async where(field: string, operator: WhereFilterOp, value: string) {
+    const ref = this.collection;
+    const q = query(ref, where(field, operator, value));
+    return await getDocs(q);
+  }
+
+  async orderBy(field: string, direction: OrderByDirection) {
+    const ref = this.collection;
+    const q = query(ref, orderBy(field, direction));
+    return await getDocs(q);
+  }
+
+  async limit(num: number) {
+    const ref = this.collection;
+    const q = query(ref, limit(num));
+    return await getDocs(q);
+  }
+
+  doc(uid: string) {
+    return doc(this.firestore, this.collectionPath, uid).withConverter(
       this.converter
     );
   }

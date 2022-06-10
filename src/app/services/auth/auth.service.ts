@@ -9,7 +9,7 @@ import {
   updateProfile,
   User,
 } from '@angular/fire/auth';
-import { Firestore } from '@angular/fire/firestore';
+import { doc, Firestore, setDoc } from '@angular/fire/firestore';
 import {
   getDownloadURL,
   ref,
@@ -17,6 +17,8 @@ import {
   uploadString,
 } from '@angular/fire/storage';
 import { Photo } from '@capacitor/camera';
+import { Profile } from 'src/app/interfaces/profile';
+import { ProfileService } from '../firestores/profile.service';
 
 @Injectable({
   providedIn: 'root',
@@ -27,7 +29,8 @@ export class AuthService {
   constructor(
     private auth: Auth,
     private firestore: Firestore,
-    private storage: Storage
+    private storage: Storage,
+    private profile: ProfileService
   ) {
     auth.onAuthStateChanged((user) => {
       if (user) {
@@ -77,7 +80,26 @@ export class AuthService {
     const path = 'default/avatar/avatar.png';
     const storageRef = ref(this.storage, path);
     const photoUrl = await getDownloadURL(storageRef);
-    return await updateProfile(user, { displayName: name, photoURL: photoUrl });
+
+    await updateProfile(user, { displayName: name, photoURL: photoUrl });
+
+    const obj: Profile = {
+      uid: user.uid,
+      ref: null,
+      email: user.email,
+      emailVerified: user.emailVerified,
+      displayName: user.displayName,
+      photoUrl: user.photoURL,
+      firstName: null,
+      lastName: null,
+      birthdate: new Date(),
+      gender: 'U',
+      backgroundUrl: null,
+      friends: [],
+      followers: [],
+      following: [],
+    };
+    await this.profile.setProfile(obj);
   }
 
   async uploadPhoto(cameraFile: Photo) {
@@ -87,11 +109,15 @@ export class AuthService {
 
     await uploadString(storageRef, cameraFile.base64String, 'base64');
     const photoUrl = await getDownloadURL(storageRef);
-    return await updateProfile(user, { photoURL: photoUrl });
+    await updateProfile(user, { photoURL: photoUrl });
+
+    await this.profile.update(user.uid, { photoUrl });
   }
 
   async modifyName(name: string) {
     const user = this.currentUser;
-    return await updateProfile(user, { displayName: name });
+    await updateProfile(user, { displayName: name });
+
+    await this.profile.update(user.uid, { displayName: name });
   }
 }

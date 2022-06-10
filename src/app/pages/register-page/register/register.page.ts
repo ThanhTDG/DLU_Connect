@@ -3,8 +3,8 @@ import { LoadingController, NavController } from '@ionic/angular';
 import { Router } from '@angular/router';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 
-import Validation from 'src/utils/Validation';
-import { AuthService } from 'src/app/services/auth.service';
+import Validation from 'src/utils/validation';
+import { AuthService } from 'src/app/services/auth/auth.service';
 
 @Component({
   selector: 'app-register',

@@ -3,7 +3,7 @@ import { NavigationExtras, Router } from '@angular/router';
 import { NativeTransitionOptions } from '@awesome-cordova-plugins/native-page-transitions';
 import { NativePageTransitions } from '@awesome-cordova-plugins/native-page-transitions/ngx';
 import { NavController } from '@ionic/angular';
-import { AuthService } from 'src/app/services/auth.service';
+import { AuthService } from 'src/app/services/auth/auth.service';
 
 @Component({
   selector: 'app-personal',

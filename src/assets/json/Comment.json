@@ -1,0 +1,8082 @@
+﻿[
+  {
+    "uid": "1",
+    "post_uid": "1",
+    "user_uid": "8",
+    "content": "Anh về lại ngôi nhà mình",
+    "createdDate": "6/9/22 19:19",
+    "undefined": "0.101"
+  },
+  {
+    "uid": "2",
+    "post_uid": "1",
+    "user_uid": "9",
+    "content": "Sau mười năm chiến tranh.",
+    "createdDate": "6/9/22 19:19",
+    "undefined": "0.1009"
+  },
+  {
+    "uid": "3",
+    "post_uid": "1",
+    "user_uid": "3",
+    "content": "Mẹ đón anh buổi bình minh nhập nhoạng,",
+    "createdDate": "6/9/22 19:19",
+    "undefined": "0.1008"
+  },
+  {
+    "uid": "4",
+    "post_uid": "1",
+    "user_uid": "8",
+    "content": "Cơn mưa đón anh buổi hừng đông chạng vạng,",
+    "createdDate": "6/9/22 19:19",
+    "undefined": "0.1007"
+  },
+  {
+    "uid": "5",
+    "post_uid": "1",
+    "user_uid": "17",
+    "content": "Mưa… Mưa… Mưa…",
+    "createdDate": "6/9/22 19:19",
+    "undefined": "0.1006"
+  },
+  {
+    "uid": "6",
+    "post_uid": "1",
+    "user_uid": "10",
+    "content": "Mưa ngoài trời",
+    "createdDate": "6/9/22 19:19",
+    "undefined": "0.1005"
+  },
+  {
+    "uid": "7",
+    "post_uid": "1",
+    "user_uid": "10",
+    "content": "Khắp nơi,",
+    "createdDate": "6/9/22 19:20",
+    "undefined": "0.1004"
+  },
+  {
+    "uid": "8",
+    "post_uid": "1",
+    "user_uid": "1",
+    "content": "Mưa ngoài sân,",
+    "createdDate": "6/9/22 19:20",
+    "undefined": "0.1003"
+  },
+  {
+    "uid": "9",
+    "post_uid": "1",
+    "user_uid": "11",
+    "content": "Nhưng cũng mưa cả trong nhà…",
+    "createdDate": "6/9/22 19:20",
+    "undefined": "0.1002"
+  },
+  {
+    "uid": "10",
+    "post_uid": "1",
+    "user_uid": "6",
+    "content": "Sau lời mẹ là lời mưa reo ca…",
+    "createdDate": "6/9/22 19:20",
+    "undefined": "0.1001"
+  },
+  {
+    "uid": "11",
+    "post_uid": "2",
+    "user_uid": "3",
+    "content": "Nhà dột.",
+    "createdDate": "6/9/22 19:20",
+    "undefined": "0.1"
+  },
+  {
+    "uid": "12",
+    "post_uid": "2",
+    "user_uid": "14",
+    "content": "Chỗ nằm chỉ còn đủ độ dài giữa hai chiếc cột",
+    "createdDate": "6/9/22 19:20",
+    "undefined": "0.0999"
+  },
+  {
+    "uid": "13",
+    "post_uid": "2",
+    "user_uid": "18",
+    "content": "Chiều rộng bằng khuôn chiếc tăng.",
+    "createdDate": "6/9/22 19:20",
+    "undefined": "0.0998"
+  },
+  {
+    "uid": "14",
+    "post_uid": "2",
+    "user_uid": "13",
+    "content": "Mắc võng.",
+    "createdDate": "6/9/22 19:21",
+    "undefined": "0.0997"
+  },
+  {
+    "uid": "15",
+    "post_uid": "2",
+    "user_uid": "5",
+    "content": "Lại mắc võng.",
+    "createdDate": "6/9/22 19:21",
+    "undefined": "0.0996"
+  },
+  {
+    "uid": "16",
+    "post_uid": "2",
+    "user_uid": "12",
+    "content": "Vẫn là cây theo anh từ rừng về đây làm cột.",
+    "createdDate": "6/9/22 19:21",
+    "undefined": "0.0995"
+  },
+  {
+    "uid": "17",
+    "post_uid": "2",
+    "user_uid": "10",
+    "content": "Võng đưa sẽ ướt,",
+    "createdDate": "6/9/22 19:21",
+    "undefined": "0.0994"
+  },
+  {
+    "uid": "18",
+    "post_uid": "2",
+    "user_uid": "4",
+    "content": "Nhưng đã có con mọt trong cột làm âm thanh đung đưa",
+    "createdDate": "6/9/22 19:21",
+    "undefined": "0.0993"
+  },
+  {
+    "uid": "19",
+    "post_uid": "2",
+    "user_uid": "9",
+    "content": "Ngày xưa,",
+    "createdDate": "6/9/22 19:21",
+    "undefined": "0.0992"
+  },
+  {
+    "uid": "20",
+    "post_uid": "2",
+    "user_uid": "12",
+    "content": "Chỗ ướt mẹ nằm, sau mười năm",
+    "createdDate": "6/9/22 19:21",
+    "undefined": "0.0991"
+  },
+  {
+    "uid": "21",
+    "post_uid": "3",
+    "user_uid": "13",
+    "content": "Vẫn chỗ mưa mẹ đứng",
+    "createdDate": "6/9/22 19:22",
+    "undefined": "0.099"
+  },
+  {
+    "uid": "22",
+    "post_uid": "3",
+    "user_uid": "2",
+    "content": "Mẹ trao cho anh chiếc đèn và bảo",
+    "createdDate": "6/9/22 19:22",
+    "undefined": "0.0989"
+  },
+  {
+    "uid": "23",
+    "post_uid": "3",
+    "user_uid": "18",
+    "content": "Đừng để ngọn lửa rụng!",
+    "createdDate": "6/9/22 19:22",
+    "undefined": "0.0988"
+  },
+  {
+    "uid": "24",
+    "post_uid": "3",
+    "user_uid": "14",
+    "content": "Mẹ xếp những thùng, chậu, nồi, xoong…",
+    "createdDate": "6/9/22 19:22",
+    "undefined": "0.0987"
+  },
+  {
+    "uid": "25",
+    "post_uid": "3",
+    "user_uid": "11",
+    "content": "Khúc nhạc mưa nhà dột tấu lên",
+    "createdDate": "6/9/22 19:22",
+    "undefined": "0.0986"
+  },
+  {
+    "uid": "26",
+    "post_uid": "3",
+    "user_uid": "10",
+    "content": "Ru êm cánh võng.",
+    "createdDate": "6/9/22 19:22",
+    "undefined": "0.0985"
+  },
+  {
+    "uid": "27",
+    "post_uid": "3",
+    "user_uid": "18",
+    "content": "Người lính nằm im,",
+    "createdDate": "6/9/22 19:22",
+    "undefined": "0.0984"
+  },
+  {
+    "uid": "28",
+    "post_uid": "3",
+    "user_uid": "12",
+    "content": "Nghe âm thanh chiến tranh trong người mình cất giọng",
+    "createdDate": "6/9/22 19:23",
+    "undefined": "0.0983"
+  },
+  {
+    "uid": "29",
+    "post_uid": "3",
+    "user_uid": "19",
+    "content": "Trong đêm hoà bình đầu tiên.",
+    "createdDate": "6/9/22 19:23",
+    "undefined": "0.0982"
+  },
+  {
+    "uid": "30",
+    "post_uid": "3",
+    "user_uid": "4",
+    "content": "II.",
+    "createdDate": "6/9/22 19:23",
+    "undefined": "0.0981"
+  },
+  {
+    "uid": "31",
+    "post_uid": "4",
+    "user_uid": "6",
+    "content": "Không có trái bom nào rơi đúng nhà mẹ,",
+    "createdDate": "6/9/22 19:23",
+    "undefined": "0.098"
+  },
+  {
+    "uid": "32",
+    "post_uid": "4",
+    "user_uid": "10",
+    "content": "Không có viên đạn nào bắn thủng mái nhà mẹ",
+    "createdDate": "6/9/22 19:23",
+    "undefined": "0.0979"
+  },
+  {
+    "uid": "33",
+    "post_uid": "4",
+    "user_uid": "4",
+    "content": "Chỉ có đứa con trai đi xa",
+    "createdDate": "6/9/22 19:23",
+    "undefined": "0.0978"
+  },
+  {
+    "uid": "34",
+    "post_uid": "4",
+    "user_uid": "16",
+    "content": "Chỉ có sự chờ đợi nặng nề giọt xuống",
+    "createdDate": "6/9/22 19:23",
+    "undefined": "0.0977"
+  },
+  {
+    "uid": "35",
+    "post_uid": "4",
+    "user_uid": "18",
+    "content": "Đã xuyên thủng mái nhà thành những lỗ to lỗ nhỏ khác nhau",
+    "createdDate": "6/9/22 19:24",
+    "undefined": "0.0976"
+  },
+  {
+    "uid": "36",
+    "post_uid": "4",
+    "user_uid": "5",
+    "content": "Nắng mưa lọt vào sau",
+    "createdDate": "6/9/22 19:24",
+    "undefined": "0.0975"
+  },
+  {
+    "uid": "37",
+    "post_uid": "4",
+    "user_uid": "9",
+    "content": "Xuyên",
+    "createdDate": "6/9/22 19:24",
+    "undefined": "0.0974"
+  },
+  {
+    "uid": "38",
+    "post_uid": "4",
+    "user_uid": "15",
+    "content": "Xối",
+    "createdDate": "6/9/22 19:24",
+    "undefined": "0.0973"
+  },
+  {
+    "uid": "39",
+    "post_uid": "4",
+    "user_uid": "19",
+    "content": "Những sợi nắng, những sợi mưa nếu có thể nối, cũng chỉ dài",
+    "createdDate": "6/9/22 19:24",
+    "undefined": "0.0972"
+  },
+  {
+    "uid": "40",
+    "post_uid": "4",
+    "user_uid": "9",
+    "content": "Bằng một phần sự mong đợi",
+    "createdDate": "6/9/22 19:24",
+    "undefined": "0.0971"
+  },
+  {
+    "uid": "41",
+    "post_uid": "5",
+    "user_uid": "7",
+    "content": "Và những hạt nắng, những hạt mưa nếu đem xếp lại, có thể cao hơn mọi trái núi.",
+    "createdDate": "6/9/22 19:24",
+    "undefined": "0.097"
+  },
+  {
+    "uid": "42",
+    "post_uid": "5",
+    "user_uid": "1",
+    "content": "Mười năm, cũng chỉ là thoáng qua,",
+    "createdDate": "6/9/22 19:25",
+    "undefined": "0.0969"
+  },
+  {
+    "uid": "43",
+    "post_uid": "5",
+    "user_uid": "2",
+    "content": "Vì tuổi mẹ sáu bẩy lần hơn,",
+    "createdDate": "6/9/22 19:25",
+    "undefined": "0.0968"
+  },
+  {
+    "uid": "44",
+    "post_uid": "5",
+    "user_uid": "19",
+    "content": "Mẹ vẫn nói đời mình như nắng trận mưa cơn…",
+    "createdDate": "6/9/22 19:25",
+    "undefined": "0.0967"
+  },
+  {
+    "uid": "45",
+    "post_uid": "5",
+    "user_uid": "7",
+    "content": "Mái rạ của mẹ cũng không thủng lỗ chỗ",
+    "createdDate": "6/9/22 19:25",
+    "undefined": "0.0966"
+  },
+  {
+    "uid": "46",
+    "post_uid": "5",
+    "user_uid": "6",
+    "content": "Nếu con chỉ đi ra đồng, ra chợ",
+    "createdDate": "6/9/22 19:25",
+    "undefined": "0.0965"
+  },
+  {
+    "uid": "47",
+    "post_uid": "5",
+    "user_uid": "11",
+    "content": "Chứ không phải chiến tranh.",
+    "createdDate": "6/9/22 19:25",
+    "undefined": "0.0964"
+  },
+  {
+    "uid": "48",
+    "post_uid": "5",
+    "user_uid": "3",
+    "content": "Có phải những viên đạn trong vô hình ý nghĩ",
+    "createdDate": "6/9/22 19:25",
+    "undefined": "0.0963"
+  },
+  {
+    "uid": "49",
+    "post_uid": "5",
+    "user_uid": "4",
+    "content": "Bắn lúc đêm khuya vào đứa con thơ bé",
+    "createdDate": "6/9/22 19:26",
+    "undefined": "0.0962"
+  },
+  {
+    "uid": "50",
+    "post_uid": "5",
+    "user_uid": "12",
+    "content": "Đã để những lỗ thủng lốm đốm trên màu tóc mẹ",
+    "createdDate": "6/9/22 19:26",
+    "undefined": "0.0961"
+  },
+  {
+    "uid": "51",
+    "post_uid": "5",
+    "user_uid": "11",
+    "content": "Như những hạt nắng hạt mưa giọt sót vào đây,",
+    "createdDate": "6/9/22 19:26",
+    "undefined": "0.096"
+  },
+  {
+    "uid": "52",
+    "post_uid": "5",
+    "user_uid": "6",
+    "content": "Để ai ai cũng phải nhìn và vội ngoảnh đi ngay…",
+    "createdDate": "6/9/22 19:26",
+    "undefined": "0.0959"
+  },
+  {
+    "uid": "53",
+    "post_uid": "5",
+    "user_uid": "20",
+    "content": "Và đêm nào mẹ cũng khấn, để phập phồng một lần tin, một lần vui,",
+    "createdDate": "6/9/22 19:26",
+    "undefined": "0.0958"
+  },
+  {
+    "uid": "54",
+    "post_uid": "5",
+    "user_uid": "8",
+    "content": "Nhưng tai ác hơn, mái nhà cứ thủng.",
+    "createdDate": "6/9/22 19:26",
+    "undefined": "0.0957"
+  },
+  {
+    "uid": "55",
+    "post_uid": "5",
+    "user_uid": "20",
+    "content": "Chẳng có na-pan, lân tinh, phốt-pho",
+    "createdDate": "6/9/22 19:26",
+    "undefined": "0.0956"
+  },
+  {
+    "uid": "56",
+    "post_uid": "5",
+    "user_uid": "3",
+    "content": "Chỉ có mưa nắng,",
+    "createdDate": "6/9/22 19:27",
+    "undefined": "0.0955"
+  },
+  {
+    "uid": "57",
+    "post_uid": "5",
+    "user_uid": "7",
+    "content": "Sự xa vắng,",
+    "createdDate": "6/9/22 19:27",
+    "undefined": "0.0954"
+  },
+  {
+    "uid": "58",
+    "post_uid": "5",
+    "user_uid": "7",
+    "content": "Khiến mái rạ mục mủn, bạc như màu tóc bạc,",
+    "createdDate": "6/9/22 19:27",
+    "undefined": "0.0953"
+  },
+  {
+    "uid": "59",
+    "post_uid": "5",
+    "user_uid": "19",
+    "content": "Đôi sẻ tự tình bị hẫng hốt hoảng vù lên, bụi mù như tro bay…",
+    "createdDate": "6/9/22 19:27",
+    "undefined": "0.0952"
+  },
+  {
+    "uid": "60",
+    "post_uid": "5",
+    "user_uid": "14",
+    "content": "Mong đợi",
+    "createdDate": "6/9/22 19:27",
+    "undefined": "0.0951"
+  },
+  {
+    "uid": "61",
+    "post_uid": "6",
+    "user_uid": "7",
+    "content": "Yêu đương,",
+    "createdDate": "6/9/22 19:27",
+    "undefined": "0.095"
+  },
+  {
+    "uid": "62",
+    "post_uid": "6",
+    "user_uid": "14",
+    "content": "Giả định: sống chết",
+    "createdDate": "6/9/22 19:27",
+    "undefined": "0.0949"
+  },
+  {
+    "uid": "63",
+    "post_uid": "6",
+    "user_uid": "8",
+    "content": "Của mẹ về con, làm cho con được sống.",
+    "createdDate": "6/9/22 19:28",
+    "undefined": "0.0948"
+  },
+  {
+    "uid": "64",
+    "post_uid": "6",
+    "user_uid": "16",
+    "content": "Con trở về giản dị,",
+    "createdDate": "6/9/22 19:28",
+    "undefined": "0.0947"
+  },
+  {
+    "uid": "65",
+    "post_uid": "6",
+    "user_uid": "18",
+    "content": "Cái ngõ nhỏ, mái nhà quê,",
+    "createdDate": "6/9/22 19:28",
+    "undefined": "0.0946"
+  },
+  {
+    "uid": "66",
+    "post_uid": "6",
+    "user_uid": "7",
+    "content": "Biến thành cổng trời, thành lâu đài trong mắt mẹ đón con.",
+    "createdDate": "6/9/22 19:28",
+    "undefined": "0.0945"
+  },
+  {
+    "uid": "67",
+    "post_uid": "6",
+    "user_uid": "4",
+    "content": "Buổi sớm,",
+    "createdDate": "6/9/22 19:28",
+    "undefined": "0.0944"
+  },
+  {
+    "uid": "68",
+    "post_uid": "6",
+    "user_uid": "14",
+    "content": "Nắng xiên nghiêng,",
+    "createdDate": "6/9/22 19:28",
+    "undefined": "0.0943"
+  },
+  {
+    "uid": "69",
+    "post_uid": "6",
+    "user_uid": "17",
+    "content": "Anh nằm ngửa,",
+    "createdDate": "6/9/22 19:28",
+    "undefined": "0.0942"
+  },
+  {
+    "uid": "70",
+    "post_uid": "6",
+    "user_uid": "9",
+    "content": "Mái nhà có mắt nhìn anh",
+    "createdDate": "6/9/22 19:29",
+    "undefined": "0.0941"
+  },
+  {
+    "uid": "71",
+    "post_uid": "7",
+    "user_uid": "16",
+    "content": "Người lính",
+    "createdDate": "6/9/22 19:29",
+    "undefined": "0.094"
+  },
+  {
+    "uid": "72",
+    "post_uid": "7",
+    "user_uid": "20",
+    "content": "Lần đầu tiên giật mình…",
+    "createdDate": "6/9/22 19:29",
+    "undefined": "0.0939"
+  },
+  {
+    "uid": "73",
+    "post_uid": "7",
+    "user_uid": "16",
+    "content": "Những hạt bụi nhảy múa rung rinh,",
+    "createdDate": "6/9/22 19:29",
+    "undefined": "0.0938"
+  },
+  {
+    "uid": "74",
+    "post_uid": "7",
+    "user_uid": "3",
+    "content": "Những con đường sang lên như nắng",
+    "createdDate": "6/9/22 19:29",
+    "undefined": "0.0937"
+  },
+  {
+    "uid": "75",
+    "post_uid": "7",
+    "user_uid": "6",
+    "content": "Và mỗi người là hạt bụi lung linh.",
+    "createdDate": "6/9/22 19:29",
+    "undefined": "0.0936"
+  },
+  {
+    "uid": "76",
+    "post_uid": "7",
+    "user_uid": "19",
+    "content": "Mẹ vẫn lên nhà xuống bếp một mình,",
+    "createdDate": "6/9/22 19:30",
+    "undefined": "0.0935"
+  },
+  {
+    "uid": "77",
+    "post_uid": "7",
+    "user_uid": "12",
+    "content": "Chiến thắng của mẹ là anh",
+    "createdDate": "6/9/22 19:30",
+    "undefined": "0.0934"
+  },
+  {
+    "uid": "78",
+    "post_uid": "7",
+    "user_uid": "2",
+    "content": "Niềm vui của mẹ là anh.",
+    "createdDate": "6/9/22 19:30",
+    "undefined": "0.0933"
+  },
+  {
+    "uid": "79",
+    "post_uid": "7",
+    "user_uid": "5",
+    "content": "Nỗi buồn của anh không phải trong chiến tranh…",
+    "createdDate": "6/9/22 19:30",
+    "undefined": "0.0932"
+  },
+  {
+    "uid": "80",
+    "post_uid": "7",
+    "user_uid": "8",
+    "content": "Njhững sợi nắng xuyên qua nhà mình",
+    "createdDate": "6/9/22 19:30",
+    "undefined": "0.0931"
+  },
+  {
+    "uid": "81",
+    "post_uid": "8",
+    "user_uid": "17",
+    "content": "Thành những mũi tên",
+    "createdDate": "6/9/22 19:30",
+    "undefined": "0.093"
+  },
+  {
+    "uid": "82",
+    "post_uid": "8",
+    "user_uid": "11",
+    "content": "Thành những viên đạn,",
+    "createdDate": "6/9/22 19:30",
+    "undefined": "0.0929"
+  },
+  {
+    "uid": "83",
+    "post_uid": "8",
+    "user_uid": "7",
+    "content": "Bắn tiếp vào anh không gì che chắn",
+    "createdDate": "6/9/22 19:31",
+    "undefined": "0.0928"
+  },
+  {
+    "uid": "84",
+    "post_uid": "8",
+    "user_uid": "10",
+    "content": "Phải nhận tất cả,",
+    "createdDate": "6/9/22 19:31",
+    "undefined": "0.0927"
+  },
+  {
+    "uid": "85",
+    "post_uid": "8",
+    "user_uid": "17",
+    "content": "Vẫn anh.",
+    "createdDate": "6/9/22 19:31",
+    "undefined": "0.0926"
+  },
+  {
+    "uid": "86",
+    "post_uid": "8",
+    "user_uid": "13",
+    "content": "Hôm qua chưa nhận một viên đạn",
+    "createdDate": "6/9/22 19:31",
+    "undefined": "0.0925"
+  },
+  {
+    "uid": "87",
+    "post_uid": "8",
+    "user_uid": "19",
+    "content": "Hôm nay nhận những lỗ thủng",
+    "createdDate": "6/9/22 19:31",
+    "undefined": "0.0924"
+  },
+  {
+    "uid": "88",
+    "post_uid": "8",
+    "user_uid": "12",
+    "content": "Anh về quê không mang súng",
+    "createdDate": "6/9/22 19:31",
+    "undefined": "0.0923"
+  },
+  {
+    "uid": "89",
+    "post_uid": "8",
+    "user_uid": "20",
+    "content": "Vũ khí lúc này",
+    "createdDate": "6/9/22 19:31",
+    "undefined": "0.0922"
+  },
+  {
+    "uid": "90",
+    "post_uid": "8",
+    "user_uid": "17",
+    "content": "Hai bàn tay.",
+    "createdDate": "6/9/22 19:32",
+    "undefined": "0.0921"
+  },
+  {
+    "uid": "91",
+    "post_uid": "9",
+    "user_uid": "6",
+    "content": "Mẹ giục:",
+    "createdDate": "6/9/22 19:32",
+    "undefined": "0.092"
+  },
+  {
+    "uid": "92",
+    "post_uid": "9",
+    "user_uid": "4",
+    "content": "- Ăn cơm, con!",
+    "createdDate": "6/9/22 19:32",
+    "undefined": "0.0919"
+  },
+  {
+    "uid": "93",
+    "post_uid": "9",
+    "user_uid": "5",
+    "content": "Hoà bình trong canh cua, mồng tơi, cà",
+    "createdDate": "6/9/22 19:32",
+    "undefined": "0.0918"
+  },
+  {
+    "uid": "94",
+    "post_uid": "9",
+    "user_uid": "3",
+    "content": "Và",
+    "createdDate": "6/9/22 19:32",
+    "undefined": "0.0917"
+  },
+  {
+    "uid": "95",
+    "post_uid": "9",
+    "user_uid": "12",
+    "content": "Mùi ổ rơm.",
+    "createdDate": "6/9/22 19:32",
+    "undefined": "0.0916"
+  },
+  {
+    "uid": "96",
+    "post_uid": "9",
+    "user_uid": "13",
+    "content": "Bởi vì em dắt anh lên những ngôi đền cổ",
+    "createdDate": "6/9/22 19:32",
+    "undefined": "0.0915"
+  },
+  {
+    "uid": "97",
+    "post_uid": "9",
+    "user_uid": "3",
+    "content": "Chén ngọc giờ chìm dưới đáy sông sâu",
+    "createdDate": "6/9/22 19:33",
+    "undefined": "0.0914"
+  },
+  {
+    "uid": "98",
+    "post_uid": "9",
+    "user_uid": "14",
+    "content": "Những lăng tẩm hoàng hôn chống lại ngày quên lãng",
+    "createdDate": "6/9/22 19:33",
+    "undefined": "0.0913"
+  },
+  {
+    "uid": "99",
+    "post_uid": "9",
+    "user_uid": "17",
+    "content": "Mặt trời vàng và mắt em nâu",
+    "createdDate": "6/9/22 19:33",
+    "undefined": "0.0912"
+  },
+  {
+    "uid": "100",
+    "post_uid": "9",
+    "user_uid": "7",
+    "content": "Xin chào Huế một lần anh đến",
+    "createdDate": "6/9/22 19:33",
+    "undefined": "0.0911"
+  },
+  {
+    "uid": "101",
+    "post_uid": "10",
+    "user_uid": "5",
+    "content": "Để ngàn lần anh nhớ hư vô",
+    "createdDate": "6/9/22 19:33",
+    "undefined": "0.091"
+  },
+  {
+    "uid": "102",
+    "post_uid": "10",
+    "user_uid": "1",
+    "content": "Em rất thực nắng thì mờ ảo",
+    "createdDate": "6/9/22 19:33",
+    "undefined": "0.0909"
+  },
+  {
+    "uid": "103",
+    "post_uid": "10",
+    "user_uid": "13",
+    "content": "Xin đừng nhầm em với cố đô",
+    "createdDate": "6/9/22 19:33",
+    "undefined": "0.0908"
+  },
+  {
+    "uid": "104",
+    "post_uid": "10",
+    "user_uid": "7",
+    "content": "Áo trắng hỡi thuở tìm em không thấy",
+    "createdDate": "6/9/22 19:34",
+    "undefined": "0.0907"
+  },
+  {
+    "uid": "105",
+    "post_uid": "10",
+    "user_uid": "18",
+    "content": "Nắng minh mang mấy nhịp Tràng Tiền",
+    "createdDate": "6/9/22 19:34",
+    "undefined": "0.0906"
+  },
+  {
+    "uid": "106",
+    "post_uid": "10",
+    "user_uid": "20",
+    "content": "Nón rất Huế mà đời không phải thế",
+    "createdDate": "6/9/22 19:34",
+    "undefined": "0.0905"
+  },
+  {
+    "uid": "107",
+    "post_uid": "10",
+    "user_uid": "6",
+    "content": "Mặt trời lên từ phía nón em nghiêng",
+    "createdDate": "6/9/22 19:34",
+    "undefined": "0.0904"
+  },
+  {
+    "uid": "108",
+    "post_uid": "10",
+    "user_uid": "12",
+    "content": "Nhịp cầu cong và con đường thẳng",
+    "createdDate": "6/9/22 19:34",
+    "undefined": "0.0903"
+  },
+  {
+    "uid": "109",
+    "post_uid": "10",
+    "user_uid": "19",
+    "content": "Một đời anh đi mãi chẳng về đâu",
+    "createdDate": "6/9/22 19:34",
+    "undefined": "0.0902"
+  },
+  {
+    "uid": "110",
+    "post_uid": "10",
+    "user_uid": "4",
+    "content": "Con sông dùng dằng con sông không chảy",
+    "createdDate": "6/9/22 19:34",
+    "undefined": "0.0901"
+  },
+  {
+    "uid": "111",
+    "post_uid": "11",
+    "user_uid": "10",
+    "content": "Sông chảy vào lòng nên Huế rất sâu",
+    "createdDate": "6/9/22 19:35",
+    "undefined": "0.09"
+  },
+  {
+    "uid": "112",
+    "post_uid": "11",
+    "user_uid": "4",
+    "content": "Tạm biệt Huế với em là vĩnh biệt",
+    "createdDate": "6/9/22 19:35",
+    "undefined": "0.0899"
+  },
+  {
+    "uid": "113",
+    "post_uid": "11",
+    "user_uid": "5",
+    "content": "Hải Vân ơi xin người đừng tắt ngọn sao khuya",
+    "createdDate": "6/9/22 19:35",
+    "undefined": "0.0898"
+  },
+  {
+    "uid": "114",
+    "post_uid": "11",
+    "user_uid": "18",
+    "content": "Tạm biệt nhé với chiếc hôn thầm lặng",
+    "createdDate": "6/9/22 19:35",
+    "undefined": "0.0897"
+  },
+  {
+    "uid": "115",
+    "post_uid": "11",
+    "user_uid": "6",
+    "content": "Anh trở về hóa đá phía bên kia.",
+    "createdDate": "6/9/22 19:35",
+    "undefined": "0.0896"
+  },
+  {
+    "uid": "116",
+    "post_uid": "11",
+    "user_uid": "7",
+    "content": "Sẽ có những sư đoàn thép",
+    "createdDate": "6/9/22 19:35",
+    "undefined": "0.0895"
+  },
+  {
+    "uid": "117",
+    "post_uid": "11",
+    "user_uid": "1",
+    "content": "Bất kỳ nơi đâu",
+    "createdDate": "6/9/22 19:35",
+    "undefined": "0.0894"
+  },
+  {
+    "uid": "118",
+    "post_uid": "11",
+    "user_uid": "10",
+    "content": "Không khuất phục tù đày chém giết",
+    "createdDate": "6/9/22 19:36",
+    "undefined": "0.0893"
+  },
+  {
+    "uid": "119",
+    "post_uid": "11",
+    "user_uid": "19",
+    "content": "Nơi đâu",
+    "createdDate": "6/9/22 19:36",
+    "undefined": "0.0892"
+  },
+  {
+    "uid": "120",
+    "post_uid": "11",
+    "user_uid": "13",
+    "content": "Người sống nợ nần người đã chết",
+    "createdDate": "6/9/22 19:36",
+    "undefined": "0.0891"
+  },
+  {
+    "uid": "121",
+    "post_uid": "12",
+    "user_uid": "4",
+    "content": "Bất kỳ nơi đâu",
+    "createdDate": "6/9/22 19:36",
+    "undefined": "0.089"
+  },
+  {
+    "uid": "122",
+    "post_uid": "12",
+    "user_uid": "10",
+    "content": "Từ một cây \"mút nhét\"",
+    "createdDate": "6/9/22 19:36",
+    "undefined": "0.0889"
+  },
+  {
+    "uid": "123",
+    "post_uid": "12",
+    "user_uid": "3",
+    "content": "Một sải xuồng bơi",
+    "createdDate": "6/9/22 19:36",
+    "undefined": "0.0888"
+  },
+  {
+    "uid": "124",
+    "post_uid": "12",
+    "user_uid": "16",
+    "content": "Một nọc ong châm góp làm sự nghiệp",
+    "createdDate": "6/9/22 19:36",
+    "undefined": "0.0887"
+  },
+  {
+    "uid": "125",
+    "post_uid": "12",
+    "user_uid": "6",
+    "content": "Gốc tre xanh thắng trận cả ba đời",
+    "createdDate": "6/9/22 19:37",
+    "undefined": "0.0886"
+  },
+  {
+    "uid": "126",
+    "post_uid": "12",
+    "user_uid": "5",
+    "content": "Ba mươi triệu tấm lòng xông ra tuyến lửa",
+    "createdDate": "6/9/22 19:37",
+    "undefined": "0.0885"
+  },
+  {
+    "uid": "127",
+    "post_uid": "12",
+    "user_uid": "10",
+    "content": "Vạch lối điều quân",
+    "createdDate": "6/9/22 19:37",
+    "undefined": "0.0884"
+  },
+  {
+    "uid": "128",
+    "post_uid": "12",
+    "user_uid": "16",
+    "content": "Vai chảy xe thồ",
+    "createdDate": "6/9/22 19:37",
+    "undefined": "0.0883"
+  },
+  {
+    "uid": "129",
+    "post_uid": "12",
+    "user_uid": "19",
+    "content": "Trồng cây xanh che chở",
+    "createdDate": "6/9/22 19:37",
+    "undefined": "0.0882"
+  },
+  {
+    "uid": "130",
+    "post_uid": "12",
+    "user_uid": "16",
+    "content": "Mỗi bước quân đi",
+    "createdDate": "6/9/22 19:37",
+    "undefined": "0.0881"
+  },
+  {
+    "uid": "131",
+    "post_uid": "13",
+    "user_uid": "16",
+    "content": "Đánh trận trường kỳ",
+    "createdDate": "6/9/22 19:37",
+    "undefined": "0.088"
+  },
+  {
+    "uid": "132",
+    "post_uid": "13",
+    "user_uid": "7",
+    "content": "Đêm trước nấp trong lùm bắn tỉa",
+    "createdDate": "6/9/22 19:38",
+    "undefined": "0.0879"
+  },
+  {
+    "uid": "133",
+    "post_uid": "13",
+    "user_uid": "4",
+    "content": "Sớm sau dàn trận chính qui",
+    "createdDate": "6/9/22 19:38",
+    "undefined": "0.0878"
+  },
+  {
+    "uid": "134",
+    "post_uid": "13",
+    "user_uid": "18",
+    "content": "Đến trận bão hiệp đồng cả nước",
+    "createdDate": "6/9/22 19:38",
+    "undefined": "0.0877"
+  },
+  {
+    "uid": "135",
+    "post_uid": "13",
+    "user_uid": "9",
+    "content": "Mỗi sư đoàn mang gió lốc bay đi...",
+    "createdDate": "6/9/22 19:38",
+    "undefined": "0.0876"
+  },
+  {
+    "uid": "136",
+    "post_uid": "13",
+    "user_uid": "2",
+    "content": "Đất giải phóng thênh thang",
+    "createdDate": "6/9/22 19:38",
+    "undefined": "0.0875"
+  },
+  {
+    "uid": "137",
+    "post_uid": "13",
+    "user_uid": "16",
+    "content": "Sẽ cho ta dàn đội ngũ - sư đoàn",
+    "createdDate": "6/9/22 19:38",
+    "undefined": "0.0874"
+  },
+  {
+    "uid": "138",
+    "post_uid": "13",
+    "user_uid": "18",
+    "content": "Phía trước gọi ta",
+    "createdDate": "6/9/22 19:38",
+    "undefined": "0.0873"
+  },
+  {
+    "uid": "139",
+    "post_uid": "13",
+    "user_uid": "4",
+    "content": "Những Điện Biên vòng đai thép tung ra làm chiến dịch",
+    "createdDate": "6/9/22 19:39",
+    "undefined": "0.0872"
+  },
+  {
+    "uid": "140",
+    "post_uid": "13",
+    "user_uid": "3",
+    "content": "Đòn gánh hậu phương vượt đèo đi phản kích",
+    "createdDate": "6/9/22 19:39",
+    "undefined": "0.0871"
+  },
+  {
+    "uid": "141",
+    "post_uid": "14",
+    "user_uid": "17",
+    "content": "Hành quân",
+    "createdDate": "6/9/22 19:39",
+    "undefined": "0.087"
+  },
+  {
+    "uid": "142",
+    "post_uid": "14",
+    "user_uid": "10",
+    "content": "Hành quân",
+    "createdDate": "6/9/22 19:39",
+    "undefined": "0.0869"
+  },
+  {
+    "uid": "143",
+    "post_uid": "14",
+    "user_uid": "13",
+    "content": "Trùng điệp những sư đoàn",
+    "createdDate": "6/9/22 19:39",
+    "undefined": "0.0868"
+  },
+  {
+    "uid": "144",
+    "post_uid": "14",
+    "user_uid": "19",
+    "content": "Đi lên phía Bắc",
+    "createdDate": "6/9/22 19:39",
+    "undefined": "0.0867"
+  },
+  {
+    "uid": "145",
+    "post_uid": "14",
+    "user_uid": "14",
+    "content": "Tràn về hướng Nam",
+    "createdDate": "6/9/22 19:39",
+    "undefined": "0.0866"
+  },
+  {
+    "uid": "146",
+    "post_uid": "14",
+    "user_uid": "10",
+    "content": "Những vị tướng lại cầm quân đi đánh giặc",
+    "createdDate": "6/9/22 19:40",
+    "undefined": "0.0865"
+  },
+  {
+    "uid": "147",
+    "post_uid": "14",
+    "user_uid": "1",
+    "content": "Trải bản đồ",
+    "createdDate": "6/9/22 19:40",
+    "undefined": "0.0864"
+  },
+  {
+    "uid": "148",
+    "post_uid": "14",
+    "user_uid": "12",
+    "content": "Còn nguyên",
+    "createdDate": "6/9/22 19:40",
+    "undefined": "0.0863"
+  },
+  {
+    "uid": "149",
+    "post_uid": "14",
+    "user_uid": "12",
+    "content": "Vạch chỉ đỏ thắt quanh hầu giặc Pháp",
+    "createdDate": "6/9/22 19:40",
+    "undefined": "0.0862"
+  },
+  {
+    "uid": "150",
+    "post_uid": "14",
+    "user_uid": "1",
+    "content": "Bài học chiến tranh nhân dân",
+    "createdDate": "6/9/22 19:40",
+    "undefined": "0.0861"
+  },
+  {
+    "uid": "151",
+    "post_uid": "15",
+    "user_uid": "16",
+    "content": "Lại tiếp",
+    "createdDate": "6/9/22 19:40",
+    "undefined": "0.086"
+  },
+  {
+    "uid": "152",
+    "post_uid": "15",
+    "user_uid": "5",
+    "content": "Trang ấp Bắc - Plây me",
+    "createdDate": "6/9/22 19:40",
+    "undefined": "0.0859"
+  },
+  {
+    "uid": "153",
+    "post_uid": "15",
+    "user_uid": "17",
+    "content": "Và chiến công lên ngực áo những binh nhì",
+    "createdDate": "6/9/22 19:41",
+    "undefined": "0.0858"
+  },
+  {
+    "uid": "154",
+    "post_uid": "15",
+    "user_uid": "2",
+    "content": "Đất nước sẽ cho ta",
+    "createdDate": "6/9/22 19:41",
+    "undefined": "0.0857"
+  },
+  {
+    "uid": "155",
+    "post_uid": "15",
+    "user_uid": "17",
+    "content": "Những chùm con số đẹp",
+    "createdDate": "6/9/22 19:41",
+    "undefined": "0.0856"
+  },
+  {
+    "uid": "156",
+    "post_uid": "15",
+    "user_uid": "19",
+    "content": "Làm tên gọi khai sinh sư đoàn thep",
+    "createdDate": "6/9/22 19:41",
+    "undefined": "0.0855"
+  },
+  {
+    "uid": "157",
+    "post_uid": "15",
+    "user_uid": "19",
+    "content": "Này đây",
+    "createdDate": "6/9/22 19:41",
+    "undefined": "0.0854"
+  },
+  {
+    "uid": "158",
+    "post_uid": "15",
+    "user_uid": "6",
+    "content": "Doi cát Cửu Long xanh",
+    "createdDate": "6/9/22 19:41",
+    "undefined": "0.0853"
+  },
+  {
+    "uid": "159",
+    "post_uid": "15",
+    "user_uid": "19",
+    "content": "Sư đoàn Châu Thổ",
+    "createdDate": "6/9/22 19:41",
+    "undefined": "0.0852"
+  },
+  {
+    "uid": "160",
+    "post_uid": "15",
+    "user_uid": "16",
+    "content": "Giữa bãi sú, rừng tràm",
+    "createdDate": "6/9/22 19:42",
+    "undefined": "0.0851"
+  },
+  {
+    "uid": "161",
+    "post_uid": "16",
+    "user_uid": "2",
+    "content": "Vụt đứng dậy sư đoàn Nam Bộ",
+    "createdDate": "6/9/22 19:42",
+    "undefined": "0.085"
+  },
+  {
+    "uid": "162",
+    "post_uid": "16",
+    "user_uid": "7",
+    "content": "Sư đoàn Tây Nguyên",
+    "createdDate": "6/9/22 19:42",
+    "undefined": "0.0849"
+  },
+  {
+    "uid": "163",
+    "post_uid": "16",
+    "user_uid": "2",
+    "content": "Từ hầm chông bẫy đá cung tên",
+    "createdDate": "6/9/22 19:42",
+    "undefined": "0.0848"
+  },
+  {
+    "uid": "164",
+    "post_uid": "16",
+    "user_uid": "9",
+    "content": "Này đây Cực Nam Phan Rang - Phan Thiết",
+    "createdDate": "6/9/22 19:42",
+    "undefined": "0.0847"
+  },
+  {
+    "uid": "165",
+    "post_uid": "16",
+    "user_uid": "12",
+    "content": "Này đây Quảng Ngãi - Phú Yên",
+    "createdDate": "6/9/22 19:42",
+    "undefined": "0.0846"
+  },
+  {
+    "uid": "166",
+    "post_uid": "16",
+    "user_uid": "18",
+    "content": "Trên nguồn xa Ô Lâu - Thạch Hãn",
+    "createdDate": "6/9/22 19:42",
+    "undefined": "0.0845"
+  },
+  {
+    "uid": "167",
+    "post_uid": "16",
+    "user_uid": "10",
+    "content": "Sẽ tiến về",
+    "createdDate": "6/9/22 19:43",
+    "undefined": "0.0844"
+  },
+  {
+    "uid": "168",
+    "post_uid": "16",
+    "user_uid": "16",
+    "content": "Sư đoàn Trị Thiên",
+    "createdDate": "6/9/22 19:43",
+    "undefined": "0.0843"
+  },
+  {
+    "uid": "169",
+    "post_uid": "16",
+    "user_uid": "12",
+    "content": "Lại có một ngày",
+    "createdDate": "6/9/22 19:43",
+    "undefined": "0.0842"
+  },
+  {
+    "uid": "170",
+    "post_uid": "16",
+    "user_uid": "11",
+    "content": "Mọi cửa ô xanh Sài Gòn hớn hở",
+    "createdDate": "6/9/22 19:43",
+    "undefined": "0.0841"
+  },
+  {
+    "uid": "171",
+    "post_uid": "17",
+    "user_uid": "4",
+    "content": "Như Hà Nội đã từng",
+    "createdDate": "6/9/22 19:43",
+    "undefined": "0.084"
+  },
+  {
+    "uid": "172",
+    "post_uid": "17",
+    "user_uid": "4",
+    "content": "Ba mươi sáu đường hoa tung sóng đỏ",
+    "createdDate": "6/9/22 19:43",
+    "undefined": "0.0839"
+  },
+  {
+    "uid": "173",
+    "post_uid": "17",
+    "user_uid": "11",
+    "content": "Phất rừng cờ thổi hồng ngọn gió",
+    "createdDate": "6/9/22 19:43",
+    "undefined": "0.0838"
+  },
+  {
+    "uid": "174",
+    "post_uid": "17",
+    "user_uid": "3",
+    "content": "Đón con em",
+    "createdDate": "6/9/22 19:44",
+    "undefined": "0.0837"
+  },
+  {
+    "uid": "175",
+    "post_uid": "17",
+    "user_uid": "17",
+    "content": "Đón những sư đoàn",
+    "createdDate": "6/9/22 19:44",
+    "undefined": "0.0836"
+  },
+  {
+    "uid": "176",
+    "post_uid": "17",
+    "user_uid": "15",
+    "content": "Mang chiến thắng trở về",
+    "createdDate": "6/9/22 19:44",
+    "undefined": "0.0835"
+  },
+  {
+    "uid": "177",
+    "post_uid": "17",
+    "user_uid": "2",
+    "content": "Rập bước",
+    "createdDate": "6/9/22 19:44",
+    "undefined": "0.0834"
+  },
+  {
+    "uid": "178",
+    "post_uid": "17",
+    "user_uid": "4",
+    "content": "Ca vang!",
+    "createdDate": "6/9/22 19:44",
+    "undefined": "0.0833"
+  },
+  {
+    "uid": "179",
+    "post_uid": "17",
+    "user_uid": "4",
+    "content": "Ngã tư nghiêng nghiêng đốm lửa",
+    "createdDate": "6/9/22 19:44",
+    "undefined": "0.0832"
+  },
+  {
+    "uid": "180",
+    "post_uid": "17",
+    "user_uid": "3",
+    "content": "Chập chờn ảo hoá tà ma...",
+    "createdDate": "6/9/22 19:44",
+    "undefined": "0.0831"
+  },
+  {
+    "uid": "181",
+    "post_uid": "18",
+    "user_uid": "5",
+    "content": "Đôi dãy hồng lâu cửa mở phấn sa",
+    "createdDate": "6/9/22 19:45",
+    "undefined": "0.083"
+  },
+  {
+    "uid": "182",
+    "post_uid": "18",
+    "user_uid": "13",
+    "content": "Rũ rượi tóc những hình hài địa ngục",
+    "createdDate": "6/9/22 19:45",
+    "undefined": "0.0829"
+  },
+  {
+    "uid": "183",
+    "post_uid": "18",
+    "user_uid": "15",
+    "content": "Lạnh ngắt tiếng ca nhi phách giục",
+    "createdDate": "6/9/22 19:45",
+    "undefined": "0.0828"
+  },
+  {
+    "uid": "184",
+    "post_uid": "18",
+    "user_uid": "16",
+    "content": "Tình tang... Não nuột khóc tàn sương",
+    "createdDate": "6/9/22 19:45",
+    "undefined": "0.0827"
+  },
+  {
+    "uid": "185",
+    "post_uid": "18",
+    "user_uid": "5",
+    "content": "Áo thế hoa rũ rượi lượn đêm trường",
+    "createdDate": "6/9/22 19:45",
+    "undefined": "0.0826"
+  },
+  {
+    "uid": "186",
+    "post_uid": "18",
+    "user_uid": "17",
+    "content": "Từng mỹ thể rạc hơi đèn phù thể",
+    "createdDate": "6/9/22 19:45",
+    "undefined": "0.0825"
+  },
+  {
+    "uid": "187",
+    "post_uid": "18",
+    "user_uid": "15",
+    "content": "Ta đi giữa đường dương thế",
+    "createdDate": "6/9/22 19:45",
+    "undefined": "0.0824"
+  },
+  {
+    "uid": "188",
+    "post_uid": "18",
+    "user_uid": "6",
+    "content": "Bóng tối âm thầm rụng xuống chân cây...",
+    "createdDate": "6/9/22 19:46",
+    "undefined": "0.0823"
+  },
+  {
+    "uid": "189",
+    "post_uid": "18",
+    "user_uid": "4",
+    "content": "Tiếng xe ma chở vội một đêm gầy",
+    "createdDate": "6/9/22 19:46",
+    "undefined": "0.0822"
+  },
+  {
+    "uid": "190",
+    "post_uid": "18",
+    "user_uid": "18",
+    "content": "Xác truỵ lạc rũ bên thềm lá phủ",
+    "createdDate": "6/9/22 19:46",
+    "undefined": "0.0821"
+  },
+  {
+    "uid": "191",
+    "post_uid": "19",
+    "user_uid": "1",
+    "content": "Ai hát khúc thanh xuân hờ ơi phấn nữ",
+    "createdDate": "6/9/22 19:46",
+    "undefined": "0.082"
+  },
+  {
+    "uid": "192",
+    "post_uid": "19",
+    "user_uid": "15",
+    "content": "Thanh xuân hờ thanh xuân",
+    "createdDate": "6/9/22 19:46",
+    "undefined": "0.0819"
+  },
+  {
+    "uid": "193",
+    "post_uid": "19",
+    "user_uid": "8",
+    "content": "Bước gần ta chút nữa thêm gần",
+    "createdDate": "6/9/22 19:46",
+    "undefined": "0.0818"
+  },
+  {
+    "uid": "194",
+    "post_uid": "19",
+    "user_uid": "16",
+    "content": "Khoảng giữa tuổi thanh xuân nghe loạn trùng hút tuỷ",
+    "createdDate": "6/9/22 19:46",
+    "undefined": "0.0817"
+  },
+  {
+    "uid": "195",
+    "post_uid": "19",
+    "user_uid": "3",
+    "content": "Ai huỷ đời trên tang trống nhỉ?",
+    "createdDate": "6/9/22 19:47",
+    "undefined": "0.0816"
+  },
+  {
+    "uid": "196",
+    "post_uid": "19",
+    "user_uid": "16",
+    "content": "Hay ác thần gõ quách nạo mồ khuya!",
+    "createdDate": "6/9/22 19:47",
+    "undefined": "0.0815"
+  },
+  {
+    "uid": "197",
+    "post_uid": "19",
+    "user_uid": "8",
+    "content": "Đảo điên... mê say... Thể phách chia lìa",
+    "createdDate": "6/9/22 19:47",
+    "undefined": "0.0814"
+  },
+  {
+    "uid": "198",
+    "post_uid": "19",
+    "user_uid": "16",
+    "content": "Nghe reo mạnh, chuỗi tiền cười lạnh lẽo!",
+    "createdDate": "6/9/22 19:47",
+    "undefined": "0.0813"
+  },
+  {
+    "uid": "199",
+    "post_uid": "19",
+    "user_uid": "19",
+    "content": "Tiền rơi! Tiền rơi! chùm sao huyền diệu",
+    "createdDate": "6/9/22 19:47",
+    "undefined": "0.0812"
+  },
+  {
+    "uid": "200",
+    "post_uid": "19",
+    "user_uid": "14",
+    "content": "Lấp lánh hằng hà gạo rơi! Tiền rơi!",
+    "createdDate": "6/9/22 19:47",
+    "undefined": "0.0811"
+  },
+  {
+    "uid": "201",
+    "post_uid": "20",
+    "user_uid": "17",
+    "content": "- Vàng mấy lá thừa đãi mây phủ chiếu",
+    "createdDate": "6/9/22 19:48",
+    "undefined": "0.081"
+  },
+  {
+    "uid": "202",
+    "post_uid": "20",
+    "user_uid": "15",
+    "content": "Ngã tư nghiêng nghiêng chia nẻo",
+    "createdDate": "6/9/22 19:48",
+    "undefined": "0.0809"
+  },
+  {
+    "uid": "203",
+    "post_uid": "20",
+    "user_uid": "4",
+    "content": "Dặt dìu cung bậc âm dương",
+    "createdDate": "6/9/22 19:48",
+    "undefined": "0.0808"
+  },
+  {
+    "uid": "204",
+    "post_uid": "20",
+    "user_uid": "3",
+    "content": "Tàn xuân nhễ nhại mưa cô tịch",
+    "createdDate": "6/9/22 19:48",
+    "undefined": "0.0807"
+  },
+  {
+    "uid": "205",
+    "post_uid": "20",
+    "user_uid": "3",
+    "content": "Đầm đìa rả rích phương Đông",
+    "createdDate": "6/9/22 19:48",
+    "undefined": "0.0806"
+  },
+  {
+    "uid": "206",
+    "post_uid": "20",
+    "user_uid": "16",
+    "content": "Mang mang thở dài hồn đất trích",
+    "createdDate": "6/9/22 19:48",
+    "undefined": "0.0805"
+  },
+  {
+    "uid": "207",
+    "post_uid": "20",
+    "user_uid": "15",
+    "content": "Lưỡi thép trùng trùng khép cố đô",
+    "createdDate": "6/9/22 19:48",
+    "undefined": "0.0804"
+  },
+  {
+    "uid": "208",
+    "post_uid": "20",
+    "user_uid": "20",
+    "content": "Cửa ô đau khổ",
+    "createdDate": "6/9/22 19:49",
+    "undefined": "0.0803"
+  },
+  {
+    "uid": "209",
+    "post_uid": "20",
+    "user_uid": "7",
+    "content": "Bốn ngả âm u",
+    "createdDate": "6/9/22 19:49",
+    "undefined": "0.0802"
+  },
+  {
+    "uid": "210",
+    "post_uid": "20",
+    "user_uid": "3",
+    "content": "(Nhà ta thuê mái gục tự mùa thu",
+    "createdDate": "6/9/22 19:49",
+    "undefined": "0.0801"
+  },
+  {
+    "uid": "211",
+    "post_uid": "21",
+    "user_uid": "11",
+    "content": "Gác cô độc hướng về phường Dạ Lạc)",
+    "createdDate": "6/9/22 19:49",
+    "undefined": "0.08"
+  },
+  {
+    "uid": "212",
+    "post_uid": "21",
+    "user_uid": "6",
+    "content": "Đêm đêm, dài canh tan tác",
+    "createdDate": "6/9/22 19:49",
+    "undefined": "0.0799"
+  },
+  {
+    "uid": "213",
+    "post_uid": "21",
+    "user_uid": "12",
+    "content": "Bốn vực nhạc động, vẫy người",
+    "createdDate": "6/9/22 19:49",
+    "undefined": "0.0798"
+  },
+  {
+    "uid": "214",
+    "post_uid": "21",
+    "user_uid": "9",
+    "content": "Giãy đèn chao thắp đỏ quạnh máu đời",
+    "createdDate": "6/9/22 19:49",
+    "undefined": "0.0797"
+  },
+  {
+    "uid": "215",
+    "post_uid": "21",
+    "user_uid": "1",
+    "content": "Ta về gác chiếu chăn gào tự tử",
+    "createdDate": "6/9/22 19:50",
+    "undefined": "0.0796"
+  },
+  {
+    "uid": "216",
+    "post_uid": "21",
+    "user_uid": "8",
+    "content": "Trên đường tối đêm khoả thân khiêu vũ",
+    "createdDate": "6/9/22 19:50",
+    "undefined": "0.0795"
+  },
+  {
+    "uid": "217",
+    "post_uid": "21",
+    "user_uid": "8",
+    "content": "Kèn nhịp xa điệu múa vô luân",
+    "createdDate": "6/9/22 19:50",
+    "undefined": "0.0794"
+  },
+  {
+    "uid": "218",
+    "post_uid": "21",
+    "user_uid": "6",
+    "content": "Run rẩy giao duyên khối nhạc trầm trầm",
+    "createdDate": "6/9/22 19:50",
+    "undefined": "0.0793"
+  },
+  {
+    "uid": "219",
+    "post_uid": "21",
+    "user_uid": "2",
+    "content": "Hun hút gió nâng cầm ca nặng nhọc",
+    "createdDate": "6/9/22 19:50",
+    "undefined": "0.0792"
+  },
+  {
+    "uid": "220",
+    "post_uid": "21",
+    "user_uid": "18",
+    "content": "Kiếp người tang tóc",
+    "createdDate": "6/9/22 19:50",
+    "undefined": "0.0791"
+  },
+  {
+    "uid": "221",
+    "post_uid": "22",
+    "user_uid": "5",
+    "content": "Loạn lạc đòi xương chất lên xương",
+    "createdDate": "6/9/22 19:50",
+    "undefined": "0.079"
+  },
+  {
+    "uid": "222",
+    "post_uid": "22",
+    "user_uid": "7",
+    "content": "Một nửa kêu than, ma đói sa trường",
+    "createdDate": "6/9/22 19:51",
+    "undefined": "0.0789"
+  },
+  {
+    "uid": "223",
+    "post_uid": "22",
+    "user_uid": "3",
+    "content": "Còn một nửa lang thang tìm khoái lạc",
+    "createdDate": "6/9/22 19:51",
+    "undefined": "0.0788"
+  },
+  {
+    "uid": "224",
+    "post_uid": "22",
+    "user_uid": "6",
+    "content": "Ngã tư nghiêng nghiêng xe xác",
+    "createdDate": "6/9/22 19:51",
+    "undefined": "0.0787"
+  },
+  {
+    "uid": "225",
+    "post_uid": "22",
+    "user_uid": "10",
+    "content": "Đi vào ngõ khói công yên",
+    "createdDate": "6/9/22 19:51",
+    "undefined": "0.0786"
+  },
+  {
+    "uid": "226",
+    "post_uid": "22",
+    "user_uid": "2",
+    "content": "Thấy bâng khuâng lối cỏ hư huyền",
+    "createdDate": "6/9/22 19:51",
+    "undefined": "0.0785"
+  },
+  {
+    "uid": "227",
+    "post_uid": "22",
+    "user_uid": "11",
+    "content": "Hương nha phiến chập chờn mộng ảo",
+    "createdDate": "6/9/22 19:51",
+    "undefined": "0.0784"
+  },
+  {
+    "uid": "228",
+    "post_uid": "22",
+    "user_uid": "10",
+    "content": "Bánh nghiến nhựa đường nghe sào sạo",
+    "createdDate": "6/9/22 19:51",
+    "undefined": "0.0783"
+  },
+  {
+    "uid": "229",
+    "post_uid": "22",
+    "user_uid": "13",
+    "content": "- Ai vạc xương đổ sọ xuống lòng xe",
+    "createdDate": "6/9/22 19:52",
+    "undefined": "0.0782"
+  },
+  {
+    "uid": "230",
+    "post_uid": "22",
+    "user_uid": "4",
+    "content": "Chiếc quỷ xa qua bốn ngả ê chề",
+    "createdDate": "6/9/22 19:52",
+    "undefined": "0.0781"
+  },
+  {
+    "uid": "231",
+    "post_uid": "23",
+    "user_uid": "2",
+    "content": "Chở vạn kiếp đi hoang ra khỏi vực",
+    "createdDate": "6/9/22 19:52",
+    "undefined": "0.078"
+  },
+  {
+    "uid": "232",
+    "post_uid": "23",
+    "user_uid": "15",
+    "content": "Mưa, mưa hằng thao thức",
+    "createdDate": "6/9/22 19:52",
+    "undefined": "0.0779"
+  },
+  {
+    "uid": "233",
+    "post_uid": "23",
+    "user_uid": "14",
+    "content": "Trong phố lội đìu hiu",
+    "createdDate": "6/9/22 19:52",
+    "undefined": "0.0778"
+  },
+  {
+    "uid": "234",
+    "post_uid": "23",
+    "user_uid": "12",
+    "content": "Mưa, mưa tràn trên vực",
+    "createdDate": "6/9/22 19:52",
+    "undefined": "0.0777"
+  },
+  {
+    "uid": "235",
+    "post_uid": "23",
+    "user_uid": "7",
+    "content": "- Hang tối gục tiêu điều",
+    "createdDate": "6/9/22 19:52",
+    "undefined": "0.0776"
+  },
+  {
+    "uid": "236",
+    "post_uid": "23",
+    "user_uid": "6",
+    "content": "Mang linh hồn cô liêu",
+    "createdDate": "6/9/22 19:53",
+    "undefined": "0.0775"
+  },
+  {
+    "uid": "237",
+    "post_uid": "23",
+    "user_uid": "13",
+    "content": "Tiếng xe càng ám ảnh",
+    "createdDate": "6/9/22 19:53",
+    "undefined": "0.0774"
+  },
+  {
+    "uid": "238",
+    "post_uid": "23",
+    "user_uid": "2",
+    "content": "Tiếng xa dần xa lánh",
+    "createdDate": "6/9/22 19:53",
+    "undefined": "0.0773"
+  },
+  {
+    "uid": "239",
+    "post_uid": "23",
+    "user_uid": "6",
+    "content": "Khi gà đầu ô kêu.",
+    "createdDate": "6/9/22 19:53",
+    "undefined": "0.0772"
+  },
+  {
+    "uid": "240",
+    "post_uid": "23",
+    "user_uid": "10",
+    "content": "Bảy năm về trước, em mười bảy",
+    "createdDate": "6/9/22 19:53",
+    "undefined": "0.0771"
+  },
+  {
+    "uid": "241",
+    "post_uid": "24",
+    "user_uid": "11",
+    "content": "Anh mới đôi mươi, trẻ nhất làng",
+    "createdDate": "6/9/22 19:53",
+    "undefined": "0.077"
+  },
+  {
+    "uid": "242",
+    "post_uid": "24",
+    "user_uid": "14",
+    "content": "Xuân Dục, Đoài Đông hai cánh lúa",
+    "createdDate": "6/9/22 19:53",
+    "undefined": "0.0769"
+  },
+  {
+    "uid": "243",
+    "post_uid": "24",
+    "user_uid": "13",
+    "content": "Bữa thì em tới, bữa anh sang",
+    "createdDate": "6/9/22 19:54",
+    "undefined": "0.0768"
+  },
+  {
+    "uid": "244",
+    "post_uid": "24",
+    "user_uid": "7",
+    "content": "Bảy năm về trước, em mười bảy",
+    "createdDate": "6/9/22 19:54",
+    "undefined": "0.0767"
+  },
+  {
+    "uid": "245",
+    "post_uid": "24",
+    "user_uid": "18",
+    "content": "Anh mới đôi mươi, trẻ nhất làng",
+    "createdDate": "6/9/22 19:54",
+    "undefined": "0.0766"
+  },
+  {
+    "uid": "246",
+    "post_uid": "24",
+    "user_uid": "19",
+    "content": "Xuân Dục, Đoài Đông hai cánh lúa",
+    "createdDate": "6/9/22 19:54",
+    "undefined": "0.0765"
+  },
+  {
+    "uid": "247",
+    "post_uid": "24",
+    "user_uid": "15",
+    "content": "Bữa thì em tới, bữa anh sang",
+    "createdDate": "6/9/22 19:54",
+    "undefined": "0.0764"
+  },
+  {
+    "uid": "248",
+    "post_uid": "24",
+    "user_uid": "18",
+    "content": "Lối ta đi giữa hai sườn núi",
+    "createdDate": "6/9/22 19:54",
+    "undefined": "0.0763"
+  },
+  {
+    "uid": "249",
+    "post_uid": "24",
+    "user_uid": "10",
+    "content": "Đôi ngọn nên làng gọi núi Đôi",
+    "createdDate": "6/9/22 19:54",
+    "undefined": "0.0762"
+  },
+  {
+    "uid": "250",
+    "post_uid": "24",
+    "user_uid": "7",
+    "content": "Em vẫn đùa anh: Sao khéo thế",
+    "createdDate": "6/9/22 19:55",
+    "undefined": "0.0761"
+  },
+  {
+    "uid": "251",
+    "post_uid": "25",
+    "user_uid": "12",
+    "content": "Núi chồng núi vợ đứng song đôi!",
+    "createdDate": "6/9/22 19:55",
+    "undefined": "0.076"
+  },
+  {
+    "uid": "252",
+    "post_uid": "25",
+    "user_uid": "16",
+    "content": "Bỗng cuối mùa chiêm quân giặc tới",
+    "createdDate": "6/9/22 19:55",
+    "undefined": "0.0759"
+  },
+  {
+    "uid": "253",
+    "post_uid": "25",
+    "user_uid": "18",
+    "content": "Ngõ chùa cháy đỏ những thân cau",
+    "createdDate": "6/9/22 19:55",
+    "undefined": "0.0758"
+  },
+  {
+    "uid": "254",
+    "post_uid": "25",
+    "user_uid": "11",
+    "content": "Mới ngỏ lời thôi, đành lỗi hẹn",
+    "createdDate": "6/9/22 19:55",
+    "undefined": "0.0757"
+  },
+  {
+    "uid": "255",
+    "post_uid": "25",
+    "user_uid": "7",
+    "content": "Đâu ngờ từ đó bặt tin nhau.",
+    "createdDate": "6/9/22 19:55",
+    "undefined": "0.0756"
+  },
+  {
+    "uid": "256",
+    "post_uid": "25",
+    "user_uid": "13",
+    "content": "Anh vào bộ đội, lên Đông Bắc",
+    "createdDate": "6/9/22 19:55",
+    "undefined": "0.0755"
+  },
+  {
+    "uid": "257",
+    "post_uid": "25",
+    "user_uid": "7",
+    "content": "Chiến đấu quên mình năm lại năm",
+    "createdDate": "6/9/22 19:56",
+    "undefined": "0.0754"
+  },
+  {
+    "uid": "258",
+    "post_uid": "25",
+    "user_uid": "20",
+    "content": "Mấy bận dân công về lại hỏi",
+    "createdDate": "6/9/22 19:56",
+    "undefined": "0.0753"
+  },
+  {
+    "uid": "259",
+    "post_uid": "25",
+    "user_uid": "11",
+    "content": "Ai người Xuân Dục, núi Đôi chăng?",
+    "createdDate": "6/9/22 19:56",
+    "undefined": "0.0752"
+  },
+  {
+    "uid": "260",
+    "post_uid": "25",
+    "user_uid": "17",
+    "content": "Anh nghĩ, quê ta giặc chiếm rồi",
+    "createdDate": "6/9/22 19:56",
+    "undefined": "0.0751"
+  },
+  {
+    "uid": "261",
+    "post_uid": "26",
+    "user_uid": "14",
+    "content": "Trăm nghìn căm uất bao giờ nguôi",
+    "createdDate": "6/9/22 19:56",
+    "undefined": "0.075"
+  },
+  {
+    "uid": "262",
+    "post_uid": "26",
+    "user_uid": "12",
+    "content": "Mỗi tin súng nổ vành đai địch",
+    "createdDate": "6/9/22 19:56",
+    "undefined": "0.0749"
+  },
+  {
+    "uid": "263",
+    "post_uid": "26",
+    "user_uid": "20",
+    "content": "Sương trắng người đi lại nhớ người.",
+    "createdDate": "6/9/22 19:56",
+    "undefined": "0.0748"
+  },
+  {
+    "uid": "264",
+    "post_uid": "26",
+    "user_uid": "16",
+    "content": "Đồng đội có nhau thường nhắc nhở",
+    "createdDate": "6/9/22 19:57",
+    "undefined": "0.0747"
+  },
+  {
+    "uid": "265",
+    "post_uid": "26",
+    "user_uid": "15",
+    "content": "Trung du làng nước vẫn chờ trông",
+    "createdDate": "6/9/22 19:57",
+    "undefined": "0.0746"
+  },
+  {
+    "uid": "266",
+    "post_uid": "26",
+    "user_uid": "4",
+    "content": "Núi Đôi bốt dựng kề ba xóm",
+    "createdDate": "6/9/22 19:57",
+    "undefined": "0.0745"
+  },
+  {
+    "uid": "267",
+    "post_uid": "26",
+    "user_uid": "6",
+    "content": "Em vẫn đi về những bến sông?",
+    "createdDate": "6/9/22 19:57",
+    "undefined": "0.0744"
+  },
+  {
+    "uid": "268",
+    "post_uid": "26",
+    "user_uid": "20",
+    "content": "Náo nức bao nhiêu ngày trở lại",
+    "createdDate": "6/9/22 19:57",
+    "undefined": "0.0743"
+  },
+  {
+    "uid": "269",
+    "post_uid": "26",
+    "user_uid": "18",
+    "content": "Lệnh trên ngừng bắn. Anh về xuôi",
+    "createdDate": "6/9/22 19:57",
+    "undefined": "0.0742"
+  },
+  {
+    "uid": "270",
+    "post_uid": "26",
+    "user_uid": "2",
+    "content": "Hành quân qua tắt đường sang huyện",
+    "createdDate": "6/9/22 19:57",
+    "undefined": "0.0741"
+  },
+  {
+    "uid": "271",
+    "post_uid": "27",
+    "user_uid": "4",
+    "content": "Anh ghé thăm nhà, thăm núi Đôi.",
+    "createdDate": "6/9/22 19:58",
+    "undefined": "0.074"
+  },
+  {
+    "uid": "272",
+    "post_uid": "27",
+    "user_uid": "4",
+    "content": "Mới tới đầu ao, tin sét đánh",
+    "createdDate": "6/9/22 19:58",
+    "undefined": "0.0739"
+  },
+  {
+    "uid": "273",
+    "post_uid": "27",
+    "user_uid": "11",
+    "content": "Giặc giết em rồi, dưới gốc thông",
+    "createdDate": "6/9/22 19:58",
+    "undefined": "0.0738"
+  },
+  {
+    "uid": "274",
+    "post_uid": "27",
+    "user_uid": "16",
+    "content": "Giữa đêm bộ đội vây đồn Thửa",
+    "createdDate": "6/9/22 19:58",
+    "undefined": "0.0737"
+  },
+  {
+    "uid": "275",
+    "post_uid": "27",
+    "user_uid": "5",
+    "content": "Em sống trung thành, chết thủy chung!",
+    "createdDate": "6/9/22 19:58",
+    "undefined": "0.0736"
+  },
+  {
+    "uid": "276",
+    "post_uid": "27",
+    "user_uid": "9",
+    "content": "Anh ngước nhìn lên hai dốc núi",
+    "createdDate": "6/9/22 19:58",
+    "undefined": "0.0735"
+  },
+  {
+    "uid": "277",
+    "post_uid": "27",
+    "user_uid": "16",
+    "content": "Hàng thông bờ cỏ con đường quen",
+    "createdDate": "6/9/22 19:58",
+    "undefined": "0.0734"
+  },
+  {
+    "uid": "278",
+    "post_uid": "27",
+    "user_uid": "13",
+    "content": "Nắng lụi bỗng dưng mờ bóng khói",
+    "createdDate": "6/9/22 19:59",
+    "undefined": "0.0733"
+  },
+  {
+    "uid": "279",
+    "post_uid": "27",
+    "user_uid": "7",
+    "content": "Núi vẫn đôi mà anh mất em!",
+    "createdDate": "6/9/22 19:59",
+    "undefined": "0.0732"
+  },
+  {
+    "uid": "280",
+    "post_uid": "27",
+    "user_uid": "7",
+    "content": "Dân chợ Phù Linh ai cũng bảo:",
+    "createdDate": "6/9/22 19:59",
+    "undefined": "0.0731"
+  },
+  {
+    "uid": "281",
+    "post_uid": "28",
+    "user_uid": "9",
+    "content": "Em còn trẻ lắm, nhất làng trong",
+    "createdDate": "6/9/22 19:59",
+    "undefined": "0.073"
+  },
+  {
+    "uid": "282",
+    "post_uid": "28",
+    "user_uid": "5",
+    "content": "Mấy năm cô ấy làm du kích",
+    "createdDate": "6/9/22 19:59",
+    "undefined": "0.0729"
+  },
+  {
+    "uid": "283",
+    "post_uid": "28",
+    "user_uid": "1",
+    "content": "Không hiểu vì sao chẳng lấy chồng?",
+    "createdDate": "6/9/22 19:59",
+    "undefined": "0.0728"
+  },
+  {
+    "uid": "284",
+    "post_uid": "28",
+    "user_uid": "14",
+    "content": "Từ núi qua thôn, đường nghẽn lối",
+    "createdDate": "6/9/22 19:59",
+    "undefined": "0.0727"
+  },
+  {
+    "uid": "285",
+    "post_uid": "28",
+    "user_uid": "19",
+    "content": "Xuân Dục, Đoài Đông cỏ ngút đầy",
+    "createdDate": "6/9/22 20:00",
+    "undefined": "0.0726"
+  },
+  {
+    "uid": "286",
+    "post_uid": "28",
+    "user_uid": "12",
+    "content": "Sân biến thành ao, nhà đổ chái",
+    "createdDate": "6/9/22 20:00",
+    "undefined": "0.0725"
+  },
+  {
+    "uid": "287",
+    "post_uid": "28",
+    "user_uid": "12",
+    "content": "Ngổn ngang bờ bụi, cánh dơi bay.",
+    "createdDate": "6/9/22 20:00",
+    "undefined": "0.0724"
+  },
+  {
+    "uid": "288",
+    "post_uid": "28",
+    "user_uid": "6",
+    "content": "Cha mẹ đưa nhau về nhận đất",
+    "createdDate": "6/9/22 20:00",
+    "undefined": "0.0723"
+  },
+  {
+    "uid": "289",
+    "post_uid": "28",
+    "user_uid": "18",
+    "content": "Tóc bạc thương từ mỗi gốc cau",
+    "createdDate": "6/9/22 20:00",
+    "undefined": "0.0722"
+  },
+  {
+    "uid": "290",
+    "post_uid": "28",
+    "user_uid": "12",
+    "content": "Nứa gianh nửa mái lều che tạm",
+    "createdDate": "6/9/22 20:00",
+    "undefined": "0.0721"
+  },
+  {
+    "uid": "291",
+    "post_uid": "29",
+    "user_uid": "14",
+    "content": "Sương nắng khuây dần chuyện xót đau.",
+    "createdDate": "6/9/22 20:00",
+    "undefined": "0.072"
+  },
+  {
+    "uid": "292",
+    "post_uid": "29",
+    "user_uid": "15",
+    "content": "Anh nghe có tiếng người qua chợ ",
+    "createdDate": "6/9/22 20:01",
+    "undefined": "0.0719"
+  },
+  {
+    "uid": "293",
+    "post_uid": "29",
+    "user_uid": "20",
+    "content": "Ta gắng: mùa sau lúa sẽ nhiều",
+    "createdDate": "6/9/22 20:01",
+    "undefined": "0.0718"
+  },
+  {
+    "uid": "294",
+    "post_uid": "29",
+    "user_uid": "4",
+    "content": "Ruộng thấm mồ hôi từng nhát cuốc",
+    "createdDate": "6/9/22 20:01",
+    "undefined": "0.0717"
+  },
+  {
+    "uid": "295",
+    "post_uid": "29",
+    "user_uid": "11",
+    "content": "Làng ta rồi đẹp biết bao nhiêu!",
+    "createdDate": "6/9/22 20:01",
+    "undefined": "0.0716"
+  },
+  {
+    "uid": "296",
+    "post_uid": "29",
+    "user_uid": "9",
+    "content": "Nhưng núi còn kia, anh vẫn nhớ.",
+    "createdDate": "6/9/22 20:01",
+    "undefined": "0.0715"
+  },
+  {
+    "uid": "297",
+    "post_uid": "29",
+    "user_uid": "20",
+    "content": "Oán thù còn đó, anh còn đây",
+    "createdDate": "6/9/22 20:01",
+    "undefined": "0.0714"
+  },
+  {
+    "uid": "298",
+    "post_uid": "29",
+    "user_uid": "15",
+    "content": "Ở đâu cô gái làng Xuân Dục",
+    "createdDate": "6/9/22 20:01",
+    "undefined": "0.0713"
+  },
+  {
+    "uid": "299",
+    "post_uid": "29",
+    "user_uid": "8",
+    "content": "Đã chết vì dân giữa đất này!",
+    "createdDate": "6/9/22 20:02",
+    "undefined": "0.0712"
+  },
+  {
+    "uid": "300",
+    "post_uid": "29",
+    "user_uid": "6",
+    "content": "Ai viết tên em thành liệt sĩ",
+    "createdDate": "6/9/22 20:02",
+    "undefined": "0.0711"
+  },
+  {
+    "uid": "301",
+    "post_uid": "30",
+    "user_uid": "5",
+    "content": "Bên những hàng bia trắng giữa đồng",
+    "createdDate": "6/9/22 20:02",
+    "undefined": "0.071"
+  },
+  {
+    "uid": "302",
+    "post_uid": "30",
+    "user_uid": "2",
+    "content": "Nhớ nhau anh gọi em: Đồng chí!",
+    "createdDate": "6/9/22 20:02",
+    "undefined": "0.0709"
+  },
+  {
+    "uid": "303",
+    "post_uid": "30",
+    "user_uid": "17",
+    "content": "Một tấm lòng trong vạn tấm lòng.",
+    "createdDate": "6/9/22 20:02",
+    "undefined": "0.0708"
+  },
+  {
+    "uid": "304",
+    "post_uid": "30",
+    "user_uid": "15",
+    "content": "Anh đi bộ đội sao trên mũ",
+    "createdDate": "6/9/22 20:02",
+    "undefined": "0.0707"
+  },
+  {
+    "uid": "305",
+    "post_uid": "30",
+    "user_uid": "19",
+    "content": "Mãi mãi là sao sáng dẫn đường",
+    "createdDate": "6/9/22 20:02",
+    "undefined": "0.0706"
+  },
+  {
+    "uid": "306",
+    "post_uid": "30",
+    "user_uid": "15",
+    "content": "Em sẽ là hoa trên đỉnh núi",
+    "createdDate": "6/9/22 20:03",
+    "undefined": "0.0705"
+  },
+  {
+    "uid": "307",
+    "post_uid": "30",
+    "user_uid": "3",
+    "content": "Bốn mùa thơm mãi cánh hoa thơm.",
+    "createdDate": "6/9/22 20:03",
+    "undefined": "0.0704"
+  },
+  {
+    "uid": "308",
+    "post_uid": "30",
+    "user_uid": "16",
+    "content": "Em ơi! Buồn làm chi",
+    "createdDate": "6/9/22 20:03",
+    "undefined": "0.0703"
+  },
+  {
+    "uid": "309",
+    "post_uid": "30",
+    "user_uid": "1",
+    "content": "Anh đưa em về sông Đuống",
+    "createdDate": "6/9/22 20:03",
+    "undefined": "0.0702"
+  },
+  {
+    "uid": "310",
+    "post_uid": "30",
+    "user_uid": "3",
+    "content": "Ngày xưa cát trắng phẳng lì",
+    "createdDate": "6/9/22 20:03",
+    "undefined": "0.0701"
+  },
+  {
+    "uid": "311",
+    "post_uid": "31",
+    "user_uid": "16",
+    "content": "ông Đuống trôi đi",
+    "createdDate": "6/9/22 20:03",
+    "undefined": "0.07"
+  },
+  {
+    "uid": "312",
+    "post_uid": "31",
+    "user_uid": "5",
+    "content": "Một dòng lấp lánh",
+    "createdDate": "6/9/22 20:03",
+    "undefined": "0.0699"
+  },
+  {
+    "uid": "313",
+    "post_uid": "31",
+    "user_uid": "12",
+    "content": "Nằm nghiêng nghiêng trong kháng chiến trường kỳ",
+    "createdDate": "6/9/22 20:04",
+    "undefined": "0.0698"
+  },
+  {
+    "uid": "314",
+    "post_uid": "31",
+    "user_uid": "8",
+    "content": "Xanh xanh bãi mía bờ dâu",
+    "createdDate": "6/9/22 20:04",
+    "undefined": "0.0697"
+  },
+  {
+    "uid": "315",
+    "post_uid": "31",
+    "user_uid": "20",
+    "content": "Ngô khoai biêng biếc",
+    "createdDate": "6/9/22 20:04",
+    "undefined": "0.0696"
+  },
+  {
+    "uid": "316",
+    "post_uid": "31",
+    "user_uid": "3",
+    "content": "Đứng bên này sông sao nhớ tiếc",
+    "createdDate": "6/9/22 20:04",
+    "undefined": "0.0695"
+  },
+  {
+    "uid": "317",
+    "post_uid": "31",
+    "user_uid": "9",
+    "content": "Sao xót xa như rụng bàn tay",
+    "createdDate": "6/9/22 20:04",
+    "undefined": "0.0694"
+  },
+  {
+    "uid": "318",
+    "post_uid": "31",
+    "user_uid": "18",
+    "content": "Bên kia sông Đuống",
+    "createdDate": "6/9/22 20:04",
+    "undefined": "0.0693"
+  },
+  {
+    "uid": "319",
+    "post_uid": "31",
+    "user_uid": "3",
+    "content": "Quê hương ta lúa nếp thơm nồng",
+    "createdDate": "6/9/22 20:04",
+    "undefined": "0.0692"
+  },
+  {
+    "uid": "320",
+    "post_uid": "31",
+    "user_uid": "15",
+    "content": "Tranh Đông Hồ gà lợn nét tươi trong",
+    "createdDate": "6/9/22 20:05",
+    "undefined": "0.0691"
+  },
+  {
+    "uid": "321",
+    "post_uid": "32",
+    "user_uid": "14",
+    "content": "Màu dân tộc sáng bừng trên giấy điệp",
+    "createdDate": "6/9/22 20:05",
+    "undefined": "0.069"
+  },
+  {
+    "uid": "322",
+    "post_uid": "32",
+    "user_uid": "20",
+    "content": "Quê hương ta từ ngày khủng khiếp",
+    "createdDate": "6/9/22 20:05",
+    "undefined": "0.0689"
+  },
+  {
+    "uid": "323",
+    "post_uid": "32",
+    "user_uid": "16",
+    "content": "Giặc kéo lên ngùn ngụt lửa hung tàn",
+    "createdDate": "6/9/22 20:05",
+    "undefined": "0.0688"
+  },
+  {
+    "uid": "324",
+    "post_uid": "32",
+    "user_uid": "15",
+    "content": "Ruộng ta khô",
+    "createdDate": "6/9/22 20:05",
+    "undefined": "0.0687"
+  },
+  {
+    "uid": "325",
+    "post_uid": "32",
+    "user_uid": "3",
+    "content": "Nhà ta cháy",
+    "createdDate": "6/9/22 20:05",
+    "undefined": "0.0686"
+  },
+  {
+    "uid": "326",
+    "post_uid": "32",
+    "user_uid": "10",
+    "content": "Chó ngộ một đàn",
+    "createdDate": "6/9/22 20:06",
+    "undefined": "0.0685"
+  },
+  {
+    "uid": "327",
+    "post_uid": "32",
+    "user_uid": "8",
+    "content": "Lưỡi dài lê sắc máu",
+    "createdDate": "6/9/22 20:06",
+    "undefined": "0.0684"
+  },
+  {
+    "uid": "328",
+    "post_uid": "32",
+    "user_uid": "7",
+    "content": "Kiệt cùng ngõ thẳm bờ hoang",
+    "createdDate": "6/9/22 20:06",
+    "undefined": "0.0683"
+  },
+  {
+    "uid": "329",
+    "post_uid": "32",
+    "user_uid": "18",
+    "content": "Mẹ con đàn lợn âm dương",
+    "createdDate": "6/9/22 20:06",
+    "undefined": "0.0682"
+  },
+  {
+    "uid": "330",
+    "post_uid": "32",
+    "user_uid": "13",
+    "content": "Chia lìa trăm ngả",
+    "createdDate": "6/9/22 20:06",
+    "undefined": "0.0681"
+  },
+  {
+    "uid": "331",
+    "post_uid": "33",
+    "user_uid": "18",
+    "content": "Đám cưới chuột đang tưng bừng rộn rã",
+    "createdDate": "6/9/22 20:06",
+    "undefined": "0.068"
+  },
+  {
+    "uid": "332",
+    "post_uid": "33",
+    "user_uid": "1",
+    "content": "Bây giờ tan tác về đâu?",
+    "createdDate": "6/9/22 20:06",
+    "undefined": "0.0679"
+  },
+  {
+    "uid": "333",
+    "post_uid": "33",
+    "user_uid": "17",
+    "content": "Ai về bên kia sông Đuống",
+    "createdDate": "6/9/22 20:07",
+    "undefined": "0.0678"
+  },
+  {
+    "uid": "334",
+    "post_uid": "33",
+    "user_uid": "14",
+    "content": "Cho ta gửi tấm the đen",
+    "createdDate": "6/9/22 20:07",
+    "undefined": "0.0677"
+  },
+  {
+    "uid": "335",
+    "post_uid": "33",
+    "user_uid": "1",
+    "content": "Mấy trăm năm thấp thoáng mộng bình yên",
+    "createdDate": "6/9/22 20:07",
+    "undefined": "0.0676"
+  },
+  {
+    "uid": "336",
+    "post_uid": "33",
+    "user_uid": "17",
+    "content": "Những hội hè đình đám",
+    "createdDate": "6/9/22 20:07",
+    "undefined": "0.0675"
+  },
+  {
+    "uid": "337",
+    "post_uid": "33",
+    "user_uid": "18",
+    "content": "Trên núi Thiên Thai",
+    "createdDate": "6/9/22 20:07",
+    "undefined": "0.0674"
+  },
+  {
+    "uid": "338",
+    "post_uid": "33",
+    "user_uid": "11",
+    "content": "Trong chùa Bút Tháp",
+    "createdDate": "6/9/22 20:07",
+    "undefined": "0.0673"
+  },
+  {
+    "uid": "339",
+    "post_uid": "33",
+    "user_uid": "15",
+    "content": "Giữa huyện Lang Tài",
+    "createdDate": "6/9/22 20:07",
+    "undefined": "0.0672"
+  },
+  {
+    "uid": "340",
+    "post_uid": "33",
+    "user_uid": "18",
+    "content": "Gửi về may áo cho ai",
+    "createdDate": "6/9/22 20:08",
+    "undefined": "0.0671"
+  },
+  {
+    "uid": "341",
+    "post_uid": "34",
+    "user_uid": "1",
+    "content": "Chuông chùa văng vẳng nay người ở đâu?",
+    "createdDate": "6/9/22 20:08",
+    "undefined": "0.067"
+  },
+  {
+    "uid": "342",
+    "post_uid": "34",
+    "user_uid": "2",
+    "content": "Những nàng môi cắn chỉ quết trầu",
+    "createdDate": "6/9/22 20:08",
+    "undefined": "0.0669"
+  },
+  {
+    "uid": "343",
+    "post_uid": "34",
+    "user_uid": "19",
+    "content": "Những cụ già phơ phơ tóc trắng",
+    "createdDate": "6/9/22 20:08",
+    "undefined": "0.0668"
+  },
+  {
+    "uid": "344",
+    "post_uid": "34",
+    "user_uid": "17",
+    "content": "Những em sột soạt quần nâu",
+    "createdDate": "6/9/22 20:08",
+    "undefined": "0.0667"
+  },
+  {
+    "uid": "345",
+    "post_uid": "34",
+    "user_uid": "7",
+    "content": "Bây giờ đi đâu, về đâu?",
+    "createdDate": "6/9/22 20:08",
+    "undefined": "0.0666"
+  },
+  {
+    "uid": "346",
+    "post_uid": "34",
+    "user_uid": "15",
+    "content": "Ai về bên kia sông Đuống",
+    "createdDate": "6/9/22 20:08",
+    "undefined": "0.0665"
+  },
+  {
+    "uid": "347",
+    "post_uid": "34",
+    "user_uid": "4",
+    "content": "Có nhớ từng khuôn mặt búp sen",
+    "createdDate": "6/9/22 20:09",
+    "undefined": "0.0664"
+  },
+  {
+    "uid": "348",
+    "post_uid": "34",
+    "user_uid": "20",
+    "content": "Những cô hàng xén răng đen",
+    "createdDate": "6/9/22 20:09",
+    "undefined": "0.0663"
+  },
+  {
+    "uid": "349",
+    "post_uid": "34",
+    "user_uid": "10",
+    "content": "Cười như mùa thu toả nắng",
+    "createdDate": "6/9/22 20:09",
+    "undefined": "0.0662"
+  },
+  {
+    "uid": "350",
+    "post_uid": "34",
+    "user_uid": "19",
+    "content": "Chợ Hồ, chợ Sủi người đua chen",
+    "createdDate": "6/9/22 20:09",
+    "undefined": "0.0661"
+  },
+  {
+    "uid": "351",
+    "post_uid": "35",
+    "user_uid": "13",
+    "content": "Bãi Trầm Chỉ người giăng tơ nghẽn lối",
+    "createdDate": "6/9/22 20:09",
+    "undefined": "0.066"
+  },
+  {
+    "uid": "352",
+    "post_uid": "35",
+    "user_uid": "9",
+    "content": "Những nàng dệt sợi",
+    "createdDate": "6/9/22 20:09",
+    "undefined": "0.0659"
+  },
+  {
+    "uid": "353",
+    "post_uid": "35",
+    "user_uid": "8",
+    "content": "Đi bán lụa mầu",
+    "createdDate": "6/9/22 20:09",
+    "undefined": "0.0658"
+  },
+  {
+    "uid": "354",
+    "post_uid": "35",
+    "user_uid": "20",
+    "content": "Những người thợ nhuộm",
+    "createdDate": "6/9/22 20:10",
+    "undefined": "0.0657"
+  },
+  {
+    "uid": "355",
+    "post_uid": "35",
+    "user_uid": "20",
+    "content": "Đồng Tỉnh, Huê Cầu",
+    "createdDate": "6/9/22 20:10",
+    "undefined": "0.0656"
+  },
+  {
+    "uid": "356",
+    "post_uid": "35",
+    "user_uid": "10",
+    "content": "Bây giờ đi đâu, về đâu?",
+    "createdDate": "6/9/22 20:10",
+    "undefined": "0.0655"
+  },
+  {
+    "uid": "357",
+    "post_uid": "35",
+    "user_uid": "1",
+    "content": "Bên kia sông Đuống",
+    "createdDate": "6/9/22 20:10",
+    "undefined": "0.0654"
+  },
+  {
+    "uid": "358",
+    "post_uid": "35",
+    "user_uid": "10",
+    "content": "Mẹ già nua còm cõi gánh hàng rong",
+    "createdDate": "6/9/22 20:10",
+    "undefined": "0.0653"
+  },
+  {
+    "uid": "359",
+    "post_uid": "35",
+    "user_uid": "17",
+    "content": "Dăm miếng cau khô",
+    "createdDate": "6/9/22 20:10",
+    "undefined": "0.0652"
+  },
+  {
+    "uid": "360",
+    "post_uid": "35",
+    "user_uid": "11",
+    "content": "Mấy lọ phẩm hồng",
+    "createdDate": "6/9/22 20:10",
+    "undefined": "0.0651"
+  },
+  {
+    "uid": "361",
+    "post_uid": "36",
+    "user_uid": "16",
+    "content": "Vài thếp giấy đầm hoen sương sớm",
+    "createdDate": "6/9/22 20:11",
+    "undefined": "0.065"
+  },
+  {
+    "uid": "362",
+    "post_uid": "36",
+    "user_uid": "6",
+    "content": "Chợt lũ quỷ mắt xanh trừng trợn",
+    "createdDate": "6/9/22 20:11",
+    "undefined": "0.0649"
+  },
+  {
+    "uid": "363",
+    "post_uid": "36",
+    "user_uid": "17",
+    "content": "Khua giầy đinh đạp gẫy quán gầy teo",
+    "createdDate": "6/9/22 20:11",
+    "undefined": "0.0648"
+  },
+  {
+    "uid": "364",
+    "post_uid": "36",
+    "user_uid": "13",
+    "content": "Xì xồ cướp bóc",
+    "createdDate": "6/9/22 20:11",
+    "undefined": "0.0647"
+  },
+  {
+    "uid": "365",
+    "post_uid": "36",
+    "user_uid": "14",
+    "content": "Tan phiên chợ nghèo",
+    "createdDate": "6/9/22 20:11",
+    "undefined": "0.0646"
+  },
+  {
+    "uid": "366",
+    "post_uid": "36",
+    "user_uid": "14",
+    "content": "Lá đa lác đác trước lều",
+    "createdDate": "6/9/22 20:11",
+    "undefined": "0.0645"
+  },
+  {
+    "uid": "367",
+    "post_uid": "36",
+    "user_uid": "12",
+    "content": "Vài ba vết máu loang chiều mùa đông",
+    "createdDate": "6/9/22 20:11",
+    "undefined": "0.0644"
+  },
+  {
+    "uid": "368",
+    "post_uid": "36",
+    "user_uid": "20",
+    "content": "Chưa bán được một đồng",
+    "createdDate": "6/9/22 20:12",
+    "undefined": "0.0643"
+  },
+  {
+    "uid": "369",
+    "post_uid": "36",
+    "user_uid": "11",
+    "content": "Mẹ già lại quẩy gánh hàng rong",
+    "createdDate": "6/9/22 20:12",
+    "undefined": "0.0642"
+  },
+  {
+    "uid": "370",
+    "post_uid": "36",
+    "user_uid": "11",
+    "content": "Bước cao thấp trên bờ tre hun hút",
+    "createdDate": "6/9/22 20:12",
+    "undefined": "0.0641"
+  },
+  {
+    "uid": "371",
+    "post_uid": "37",
+    "user_uid": "14",
+    "content": "Có con cò trắng bay vùn vụt",
+    "createdDate": "6/9/22 20:12",
+    "undefined": "0.064"
+  },
+  {
+    "uid": "372",
+    "post_uid": "37",
+    "user_uid": "1",
+    "content": "Lướt ngang dòng sông Đuống về đâu?",
+    "createdDate": "6/9/22 20:12",
+    "undefined": "0.0639"
+  },
+  {
+    "uid": "373",
+    "post_uid": "37",
+    "user_uid": "1",
+    "content": "Mẹ ta lòng đói dạ sầu",
+    "createdDate": "6/9/22 20:12",
+    "undefined": "0.0638"
+  },
+  {
+    "uid": "374",
+    "post_uid": "37",
+    "user_uid": "5",
+    "content": "Đường trơn mưa lạnh mái đầu bạc phơ",
+    "createdDate": "6/9/22 20:12",
+    "undefined": "0.0637"
+  },
+  {
+    "uid": "375",
+    "post_uid": "37",
+    "user_uid": "2",
+    "content": "Bên kia sông Đuống",
+    "createdDate": "6/9/22 20:13",
+    "undefined": "0.0636"
+  },
+  {
+    "uid": "376",
+    "post_uid": "37",
+    "user_uid": "9",
+    "content": "Ta có đàn con thơ",
+    "createdDate": "6/9/22 20:13",
+    "undefined": "0.0635"
+  },
+  {
+    "uid": "377",
+    "post_uid": "37",
+    "user_uid": "19",
+    "content": "Ngày tranh nhau một bát cháo ngô",
+    "createdDate": "6/9/22 20:13",
+    "undefined": "0.0634"
+  },
+  {
+    "uid": "378",
+    "post_uid": "37",
+    "user_uid": "17",
+    "content": "Đêm líu ríu chui gầm giường tránh đạn",
+    "createdDate": "6/9/22 20:13",
+    "undefined": "0.0633"
+  },
+  {
+    "uid": "379",
+    "post_uid": "37",
+    "user_uid": "5",
+    "content": "Lấy mẹt quây tròn",
+    "createdDate": "6/9/22 20:13",
+    "undefined": "0.0632"
+  },
+  {
+    "uid": "380",
+    "post_uid": "37",
+    "user_uid": "11",
+    "content": "Tưởng làm tổ ấm",
+    "createdDate": "6/9/22 20:13",
+    "undefined": "0.0631"
+  },
+  {
+    "uid": "381",
+    "post_uid": "38",
+    "user_uid": "4",
+    "content": "Trong giấc thơ ngây tiếng súng dồn tựa sấm",
+    "createdDate": "6/9/22 20:13",
+    "undefined": "0.063"
+  },
+  {
+    "uid": "382",
+    "post_uid": "38",
+    "user_uid": "3",
+    "content": "Ú ớ cơn mê",
+    "createdDate": "6/9/22 20:14",
+    "undefined": "0.0629"
+  },
+  {
+    "uid": "383",
+    "post_uid": "38",
+    "user_uid": "12",
+    "content": "Thon thót giật mình",
+    "createdDate": "6/9/22 20:14",
+    "undefined": "0.0628"
+  },
+  {
+    "uid": "384",
+    "post_uid": "38",
+    "user_uid": "4",
+    "content": "Bóng giặc dày vò những nét môi xinh",
+    "createdDate": "6/9/22 20:14",
+    "undefined": "0.0627"
+  },
+  {
+    "uid": "385",
+    "post_uid": "38",
+    "user_uid": "11",
+    "content": "Đã có đất này chép tội",
+    "createdDate": "6/9/22 20:14",
+    "undefined": "0.0626"
+  },
+  {
+    "uid": "386",
+    "post_uid": "38",
+    "user_uid": "18",
+    "content": "Chúng ta không biết nguôi hờn",
+    "createdDate": "6/9/22 20:14",
+    "undefined": "0.0625"
+  },
+  {
+    "uid": "387",
+    "post_uid": "38",
+    "user_uid": "11",
+    "content": "Đêm buông xuống dòng sông Đuống",
+    "createdDate": "6/9/22 20:14",
+    "undefined": "0.0624"
+  },
+  {
+    "uid": "388",
+    "post_uid": "38",
+    "user_uid": "11",
+    "content": "Con là ai? - Con ở đâu về?",
+    "createdDate": "6/9/22 20:14",
+    "undefined": "0.0623"
+  },
+  {
+    "uid": "389",
+    "post_uid": "38",
+    "user_uid": "17",
+    "content": "Hé một cánh liếp",
+    "createdDate": "6/9/22 20:15",
+    "undefined": "0.0622"
+  },
+  {
+    "uid": "390",
+    "post_uid": "38",
+    "user_uid": "4",
+    "content": "- Con vào đây bốn phía tường che",
+    "createdDate": "6/9/22 20:15",
+    "undefined": "0.0621"
+  },
+  {
+    "uid": "391",
+    "post_uid": "39",
+    "user_uid": "16",
+    "content": "Lửa đèn leo lét soi tình mẹ",
+    "createdDate": "6/9/22 20:15",
+    "undefined": "0.062"
+  },
+  {
+    "uid": "392",
+    "post_uid": "39",
+    "user_uid": "10",
+    "content": "Khuôn mặt bừng lên như dựng giăng",
+    "createdDate": "6/9/22 20:15",
+    "undefined": "0.0619"
+  },
+  {
+    "uid": "393",
+    "post_uid": "39",
+    "user_uid": "10",
+    "content": "Ngậm ngùi tóc trắng đang thầm kể",
+    "createdDate": "6/9/22 20:15",
+    "undefined": "0.0618"
+  },
+  {
+    "uid": "394",
+    "post_uid": "39",
+    "user_uid": "10",
+    "content": "Những chuyện muôn đời khôn nói năng",
+    "createdDate": "6/9/22 20:15",
+    "undefined": "0.0617"
+  },
+  {
+    "uid": "395",
+    "post_uid": "39",
+    "user_uid": "1",
+    "content": "Đêm buông sâu xuống dòng sông Đuống",
+    "createdDate": "6/9/22 20:15",
+    "undefined": "0.0616"
+  },
+  {
+    "uid": "396",
+    "post_uid": "39",
+    "user_uid": "13",
+    "content": "Ta mài lưỡi cuốc",
+    "createdDate": "6/9/22 20:16",
+    "undefined": "0.0615"
+  },
+  {
+    "uid": "397",
+    "post_uid": "39",
+    "user_uid": "2",
+    "content": "Ta uốn lưỡi liềm",
+    "createdDate": "6/9/22 20:16",
+    "undefined": "0.0614"
+  },
+  {
+    "uid": "398",
+    "post_uid": "39",
+    "user_uid": "18",
+    "content": "Ta vót gậy nhọn",
+    "createdDate": "6/9/22 20:16",
+    "undefined": "0.0613"
+  },
+  {
+    "uid": "399",
+    "post_uid": "39",
+    "user_uid": "7",
+    "content": "Ta rũa mác dài",
+    "createdDate": "6/9/22 20:16",
+    "undefined": "0.0612"
+  },
+  {
+    "uid": "400",
+    "post_uid": "39",
+    "user_uid": "9",
+    "content": "Ta xây thành kháng chiến ngày mai",
+    "createdDate": "6/9/22 20:16",
+    "undefined": "0.0611"
+  },
+  {
+    "uid": "401",
+    "post_uid": "40",
+    "user_uid": "12",
+    "content": "Lao xao hàng cây bụi chuối",
+    "createdDate": "6/9/22 20:16",
+    "undefined": "0.061"
+  },
+  {
+    "uid": "402",
+    "post_uid": "40",
+    "user_uid": "19",
+    "content": "Im lìm miếu đổ chùa hoang",
+    "createdDate": "6/9/22 20:16",
+    "undefined": "0.0609"
+  },
+  {
+    "uid": "403",
+    "post_uid": "40",
+    "user_uid": "18",
+    "content": "Chập chờn đom đóm bay ngang",
+    "createdDate": "6/9/22 20:17",
+    "undefined": "0.0608"
+  },
+  {
+    "uid": "404",
+    "post_uid": "40",
+    "user_uid": "2",
+    "content": "Báo tin khủng khiếp",
+    "createdDate": "6/9/22 20:17",
+    "undefined": "0.0607"
+  },
+  {
+    "uid": "405",
+    "post_uid": "40",
+    "user_uid": "5",
+    "content": "Cho giặc kinh hoàng",
+    "createdDate": "6/9/22 20:17",
+    "undefined": "0.0606"
+  },
+  {
+    "uid": "406",
+    "post_uid": "40",
+    "user_uid": "10",
+    "content": "Từng từng tiếng súng vang vang",
+    "createdDate": "6/9/22 20:17",
+    "undefined": "0.0605"
+  },
+  {
+    "uid": "407",
+    "post_uid": "40",
+    "user_uid": "11",
+    "content": "Trong đêm khuya thoảng cung đàn tự do",
+    "createdDate": "6/9/22 20:17",
+    "undefined": "0.0604"
+  },
+  {
+    "uid": "408",
+    "post_uid": "40",
+    "user_uid": "16",
+    "content": "Thuyền ai thấp thoáng bến Hồ",
+    "createdDate": "6/9/22 20:17",
+    "undefined": "0.0603"
+  },
+  {
+    "uid": "409",
+    "post_uid": "40",
+    "user_uid": "15",
+    "content": "Xoá cho ta hết những giờ thảm thương",
+    "createdDate": "6/9/22 20:17",
+    "undefined": "0.0602"
+  },
+  {
+    "uid": "410",
+    "post_uid": "40",
+    "user_uid": "10",
+    "content": "Đêm đi sâu quá lòng sông Đuống",
+    "createdDate": "6/9/22 20:18",
+    "undefined": "0.0601"
+  },
+  {
+    "uid": "411",
+    "post_uid": "41",
+    "user_uid": "12",
+    "content": "Bộ đội bên sông đã trở về",
+    "createdDate": "6/9/22 20:18",
+    "undefined": "0.06"
+  },
+  {
+    "uid": "412",
+    "post_uid": "41",
+    "user_uid": "14",
+    "content": "Con bắt đầu xuất kích",
+    "createdDate": "6/9/22 20:18",
+    "undefined": "0.0599"
+  },
+  {
+    "uid": "413",
+    "post_uid": "41",
+    "user_uid": "16",
+    "content": "Trại giặc bắt đầu run trong sương",
+    "createdDate": "6/9/22 20:18",
+    "undefined": "0.0598"
+  },
+  {
+    "uid": "414",
+    "post_uid": "41",
+    "user_uid": "1",
+    "content": "Dao loé giữa chợ",
+    "createdDate": "6/9/22 20:18",
+    "undefined": "0.0597"
+  },
+  {
+    "uid": "415",
+    "post_uid": "41",
+    "user_uid": "9",
+    "content": "Gậy lùa cuối thôn",
+    "createdDate": "6/9/22 20:18",
+    "undefined": "0.0596"
+  },
+  {
+    "uid": "416",
+    "post_uid": "41",
+    "user_uid": "18",
+    "content": "Lúa chín vàng hoe giặc mất hồn",
+    "createdDate": "6/9/22 20:18",
+    "undefined": "0.0595"
+  },
+  {
+    "uid": "417",
+    "post_uid": "41",
+    "user_uid": "13",
+    "content": "Ăn không ngon",
+    "createdDate": "6/9/22 20:19",
+    "undefined": "0.0594"
+  },
+  {
+    "uid": "418",
+    "post_uid": "41",
+    "user_uid": "16",
+    "content": "Ngủ không yên",
+    "createdDate": "6/9/22 20:19",
+    "undefined": "0.0593"
+  },
+  {
+    "uid": "419",
+    "post_uid": "41",
+    "user_uid": "7",
+    "content": "Đứng không vững",
+    "createdDate": "6/9/22 20:19",
+    "undefined": "0.0592"
+  },
+  {
+    "uid": "420",
+    "post_uid": "41",
+    "user_uid": "19",
+    "content": "Chúng mày phát điên",
+    "createdDate": "6/9/22 20:19",
+    "undefined": "0.0591"
+  },
+  {
+    "uid": "421",
+    "post_uid": "42",
+    "user_uid": "18",
+    "content": "Quay cuồng như xéo lên đống lửa",
+    "createdDate": "6/9/22 20:19",
+    "undefined": "0.059"
+  },
+  {
+    "uid": "422",
+    "post_uid": "42",
+    "user_uid": "8",
+    "content": "Mà cánh đồng ta càng chan chứa",
+    "createdDate": "6/9/22 20:19",
+    "undefined": "0.0589"
+  },
+  {
+    "uid": "423",
+    "post_uid": "42",
+    "user_uid": "7",
+    "content": "Bao nhiêu nắng đẹp mùa xuân",
+    "createdDate": "6/9/22 20:19",
+    "undefined": "0.0588"
+  },
+  {
+    "uid": "424",
+    "post_uid": "42",
+    "user_uid": "7",
+    "content": "Gió đưa tiếng hát về gần",
+    "createdDate": "6/9/22 20:20",
+    "undefined": "0.0587"
+  },
+  {
+    "uid": "425",
+    "post_uid": "42",
+    "user_uid": "11",
+    "content": "Thợ cấy đánh giặc, dân quân cày bừa",
+    "createdDate": "6/9/22 20:20",
+    "undefined": "0.0586"
+  },
+  {
+    "uid": "426",
+    "post_uid": "42",
+    "user_uid": "14",
+    "content": "Tiếng bà ru cháu xế trưa",
+    "createdDate": "6/9/22 20:20",
+    "undefined": "0.0585"
+  },
+  {
+    "uid": "427",
+    "post_uid": "42",
+    "user_uid": "4",
+    "content": "Chang chang nắng hạ võng đưa rầu rầu",
+    "createdDate": "6/9/22 20:20",
+    "undefined": "0.0584"
+  },
+  {
+    "uid": "428",
+    "post_uid": "42",
+    "user_uid": "17",
+    "content": "“À ơi... cha con chết trận từ lâu",
+    "createdDate": "6/9/22 20:20",
+    "undefined": "0.0583"
+  },
+  {
+    "uid": "429",
+    "post_uid": "42",
+    "user_uid": "14",
+    "content": "Con càng khôn lớn càng sâu mối thù”",
+    "createdDate": "6/9/22 20:20",
+    "undefined": "0.0582"
+  },
+  {
+    "uid": "430",
+    "post_uid": "42",
+    "user_uid": "11",
+    "content": "Tiếng em cắt cỏ trại tù",
+    "createdDate": "6/9/22 20:20",
+    "undefined": "0.0581"
+  },
+  {
+    "uid": "431",
+    "post_uid": "43",
+    "user_uid": "6",
+    "content": "Căm căm gió rét mịt mù mưa bay",
+    "createdDate": "6/9/22 20:21",
+    "undefined": "0.058"
+  },
+  {
+    "uid": "432",
+    "post_uid": "43",
+    "user_uid": "17",
+    "content": "“Thân ta hoen ố vì mày",
+    "createdDate": "6/9/22 20:21",
+    "undefined": "0.0579"
+  },
+  {
+    "uid": "433",
+    "post_uid": "43",
+    "user_uid": "13",
+    "content": "Hờn ta cùng với đất này dài lâu...”",
+    "createdDate": "6/9/22 20:21",
+    "undefined": "0.0578"
+  },
+  {
+    "uid": "434",
+    "post_uid": "43",
+    "user_uid": "14",
+    "content": "Em ơi, đừng hát nữa lòng anh đau",
+    "createdDate": "6/9/22 20:21",
+    "undefined": "0.0577"
+  },
+  {
+    "uid": "435",
+    "post_uid": "43",
+    "user_uid": "16",
+    "content": "Mẹ ơi, đừng khóc nữa dạ con sầu",
+    "createdDate": "6/9/22 20:21",
+    "undefined": "0.0576"
+  },
+  {
+    "uid": "436",
+    "post_uid": "43",
+    "user_uid": "9",
+    "content": "Cánh đồng im phăng phắc",
+    "createdDate": "6/9/22 20:21",
+    "undefined": "0.0575"
+  },
+  {
+    "uid": "437",
+    "post_uid": "43",
+    "user_uid": "3",
+    "content": "Để con đi giết giặc",
+    "createdDate": "6/9/22 20:21",
+    "undefined": "0.0574"
+  },
+  {
+    "uid": "438",
+    "post_uid": "43",
+    "user_uid": "5",
+    "content": "Lấy máu nó rửa thù này",
+    "createdDate": "6/9/22 20:22",
+    "undefined": "0.0573"
+  },
+  {
+    "uid": "439",
+    "post_uid": "43",
+    "user_uid": "4",
+    "content": "Lấy súng nó cầm trong tay",
+    "createdDate": "6/9/22 20:22",
+    "undefined": "0.0572"
+  },
+  {
+    "uid": "440",
+    "post_uid": "43",
+    "user_uid": "14",
+    "content": "Mỗi đêm một lần mở hội",
+    "createdDate": "6/9/22 20:22",
+    "undefined": "0.0571"
+  },
+  {
+    "uid": "441",
+    "post_uid": "44",
+    "user_uid": "10",
+    "content": "Trong lòng con chim múa hoa cười",
+    "createdDate": "6/9/22 20:22",
+    "undefined": "0.057"
+  },
+  {
+    "uid": "442",
+    "post_uid": "44",
+    "user_uid": "10",
+    "content": "Vì nắng sắp lên rồi",
+    "createdDate": "6/9/22 20:22",
+    "undefined": "0.0569"
+  },
+  {
+    "uid": "443",
+    "post_uid": "44",
+    "user_uid": "17",
+    "content": "Chân trời đã tỏ",
+    "createdDate": "6/9/22 20:22",
+    "undefined": "0.0568"
+  },
+  {
+    "uid": "444",
+    "post_uid": "44",
+    "user_uid": "13",
+    "content": "Sông Đuống cuồn cuộn trôi",
+    "createdDate": "6/9/22 20:22",
+    "undefined": "0.0567"
+  },
+  {
+    "uid": "445",
+    "post_uid": "44",
+    "user_uid": "12",
+    "content": "Để nó cuốn phăng ra bể",
+    "createdDate": "6/9/22 20:23",
+    "undefined": "0.0566"
+  },
+  {
+    "uid": "446",
+    "post_uid": "44",
+    "user_uid": "1",
+    "content": "Bao nhiêu đồn giặc tơi bời",
+    "createdDate": "6/9/22 20:23",
+    "undefined": "0.0565"
+  },
+  {
+    "uid": "447",
+    "post_uid": "44",
+    "user_uid": "13",
+    "content": "Bao nhiêu nước mắt",
+    "createdDate": "6/9/22 20:23",
+    "undefined": "0.0564"
+  },
+  {
+    "uid": "448",
+    "post_uid": "44",
+    "user_uid": "4",
+    "content": "Bao nhiêu mồ hôi",
+    "createdDate": "6/9/22 20:23",
+    "undefined": "0.0563"
+  },
+  {
+    "uid": "449",
+    "post_uid": "44",
+    "user_uid": "13",
+    "content": "Bao nhiêu bóng tối",
+    "createdDate": "6/9/22 20:23",
+    "undefined": "0.0562"
+  },
+  {
+    "uid": "450",
+    "post_uid": "44",
+    "user_uid": "10",
+    "content": "Bao nhiêu nỗi đời",
+    "createdDate": "6/9/22 20:23",
+    "undefined": "0.0561"
+  },
+  {
+    "uid": "451",
+    "post_uid": "45",
+    "user_uid": "14",
+    "content": "Bao giờ về bên kia sông Đuống",
+    "createdDate": "6/9/22 20:24",
+    "undefined": "0.056"
+  },
+  {
+    "uid": "452",
+    "post_uid": "45",
+    "user_uid": "4",
+    "content": "Anh lại tìm em",
+    "createdDate": "6/9/22 20:24",
+    "undefined": "0.0559"
+  },
+  {
+    "uid": "453",
+    "post_uid": "45",
+    "user_uid": "13",
+    "content": "Em mặc yếm thắm",
+    "createdDate": "6/9/22 20:24",
+    "undefined": "0.0558"
+  },
+  {
+    "uid": "454",
+    "post_uid": "45",
+    "user_uid": "13",
+    "content": "Em thắt lụa hồng",
+    "createdDate": "6/9/22 20:24",
+    "undefined": "0.0557"
+  },
+  {
+    "uid": "455",
+    "post_uid": "45",
+    "user_uid": "11",
+    "content": "Em đi trẩy hội non sông",
+    "createdDate": "6/9/22 20:24",
+    "undefined": "0.0556"
+  },
+  {
+    "uid": "456",
+    "post_uid": "45",
+    "user_uid": "16",
+    "content": "Cười mê ánh sáng muôn lòng xuân xanh",
+    "createdDate": "6/9/22 20:24",
+    "undefined": "0.0555"
+  },
+  {
+    "uid": "457",
+    "post_uid": "45",
+    "user_uid": "20",
+    "content": "Anh về lại ngôi nhà mình",
+    "createdDate": "6/9/22 20:24",
+    "undefined": "0.0554"
+  },
+  {
+    "uid": "458",
+    "post_uid": "45",
+    "user_uid": "18",
+    "content": "Sau mười năm chiến tranh.",
+    "createdDate": "6/9/22 20:25",
+    "undefined": "0.0553"
+  },
+  {
+    "uid": "459",
+    "post_uid": "45",
+    "user_uid": "15",
+    "content": "Mẹ đón anh buổi bình minh nhập nhoạng,",
+    "createdDate": "6/9/22 20:25",
+    "undefined": "0.0552"
+  },
+  {
+    "uid": "460",
+    "post_uid": "45",
+    "user_uid": "17",
+    "content": "Cơn mưa đón anh buổi hừng đông chạng vạng,",
+    "createdDate": "6/9/22 20:25",
+    "undefined": "0.0551"
+  },
+  {
+    "uid": "461",
+    "post_uid": "46",
+    "user_uid": "2",
+    "content": "Mưa… Mưa… Mưa…",
+    "createdDate": "6/9/22 20:25",
+    "undefined": "0.055"
+  },
+  {
+    "uid": "462",
+    "post_uid": "46",
+    "user_uid": "11",
+    "content": "Mưa ngoài trời",
+    "createdDate": "6/9/22 20:25",
+    "undefined": "0.0549"
+  },
+  {
+    "uid": "463",
+    "post_uid": "46",
+    "user_uid": "16",
+    "content": "Khắp nơi,",
+    "createdDate": "6/9/22 20:25",
+    "undefined": "0.0548"
+  },
+  {
+    "uid": "464",
+    "post_uid": "46",
+    "user_uid": "2",
+    "content": "Mưa ngoài sân,",
+    "createdDate": "6/9/22 20:25",
+    "undefined": "0.0547"
+  },
+  {
+    "uid": "465",
+    "post_uid": "46",
+    "user_uid": "12",
+    "content": "Nhưng cũng mưa cả trong nhà…",
+    "createdDate": "6/9/22 20:26",
+    "undefined": "0.0546"
+  },
+  {
+    "uid": "466",
+    "post_uid": "46",
+    "user_uid": "19",
+    "content": "Sau lời mẹ là lời mưa reo ca…",
+    "createdDate": "6/9/22 20:26",
+    "undefined": "0.0545"
+  },
+  {
+    "uid": "467",
+    "post_uid": "46",
+    "user_uid": "7",
+    "content": "Nhà dột.",
+    "createdDate": "6/9/22 20:26",
+    "undefined": "0.0544"
+  },
+  {
+    "uid": "468",
+    "post_uid": "46",
+    "user_uid": "11",
+    "content": "Chỗ nằm chỉ còn đủ độ dài giữa hai chiếc cột",
+    "createdDate": "6/9/22 20:26",
+    "undefined": "0.0543"
+  },
+  {
+    "uid": "469",
+    "post_uid": "46",
+    "user_uid": "1",
+    "content": "Chiều rộng bằng khuôn chiếc tăng.",
+    "createdDate": "6/9/22 20:26",
+    "undefined": "0.0542"
+  },
+  {
+    "uid": "470",
+    "post_uid": "46",
+    "user_uid": "13",
+    "content": "Mắc võng.",
+    "createdDate": "6/9/22 20:26",
+    "undefined": "0.0541"
+  },
+  {
+    "uid": "471",
+    "post_uid": "47",
+    "user_uid": "9",
+    "content": "Lại mắc võng.",
+    "createdDate": "6/9/22 20:26",
+    "undefined": "0.054"
+  },
+  {
+    "uid": "472",
+    "post_uid": "47",
+    "user_uid": "19",
+    "content": "Vẫn là cây theo anh từ rừng về đây làm cột.",
+    "createdDate": "6/9/22 20:27",
+    "undefined": "0.0539"
+  },
+  {
+    "uid": "473",
+    "post_uid": "47",
+    "user_uid": "12",
+    "content": "Võng đưa sẽ ướt,",
+    "createdDate": "6/9/22 20:27",
+    "undefined": "0.0538"
+  },
+  {
+    "uid": "474",
+    "post_uid": "47",
+    "user_uid": "1",
+    "content": "Nhưng đã có con mọt trong cột làm âm thanh đung đưa",
+    "createdDate": "6/9/22 20:27",
+    "undefined": "0.0537"
+  },
+  {
+    "uid": "475",
+    "post_uid": "47",
+    "user_uid": "18",
+    "content": "Ngày xưa,",
+    "createdDate": "6/9/22 20:27",
+    "undefined": "0.0536"
+  },
+  {
+    "uid": "476",
+    "post_uid": "47",
+    "user_uid": "2",
+    "content": "Chỗ ướt mẹ nằm, sau mười năm",
+    "createdDate": "6/9/22 20:27",
+    "undefined": "0.0535"
+  },
+  {
+    "uid": "477",
+    "post_uid": "47",
+    "user_uid": "11",
+    "content": "Vẫn chỗ mưa mẹ đứng",
+    "createdDate": "6/9/22 20:27",
+    "undefined": "0.0534"
+  },
+  {
+    "uid": "478",
+    "post_uid": "47",
+    "user_uid": "9",
+    "content": "Mẹ trao cho anh chiếc đèn và bảo",
+    "createdDate": "6/9/22 20:27",
+    "undefined": "0.0533"
+  },
+  {
+    "uid": "479",
+    "post_uid": "47",
+    "user_uid": "6",
+    "content": "Đừng để ngọn lửa rụng!",
+    "createdDate": "6/9/22 20:28",
+    "undefined": "0.0532"
+  },
+  {
+    "uid": "480",
+    "post_uid": "47",
+    "user_uid": "11",
+    "content": "Mẹ xếp những thùng, chậu, nồi, xoong…",
+    "createdDate": "6/9/22 20:28",
+    "undefined": "0.0531"
+  },
+  {
+    "uid": "481",
+    "post_uid": "48",
+    "user_uid": "18",
+    "content": "Khúc nhạc mưa nhà dột tấu lên",
+    "createdDate": "6/9/22 20:28",
+    "undefined": "0.053"
+  },
+  {
+    "uid": "482",
+    "post_uid": "48",
+    "user_uid": "9",
+    "content": "Ru êm cánh võng.",
+    "createdDate": "6/9/22 20:28",
+    "undefined": "0.0529"
+  },
+  {
+    "uid": "483",
+    "post_uid": "48",
+    "user_uid": "4",
+    "content": "Người lính nằm im,",
+    "createdDate": "6/9/22 20:28",
+    "undefined": "0.0528"
+  },
+  {
+    "uid": "484",
+    "post_uid": "48",
+    "user_uid": "10",
+    "content": "Nghe âm thanh chiến tranh trong người mình cất giọng",
+    "createdDate": "6/9/22 20:28",
+    "undefined": "0.0527"
+  },
+  {
+    "uid": "485",
+    "post_uid": "48",
+    "user_uid": "20",
+    "content": "Trong đêm hoà bình đầu tiên.",
+    "createdDate": "6/9/22 20:28",
+    "undefined": "0.0526"
+  },
+  {
+    "uid": "486",
+    "post_uid": "48",
+    "user_uid": "17",
+    "content": "II.",
+    "createdDate": "6/9/22 20:29",
+    "undefined": "0.0525"
+  },
+  {
+    "uid": "487",
+    "post_uid": "48",
+    "user_uid": "9",
+    "content": "Không có trái bom nào rơi đúng nhà mẹ,",
+    "createdDate": "6/9/22 20:29",
+    "undefined": "0.0524"
+  },
+  {
+    "uid": "488",
+    "post_uid": "48",
+    "user_uid": "8",
+    "content": "Không có viên đạn nào bắn thủng mái nhà mẹ",
+    "createdDate": "6/9/22 20:29",
+    "undefined": "0.0523"
+  },
+  {
+    "uid": "489",
+    "post_uid": "48",
+    "user_uid": "19",
+    "content": "Chỉ có đứa con trai đi xa",
+    "createdDate": "6/9/22 20:29",
+    "undefined": "0.0522"
+  },
+  {
+    "uid": "490",
+    "post_uid": "48",
+    "user_uid": "3",
+    "content": "Chỉ có sự chờ đợi nặng nề giọt xuống",
+    "createdDate": "6/9/22 20:29",
+    "undefined": "0.0521"
+  },
+  {
+    "uid": "491",
+    "post_uid": "49",
+    "user_uid": "11",
+    "content": "Đã xuyên thủng mái nhà thành những lỗ to lỗ nhỏ khác nhau",
+    "createdDate": "6/9/22 20:29",
+    "undefined": "0.052"
+  },
+  {
+    "uid": "492",
+    "post_uid": "49",
+    "user_uid": "2",
+    "content": "Nắng mưa lọt vào sau",
+    "createdDate": "6/9/22 20:29",
+    "undefined": "0.0519"
+  },
+  {
+    "uid": "493",
+    "post_uid": "49",
+    "user_uid": "14",
+    "content": "Xuyên",
+    "createdDate": "6/9/22 20:30",
+    "undefined": "0.0518"
+  },
+  {
+    "uid": "494",
+    "post_uid": "49",
+    "user_uid": "16",
+    "content": "Xối",
+    "createdDate": "6/9/22 20:30",
+    "undefined": "0.0517"
+  },
+  {
+    "uid": "495",
+    "post_uid": "49",
+    "user_uid": "14",
+    "content": "Những sợi nắng, những sợi mưa nếu có thể nối, cũng chỉ dài",
+    "createdDate": "6/9/22 20:30",
+    "undefined": "0.0516"
+  },
+  {
+    "uid": "496",
+    "post_uid": "49",
+    "user_uid": "19",
+    "content": "Bằng một phần sự mong đợi",
+    "createdDate": "6/9/22 20:30",
+    "undefined": "0.0515"
+  },
+  {
+    "uid": "497",
+    "post_uid": "49",
+    "user_uid": "8",
+    "content": "Và những hạt nắng, những hạt mưa nếu đem xếp lại, có thể cao hơn mọi trái núi.",
+    "createdDate": "6/9/22 20:30",
+    "undefined": "0.0514"
+  },
+  {
+    "uid": "498",
+    "post_uid": "49",
+    "user_uid": "5",
+    "content": "Mười năm, cũng chỉ là thoáng qua,",
+    "createdDate": "6/9/22 20:30",
+    "undefined": "0.0513"
+  },
+  {
+    "uid": "499",
+    "post_uid": "49",
+    "user_uid": "9",
+    "content": "Vì tuổi mẹ sáu bẩy lần hơn,",
+    "createdDate": "6/9/22 20:30",
+    "undefined": "0.0512"
+  },
+  {
+    "uid": "500",
+    "post_uid": "49",
+    "user_uid": "15",
+    "content": "Mẹ vẫn nói đời mình như nắng trận mưa cơn…",
+    "createdDate": "6/9/22 20:31",
+    "undefined": "0.0511"
+  },
+  {
+    "uid": "501",
+    "post_uid": "50",
+    "user_uid": "16",
+    "content": "Mái rạ của mẹ cũng không thủng lỗ chỗ",
+    "createdDate": "6/9/22 20:31",
+    "undefined": "0.051"
+  },
+  {
+    "uid": "502",
+    "post_uid": "50",
+    "user_uid": "5",
+    "content": "Nếu con chỉ đi ra đồng, ra chợ",
+    "createdDate": "6/9/22 20:31",
+    "undefined": "0.0509"
+  },
+  {
+    "uid": "503",
+    "post_uid": "50",
+    "user_uid": "14",
+    "content": "Chứ không phải chiến tranh.",
+    "createdDate": "6/9/22 20:31",
+    "undefined": "0.0508"
+  },
+  {
+    "uid": "504",
+    "post_uid": "50",
+    "user_uid": "5",
+    "content": "Có phải những viên đạn trong vô hình ý nghĩ",
+    "createdDate": "6/9/22 20:31",
+    "undefined": "0.0507"
+  },
+  {
+    "uid": "505",
+    "post_uid": "50",
+    "user_uid": "3",
+    "content": "Bắn lúc đêm khuya vào đứa con thơ bé",
+    "createdDate": "6/9/22 20:31",
+    "undefined": "0.0506"
+  },
+  {
+    "uid": "506",
+    "post_uid": "50",
+    "user_uid": "14",
+    "content": "Đã để những lỗ thủng lốm đốm trên màu tóc mẹ",
+    "createdDate": "6/9/22 20:31",
+    "undefined": "0.0505"
+  },
+  {
+    "uid": "507",
+    "post_uid": "50",
+    "user_uid": "14",
+    "content": "Như những hạt nắng hạt mưa giọt sót vào đây,",
+    "createdDate": "6/9/22 20:32",
+    "undefined": "0.0504"
+  },
+  {
+    "uid": "508",
+    "post_uid": "50",
+    "user_uid": "4",
+    "content": "Để ai ai cũng phải nhìn và vội ngoảnh đi ngay…",
+    "createdDate": "6/9/22 20:32",
+    "undefined": "0.0503"
+  },
+  {
+    "uid": "509",
+    "post_uid": "50",
+    "user_uid": "12",
+    "content": "Và đêm nào mẹ cũng khấn, để phập phồng một lần tin, một lần vui,",
+    "createdDate": "6/9/22 20:32",
+    "undefined": "0.0502"
+  },
+  {
+    "uid": "510",
+    "post_uid": "50",
+    "user_uid": "19",
+    "content": "Nhưng tai ác hơn, mái nhà cứ thủng.",
+    "createdDate": "6/9/22 20:32",
+    "undefined": "0.0501"
+  },
+  {
+    "uid": "511",
+    "post_uid": "51",
+    "user_uid": "11",
+    "content": "Chẳng có na-pan, lân tinh, phốt-pho",
+    "createdDate": "6/9/22 20:32",
+    "undefined": "0.05"
+  },
+  {
+    "uid": "512",
+    "post_uid": "51",
+    "user_uid": "20",
+    "content": "Chỉ có mưa nắng,",
+    "createdDate": "6/9/22 20:32",
+    "undefined": "0.0499"
+  },
+  {
+    "uid": "513",
+    "post_uid": "51",
+    "user_uid": "4",
+    "content": "Sự xa vắng,",
+    "createdDate": "6/9/22 20:32",
+    "undefined": "0.0498"
+  },
+  {
+    "uid": "514",
+    "post_uid": "51",
+    "user_uid": "20",
+    "content": "Khiến mái rạ mục mủn, bạc như màu tóc bạc,",
+    "createdDate": "6/9/22 20:33",
+    "undefined": "0.0497"
+  },
+  {
+    "uid": "515",
+    "post_uid": "51",
+    "user_uid": "8",
+    "content": "Đôi sẻ tự tình bị hẫng hốt hoảng vù lên, bụi mù như tro bay…",
+    "createdDate": "6/9/22 20:33",
+    "undefined": "0.0496"
+  },
+  {
+    "uid": "516",
+    "post_uid": "51",
+    "user_uid": "18",
+    "content": "Mong đợi",
+    "createdDate": "6/9/22 20:33",
+    "undefined": "0.0495"
+  },
+  {
+    "uid": "517",
+    "post_uid": "51",
+    "user_uid": "16",
+    "content": "Yêu đương,",
+    "createdDate": "6/9/22 20:33",
+    "undefined": "0.0494"
+  },
+  {
+    "uid": "518",
+    "post_uid": "51",
+    "user_uid": "17",
+    "content": "Giả định: sống chết",
+    "createdDate": "6/9/22 20:33",
+    "undefined": "0.0493"
+  },
+  {
+    "uid": "519",
+    "post_uid": "51",
+    "user_uid": "18",
+    "content": "Của mẹ về con, làm cho con được sống.",
+    "createdDate": "6/9/22 20:33",
+    "undefined": "0.0492"
+  },
+  {
+    "uid": "520",
+    "post_uid": "51",
+    "user_uid": "3",
+    "content": "Con trở về giản dị,",
+    "createdDate": "6/9/22 20:33",
+    "undefined": "0.0491"
+  },
+  {
+    "uid": "521",
+    "post_uid": "52",
+    "user_uid": "11",
+    "content": "Cái ngõ nhỏ, mái nhà quê,",
+    "createdDate": "6/9/22 20:34",
+    "undefined": "0.049"
+  },
+  {
+    "uid": "522",
+    "post_uid": "52",
+    "user_uid": "17",
+    "content": "Biến thành cổng trời, thành lâu đài trong mắt mẹ đón con.",
+    "createdDate": "6/9/22 20:34",
+    "undefined": "0.0489"
+  },
+  {
+    "uid": "523",
+    "post_uid": "52",
+    "user_uid": "13",
+    "content": "Buổi sớm,",
+    "createdDate": "6/9/22 20:34",
+    "undefined": "0.0488"
+  },
+  {
+    "uid": "524",
+    "post_uid": "52",
+    "user_uid": "3",
+    "content": "Nắng xiên nghiêng,",
+    "createdDate": "6/9/22 20:34",
+    "undefined": "0.0487"
+  },
+  {
+    "uid": "525",
+    "post_uid": "52",
+    "user_uid": "3",
+    "content": "Anh nằm ngửa,",
+    "createdDate": "6/9/22 20:34",
+    "undefined": "0.0486"
+  },
+  {
+    "uid": "526",
+    "post_uid": "52",
+    "user_uid": "12",
+    "content": "Mái nhà có mắt nhìn anh",
+    "createdDate": "6/9/22 20:34",
+    "undefined": "0.0485"
+  },
+  {
+    "uid": "527",
+    "post_uid": "52",
+    "user_uid": "7",
+    "content": "Người lính",
+    "createdDate": "6/9/22 20:34",
+    "undefined": "0.0484"
+  },
+  {
+    "uid": "528",
+    "post_uid": "52",
+    "user_uid": "15",
+    "content": "Lần đầu tiên giật mình…",
+    "createdDate": "6/9/22 20:35",
+    "undefined": "0.0483"
+  },
+  {
+    "uid": "529",
+    "post_uid": "52",
+    "user_uid": "6",
+    "content": "Những hạt bụi nhảy múa rung rinh,",
+    "createdDate": "6/9/22 20:35",
+    "undefined": "0.0482"
+  },
+  {
+    "uid": "530",
+    "post_uid": "52",
+    "user_uid": "19",
+    "content": "Những con đường sang lên như nắng",
+    "createdDate": "6/9/22 20:35",
+    "undefined": "0.0481"
+  },
+  {
+    "uid": "531",
+    "post_uid": "53",
+    "user_uid": "13",
+    "content": "Và mỗi người là hạt bụi lung linh.",
+    "createdDate": "6/9/22 20:35",
+    "undefined": "0.048"
+  },
+  {
+    "uid": "532",
+    "post_uid": "53",
+    "user_uid": "14",
+    "content": "Mẹ vẫn lên nhà xuống bếp một mình,",
+    "createdDate": "6/9/22 20:35",
+    "undefined": "0.0479"
+  },
+  {
+    "uid": "533",
+    "post_uid": "53",
+    "user_uid": "9",
+    "content": "Chiến thắng của mẹ là anh",
+    "createdDate": "6/9/22 20:35",
+    "undefined": "0.0478"
+  },
+  {
+    "uid": "534",
+    "post_uid": "53",
+    "user_uid": "11",
+    "content": "Niềm vui của mẹ là anh.",
+    "createdDate": "6/9/22 20:35",
+    "undefined": "0.0477"
+  },
+  {
+    "uid": "535",
+    "post_uid": "53",
+    "user_uid": "5",
+    "content": "Nỗi buồn của anh không phải trong chiến tranh…",
+    "createdDate": "6/9/22 20:36",
+    "undefined": "0.0476"
+  },
+  {
+    "uid": "536",
+    "post_uid": "53",
+    "user_uid": "20",
+    "content": "Njhững sợi nắng xuyên qua nhà mình",
+    "createdDate": "6/9/22 20:36",
+    "undefined": "0.0475"
+  },
+  {
+    "uid": "537",
+    "post_uid": "53",
+    "user_uid": "11",
+    "content": "Thành những mũi tên",
+    "createdDate": "6/9/22 20:36",
+    "undefined": "0.0474"
+  },
+  {
+    "uid": "538",
+    "post_uid": "53",
+    "user_uid": "3",
+    "content": "Thành những viên đạn,",
+    "createdDate": "6/9/22 20:36",
+    "undefined": "0.0473"
+  },
+  {
+    "uid": "539",
+    "post_uid": "53",
+    "user_uid": "10",
+    "content": "Bắn tiếp vào anh không gì che chắn",
+    "createdDate": "6/9/22 20:36",
+    "undefined": "0.0472"
+  },
+  {
+    "uid": "540",
+    "post_uid": "53",
+    "user_uid": "8",
+    "content": "Phải nhận tất cả,",
+    "createdDate": "6/9/22 20:36",
+    "undefined": "0.0471"
+  },
+  {
+    "uid": "541",
+    "post_uid": "54",
+    "user_uid": "4",
+    "content": "Vẫn anh.",
+    "createdDate": "6/9/22 20:36",
+    "undefined": "0.047"
+  },
+  {
+    "uid": "542",
+    "post_uid": "54",
+    "user_uid": "2",
+    "content": "Hôm qua chưa nhận một viên đạn",
+    "createdDate": "6/9/22 20:37",
+    "undefined": "0.0469"
+  },
+  {
+    "uid": "543",
+    "post_uid": "54",
+    "user_uid": "5",
+    "content": "Hôm nay nhận những lỗ thủng",
+    "createdDate": "6/9/22 20:37",
+    "undefined": "0.0468"
+  },
+  {
+    "uid": "544",
+    "post_uid": "54",
+    "user_uid": "17",
+    "content": "Anh về quê không mang súng",
+    "createdDate": "6/9/22 20:37",
+    "undefined": "0.0467"
+  },
+  {
+    "uid": "545",
+    "post_uid": "54",
+    "user_uid": "8",
+    "content": "Vũ khí lúc này",
+    "createdDate": "6/9/22 20:37",
+    "undefined": "0.0466"
+  },
+  {
+    "uid": "546",
+    "post_uid": "54",
+    "user_uid": "8",
+    "content": "Hai bàn tay.",
+    "createdDate": "6/9/22 20:37",
+    "undefined": "0.0465"
+  },
+  {
+    "uid": "547",
+    "post_uid": "54",
+    "user_uid": "1",
+    "content": "Mẹ giục:",
+    "createdDate": "6/9/22 20:37",
+    "undefined": "0.0464"
+  },
+  {
+    "uid": "548",
+    "post_uid": "54",
+    "user_uid": "17",
+    "content": "- Ăn cơm, con!",
+    "createdDate": "6/9/22 20:37",
+    "undefined": "0.0463"
+  },
+  {
+    "uid": "549",
+    "post_uid": "54",
+    "user_uid": "2",
+    "content": "Hoà bình trong canh cua, mồng tơi, cà",
+    "createdDate": "6/9/22 20:38",
+    "undefined": "0.0462"
+  },
+  {
+    "uid": "550",
+    "post_uid": "54",
+    "user_uid": "17",
+    "content": "Và",
+    "createdDate": "6/9/22 20:38",
+    "undefined": "0.0461"
+  },
+  {
+    "uid": "551",
+    "post_uid": "55",
+    "user_uid": "7",
+    "content": "Mùi ổ rơm.",
+    "createdDate": "6/9/22 20:38",
+    "undefined": "0.046"
+  },
+  {
+    "uid": "552",
+    "post_uid": "55",
+    "user_uid": "11",
+    "content": "Bởi vì em dắt anh lên những ngôi đền cổ",
+    "createdDate": "6/9/22 20:38",
+    "undefined": "0.0459"
+  },
+  {
+    "uid": "553",
+    "post_uid": "55",
+    "user_uid": "17",
+    "content": "Chén ngọc giờ chìm dưới đáy sông sâu",
+    "createdDate": "6/9/22 20:38",
+    "undefined": "0.0458"
+  },
+  {
+    "uid": "554",
+    "post_uid": "55",
+    "user_uid": "14",
+    "content": "Những lăng tẩm hoàng hôn chống lại ngày quên lãng",
+    "createdDate": "6/9/22 20:38",
+    "undefined": "0.0457"
+  },
+  {
+    "uid": "555",
+    "post_uid": "55",
+    "user_uid": "6",
+    "content": "Mặt trời vàng và mắt em nâu",
+    "createdDate": "6/9/22 20:38",
+    "undefined": "0.0456"
+  },
+  {
+    "uid": "556",
+    "post_uid": "55",
+    "user_uid": "14",
+    "content": "Xin chào Huế một lần anh đến",
+    "createdDate": "6/9/22 20:39",
+    "undefined": "0.0455"
+  },
+  {
+    "uid": "557",
+    "post_uid": "55",
+    "user_uid": "2",
+    "content": "Để ngàn lần anh nhớ hư vô",
+    "createdDate": "6/9/22 20:39",
+    "undefined": "0.0454"
+  },
+  {
+    "uid": "558",
+    "post_uid": "55",
+    "user_uid": "15",
+    "content": "Em rất thực nắng thì mờ ảo",
+    "createdDate": "6/9/22 20:39",
+    "undefined": "0.0453"
+  },
+  {
+    "uid": "559",
+    "post_uid": "55",
+    "user_uid": "7",
+    "content": "Xin đừng nhầm em với cố đô",
+    "createdDate": "6/9/22 20:39",
+    "undefined": "0.0452"
+  },
+  {
+    "uid": "560",
+    "post_uid": "55",
+    "user_uid": "14",
+    "content": "Áo trắng hỡi thuở tìm em không thấy",
+    "createdDate": "6/9/22 20:39",
+    "undefined": "0.0451"
+  },
+  {
+    "uid": "561",
+    "post_uid": "56",
+    "user_uid": "6",
+    "content": "Nắng minh mang mấy nhịp Tràng Tiền",
+    "createdDate": "6/9/22 20:39",
+    "undefined": "0.045"
+  },
+  {
+    "uid": "562",
+    "post_uid": "56",
+    "user_uid": "15",
+    "content": "Nón rất Huế mà đời không phải thế",
+    "createdDate": "6/9/22 20:39",
+    "undefined": "0.0449"
+  },
+  {
+    "uid": "563",
+    "post_uid": "56",
+    "user_uid": "6",
+    "content": "Mặt trời lên từ phía nón em nghiêng",
+    "createdDate": "6/9/22 20:40",
+    "undefined": "0.0448"
+  },
+  {
+    "uid": "564",
+    "post_uid": "56",
+    "user_uid": "16",
+    "content": "Nhịp cầu cong và con đường thẳng",
+    "createdDate": "6/9/22 20:40",
+    "undefined": "0.0447"
+  },
+  {
+    "uid": "565",
+    "post_uid": "56",
+    "user_uid": "19",
+    "content": "Một đời anh đi mãi chẳng về đâu",
+    "createdDate": "6/9/22 20:40",
+    "undefined": "0.0446"
+  },
+  {
+    "uid": "566",
+    "post_uid": "56",
+    "user_uid": "4",
+    "content": "Con sông dùng dằng con sông không chảy",
+    "createdDate": "6/9/22 20:40",
+    "undefined": "0.0445"
+  },
+  {
+    "uid": "567",
+    "post_uid": "56",
+    "user_uid": "8",
+    "content": "Sông chảy vào lòng nên Huế rất sâu",
+    "createdDate": "6/9/22 20:40",
+    "undefined": "0.0444"
+  },
+  {
+    "uid": "568",
+    "post_uid": "56",
+    "user_uid": "9",
+    "content": "Tạm biệt Huế với em là vĩnh biệt",
+    "createdDate": "6/9/22 20:40",
+    "undefined": "0.0443"
+  },
+  {
+    "uid": "569",
+    "post_uid": "56",
+    "user_uid": "13",
+    "content": "Hải Vân ơi xin người đừng tắt ngọn sao khuya",
+    "createdDate": "6/9/22 20:40",
+    "undefined": "0.0442"
+  },
+  {
+    "uid": "570",
+    "post_uid": "56",
+    "user_uid": "13",
+    "content": "Tạm biệt nhé với chiếc hôn thầm lặng",
+    "createdDate": "6/9/22 20:41",
+    "undefined": "0.0441"
+  },
+  {
+    "uid": "571",
+    "post_uid": "57",
+    "user_uid": "11",
+    "content": "Anh trở về hóa đá phía bên kia.",
+    "createdDate": "6/9/22 20:41",
+    "undefined": "0.044"
+  },
+  {
+    "uid": "572",
+    "post_uid": "57",
+    "user_uid": "17",
+    "content": "Sẽ có những sư đoàn thép",
+    "createdDate": "6/9/22 20:41",
+    "undefined": "0.0439"
+  },
+  {
+    "uid": "573",
+    "post_uid": "57",
+    "user_uid": "18",
+    "content": "Bất kỳ nơi đâu",
+    "createdDate": "6/9/22 20:41",
+    "undefined": "0.0438"
+  },
+  {
+    "uid": "574",
+    "post_uid": "57",
+    "user_uid": "18",
+    "content": "Không khuất phục tù đày chém giết",
+    "createdDate": "6/9/22 20:41",
+    "undefined": "0.0437"
+  },
+  {
+    "uid": "575",
+    "post_uid": "57",
+    "user_uid": "1",
+    "content": "Nơi đâu",
+    "createdDate": "6/9/22 20:41",
+    "undefined": "0.0436"
+  },
+  {
+    "uid": "576",
+    "post_uid": "57",
+    "user_uid": "12",
+    "content": "Người sống nợ nần người đã chết",
+    "createdDate": "6/9/22 20:42",
+    "undefined": "0.0435"
+  },
+  {
+    "uid": "577",
+    "post_uid": "57",
+    "user_uid": "13",
+    "content": "Bất kỳ nơi đâu",
+    "createdDate": "6/9/22 20:42",
+    "undefined": "0.0434"
+  },
+  {
+    "uid": "578",
+    "post_uid": "57",
+    "user_uid": "14",
+    "content": "Từ một cây \"mút nhét\"",
+    "createdDate": "6/9/22 20:42",
+    "undefined": "0.0433"
+  },
+  {
+    "uid": "579",
+    "post_uid": "57",
+    "user_uid": "4",
+    "content": "Một sải xuồng bơi",
+    "createdDate": "6/9/22 20:42",
+    "undefined": "0.0432"
+  },
+  {
+    "uid": "580",
+    "post_uid": "57",
+    "user_uid": "7",
+    "content": "Một nọc ong châm góp làm sự nghiệp",
+    "createdDate": "6/9/22 20:42",
+    "undefined": "0.0431"
+  },
+  {
+    "uid": "581",
+    "post_uid": "58",
+    "user_uid": "3",
+    "content": "Gốc tre xanh thắng trận cả ba đời",
+    "createdDate": "6/9/22 20:42",
+    "undefined": "0.043"
+  },
+  {
+    "uid": "582",
+    "post_uid": "58",
+    "user_uid": "12",
+    "content": "Ba mươi triệu tấm lòng xông ra tuyến lửa",
+    "createdDate": "6/9/22 20:42",
+    "undefined": "0.0429"
+  },
+  {
+    "uid": "583",
+    "post_uid": "58",
+    "user_uid": "19",
+    "content": "Vạch lối điều quân",
+    "createdDate": "6/9/22 20:43",
+    "undefined": "0.0428"
+  },
+  {
+    "uid": "584",
+    "post_uid": "58",
+    "user_uid": "9",
+    "content": "Vai chảy xe thồ",
+    "createdDate": "6/9/22 20:43",
+    "undefined": "0.0427"
+  },
+  {
+    "uid": "585",
+    "post_uid": "58",
+    "user_uid": "10",
+    "content": "Trồng cây xanh che chở",
+    "createdDate": "6/9/22 20:43",
+    "undefined": "0.0426"
+  },
+  {
+    "uid": "586",
+    "post_uid": "58",
+    "user_uid": "13",
+    "content": "Mỗi bước quân đi",
+    "createdDate": "6/9/22 20:43",
+    "undefined": "0.0425"
+  },
+  {
+    "uid": "587",
+    "post_uid": "58",
+    "user_uid": "17",
+    "content": "Đánh trận trường kỳ",
+    "createdDate": "6/9/22 20:43",
+    "undefined": "0.0424"
+  },
+  {
+    "uid": "588",
+    "post_uid": "58",
+    "user_uid": "12",
+    "content": "Đêm trước nấp trong lùm bắn tỉa",
+    "createdDate": "6/9/22 20:43",
+    "undefined": "0.0423"
+  },
+  {
+    "uid": "589",
+    "post_uid": "58",
+    "user_uid": "10",
+    "content": "Sớm sau dàn trận chính qui",
+    "createdDate": "6/9/22 20:43",
+    "undefined": "0.0422"
+  },
+  {
+    "uid": "590",
+    "post_uid": "58",
+    "user_uid": "20",
+    "content": "Đến trận bão hiệp đồng cả nước",
+    "createdDate": "6/9/22 20:44",
+    "undefined": "0.0421"
+  },
+  {
+    "uid": "591",
+    "post_uid": "59",
+    "user_uid": "7",
+    "content": "Mỗi sư đoàn mang gió lốc bay đi...",
+    "createdDate": "6/9/22 20:44",
+    "undefined": "0.042"
+  },
+  {
+    "uid": "592",
+    "post_uid": "59",
+    "user_uid": "8",
+    "content": "Đất giải phóng thênh thang",
+    "createdDate": "6/9/22 20:44",
+    "undefined": "0.0419"
+  },
+  {
+    "uid": "593",
+    "post_uid": "59",
+    "user_uid": "13",
+    "content": "Sẽ cho ta dàn đội ngũ - sư đoàn",
+    "createdDate": "6/9/22 20:44",
+    "undefined": "0.0418"
+  },
+  {
+    "uid": "594",
+    "post_uid": "59",
+    "user_uid": "14",
+    "content": "Phía trước gọi ta",
+    "createdDate": "6/9/22 20:44",
+    "undefined": "0.0417"
+  },
+  {
+    "uid": "595",
+    "post_uid": "59",
+    "user_uid": "19",
+    "content": "Những Điện Biên vòng đai thép tung ra làm chiến dịch",
+    "createdDate": "6/9/22 20:44",
+    "undefined": "0.0416"
+  },
+  {
+    "uid": "596",
+    "post_uid": "59",
+    "user_uid": "18",
+    "content": "Đòn gánh hậu phương vượt đèo đi phản kích",
+    "createdDate": "6/9/22 20:44",
+    "undefined": "0.0415"
+  },
+  {
+    "uid": "597",
+    "post_uid": "59",
+    "user_uid": "3",
+    "content": "Hành quân",
+    "createdDate": "6/9/22 20:45",
+    "undefined": "0.0414"
+  },
+  {
+    "uid": "598",
+    "post_uid": "59",
+    "user_uid": "1",
+    "content": "Hành quân",
+    "createdDate": "6/9/22 20:45",
+    "undefined": "0.0413"
+  },
+  {
+    "uid": "599",
+    "post_uid": "59",
+    "user_uid": "6",
+    "content": "Trùng điệp những sư đoàn",
+    "createdDate": "6/9/22 20:45",
+    "undefined": "0.0412"
+  },
+  {
+    "uid": "600",
+    "post_uid": "59",
+    "user_uid": "9",
+    "content": "Đi lên phía Bắc",
+    "createdDate": "6/9/22 20:45",
+    "undefined": "0.0411"
+  },
+  {
+    "uid": "601",
+    "post_uid": "60",
+    "user_uid": "2",
+    "content": "Tràn về hướng Nam",
+    "createdDate": "6/9/22 20:45",
+    "undefined": "0.041"
+  },
+  {
+    "uid": "602",
+    "post_uid": "60",
+    "user_uid": "6",
+    "content": "Những vị tướng lại cầm quân đi đánh giặc",
+    "createdDate": "6/9/22 20:45",
+    "undefined": "0.0409"
+  },
+  {
+    "uid": "603",
+    "post_uid": "60",
+    "user_uid": "8",
+    "content": "Trải bản đồ",
+    "createdDate": "6/9/22 20:45",
+    "undefined": "0.0408"
+  },
+  {
+    "uid": "604",
+    "post_uid": "60",
+    "user_uid": "1",
+    "content": "Còn nguyên",
+    "createdDate": "6/9/22 20:46",
+    "undefined": "0.0407"
+  },
+  {
+    "uid": "605",
+    "post_uid": "60",
+    "user_uid": "2",
+    "content": "Vạch chỉ đỏ thắt quanh hầu giặc Pháp",
+    "createdDate": "6/9/22 20:46",
+    "undefined": "0.0406"
+  },
+  {
+    "uid": "606",
+    "post_uid": "60",
+    "user_uid": "8",
+    "content": "Bài học chiến tranh nhân dân",
+    "createdDate": "6/9/22 20:46",
+    "undefined": "0.0405"
+  },
+  {
+    "uid": "607",
+    "post_uid": "60",
+    "user_uid": "3",
+    "content": "Lại tiếp",
+    "createdDate": "6/9/22 20:46",
+    "undefined": "0.0404"
+  },
+  {
+    "uid": "608",
+    "post_uid": "60",
+    "user_uid": "5",
+    "content": "Trang ấp Bắc - Plây me",
+    "createdDate": "6/9/22 20:46",
+    "undefined": "0.0403"
+  },
+  {
+    "uid": "609",
+    "post_uid": "60",
+    "user_uid": "17",
+    "content": "Và chiến công lên ngực áo những binh nhì",
+    "createdDate": "6/9/22 20:46",
+    "undefined": "0.0402"
+  },
+  {
+    "uid": "610",
+    "post_uid": "60",
+    "user_uid": "19",
+    "content": "Đất nước sẽ cho ta",
+    "createdDate": "6/9/22 20:46",
+    "undefined": "0.0401"
+  },
+  {
+    "uid": "611",
+    "post_uid": "61",
+    "user_uid": "13",
+    "content": "Những chùm con số đẹp",
+    "createdDate": "6/9/22 20:47",
+    "undefined": "0.04"
+  },
+  {
+    "uid": "612",
+    "post_uid": "61",
+    "user_uid": "18",
+    "content": "Làm tên gọi khai sinh sư đoàn thep",
+    "createdDate": "6/9/22 20:47",
+    "undefined": "0.0399"
+  },
+  {
+    "uid": "613",
+    "post_uid": "61",
+    "user_uid": "9",
+    "content": "Này đây",
+    "createdDate": "6/9/22 20:47",
+    "undefined": "0.0398"
+  },
+  {
+    "uid": "614",
+    "post_uid": "61",
+    "user_uid": "16",
+    "content": "Doi cát Cửu Long xanh",
+    "createdDate": "6/9/22 20:47",
+    "undefined": "0.0397"
+  },
+  {
+    "uid": "615",
+    "post_uid": "61",
+    "user_uid": "14",
+    "content": "Sư đoàn Châu Thổ",
+    "createdDate": "6/9/22 20:47",
+    "undefined": "0.0396"
+  },
+  {
+    "uid": "616",
+    "post_uid": "61",
+    "user_uid": "10",
+    "content": "Giữa bãi sú, rừng tràm",
+    "createdDate": "6/9/22 20:47",
+    "undefined": "0.0395"
+  },
+  {
+    "uid": "617",
+    "post_uid": "61",
+    "user_uid": "7",
+    "content": "Vụt đứng dậy sư đoàn Nam Bộ",
+    "createdDate": "6/9/22 20:47",
+    "undefined": "0.0394"
+  },
+  {
+    "uid": "618",
+    "post_uid": "61",
+    "user_uid": "18",
+    "content": "Sư đoàn Tây Nguyên",
+    "createdDate": "6/9/22 20:48",
+    "undefined": "0.0393"
+  },
+  {
+    "uid": "619",
+    "post_uid": "61",
+    "user_uid": "6",
+    "content": "Từ hầm chông bẫy đá cung tên",
+    "createdDate": "6/9/22 20:48",
+    "undefined": "0.0392"
+  },
+  {
+    "uid": "620",
+    "post_uid": "61",
+    "user_uid": "16",
+    "content": "Này đây Cực Nam Phan Rang - Phan Thiết",
+    "createdDate": "6/9/22 20:48",
+    "undefined": "0.0391"
+  },
+  {
+    "uid": "621",
+    "post_uid": "62",
+    "user_uid": "2",
+    "content": "Này đây Quảng Ngãi - Phú Yên",
+    "createdDate": "6/9/22 20:48",
+    "undefined": "0.039"
+  },
+  {
+    "uid": "622",
+    "post_uid": "62",
+    "user_uid": "20",
+    "content": "Trên nguồn xa Ô Lâu - Thạch Hãn",
+    "createdDate": "6/9/22 20:48",
+    "undefined": "0.0389"
+  },
+  {
+    "uid": "623",
+    "post_uid": "62",
+    "user_uid": "12",
+    "content": "Sẽ tiến về",
+    "createdDate": "6/9/22 20:48",
+    "undefined": "0.0388"
+  },
+  {
+    "uid": "624",
+    "post_uid": "62",
+    "user_uid": "17",
+    "content": "Sư đoàn Trị Thiên",
+    "createdDate": "6/9/22 20:48",
+    "undefined": "0.0387"
+  },
+  {
+    "uid": "625",
+    "post_uid": "62",
+    "user_uid": "13",
+    "content": "Lại có một ngày",
+    "createdDate": "6/9/22 20:49",
+    "undefined": "0.0386"
+  },
+  {
+    "uid": "626",
+    "post_uid": "62",
+    "user_uid": "7",
+    "content": "Mọi cửa ô xanh Sài Gòn hớn hở",
+    "createdDate": "6/9/22 20:49",
+    "undefined": "0.0385"
+  },
+  {
+    "uid": "627",
+    "post_uid": "62",
+    "user_uid": "3",
+    "content": "Như Hà Nội đã từng",
+    "createdDate": "6/9/22 20:49",
+    "undefined": "0.0384"
+  },
+  {
+    "uid": "628",
+    "post_uid": "62",
+    "user_uid": "3",
+    "content": "Ba mươi sáu đường hoa tung sóng đỏ",
+    "createdDate": "6/9/22 20:49",
+    "undefined": "0.0383"
+  },
+  {
+    "uid": "629",
+    "post_uid": "62",
+    "user_uid": "17",
+    "content": "Phất rừng cờ thổi hồng ngọn gió",
+    "createdDate": "6/9/22 20:49",
+    "undefined": "0.0382"
+  },
+  {
+    "uid": "630",
+    "post_uid": "62",
+    "user_uid": "16",
+    "content": "Đón con em",
+    "createdDate": "6/9/22 20:49",
+    "undefined": "0.0381"
+  },
+  {
+    "uid": "631",
+    "post_uid": "63",
+    "user_uid": "17",
+    "content": "Đón những sư đoàn",
+    "createdDate": "6/9/22 20:49",
+    "undefined": "0.038"
+  },
+  {
+    "uid": "632",
+    "post_uid": "63",
+    "user_uid": "17",
+    "content": "Mang chiến thắng trở về",
+    "createdDate": "6/9/22 20:50",
+    "undefined": "0.0379"
+  },
+  {
+    "uid": "633",
+    "post_uid": "63",
+    "user_uid": "8",
+    "content": "Rập bước",
+    "createdDate": "6/9/22 20:50",
+    "undefined": "0.0378"
+  },
+  {
+    "uid": "634",
+    "post_uid": "63",
+    "user_uid": "5",
+    "content": "Ca vang!",
+    "createdDate": "6/9/22 20:50",
+    "undefined": "0.0377"
+  },
+  {
+    "uid": "635",
+    "post_uid": "63",
+    "user_uid": "7",
+    "content": "Ngã tư nghiêng nghiêng đốm lửa",
+    "createdDate": "6/9/22 20:50",
+    "undefined": "0.0376"
+  },
+  {
+    "uid": "636",
+    "post_uid": "63",
+    "user_uid": "14",
+    "content": "Chập chờn ảo hoá tà ma...",
+    "createdDate": "6/9/22 20:50",
+    "undefined": "0.0375"
+  },
+  {
+    "uid": "637",
+    "post_uid": "63",
+    "user_uid": "19",
+    "content": "Đôi dãy hồng lâu cửa mở phấn sa",
+    "createdDate": "6/9/22 20:50",
+    "undefined": "0.0374"
+  },
+  {
+    "uid": "638",
+    "post_uid": "63",
+    "user_uid": "3",
+    "content": "Rũ rượi tóc những hình hài địa ngục",
+    "createdDate": "6/9/22 20:50",
+    "undefined": "0.0373"
+  },
+  {
+    "uid": "639",
+    "post_uid": "63",
+    "user_uid": "11",
+    "content": "Lạnh ngắt tiếng ca nhi phách giục",
+    "createdDate": "6/9/22 20:51",
+    "undefined": "0.0372"
+  },
+  {
+    "uid": "640",
+    "post_uid": "63",
+    "user_uid": "20",
+    "content": "Tình tang... Não nuột khóc tàn sương",
+    "createdDate": "6/9/22 20:51",
+    "undefined": "0.0371"
+  },
+  {
+    "uid": "641",
+    "post_uid": "64",
+    "user_uid": "5",
+    "content": "Áo thế hoa rũ rượi lượn đêm trường",
+    "createdDate": "6/9/22 20:51",
+    "undefined": "0.037"
+  },
+  {
+    "uid": "642",
+    "post_uid": "64",
+    "user_uid": "5",
+    "content": "Từng mỹ thể rạc hơi đèn phù thể",
+    "createdDate": "6/9/22 20:51",
+    "undefined": "0.0369"
+  },
+  {
+    "uid": "643",
+    "post_uid": "64",
+    "user_uid": "12",
+    "content": "Ta đi giữa đường dương thế",
+    "createdDate": "6/9/22 20:51",
+    "undefined": "0.0368"
+  },
+  {
+    "uid": "644",
+    "post_uid": "64",
+    "user_uid": "3",
+    "content": "Bóng tối âm thầm rụng xuống chân cây...",
+    "createdDate": "6/9/22 20:51",
+    "undefined": "0.0367"
+  },
+  {
+    "uid": "645",
+    "post_uid": "64",
+    "user_uid": "20",
+    "content": "Tiếng xe ma chở vội một đêm gầy",
+    "createdDate": "6/9/22 20:51",
+    "undefined": "0.0366"
+  },
+  {
+    "uid": "646",
+    "post_uid": "64",
+    "user_uid": "6",
+    "content": "Xác truỵ lạc rũ bên thềm lá phủ",
+    "createdDate": "6/9/22 20:52",
+    "undefined": "0.0365"
+  },
+  {
+    "uid": "647",
+    "post_uid": "64",
+    "user_uid": "4",
+    "content": "Ai hát khúc thanh xuân hờ ơi phấn nữ",
+    "createdDate": "6/9/22 20:52",
+    "undefined": "0.0364"
+  },
+  {
+    "uid": "648",
+    "post_uid": "64",
+    "user_uid": "6",
+    "content": "Thanh xuân hờ thanh xuân",
+    "createdDate": "6/9/22 20:52",
+    "undefined": "0.0363"
+  },
+  {
+    "uid": "649",
+    "post_uid": "64",
+    "user_uid": "20",
+    "content": "Bước gần ta chút nữa thêm gần",
+    "createdDate": "6/9/22 20:52",
+    "undefined": "0.0362"
+  },
+  {
+    "uid": "650",
+    "post_uid": "64",
+    "user_uid": "11",
+    "content": "Khoảng giữa tuổi thanh xuân nghe loạn trùng hút tuỷ",
+    "createdDate": "6/9/22 20:52",
+    "undefined": "0.0361"
+  },
+  {
+    "uid": "651",
+    "post_uid": "65",
+    "user_uid": "7",
+    "content": "Ai huỷ đời trên tang trống nhỉ?",
+    "createdDate": "6/9/22 20:52",
+    "undefined": "0.036"
+  },
+  {
+    "uid": "652",
+    "post_uid": "65",
+    "user_uid": "19",
+    "content": "Hay ác thần gõ quách nạo mồ khuya!",
+    "createdDate": "6/9/22 20:52",
+    "undefined": "0.0359"
+  },
+  {
+    "uid": "653",
+    "post_uid": "65",
+    "user_uid": "20",
+    "content": "Đảo điên... mê say... Thể phách chia lìa",
+    "createdDate": "6/9/22 20:53",
+    "undefined": "0.0358"
+  },
+  {
+    "uid": "654",
+    "post_uid": "65",
+    "user_uid": "1",
+    "content": "Nghe reo mạnh, chuỗi tiền cười lạnh lẽo!",
+    "createdDate": "6/9/22 20:53",
+    "undefined": "0.0357"
+  },
+  {
+    "uid": "655",
+    "post_uid": "65",
+    "user_uid": "8",
+    "content": "Tiền rơi! Tiền rơi! chùm sao huyền diệu",
+    "createdDate": "6/9/22 20:53",
+    "undefined": "0.0356"
+  },
+  {
+    "uid": "656",
+    "post_uid": "65",
+    "user_uid": "11",
+    "content": "Lấp lánh hằng hà gạo rơi! Tiền rơi!",
+    "createdDate": "6/9/22 20:53",
+    "undefined": "0.0355"
+  },
+  {
+    "uid": "657",
+    "post_uid": "65",
+    "user_uid": "9",
+    "content": "- Vàng mấy lá thừa đãi mây phủ chiếu",
+    "createdDate": "6/9/22 20:53",
+    "undefined": "0.0354"
+  },
+  {
+    "uid": "658",
+    "post_uid": "65",
+    "user_uid": "18",
+    "content": "Ngã tư nghiêng nghiêng chia nẻo",
+    "createdDate": "6/9/22 20:53",
+    "undefined": "0.0353"
+  },
+  {
+    "uid": "659",
+    "post_uid": "65",
+    "user_uid": "6",
+    "content": "Dặt dìu cung bậc âm dương",
+    "createdDate": "6/9/22 20:53",
+    "undefined": "0.0352"
+  },
+  {
+    "uid": "660",
+    "post_uid": "65",
+    "user_uid": "20",
+    "content": "Tàn xuân nhễ nhại mưa cô tịch",
+    "createdDate": "6/9/22 20:54",
+    "undefined": "0.0351"
+  },
+  {
+    "uid": "661",
+    "post_uid": "66",
+    "user_uid": "19",
+    "content": "Đầm đìa rả rích phương Đông",
+    "createdDate": "6/9/22 20:54",
+    "undefined": "0.035"
+  },
+  {
+    "uid": "662",
+    "post_uid": "66",
+    "user_uid": "12",
+    "content": "Mang mang thở dài hồn đất trích",
+    "createdDate": "6/9/22 20:54",
+    "undefined": "0.0349"
+  },
+  {
+    "uid": "663",
+    "post_uid": "66",
+    "user_uid": "2",
+    "content": "Lưỡi thép trùng trùng khép cố đô",
+    "createdDate": "6/9/22 20:54",
+    "undefined": "0.0348"
+  },
+  {
+    "uid": "664",
+    "post_uid": "66",
+    "user_uid": "2",
+    "content": "Cửa ô đau khổ",
+    "createdDate": "6/9/22 20:54",
+    "undefined": "0.0347"
+  },
+  {
+    "uid": "665",
+    "post_uid": "66",
+    "user_uid": "19",
+    "content": "Bốn ngả âm u",
+    "createdDate": "6/9/22 20:54",
+    "undefined": "0.0346"
+  },
+  {
+    "uid": "666",
+    "post_uid": "66",
+    "user_uid": "13",
+    "content": "(Nhà ta thuê mái gục tự mùa thu",
+    "createdDate": "6/9/22 20:54",
+    "undefined": "0.0345"
+  },
+  {
+    "uid": "667",
+    "post_uid": "66",
+    "user_uid": "5",
+    "content": "Gác cô độc hướng về phường Dạ Lạc)",
+    "createdDate": "6/9/22 20:55",
+    "undefined": "0.0344"
+  },
+  {
+    "uid": "668",
+    "post_uid": "66",
+    "user_uid": "7",
+    "content": "Đêm đêm, dài canh tan tác",
+    "createdDate": "6/9/22 20:55",
+    "undefined": "0.0343"
+  },
+  {
+    "uid": "669",
+    "post_uid": "66",
+    "user_uid": "14",
+    "content": "Bốn vực nhạc động, vẫy người",
+    "createdDate": "6/9/22 20:55",
+    "undefined": "0.0342"
+  },
+  {
+    "uid": "670",
+    "post_uid": "66",
+    "user_uid": "9",
+    "content": "Giãy đèn chao thắp đỏ quạnh máu đời",
+    "createdDate": "6/9/22 20:55",
+    "undefined": "0.0341"
+  },
+  {
+    "uid": "671",
+    "post_uid": "67",
+    "user_uid": "18",
+    "content": "Ta về gác chiếu chăn gào tự tử",
+    "createdDate": "6/9/22 20:55",
+    "undefined": "0.034"
+  },
+  {
+    "uid": "672",
+    "post_uid": "67",
+    "user_uid": "6",
+    "content": "Trên đường tối đêm khoả thân khiêu vũ",
+    "createdDate": "6/9/22 20:55",
+    "undefined": "0.0339"
+  },
+  {
+    "uid": "673",
+    "post_uid": "67",
+    "user_uid": "6",
+    "content": "Kèn nhịp xa điệu múa vô luân",
+    "createdDate": "6/9/22 20:55",
+    "undefined": "0.0338"
+  },
+  {
+    "uid": "674",
+    "post_uid": "67",
+    "user_uid": "15",
+    "content": "Run rẩy giao duyên khối nhạc trầm trầm",
+    "createdDate": "6/9/22 20:56",
+    "undefined": "0.0337"
+  },
+  {
+    "uid": "675",
+    "post_uid": "67",
+    "user_uid": "15",
+    "content": "Hun hút gió nâng cầm ca nặng nhọc",
+    "createdDate": "6/9/22 20:56",
+    "undefined": "0.0336"
+  },
+  {
+    "uid": "676",
+    "post_uid": "67",
+    "user_uid": "9",
+    "content": "Kiếp người tang tóc",
+    "createdDate": "6/9/22 20:56",
+    "undefined": "0.0335"
+  },
+  {
+    "uid": "677",
+    "post_uid": "67",
+    "user_uid": "8",
+    "content": "Loạn lạc đòi xương chất lên xương",
+    "createdDate": "6/9/22 20:56",
+    "undefined": "0.0334"
+  },
+  {
+    "uid": "678",
+    "post_uid": "67",
+    "user_uid": "3",
+    "content": "Một nửa kêu than, ma đói sa trường",
+    "createdDate": "6/9/22 20:56",
+    "undefined": "0.0333"
+  },
+  {
+    "uid": "679",
+    "post_uid": "67",
+    "user_uid": "9",
+    "content": "Còn một nửa lang thang tìm khoái lạc",
+    "createdDate": "6/9/22 20:56",
+    "undefined": "0.0332"
+  },
+  {
+    "uid": "680",
+    "post_uid": "67",
+    "user_uid": "19",
+    "content": "Ngã tư nghiêng nghiêng xe xác",
+    "createdDate": "6/9/22 20:56",
+    "undefined": "0.0331"
+  },
+  {
+    "uid": "681",
+    "post_uid": "68",
+    "user_uid": "9",
+    "content": "Đi vào ngõ khói công yên",
+    "createdDate": "6/9/22 20:57",
+    "undefined": "0.033"
+  },
+  {
+    "uid": "682",
+    "post_uid": "68",
+    "user_uid": "12",
+    "content": "Thấy bâng khuâng lối cỏ hư huyền",
+    "createdDate": "6/9/22 20:57",
+    "undefined": "0.0329"
+  },
+  {
+    "uid": "683",
+    "post_uid": "68",
+    "user_uid": "12",
+    "content": "Hương nha phiến chập chờn mộng ảo",
+    "createdDate": "6/9/22 20:57",
+    "undefined": "0.0328"
+  },
+  {
+    "uid": "684",
+    "post_uid": "68",
+    "user_uid": "14",
+    "content": "Bánh nghiến nhựa đường nghe sào sạo",
+    "createdDate": "6/9/22 20:57",
+    "undefined": "0.0327"
+  },
+  {
+    "uid": "685",
+    "post_uid": "68",
+    "user_uid": "4",
+    "content": "- Ai vạc xương đổ sọ xuống lòng xe",
+    "createdDate": "6/9/22 20:57",
+    "undefined": "0.0326"
+  },
+  {
+    "uid": "686",
+    "post_uid": "68",
+    "user_uid": "20",
+    "content": "Chiếc quỷ xa qua bốn ngả ê chề",
+    "createdDate": "6/9/22 20:57",
+    "undefined": "0.0325"
+  },
+  {
+    "uid": "687",
+    "post_uid": "68",
+    "user_uid": "3",
+    "content": "Chở vạn kiếp đi hoang ra khỏi vực",
+    "createdDate": "6/9/22 20:57",
+    "undefined": "0.0324"
+  },
+  {
+    "uid": "688",
+    "post_uid": "68",
+    "user_uid": "5",
+    "content": "Mưa, mưa hằng thao thức",
+    "createdDate": "6/9/22 20:58",
+    "undefined": "0.0323"
+  },
+  {
+    "uid": "689",
+    "post_uid": "68",
+    "user_uid": "13",
+    "content": "Trong phố lội đìu hiu",
+    "createdDate": "6/9/22 20:58",
+    "undefined": "0.0322"
+  },
+  {
+    "uid": "690",
+    "post_uid": "68",
+    "user_uid": "19",
+    "content": "Mưa, mưa tràn trên vực",
+    "createdDate": "6/9/22 20:58",
+    "undefined": "0.0321"
+  },
+  {
+    "uid": "691",
+    "post_uid": "69",
+    "user_uid": "11",
+    "content": "- Hang tối gục tiêu điều",
+    "createdDate": "6/9/22 20:58",
+    "undefined": "0.032"
+  },
+  {
+    "uid": "692",
+    "post_uid": "69",
+    "user_uid": "20",
+    "content": "Mang linh hồn cô liêu",
+    "createdDate": "6/9/22 20:58",
+    "undefined": "0.0319"
+  },
+  {
+    "uid": "693",
+    "post_uid": "69",
+    "user_uid": "8",
+    "content": "Tiếng xe càng ám ảnh",
+    "createdDate": "6/9/22 20:58",
+    "undefined": "0.0318"
+  },
+  {
+    "uid": "694",
+    "post_uid": "69",
+    "user_uid": "13",
+    "content": "Tiếng xa dần xa lánh",
+    "createdDate": "6/9/22 20:58",
+    "undefined": "0.0317"
+  },
+  {
+    "uid": "695",
+    "post_uid": "69",
+    "user_uid": "20",
+    "content": "Khi gà đầu ô kêu.",
+    "createdDate": "6/9/22 20:59",
+    "undefined": "0.0316"
+  },
+  {
+    "uid": "696",
+    "post_uid": "69",
+    "user_uid": "15",
+    "content": "Bảy năm về trước, em mười bảy",
+    "createdDate": "6/9/22 20:59",
+    "undefined": "0.0315"
+  },
+  {
+    "uid": "697",
+    "post_uid": "69",
+    "user_uid": "17",
+    "content": "Anh mới đôi mươi, trẻ nhất làng",
+    "createdDate": "6/9/22 20:59",
+    "undefined": "0.0314"
+  },
+  {
+    "uid": "698",
+    "post_uid": "69",
+    "user_uid": "11",
+    "content": "Xuân Dục, Đoài Đông hai cánh lúa",
+    "createdDate": "6/9/22 20:59",
+    "undefined": "0.0313"
+  },
+  {
+    "uid": "699",
+    "post_uid": "69",
+    "user_uid": "13",
+    "content": "Bữa thì em tới, bữa anh sang",
+    "createdDate": "6/9/22 20:59",
+    "undefined": "0.0312"
+  },
+  {
+    "uid": "700",
+    "post_uid": "69",
+    "user_uid": "12",
+    "content": "Bảy năm về trước, em mười bảy",
+    "createdDate": "6/9/22 20:59",
+    "undefined": "0.0311"
+  },
+  {
+    "uid": "701",
+    "post_uid": "70",
+    "user_uid": "1",
+    "content": "Anh mới đôi mươi, trẻ nhất làng",
+    "createdDate": "6/9/22 21:00",
+    "undefined": "0.031"
+  },
+  {
+    "uid": "702",
+    "post_uid": "70",
+    "user_uid": "1",
+    "content": "Xuân Dục, Đoài Đông hai cánh lúa",
+    "createdDate": "6/9/22 21:00",
+    "undefined": "0.0309"
+  },
+  {
+    "uid": "703",
+    "post_uid": "70",
+    "user_uid": "5",
+    "content": "Bữa thì em tới, bữa anh sang",
+    "createdDate": "6/9/22 21:00",
+    "undefined": "0.0308"
+  },
+  {
+    "uid": "704",
+    "post_uid": "70",
+    "user_uid": "19",
+    "content": "Lối ta đi giữa hai sườn núi",
+    "createdDate": "6/9/22 21:00",
+    "undefined": "0.0307"
+  },
+  {
+    "uid": "705",
+    "post_uid": "70",
+    "user_uid": "20",
+    "content": "Đôi ngọn nên làng gọi núi Đôi",
+    "createdDate": "6/9/22 21:00",
+    "undefined": "0.0306"
+  },
+  {
+    "uid": "706",
+    "post_uid": "70",
+    "user_uid": "11",
+    "content": "Em vẫn đùa anh: Sao khéo thế",
+    "createdDate": "6/9/22 21:00",
+    "undefined": "0.0305"
+  },
+  {
+    "uid": "707",
+    "post_uid": "70",
+    "user_uid": "6",
+    "content": "Núi chồng núi vợ đứng song đôi!",
+    "createdDate": "6/9/22 21:00",
+    "undefined": "0.0304"
+  },
+  {
+    "uid": "708",
+    "post_uid": "70",
+    "user_uid": "3",
+    "content": "Bỗng cuối mùa chiêm quân giặc tới",
+    "createdDate": "6/9/22 21:01",
+    "undefined": "0.0303"
+  },
+  {
+    "uid": "709",
+    "post_uid": "70",
+    "user_uid": "15",
+    "content": "Ngõ chùa cháy đỏ những thân cau",
+    "createdDate": "6/9/22 21:01",
+    "undefined": "0.0302"
+  },
+  {
+    "uid": "710",
+    "post_uid": "70",
+    "user_uid": "9",
+    "content": "Mới ngỏ lời thôi, đành lỗi hẹn",
+    "createdDate": "6/9/22 21:01",
+    "undefined": "0.0301"
+  },
+  {
+    "uid": "711",
+    "post_uid": "71",
+    "user_uid": "8",
+    "content": "Đâu ngờ từ đó bặt tin nhau.",
+    "createdDate": "6/9/22 21:01",
+    "undefined": "0.03"
+  },
+  {
+    "uid": "712",
+    "post_uid": "71",
+    "user_uid": "2",
+    "content": "Anh vào bộ đội, lên Đông Bắc",
+    "createdDate": "6/9/22 21:01",
+    "undefined": "0.0299"
+  },
+  {
+    "uid": "713",
+    "post_uid": "71",
+    "user_uid": "14",
+    "content": "Chiến đấu quên mình năm lại năm",
+    "createdDate": "6/9/22 21:01",
+    "undefined": "0.0298"
+  },
+  {
+    "uid": "714",
+    "post_uid": "71",
+    "user_uid": "15",
+    "content": "Mấy bận dân công về lại hỏi",
+    "createdDate": "6/9/22 21:01",
+    "undefined": "0.0297"
+  },
+  {
+    "uid": "715",
+    "post_uid": "71",
+    "user_uid": "11",
+    "content": "Ai người Xuân Dục, núi Đôi chăng?",
+    "createdDate": "6/9/22 21:02",
+    "undefined": "0.0296"
+  },
+  {
+    "uid": "716",
+    "post_uid": "71",
+    "user_uid": "17",
+    "content": "Anh nghĩ, quê ta giặc chiếm rồi",
+    "createdDate": "6/9/22 21:02",
+    "undefined": "0.0295"
+  },
+  {
+    "uid": "717",
+    "post_uid": "71",
+    "user_uid": "4",
+    "content": "Trăm nghìn căm uất bao giờ nguôi",
+    "createdDate": "6/9/22 21:02",
+    "undefined": "0.0294"
+  },
+  {
+    "uid": "718",
+    "post_uid": "71",
+    "user_uid": "17",
+    "content": "Mỗi tin súng nổ vành đai địch",
+    "createdDate": "6/9/22 21:02",
+    "undefined": "0.0293"
+  },
+  {
+    "uid": "719",
+    "post_uid": "71",
+    "user_uid": "3",
+    "content": "Sương trắng người đi lại nhớ người.",
+    "createdDate": "6/9/22 21:02",
+    "undefined": "0.0292"
+  },
+  {
+    "uid": "720",
+    "post_uid": "71",
+    "user_uid": "6",
+    "content": "Đồng đội có nhau thường nhắc nhở",
+    "createdDate": "6/9/22 21:02",
+    "undefined": "0.0291"
+  },
+  {
+    "uid": "721",
+    "post_uid": "72",
+    "user_uid": "1",
+    "content": "Trung du làng nước vẫn chờ trông",
+    "createdDate": "6/9/22 21:02",
+    "undefined": "0.029"
+  },
+  {
+    "uid": "722",
+    "post_uid": "72",
+    "user_uid": "2",
+    "content": "Núi Đôi bốt dựng kề ba xóm",
+    "createdDate": "6/9/22 21:03",
+    "undefined": "0.0289"
+  },
+  {
+    "uid": "723",
+    "post_uid": "72",
+    "user_uid": "4",
+    "content": "Em vẫn đi về những bến sông?",
+    "createdDate": "6/9/22 21:03",
+    "undefined": "0.0288"
+  },
+  {
+    "uid": "724",
+    "post_uid": "72",
+    "user_uid": "16",
+    "content": "Náo nức bao nhiêu ngày trở lại",
+    "createdDate": "6/9/22 21:03",
+    "undefined": "0.0287"
+  },
+  {
+    "uid": "725",
+    "post_uid": "72",
+    "user_uid": "6",
+    "content": "Lệnh trên ngừng bắn. Anh về xuôi",
+    "createdDate": "6/9/22 21:03",
+    "undefined": "0.0286"
+  },
+  {
+    "uid": "726",
+    "post_uid": "72",
+    "user_uid": "7",
+    "content": "Hành quân qua tắt đường sang huyện",
+    "createdDate": "6/9/22 21:03",
+    "undefined": "0.0285"
+  },
+  {
+    "uid": "727",
+    "post_uid": "72",
+    "user_uid": "15",
+    "content": "Anh ghé thăm nhà, thăm núi Đôi.",
+    "createdDate": "6/9/22 21:03",
+    "undefined": "0.0284"
+  },
+  {
+    "uid": "728",
+    "post_uid": "72",
+    "user_uid": "13",
+    "content": "Mới tới đầu ao, tin sét đánh",
+    "createdDate": "6/9/22 21:03",
+    "undefined": "0.0283"
+  },
+  {
+    "uid": "729",
+    "post_uid": "72",
+    "user_uid": "3",
+    "content": "Giặc giết em rồi, dưới gốc thông",
+    "createdDate": "6/9/22 21:04",
+    "undefined": "0.0282"
+  },
+  {
+    "uid": "730",
+    "post_uid": "72",
+    "user_uid": "20",
+    "content": "Giữa đêm bộ đội vây đồn Thửa",
+    "createdDate": "6/9/22 21:04",
+    "undefined": "0.0281"
+  },
+  {
+    "uid": "731",
+    "post_uid": "73",
+    "user_uid": "17",
+    "content": "Em sống trung thành, chết thủy chung!",
+    "createdDate": "6/9/22 21:04",
+    "undefined": "0.028"
+  },
+  {
+    "uid": "732",
+    "post_uid": "73",
+    "user_uid": "12",
+    "content": "Anh ngước nhìn lên hai dốc núi",
+    "createdDate": "6/9/22 21:04",
+    "undefined": "0.0279"
+  },
+  {
+    "uid": "733",
+    "post_uid": "73",
+    "user_uid": "8",
+    "content": "Hàng thông bờ cỏ con đường quen",
+    "createdDate": "6/9/22 21:04",
+    "undefined": "0.0278"
+  },
+  {
+    "uid": "734",
+    "post_uid": "73",
+    "user_uid": "15",
+    "content": "Nắng lụi bỗng dưng mờ bóng khói",
+    "createdDate": "6/9/22 21:04",
+    "undefined": "0.0277"
+  },
+  {
+    "uid": "735",
+    "post_uid": "73",
+    "user_uid": "14",
+    "content": "Núi vẫn đôi mà anh mất em!",
+    "createdDate": "6/9/22 21:04",
+    "undefined": "0.0276"
+  },
+  {
+    "uid": "736",
+    "post_uid": "73",
+    "user_uid": "7",
+    "content": "Dân chợ Phù Linh ai cũng bảo:",
+    "createdDate": "6/9/22 21:05",
+    "undefined": "0.0275"
+  },
+  {
+    "uid": "737",
+    "post_uid": "73",
+    "user_uid": "4",
+    "content": "Em còn trẻ lắm, nhất làng trong",
+    "createdDate": "6/9/22 21:05",
+    "undefined": "0.0274"
+  },
+  {
+    "uid": "738",
+    "post_uid": "73",
+    "user_uid": "9",
+    "content": "Mấy năm cô ấy làm du kích",
+    "createdDate": "6/9/22 21:05",
+    "undefined": "0.0273"
+  },
+  {
+    "uid": "739",
+    "post_uid": "73",
+    "user_uid": "20",
+    "content": "Không hiểu vì sao chẳng lấy chồng?",
+    "createdDate": "6/9/22 21:05",
+    "undefined": "0.0272"
+  },
+  {
+    "uid": "740",
+    "post_uid": "73",
+    "user_uid": "20",
+    "content": "Từ núi qua thôn, đường nghẽn lối",
+    "createdDate": "6/9/22 21:05",
+    "undefined": "0.0271"
+  },
+  {
+    "uid": "741",
+    "post_uid": "74",
+    "user_uid": "9",
+    "content": "Xuân Dục, Đoài Đông cỏ ngút đầy",
+    "createdDate": "6/9/22 21:05",
+    "undefined": "0.027"
+  },
+  {
+    "uid": "742",
+    "post_uid": "74",
+    "user_uid": "14",
+    "content": "Sân biến thành ao, nhà đổ chái",
+    "createdDate": "6/9/22 21:05",
+    "undefined": "0.0269"
+  },
+  {
+    "uid": "743",
+    "post_uid": "74",
+    "user_uid": "2",
+    "content": "Ngổn ngang bờ bụi, cánh dơi bay.",
+    "createdDate": "6/9/22 21:06",
+    "undefined": "0.0268"
+  },
+  {
+    "uid": "744",
+    "post_uid": "74",
+    "user_uid": "19",
+    "content": "Cha mẹ đưa nhau về nhận đất",
+    "createdDate": "6/9/22 21:06",
+    "undefined": "0.0267"
+  },
+  {
+    "uid": "745",
+    "post_uid": "74",
+    "user_uid": "10",
+    "content": "Tóc bạc thương từ mỗi gốc cau",
+    "createdDate": "6/9/22 21:06",
+    "undefined": "0.0266"
+  },
+  {
+    "uid": "746",
+    "post_uid": "74",
+    "user_uid": "7",
+    "content": "Nứa gianh nửa mái lều che tạm",
+    "createdDate": "6/9/22 21:06",
+    "undefined": "0.0265"
+  },
+  {
+    "uid": "747",
+    "post_uid": "74",
+    "user_uid": "18",
+    "content": "Sương nắng khuây dần chuyện xót đau.",
+    "createdDate": "6/9/22 21:06",
+    "undefined": "0.0264"
+  },
+  {
+    "uid": "748",
+    "post_uid": "74",
+    "user_uid": "14",
+    "content": "Anh nghe có tiếng người qua chợ ",
+    "createdDate": "6/9/22 21:06",
+    "undefined": "0.0263"
+  },
+  {
+    "uid": "749",
+    "post_uid": "74",
+    "user_uid": "11",
+    "content": "Ta gắng: mùa sau lúa sẽ nhiều",
+    "createdDate": "6/9/22 21:06",
+    "undefined": "0.0262"
+  },
+  {
+    "uid": "750",
+    "post_uid": "74",
+    "user_uid": "12",
+    "content": "Ruộng thấm mồ hôi từng nhát cuốc",
+    "createdDate": "6/9/22 21:07",
+    "undefined": "0.0261"
+  },
+  {
+    "uid": "751",
+    "post_uid": "75",
+    "user_uid": "13",
+    "content": "Làng ta rồi đẹp biết bao nhiêu!",
+    "createdDate": "6/9/22 21:07",
+    "undefined": "0.026"
+  },
+  {
+    "uid": "752",
+    "post_uid": "75",
+    "user_uid": "14",
+    "content": "Nhưng núi còn kia, anh vẫn nhớ.",
+    "createdDate": "6/9/22 21:07",
+    "undefined": "0.0259"
+  },
+  {
+    "uid": "753",
+    "post_uid": "75",
+    "user_uid": "13",
+    "content": "Oán thù còn đó, anh còn đây",
+    "createdDate": "6/9/22 21:07",
+    "undefined": "0.0258"
+  },
+  {
+    "uid": "754",
+    "post_uid": "75",
+    "user_uid": "11",
+    "content": "Ở đâu cô gái làng Xuân Dục",
+    "createdDate": "6/9/22 21:07",
+    "undefined": "0.0257"
+  },
+  {
+    "uid": "755",
+    "post_uid": "75",
+    "user_uid": "9",
+    "content": "Đã chết vì dân giữa đất này!",
+    "createdDate": "6/9/22 21:07",
+    "undefined": "0.0256"
+  },
+  {
+    "uid": "756",
+    "post_uid": "75",
+    "user_uid": "8",
+    "content": "Ai viết tên em thành liệt sĩ",
+    "createdDate": "6/9/22 21:07",
+    "undefined": "0.0255"
+  },
+  {
+    "uid": "757",
+    "post_uid": "75",
+    "user_uid": "6",
+    "content": "Bên những hàng bia trắng giữa đồng",
+    "createdDate": "6/9/22 21:08",
+    "undefined": "0.0254"
+  },
+  {
+    "uid": "758",
+    "post_uid": "75",
+    "user_uid": "8",
+    "content": "Nhớ nhau anh gọi em: Đồng chí!",
+    "createdDate": "6/9/22 21:08",
+    "undefined": "0.0253"
+  },
+  {
+    "uid": "759",
+    "post_uid": "75",
+    "user_uid": "8",
+    "content": "Một tấm lòng trong vạn tấm lòng.",
+    "createdDate": "6/9/22 21:08",
+    "undefined": "0.0252"
+  },
+  {
+    "uid": "760",
+    "post_uid": "75",
+    "user_uid": "11",
+    "content": "Anh đi bộ đội sao trên mũ",
+    "createdDate": "6/9/22 21:08",
+    "undefined": "0.0251"
+  },
+  {
+    "uid": "761",
+    "post_uid": "76",
+    "user_uid": "19",
+    "content": "Mãi mãi là sao sáng dẫn đường",
+    "createdDate": "6/9/22 21:08",
+    "undefined": "0.025"
+  },
+  {
+    "uid": "762",
+    "post_uid": "76",
+    "user_uid": "11",
+    "content": "Em sẽ là hoa trên đỉnh núi",
+    "createdDate": "6/9/22 21:08",
+    "undefined": "0.0249"
+  },
+  {
+    "uid": "763",
+    "post_uid": "76",
+    "user_uid": "7",
+    "content": "Bốn mùa thơm mãi cánh hoa thơm.",
+    "createdDate": "6/9/22 21:08",
+    "undefined": "0.0248"
+  },
+  {
+    "uid": "764",
+    "post_uid": "76",
+    "user_uid": "12",
+    "content": "Em ơi! Buồn làm chi",
+    "createdDate": "6/9/22 21:09",
+    "undefined": "0.0247"
+  },
+  {
+    "uid": "765",
+    "post_uid": "76",
+    "user_uid": "2",
+    "content": "Anh đưa em về sông Đuống",
+    "createdDate": "6/9/22 21:09",
+    "undefined": "0.0246"
+  },
+  {
+    "uid": "766",
+    "post_uid": "76",
+    "user_uid": "19",
+    "content": "Ngày xưa cát trắng phẳng lì",
+    "createdDate": "6/9/22 21:09",
+    "undefined": "0.0245"
+  },
+  {
+    "uid": "767",
+    "post_uid": "76",
+    "user_uid": "12",
+    "content": "ông Đuống trôi đi",
+    "createdDate": "6/9/22 21:09",
+    "undefined": "0.0244"
+  },
+  {
+    "uid": "768",
+    "post_uid": "76",
+    "user_uid": "15",
+    "content": "Một dòng lấp lánh",
+    "createdDate": "6/9/22 21:09",
+    "undefined": "0.0243"
+  },
+  {
+    "uid": "769",
+    "post_uid": "76",
+    "user_uid": "7",
+    "content": "Nằm nghiêng nghiêng trong kháng chiến trường kỳ",
+    "createdDate": "6/9/22 21:09",
+    "undefined": "0.0242"
+  },
+  {
+    "uid": "770",
+    "post_uid": "76",
+    "user_uid": "3",
+    "content": "Xanh xanh bãi mía bờ dâu",
+    "createdDate": "6/9/22 21:09",
+    "undefined": "0.0241"
+  },
+  {
+    "uid": "771",
+    "post_uid": "77",
+    "user_uid": "19",
+    "content": "Ngô khoai biêng biếc",
+    "createdDate": "6/9/22 21:10",
+    "undefined": "0.024"
+  },
+  {
+    "uid": "772",
+    "post_uid": "77",
+    "user_uid": "5",
+    "content": "Đứng bên này sông sao nhớ tiếc",
+    "createdDate": "6/9/22 21:10",
+    "undefined": "0.0239"
+  },
+  {
+    "uid": "773",
+    "post_uid": "77",
+    "user_uid": "18",
+    "content": "Sao xót xa như rụng bàn tay",
+    "createdDate": "6/9/22 21:10",
+    "undefined": "0.0238"
+  },
+  {
+    "uid": "774",
+    "post_uid": "77",
+    "user_uid": "10",
+    "content": "Bên kia sông Đuống",
+    "createdDate": "6/9/22 21:10",
+    "undefined": "0.0237"
+  },
+  {
+    "uid": "775",
+    "post_uid": "77",
+    "user_uid": "17",
+    "content": "Quê hương ta lúa nếp thơm nồng",
+    "createdDate": "6/9/22 21:10",
+    "undefined": "0.0236"
+  },
+  {
+    "uid": "776",
+    "post_uid": "77",
+    "user_uid": "18",
+    "content": "Tranh Đông Hồ gà lợn nét tươi trong",
+    "createdDate": "6/9/22 21:10",
+    "undefined": "0.0235"
+  },
+  {
+    "uid": "777",
+    "post_uid": "77",
+    "user_uid": "6",
+    "content": "Màu dân tộc sáng bừng trên giấy điệp",
+    "createdDate": "6/9/22 21:10",
+    "undefined": "0.0234"
+  },
+  {
+    "uid": "778",
+    "post_uid": "77",
+    "user_uid": "8",
+    "content": "Quê hương ta từ ngày khủng khiếp",
+    "createdDate": "6/9/22 21:11",
+    "undefined": "0.0233"
+  },
+  {
+    "uid": "779",
+    "post_uid": "77",
+    "user_uid": "18",
+    "content": "Giặc kéo lên ngùn ngụt lửa hung tàn",
+    "createdDate": "6/9/22 21:11",
+    "undefined": "0.0232"
+  },
+  {
+    "uid": "780",
+    "post_uid": "77",
+    "user_uid": "1",
+    "content": "Ruộng ta khô",
+    "createdDate": "6/9/22 21:11",
+    "undefined": "0.0231"
+  },
+  {
+    "uid": "781",
+    "post_uid": "78",
+    "user_uid": "17",
+    "content": "Nhà ta cháy",
+    "createdDate": "6/9/22 21:11",
+    "undefined": "0.023"
+  },
+  {
+    "uid": "782",
+    "post_uid": "78",
+    "user_uid": "14",
+    "content": "Chó ngộ một đàn",
+    "createdDate": "6/9/22 21:11",
+    "undefined": "0.0229"
+  },
+  {
+    "uid": "783",
+    "post_uid": "78",
+    "user_uid": "11",
+    "content": "Lưỡi dài lê sắc máu",
+    "createdDate": "6/9/22 21:11",
+    "undefined": "0.0228"
+  },
+  {
+    "uid": "784",
+    "post_uid": "78",
+    "user_uid": "8",
+    "content": "Kiệt cùng ngõ thẳm bờ hoang",
+    "createdDate": "6/9/22 21:11",
+    "undefined": "0.0227"
+  },
+  {
+    "uid": "785",
+    "post_uid": "78",
+    "user_uid": "14",
+    "content": "Mẹ con đàn lợn âm dương",
+    "createdDate": "6/9/22 21:12",
+    "undefined": "0.0226"
+  },
+  {
+    "uid": "786",
+    "post_uid": "78",
+    "user_uid": "18",
+    "content": "Chia lìa trăm ngả",
+    "createdDate": "6/9/22 21:12",
+    "undefined": "0.0225"
+  },
+  {
+    "uid": "787",
+    "post_uid": "78",
+    "user_uid": "10",
+    "content": "Đám cưới chuột đang tưng bừng rộn rã",
+    "createdDate": "6/9/22 21:12",
+    "undefined": "0.0224"
+  },
+  {
+    "uid": "788",
+    "post_uid": "78",
+    "user_uid": "3",
+    "content": "Bây giờ tan tác về đâu?",
+    "createdDate": "6/9/22 21:12",
+    "undefined": "0.0223"
+  },
+  {
+    "uid": "789",
+    "post_uid": "78",
+    "user_uid": "11",
+    "content": "Ai về bên kia sông Đuống",
+    "createdDate": "6/9/22 21:12",
+    "undefined": "0.0222"
+  },
+  {
+    "uid": "790",
+    "post_uid": "78",
+    "user_uid": "18",
+    "content": "Cho ta gửi tấm the đen",
+    "createdDate": "6/9/22 21:12",
+    "undefined": "0.0221"
+  },
+  {
+    "uid": "791",
+    "post_uid": "79",
+    "user_uid": "13",
+    "content": "Mấy trăm năm thấp thoáng mộng bình yên",
+    "createdDate": "6/9/22 21:12",
+    "undefined": "0.022"
+  },
+  {
+    "uid": "792",
+    "post_uid": "79",
+    "user_uid": "9",
+    "content": "Những hội hè đình đám",
+    "createdDate": "6/9/22 21:13",
+    "undefined": "0.0219"
+  },
+  {
+    "uid": "793",
+    "post_uid": "79",
+    "user_uid": "5",
+    "content": "Trên núi Thiên Thai",
+    "createdDate": "6/9/22 21:13",
+    "undefined": "0.0218"
+  },
+  {
+    "uid": "794",
+    "post_uid": "79",
+    "user_uid": "4",
+    "content": "Trong chùa Bút Tháp",
+    "createdDate": "6/9/22 21:13",
+    "undefined": "0.0217"
+  },
+  {
+    "uid": "795",
+    "post_uid": "79",
+    "user_uid": "18",
+    "content": "Giữa huyện Lang Tài",
+    "createdDate": "6/9/22 21:13",
+    "undefined": "0.0216"
+  },
+  {
+    "uid": "796",
+    "post_uid": "79",
+    "user_uid": "11",
+    "content": "Gửi về may áo cho ai",
+    "createdDate": "6/9/22 21:13",
+    "undefined": "0.0215"
+  },
+  {
+    "uid": "797",
+    "post_uid": "79",
+    "user_uid": "15",
+    "content": "Chuông chùa văng vẳng nay người ở đâu?",
+    "createdDate": "6/9/22 21:13",
+    "undefined": "0.0214"
+  },
+  {
+    "uid": "798",
+    "post_uid": "79",
+    "user_uid": "9",
+    "content": "Những nàng môi cắn chỉ quết trầu",
+    "createdDate": "6/9/22 21:13",
+    "undefined": "0.0213"
+  },
+  {
+    "uid": "799",
+    "post_uid": "79",
+    "user_uid": "3",
+    "content": "Những cụ già phơ phơ tóc trắng",
+    "createdDate": "6/9/22 21:14",
+    "undefined": "0.0212"
+  },
+  {
+    "uid": "800",
+    "post_uid": "79",
+    "user_uid": "1",
+    "content": "Những em sột soạt quần nâu",
+    "createdDate": "6/9/22 21:14",
+    "undefined": "0.0211"
+  },
+  {
+    "uid": "801",
+    "post_uid": "80",
+    "user_uid": "17",
+    "content": "Bây giờ đi đâu, về đâu?",
+    "createdDate": "6/9/22 21:14",
+    "undefined": "0.021"
+  },
+  {
+    "uid": "802",
+    "post_uid": "80",
+    "user_uid": "2",
+    "content": "Ai về bên kia sông Đuống",
+    "createdDate": "6/9/22 21:14",
+    "undefined": "0.0209"
+  },
+  {
+    "uid": "803",
+    "post_uid": "80",
+    "user_uid": "17",
+    "content": "Có nhớ từng khuôn mặt búp sen",
+    "createdDate": "6/9/22 21:14",
+    "undefined": "0.0208"
+  },
+  {
+    "uid": "804",
+    "post_uid": "80",
+    "user_uid": "16",
+    "content": "Những cô hàng xén răng đen",
+    "createdDate": "6/9/22 21:14",
+    "undefined": "0.0207"
+  },
+  {
+    "uid": "805",
+    "post_uid": "80",
+    "user_uid": "11",
+    "content": "Cười như mùa thu toả nắng",
+    "createdDate": "6/9/22 21:14",
+    "undefined": "0.0206"
+  },
+  {
+    "uid": "806",
+    "post_uid": "80",
+    "user_uid": "11",
+    "content": "Chợ Hồ, chợ Sủi người đua chen",
+    "createdDate": "6/9/22 21:15",
+    "undefined": "0.0205"
+  },
+  {
+    "uid": "807",
+    "post_uid": "80",
+    "user_uid": "9",
+    "content": "Bãi Trầm Chỉ người giăng tơ nghẽn lối",
+    "createdDate": "6/9/22 21:15",
+    "undefined": "0.0204"
+  },
+  {
+    "uid": "808",
+    "post_uid": "80",
+    "user_uid": "9",
+    "content": "Những nàng dệt sợi",
+    "createdDate": "6/9/22 21:15",
+    "undefined": "0.0203"
+  },
+  {
+    "uid": "809",
+    "post_uid": "80",
+    "user_uid": "18",
+    "content": "Đi bán lụa mầu",
+    "createdDate": "6/9/22 21:15",
+    "undefined": "0.0202"
+  },
+  {
+    "uid": "810",
+    "post_uid": "80",
+    "user_uid": "5",
+    "content": "Những người thợ nhuộm",
+    "createdDate": "6/9/22 21:15",
+    "undefined": "0.0201"
+  },
+  {
+    "uid": "811",
+    "post_uid": "81",
+    "user_uid": "13",
+    "content": "Đồng Tỉnh, Huê Cầu",
+    "createdDate": "6/9/22 21:15",
+    "undefined": "0.02"
+  },
+  {
+    "uid": "812",
+    "post_uid": "81",
+    "user_uid": "10",
+    "content": "Bây giờ đi đâu, về đâu?",
+    "createdDate": "6/9/22 21:15",
+    "undefined": "0.0199"
+  },
+  {
+    "uid": "813",
+    "post_uid": "81",
+    "user_uid": "10",
+    "content": "Bên kia sông Đuống",
+    "createdDate": "6/9/22 21:16",
+    "undefined": "0.0198"
+  },
+  {
+    "uid": "814",
+    "post_uid": "81",
+    "user_uid": "7",
+    "content": "Mẹ già nua còm cõi gánh hàng rong",
+    "createdDate": "6/9/22 21:16",
+    "undefined": "0.0197"
+  },
+  {
+    "uid": "815",
+    "post_uid": "81",
+    "user_uid": "18",
+    "content": "Dăm miếng cau khô",
+    "createdDate": "6/9/22 21:16",
+    "undefined": "0.0196"
+  },
+  {
+    "uid": "816",
+    "post_uid": "81",
+    "user_uid": "2",
+    "content": "Mấy lọ phẩm hồng",
+    "createdDate": "6/9/22 21:16",
+    "undefined": "0.0195"
+  },
+  {
+    "uid": "817",
+    "post_uid": "81",
+    "user_uid": "13",
+    "content": "Vài thếp giấy đầm hoen sương sớm",
+    "createdDate": "6/9/22 21:16",
+    "undefined": "0.0194"
+  },
+  {
+    "uid": "818",
+    "post_uid": "81",
+    "user_uid": "11",
+    "content": "Chợt lũ quỷ mắt xanh trừng trợn",
+    "createdDate": "6/9/22 21:16",
+    "undefined": "0.0193"
+  },
+  {
+    "uid": "819",
+    "post_uid": "81",
+    "user_uid": "13",
+    "content": "Khua giầy đinh đạp gẫy quán gầy teo",
+    "createdDate": "6/9/22 21:16",
+    "undefined": "0.0192"
+  },
+  {
+    "uid": "820",
+    "post_uid": "81",
+    "user_uid": "15",
+    "content": "Xì xồ cướp bóc",
+    "createdDate": "6/9/22 21:17",
+    "undefined": "0.0191"
+  },
+  {
+    "uid": "821",
+    "post_uid": "82",
+    "user_uid": "15",
+    "content": "Tan phiên chợ nghèo",
+    "createdDate": "6/9/22 21:17",
+    "undefined": "0.019"
+  },
+  {
+    "uid": "822",
+    "post_uid": "82",
+    "user_uid": "4",
+    "content": "Lá đa lác đác trước lều",
+    "createdDate": "6/9/22 21:17",
+    "undefined": "0.0189"
+  },
+  {
+    "uid": "823",
+    "post_uid": "82",
+    "user_uid": "9",
+    "content": "Vài ba vết máu loang chiều mùa đông",
+    "createdDate": "6/9/22 21:17",
+    "undefined": "0.0188"
+  },
+  {
+    "uid": "824",
+    "post_uid": "82",
+    "user_uid": "1",
+    "content": "Chưa bán được một đồng",
+    "createdDate": "6/9/22 21:17",
+    "undefined": "0.0187"
+  },
+  {
+    "uid": "825",
+    "post_uid": "82",
+    "user_uid": "18",
+    "content": "Mẹ già lại quẩy gánh hàng rong",
+    "createdDate": "6/9/22 21:17",
+    "undefined": "0.0186"
+  },
+  {
+    "uid": "826",
+    "post_uid": "82",
+    "user_uid": "7",
+    "content": "Bước cao thấp trên bờ tre hun hút",
+    "createdDate": "6/9/22 21:18",
+    "undefined": "0.0185"
+  },
+  {
+    "uid": "827",
+    "post_uid": "82",
+    "user_uid": "14",
+    "content": "Có con cò trắng bay vùn vụt",
+    "createdDate": "6/9/22 21:18",
+    "undefined": "0.0184"
+  },
+  {
+    "uid": "828",
+    "post_uid": "82",
+    "user_uid": "9",
+    "content": "Lướt ngang dòng sông Đuống về đâu?",
+    "createdDate": "6/9/22 21:18",
+    "undefined": "0.0183"
+  },
+  {
+    "uid": "829",
+    "post_uid": "82",
+    "user_uid": "17",
+    "content": "Mẹ ta lòng đói dạ sầu",
+    "createdDate": "6/9/22 21:18",
+    "undefined": "0.0182"
+  },
+  {
+    "uid": "830",
+    "post_uid": "82",
+    "user_uid": "3",
+    "content": "Đường trơn mưa lạnh mái đầu bạc phơ",
+    "createdDate": "6/9/22 21:18",
+    "undefined": "0.0181"
+  },
+  {
+    "uid": "831",
+    "post_uid": "83",
+    "user_uid": "14",
+    "content": "Bên kia sông Đuống",
+    "createdDate": "6/9/22 21:18",
+    "undefined": "0.018"
+  },
+  {
+    "uid": "832",
+    "post_uid": "83",
+    "user_uid": "9",
+    "content": "Ta có đàn con thơ",
+    "createdDate": "6/9/22 21:18",
+    "undefined": "0.0179"
+  },
+  {
+    "uid": "833",
+    "post_uid": "83",
+    "user_uid": "17",
+    "content": "Ngày tranh nhau một bát cháo ngô",
+    "createdDate": "6/9/22 21:19",
+    "undefined": "0.0178"
+  },
+  {
+    "uid": "834",
+    "post_uid": "83",
+    "user_uid": "13",
+    "content": "Đêm líu ríu chui gầm giường tránh đạn",
+    "createdDate": "6/9/22 21:19",
+    "undefined": "0.0177"
+  },
+  {
+    "uid": "835",
+    "post_uid": "83",
+    "user_uid": "2",
+    "content": "Lấy mẹt quây tròn",
+    "createdDate": "6/9/22 21:19",
+    "undefined": "0.0176"
+  },
+  {
+    "uid": "836",
+    "post_uid": "83",
+    "user_uid": "12",
+    "content": "Tưởng làm tổ ấm",
+    "createdDate": "6/9/22 21:19",
+    "undefined": "0.0175"
+  },
+  {
+    "uid": "837",
+    "post_uid": "83",
+    "user_uid": "2",
+    "content": "Trong giấc thơ ngây tiếng súng dồn tựa sấm",
+    "createdDate": "6/9/22 21:19",
+    "undefined": "0.0174"
+  },
+  {
+    "uid": "838",
+    "post_uid": "83",
+    "user_uid": "6",
+    "content": "Ú ớ cơn mê",
+    "createdDate": "6/9/22 21:19",
+    "undefined": "0.0173"
+  },
+  {
+    "uid": "839",
+    "post_uid": "83",
+    "user_uid": "17",
+    "content": "Thon thót giật mình",
+    "createdDate": "6/9/22 21:19",
+    "undefined": "0.0172"
+  },
+  {
+    "uid": "840",
+    "post_uid": "83",
+    "user_uid": "18",
+    "content": "Bóng giặc dày vò những nét môi xinh",
+    "createdDate": "6/9/22 21:20",
+    "undefined": "0.0171"
+  },
+  {
+    "uid": "841",
+    "post_uid": "84",
+    "user_uid": "19",
+    "content": "Đã có đất này chép tội",
+    "createdDate": "6/9/22 21:20",
+    "undefined": "0.017"
+  },
+  {
+    "uid": "842",
+    "post_uid": "84",
+    "user_uid": "8",
+    "content": "Chúng ta không biết nguôi hờn",
+    "createdDate": "6/9/22 21:20",
+    "undefined": "0.0169"
+  },
+  {
+    "uid": "843",
+    "post_uid": "84",
+    "user_uid": "1",
+    "content": "Đêm buông xuống dòng sông Đuống",
+    "createdDate": "6/9/22 21:20",
+    "undefined": "0.0168"
+  },
+  {
+    "uid": "844",
+    "post_uid": "84",
+    "user_uid": "12",
+    "content": "Con là ai? - Con ở đâu về?",
+    "createdDate": "6/9/22 21:20",
+    "undefined": "0.0167"
+  },
+  {
+    "uid": "845",
+    "post_uid": "84",
+    "user_uid": "17",
+    "content": "Hé một cánh liếp",
+    "createdDate": "6/9/22 21:20",
+    "undefined": "0.0166"
+  },
+  {
+    "uid": "846",
+    "post_uid": "84",
+    "user_uid": "7",
+    "content": "- Con vào đây bốn phía tường che",
+    "createdDate": "6/9/22 21:20",
+    "undefined": "0.0165"
+  },
+  {
+    "uid": "847",
+    "post_uid": "84",
+    "user_uid": "15",
+    "content": "Lửa đèn leo lét soi tình mẹ",
+    "createdDate": "6/9/22 21:21",
+    "undefined": "0.0164"
+  },
+  {
+    "uid": "848",
+    "post_uid": "84",
+    "user_uid": "18",
+    "content": "Khuôn mặt bừng lên như dựng giăng",
+    "createdDate": "6/9/22 21:21",
+    "undefined": "0.0163"
+  },
+  {
+    "uid": "849",
+    "post_uid": "84",
+    "user_uid": "1",
+    "content": "Ngậm ngùi tóc trắng đang thầm kể",
+    "createdDate": "6/9/22 21:21",
+    "undefined": "0.0162"
+  },
+  {
+    "uid": "850",
+    "post_uid": "84",
+    "user_uid": "5",
+    "content": "Những chuyện muôn đời khôn nói năng",
+    "createdDate": "6/9/22 21:21",
+    "undefined": "0.0161"
+  },
+  {
+    "uid": "851",
+    "post_uid": "85",
+    "user_uid": "19",
+    "content": "Đêm buông sâu xuống dòng sông Đuống",
+    "createdDate": "6/9/22 21:21",
+    "undefined": "0.016"
+  },
+  {
+    "uid": "852",
+    "post_uid": "85",
+    "user_uid": "19",
+    "content": "Ta mài lưỡi cuốc",
+    "createdDate": "6/9/22 21:21",
+    "undefined": "0.0159"
+  },
+  {
+    "uid": "853",
+    "post_uid": "85",
+    "user_uid": "9",
+    "content": "Ta uốn lưỡi liềm",
+    "createdDate": "6/9/22 21:21",
+    "undefined": "0.0158"
+  },
+  {
+    "uid": "854",
+    "post_uid": "85",
+    "user_uid": "3",
+    "content": "Ta vót gậy nhọn",
+    "createdDate": "6/9/22 21:22",
+    "undefined": "0.0157"
+  },
+  {
+    "uid": "855",
+    "post_uid": "85",
+    "user_uid": "18",
+    "content": "Ta rũa mác dài",
+    "createdDate": "6/9/22 21:22",
+    "undefined": "0.0156"
+  },
+  {
+    "uid": "856",
+    "post_uid": "85",
+    "user_uid": "15",
+    "content": "Ta xây thành kháng chiến ngày mai",
+    "createdDate": "6/9/22 21:22",
+    "undefined": "0.0155"
+  },
+  {
+    "uid": "857",
+    "post_uid": "85",
+    "user_uid": "12",
+    "content": "Lao xao hàng cây bụi chuối",
+    "createdDate": "6/9/22 21:22",
+    "undefined": "0.0154"
+  },
+  {
+    "uid": "858",
+    "post_uid": "85",
+    "user_uid": "13",
+    "content": "Im lìm miếu đổ chùa hoang",
+    "createdDate": "6/9/22 21:22",
+    "undefined": "0.0153"
+  },
+  {
+    "uid": "859",
+    "post_uid": "85",
+    "user_uid": "7",
+    "content": "Chập chờn đom đóm bay ngang",
+    "createdDate": "6/9/22 21:22",
+    "undefined": "0.0152"
+  },
+  {
+    "uid": "860",
+    "post_uid": "85",
+    "user_uid": "9",
+    "content": "Báo tin khủng khiếp",
+    "createdDate": "6/9/22 21:22",
+    "undefined": "0.0151"
+  },
+  {
+    "uid": "861",
+    "post_uid": "86",
+    "user_uid": "19",
+    "content": "Cho giặc kinh hoàng",
+    "createdDate": "6/9/22 21:23",
+    "undefined": "0.015"
+  },
+  {
+    "uid": "862",
+    "post_uid": "86",
+    "user_uid": "13",
+    "content": "Từng từng tiếng súng vang vang",
+    "createdDate": "6/9/22 21:23",
+    "undefined": "0.0149"
+  },
+  {
+    "uid": "863",
+    "post_uid": "86",
+    "user_uid": "5",
+    "content": "Trong đêm khuya thoảng cung đàn tự do",
+    "createdDate": "6/9/22 21:23",
+    "undefined": "0.0148"
+  },
+  {
+    "uid": "864",
+    "post_uid": "86",
+    "user_uid": "18",
+    "content": "Thuyền ai thấp thoáng bến Hồ",
+    "createdDate": "6/9/22 21:23",
+    "undefined": "0.0147"
+  },
+  {
+    "uid": "865",
+    "post_uid": "86",
+    "user_uid": "2",
+    "content": "Xoá cho ta hết những giờ thảm thương",
+    "createdDate": "6/9/22 21:23",
+    "undefined": "0.0146"
+  },
+  {
+    "uid": "866",
+    "post_uid": "86",
+    "user_uid": "6",
+    "content": "Đêm đi sâu quá lòng sông Đuống",
+    "createdDate": "6/9/22 21:23",
+    "undefined": "0.0145"
+  },
+  {
+    "uid": "867",
+    "post_uid": "86",
+    "user_uid": "3",
+    "content": "Bộ đội bên sông đã trở về",
+    "createdDate": "6/9/22 21:23",
+    "undefined": "0.0144"
+  },
+  {
+    "uid": "868",
+    "post_uid": "86",
+    "user_uid": "4",
+    "content": "Con bắt đầu xuất kích",
+    "createdDate": "6/9/22 21:24",
+    "undefined": "0.0143"
+  },
+  {
+    "uid": "869",
+    "post_uid": "86",
+    "user_uid": "8",
+    "content": "Trại giặc bắt đầu run trong sương",
+    "createdDate": "6/9/22 21:24",
+    "undefined": "0.0142"
+  },
+  {
+    "uid": "870",
+    "post_uid": "86",
+    "user_uid": "5",
+    "content": "Dao loé giữa chợ",
+    "createdDate": "6/9/22 21:24",
+    "undefined": "0.0141"
+  },
+  {
+    "uid": "871",
+    "post_uid": "87",
+    "user_uid": "14",
+    "content": "Gậy lùa cuối thôn",
+    "createdDate": "6/9/22 21:24",
+    "undefined": "0.014"
+  },
+  {
+    "uid": "872",
+    "post_uid": "87",
+    "user_uid": "10",
+    "content": "Lúa chín vàng hoe giặc mất hồn",
+    "createdDate": "6/9/22 21:24",
+    "undefined": "0.0139"
+  },
+  {
+    "uid": "873",
+    "post_uid": "87",
+    "user_uid": "4",
+    "content": "Ăn không ngon",
+    "createdDate": "6/9/22 21:24",
+    "undefined": "0.0138"
+  },
+  {
+    "uid": "874",
+    "post_uid": "87",
+    "user_uid": "8",
+    "content": "Ngủ không yên",
+    "createdDate": "6/9/22 21:24",
+    "undefined": "0.0137"
+  },
+  {
+    "uid": "875",
+    "post_uid": "87",
+    "user_uid": "12",
+    "content": "Đứng không vững",
+    "createdDate": "6/9/22 21:25",
+    "undefined": "0.0136"
+  },
+  {
+    "uid": "876",
+    "post_uid": "87",
+    "user_uid": "15",
+    "content": "Chúng mày phát điên",
+    "createdDate": "6/9/22 21:25",
+    "undefined": "0.0135"
+  },
+  {
+    "uid": "877",
+    "post_uid": "87",
+    "user_uid": "6",
+    "content": "Quay cuồng như xéo lên đống lửa",
+    "createdDate": "6/9/22 21:25",
+    "undefined": "0.0134"
+  },
+  {
+    "uid": "878",
+    "post_uid": "87",
+    "user_uid": "18",
+    "content": "Mà cánh đồng ta càng chan chứa",
+    "createdDate": "6/9/22 21:25",
+    "undefined": "0.0133"
+  },
+  {
+    "uid": "879",
+    "post_uid": "87",
+    "user_uid": "1",
+    "content": "Bao nhiêu nắng đẹp mùa xuân",
+    "createdDate": "6/9/22 21:25",
+    "undefined": "0.0132"
+  },
+  {
+    "uid": "880",
+    "post_uid": "87",
+    "user_uid": "17",
+    "content": "Gió đưa tiếng hát về gần",
+    "createdDate": "6/9/22 21:25",
+    "undefined": "0.0131"
+  },
+  {
+    "uid": "881",
+    "post_uid": "88",
+    "user_uid": "5",
+    "content": "Thợ cấy đánh giặc, dân quân cày bừa",
+    "createdDate": "6/9/22 21:25",
+    "undefined": "0.013"
+  },
+  {
+    "uid": "882",
+    "post_uid": "88",
+    "user_uid": "20",
+    "content": "Tiếng bà ru cháu xế trưa",
+    "createdDate": "6/9/22 21:26",
+    "undefined": "0.0129"
+  },
+  {
+    "uid": "883",
+    "post_uid": "88",
+    "user_uid": "13",
+    "content": "Chang chang nắng hạ võng đưa rầu rầu",
+    "createdDate": "6/9/22 21:26",
+    "undefined": "0.0128"
+  },
+  {
+    "uid": "884",
+    "post_uid": "88",
+    "user_uid": "16",
+    "content": "“À ơi... cha con chết trận từ lâu",
+    "createdDate": "6/9/22 21:26",
+    "undefined": "0.0127"
+  },
+  {
+    "uid": "885",
+    "post_uid": "88",
+    "user_uid": "6",
+    "content": "Con càng khôn lớn càng sâu mối thù”",
+    "createdDate": "6/9/22 21:26",
+    "undefined": "0.0126"
+  },
+  {
+    "uid": "886",
+    "post_uid": "88",
+    "user_uid": "4",
+    "content": "Tiếng em cắt cỏ trại tù",
+    "createdDate": "6/9/22 21:26",
+    "undefined": "0.0125"
+  },
+  {
+    "uid": "887",
+    "post_uid": "88",
+    "user_uid": "11",
+    "content": "Căm căm gió rét mịt mù mưa bay",
+    "createdDate": "6/9/22 21:26",
+    "undefined": "0.0124"
+  },
+  {
+    "uid": "888",
+    "post_uid": "88",
+    "user_uid": "9",
+    "content": "“Thân ta hoen ố vì mày",
+    "createdDate": "6/9/22 21:26",
+    "undefined": "0.0123"
+  },
+  {
+    "uid": "889",
+    "post_uid": "88",
+    "user_uid": "1",
+    "content": "Hờn ta cùng với đất này dài lâu...”",
+    "createdDate": "6/9/22 21:27",
+    "undefined": "0.0122"
+  },
+  {
+    "uid": "890",
+    "post_uid": "88",
+    "user_uid": "17",
+    "content": "Em ơi, đừng hát nữa lòng anh đau",
+    "createdDate": "6/9/22 21:27",
+    "undefined": "0.0121"
+  },
+  {
+    "uid": "891",
+    "post_uid": "89",
+    "user_uid": "12",
+    "content": "Mẹ ơi, đừng khóc nữa dạ con sầu",
+    "createdDate": "6/9/22 21:27",
+    "undefined": "0.012"
+  },
+  {
+    "uid": "892",
+    "post_uid": "89",
+    "user_uid": "1",
+    "content": "Cánh đồng im phăng phắc",
+    "createdDate": "6/9/22 21:27",
+    "undefined": "0.0119"
+  },
+  {
+    "uid": "893",
+    "post_uid": "89",
+    "user_uid": "6",
+    "content": "Để con đi giết giặc",
+    "createdDate": "6/9/22 21:27",
+    "undefined": "0.0118"
+  },
+  {
+    "uid": "894",
+    "post_uid": "89",
+    "user_uid": "3",
+    "content": "Lấy máu nó rửa thù này",
+    "createdDate": "6/9/22 21:27",
+    "undefined": "0.0117"
+  },
+  {
+    "uid": "895",
+    "post_uid": "89",
+    "user_uid": "1",
+    "content": "Lấy súng nó cầm trong tay",
+    "createdDate": "6/9/22 21:27",
+    "undefined": "0.0116"
+  },
+  {
+    "uid": "896",
+    "post_uid": "89",
+    "user_uid": "20",
+    "content": "Mỗi đêm một lần mở hội",
+    "createdDate": "6/9/22 21:28",
+    "undefined": "0.0115"
+  },
+  {
+    "uid": "897",
+    "post_uid": "89",
+    "user_uid": "10",
+    "content": "Trong lòng con chim múa hoa cười",
+    "createdDate": "6/9/22 21:28",
+    "undefined": "0.0114"
+  },
+  {
+    "uid": "898",
+    "post_uid": "89",
+    "user_uid": "1",
+    "content": "Vì nắng sắp lên rồi",
+    "createdDate": "6/9/22 21:28",
+    "undefined": "0.0113"
+  },
+  {
+    "uid": "899",
+    "post_uid": "89",
+    "user_uid": "14",
+    "content": "Chân trời đã tỏ",
+    "createdDate": "6/9/22 21:28",
+    "undefined": "0.0112"
+  },
+  {
+    "uid": "900",
+    "post_uid": "89",
+    "user_uid": "8",
+    "content": "Sông Đuống cuồn cuộn trôi",
+    "createdDate": "6/9/22 21:28",
+    "undefined": "0.0111"
+  },
+  {
+    "uid": "901",
+    "post_uid": "90",
+    "user_uid": "4",
+    "content": "Để nó cuốn phăng ra bể",
+    "createdDate": "6/9/22 21:28",
+    "undefined": "0.011"
+  },
+  {
+    "uid": "902",
+    "post_uid": "90",
+    "user_uid": "4",
+    "content": "Bao nhiêu đồn giặc tơi bời",
+    "createdDate": "6/9/22 21:28",
+    "undefined": "0.0109"
+  },
+  {
+    "uid": "903",
+    "post_uid": "90",
+    "user_uid": "15",
+    "content": "Bao nhiêu nước mắt",
+    "createdDate": "6/9/22 21:29",
+    "undefined": "0.0108"
+  },
+  {
+    "uid": "904",
+    "post_uid": "90",
+    "user_uid": "3",
+    "content": "Bao nhiêu mồ hôi",
+    "createdDate": "6/9/22 21:29",
+    "undefined": "0.0107"
+  },
+  {
+    "uid": "905",
+    "post_uid": "90",
+    "user_uid": "20",
+    "content": "Bao nhiêu bóng tối",
+    "createdDate": "6/9/22 21:29",
+    "undefined": "0.0106"
+  },
+  {
+    "uid": "906",
+    "post_uid": "90",
+    "user_uid": "14",
+    "content": "Bao nhiêu nỗi đời",
+    "createdDate": "6/9/22 21:29",
+    "undefined": "0.0105"
+  },
+  {
+    "uid": "907",
+    "post_uid": "90",
+    "user_uid": "8",
+    "content": "Bao giờ về bên kia sông Đuống",
+    "createdDate": "6/9/22 21:29",
+    "undefined": "0.0104"
+  },
+  {
+    "uid": "908",
+    "post_uid": "90",
+    "user_uid": "1",
+    "content": "Anh lại tìm em",
+    "createdDate": "6/9/22 21:29",
+    "undefined": "0.0103"
+  },
+  {
+    "uid": "909",
+    "post_uid": "90",
+    "user_uid": "17",
+    "content": "Em mặc yếm thắm",
+    "createdDate": "6/9/22 21:29",
+    "undefined": "0.0102"
+  },
+  {
+    "uid": "910",
+    "post_uid": "90",
+    "user_uid": "12",
+    "content": "Em thắt lụa hồng",
+    "createdDate": "6/9/22 21:30",
+    "undefined": "0.0101"
+  },
+  {
+    "uid": "911",
+    "post_uid": "91",
+    "user_uid": "11",
+    "content": "Em đi trẩy hội non sông",
+    "createdDate": "6/9/22 21:30",
+    "undefined": "0.01"
+  },
+  {
+    "uid": "912",
+    "post_uid": "91",
+    "user_uid": "15",
+    "content": "Cười mê ánh sáng muôn lòng xuân xanh",
+    "createdDate": "6/9/22 21:30",
+    "undefined": "0.0099"
+  },
+  {
+    "uid": "913",
+    "post_uid": "91",
+    "user_uid": "10",
+    "content": "Anh về lại ngôi nhà mình",
+    "createdDate": "6/9/22 21:30",
+    "undefined": "0.0098"
+  },
+  {
+    "uid": "914",
+    "post_uid": "91",
+    "user_uid": "5",
+    "content": "Sau mười năm chiến tranh.",
+    "createdDate": "6/9/22 21:30",
+    "undefined": "0.0097"
+  },
+  {
+    "uid": "915",
+    "post_uid": "91",
+    "user_uid": "4",
+    "content": "Mẹ đón anh buổi bình minh nhập nhoạng,",
+    "createdDate": "6/9/22 21:30",
+    "undefined": "0.0096"
+  },
+  {
+    "uid": "916",
+    "post_uid": "91",
+    "user_uid": "3",
+    "content": "Cơn mưa đón anh buổi hừng đông chạng vạng,",
+    "createdDate": "6/9/22 21:30",
+    "undefined": "0.0095"
+  },
+  {
+    "uid": "917",
+    "post_uid": "91",
+    "user_uid": "2",
+    "content": "Mưa… Mưa… Mưa…",
+    "createdDate": "6/9/22 21:31",
+    "undefined": "0.0094"
+  },
+  {
+    "uid": "918",
+    "post_uid": "91",
+    "user_uid": "10",
+    "content": "Mưa ngoài trời",
+    "createdDate": "6/9/22 21:31",
+    "undefined": "0.0093"
+  },
+  {
+    "uid": "919",
+    "post_uid": "91",
+    "user_uid": "17",
+    "content": "Khắp nơi,",
+    "createdDate": "6/9/22 21:31",
+    "undefined": "0.0092"
+  },
+  {
+    "uid": "920",
+    "post_uid": "91",
+    "user_uid": "6",
+    "content": "Mưa ngoài sân,",
+    "createdDate": "6/9/22 21:31",
+    "undefined": "0.0091"
+  },
+  {
+    "uid": "921",
+    "post_uid": "92",
+    "user_uid": "7",
+    "content": "Nhưng cũng mưa cả trong nhà…",
+    "createdDate": "6/9/22 21:31",
+    "undefined": "0.009"
+  },
+  {
+    "uid": "922",
+    "post_uid": "92",
+    "user_uid": "20",
+    "content": "Sau lời mẹ là lời mưa reo ca…",
+    "createdDate": "6/9/22 21:31",
+    "undefined": "0.0089"
+  },
+  {
+    "uid": "923",
+    "post_uid": "92",
+    "user_uid": "6",
+    "content": "Nhà dột.",
+    "createdDate": "6/9/22 21:31",
+    "undefined": "0.0088"
+  },
+  {
+    "uid": "924",
+    "post_uid": "92",
+    "user_uid": "2",
+    "content": "Chỗ nằm chỉ còn đủ độ dài giữa hai chiếc cột",
+    "createdDate": "6/9/22 21:32",
+    "undefined": "0.0087"
+  },
+  {
+    "uid": "925",
+    "post_uid": "92",
+    "user_uid": "17",
+    "content": "Chiều rộng bằng khuôn chiếc tăng.",
+    "createdDate": "6/9/22 21:32",
+    "undefined": "0.0086"
+  },
+  {
+    "uid": "926",
+    "post_uid": "92",
+    "user_uid": "6",
+    "content": "Mắc võng.",
+    "createdDate": "6/9/22 21:32",
+    "undefined": "0.0085"
+  },
+  {
+    "uid": "927",
+    "post_uid": "92",
+    "user_uid": "16",
+    "content": "Lại mắc võng.",
+    "createdDate": "6/9/22 21:32",
+    "undefined": "0.0084"
+  },
+  {
+    "uid": "928",
+    "post_uid": "92",
+    "user_uid": "10",
+    "content": "Vẫn là cây theo anh từ rừng về đây làm cột.",
+    "createdDate": "6/9/22 21:32",
+    "undefined": "0.0083"
+  },
+  {
+    "uid": "929",
+    "post_uid": "92",
+    "user_uid": "8",
+    "content": "Võng đưa sẽ ướt,",
+    "createdDate": "6/9/22 21:32",
+    "undefined": "0.0082"
+  },
+  {
+    "uid": "930",
+    "post_uid": "92",
+    "user_uid": "9",
+    "content": "Nhưng đã có con mọt trong cột làm âm thanh đung đưa",
+    "createdDate": "6/9/22 21:32",
+    "undefined": "0.0081"
+  },
+  {
+    "uid": "931",
+    "post_uid": "93",
+    "user_uid": "18",
+    "content": "Ngày xưa,",
+    "createdDate": "6/9/22 21:33",
+    "undefined": "0.008"
+  },
+  {
+    "uid": "932",
+    "post_uid": "93",
+    "user_uid": "20",
+    "content": "Chỗ ướt mẹ nằm, sau mười năm",
+    "createdDate": "6/9/22 21:33",
+    "undefined": "0.0079"
+  },
+  {
+    "uid": "933",
+    "post_uid": "93",
+    "user_uid": "5",
+    "content": "Vẫn chỗ mưa mẹ đứng",
+    "createdDate": "6/9/22 21:33",
+    "undefined": "0.0078"
+  },
+  {
+    "uid": "934",
+    "post_uid": "93",
+    "user_uid": "1",
+    "content": "Mẹ trao cho anh chiếc đèn và bảo",
+    "createdDate": "6/9/22 21:33",
+    "undefined": "0.0077"
+  },
+  {
+    "uid": "935",
+    "post_uid": "93",
+    "user_uid": "16",
+    "content": "Đừng để ngọn lửa rụng!",
+    "createdDate": "6/9/22 21:33",
+    "undefined": "0.0076"
+  },
+  {
+    "uid": "936",
+    "post_uid": "93",
+    "user_uid": "8",
+    "content": "Mẹ xếp những thùng, chậu, nồi, xoong…",
+    "createdDate": "6/9/22 21:33",
+    "undefined": "0.0075"
+  },
+  {
+    "uid": "937",
+    "post_uid": "93",
+    "user_uid": "4",
+    "content": "Khúc nhạc mưa nhà dột tấu lên",
+    "createdDate": "6/9/22 21:33",
+    "undefined": "0.0074"
+  },
+  {
+    "uid": "938",
+    "post_uid": "93",
+    "user_uid": "13",
+    "content": "Ru êm cánh võng.",
+    "createdDate": "6/9/22 21:34",
+    "undefined": "0.0073"
+  },
+  {
+    "uid": "939",
+    "post_uid": "93",
+    "user_uid": "15",
+    "content": "Người lính nằm im,",
+    "createdDate": "6/9/22 21:34",
+    "undefined": "0.0072"
+  },
+  {
+    "uid": "940",
+    "post_uid": "93",
+    "user_uid": "4",
+    "content": "Nghe âm thanh chiến tranh trong người mình cất giọng",
+    "createdDate": "6/9/22 21:34",
+    "undefined": "0.0071"
+  },
+  {
+    "uid": "941",
+    "post_uid": "94",
+    "user_uid": "11",
+    "content": "Trong đêm hoà bình đầu tiên.",
+    "createdDate": "6/9/22 21:34",
+    "undefined": "0.007"
+  },
+  {
+    "uid": "942",
+    "post_uid": "94",
+    "user_uid": "18",
+    "content": "II.",
+    "createdDate": "6/9/22 21:34",
+    "undefined": "0.0069"
+  },
+  {
+    "uid": "943",
+    "post_uid": "94",
+    "user_uid": "1",
+    "content": "Không có trái bom nào rơi đúng nhà mẹ,",
+    "createdDate": "6/9/22 21:34",
+    "undefined": "0.0068"
+  },
+  {
+    "uid": "944",
+    "post_uid": "94",
+    "user_uid": "9",
+    "content": "Không có viên đạn nào bắn thủng mái nhà mẹ",
+    "createdDate": "6/9/22 21:34",
+    "undefined": "0.0067"
+  },
+  {
+    "uid": "945",
+    "post_uid": "94",
+    "user_uid": "6",
+    "content": "Chỉ có đứa con trai đi xa",
+    "createdDate": "6/9/22 21:35",
+    "undefined": "0.0066"
+  },
+  {
+    "uid": "946",
+    "post_uid": "94",
+    "user_uid": "12",
+    "content": "Chỉ có sự chờ đợi nặng nề giọt xuống",
+    "createdDate": "6/9/22 21:35",
+    "undefined": "0.0065"
+  },
+  {
+    "uid": "947",
+    "post_uid": "94",
+    "user_uid": "11",
+    "content": "Đã xuyên thủng mái nhà thành những lỗ to lỗ nhỏ khác nhau",
+    "createdDate": "6/9/22 21:35",
+    "undefined": "0.0064"
+  },
+  {
+    "uid": "948",
+    "post_uid": "94",
+    "user_uid": "7",
+    "content": "Nắng mưa lọt vào sau",
+    "createdDate": "6/9/22 21:35",
+    "undefined": "0.0063"
+  },
+  {
+    "uid": "949",
+    "post_uid": "94",
+    "user_uid": "7",
+    "content": "Xuyên",
+    "createdDate": "6/9/22 21:35",
+    "undefined": "0.0062"
+  },
+  {
+    "uid": "950",
+    "post_uid": "94",
+    "user_uid": "1",
+    "content": "Xối",
+    "createdDate": "6/9/22 21:35",
+    "undefined": "0.0061"
+  },
+  {
+    "uid": "951",
+    "post_uid": "95",
+    "user_uid": "14",
+    "content": "Những sợi nắng, những sợi mưa nếu có thể nối, cũng chỉ dài",
+    "createdDate": "6/9/22 21:36",
+    "undefined": "0.006"
+  },
+  {
+    "uid": "952",
+    "post_uid": "95",
+    "user_uid": "15",
+    "content": "Bằng một phần sự mong đợi",
+    "createdDate": "6/9/22 21:36",
+    "undefined": "0.0059"
+  },
+  {
+    "uid": "953",
+    "post_uid": "95",
+    "user_uid": "5",
+    "content": "Và những hạt nắng, những hạt mưa nếu đem xếp lại, có thể cao hơn mọi trái núi.",
+    "createdDate": "6/9/22 21:36",
+    "undefined": "0.0058"
+  },
+  {
+    "uid": "954",
+    "post_uid": "95",
+    "user_uid": "9",
+    "content": "Mười năm, cũng chỉ là thoáng qua,",
+    "createdDate": "6/9/22 21:36",
+    "undefined": "0.0057"
+  },
+  {
+    "uid": "955",
+    "post_uid": "95",
+    "user_uid": "17",
+    "content": "Vì tuổi mẹ sáu bẩy lần hơn,",
+    "createdDate": "6/9/22 21:36",
+    "undefined": "0.0056"
+  },
+  {
+    "uid": "956",
+    "post_uid": "95",
+    "user_uid": "10",
+    "content": "Mẹ vẫn nói đời mình như nắng trận mưa cơn…",
+    "createdDate": "6/9/22 21:36",
+    "undefined": "0.0055"
+  },
+  {
+    "uid": "957",
+    "post_uid": "95",
+    "user_uid": "7",
+    "content": "Mái rạ của mẹ cũng không thủng lỗ chỗ",
+    "createdDate": "6/9/22 21:36",
+    "undefined": "0.0054"
+  },
+  {
+    "uid": "958",
+    "post_uid": "95",
+    "user_uid": "14",
+    "content": "Nếu con chỉ đi ra đồng, ra chợ",
+    "createdDate": "6/9/22 21:37",
+    "undefined": "0.0053"
+  },
+  {
+    "uid": "959",
+    "post_uid": "95",
+    "user_uid": "4",
+    "content": "Chứ không phải chiến tranh.",
+    "createdDate": "6/9/22 21:37",
+    "undefined": "0.0052"
+  },
+  {
+    "uid": "960",
+    "post_uid": "95",
+    "user_uid": "8",
+    "content": "Có phải những viên đạn trong vô hình ý nghĩ",
+    "createdDate": "6/9/22 21:37",
+    "undefined": "0.0051"
+  },
+  {
+    "uid": "961",
+    "post_uid": "96",
+    "user_uid": "4",
+    "content": "Bắn lúc đêm khuya vào đứa con thơ bé",
+    "createdDate": "6/9/22 21:37",
+    "undefined": "0.005"
+  },
+  {
+    "uid": "962",
+    "post_uid": "96",
+    "user_uid": "13",
+    "content": "Đã để những lỗ thủng lốm đốm trên màu tóc mẹ",
+    "createdDate": "6/9/22 21:37",
+    "undefined": "0.0049"
+  },
+  {
+    "uid": "963",
+    "post_uid": "96",
+    "user_uid": "16",
+    "content": "Như những hạt nắng hạt mưa giọt sót vào đây,",
+    "createdDate": "6/9/22 21:37",
+    "undefined": "0.0048"
+  },
+  {
+    "uid": "964",
+    "post_uid": "96",
+    "user_uid": "20",
+    "content": "Để ai ai cũng phải nhìn và vội ngoảnh đi ngay…",
+    "createdDate": "6/9/22 21:37",
+    "undefined": "0.0047"
+  },
+  {
+    "uid": "965",
+    "post_uid": "96",
+    "user_uid": "10",
+    "content": "Và đêm nào mẹ cũng khấn, để phập phồng một lần tin, một lần vui,",
+    "createdDate": "6/9/22 21:38",
+    "undefined": "0.0046"
+  },
+  {
+    "uid": "966",
+    "post_uid": "96",
+    "user_uid": "15",
+    "content": "Nhưng tai ác hơn, mái nhà cứ thủng.",
+    "createdDate": "6/9/22 21:38",
+    "undefined": "0.0045"
+  },
+  {
+    "uid": "967",
+    "post_uid": "96",
+    "user_uid": "1",
+    "content": "Chẳng có na-pan, lân tinh, phốt-pho",
+    "createdDate": "6/9/22 21:38",
+    "undefined": "0.0044"
+  },
+  {
+    "uid": "968",
+    "post_uid": "96",
+    "user_uid": "7",
+    "content": "Chỉ có mưa nắng,",
+    "createdDate": "6/9/22 21:38",
+    "undefined": "0.0043"
+  },
+  {
+    "uid": "969",
+    "post_uid": "96",
+    "user_uid": "17",
+    "content": "Sự xa vắng,",
+    "createdDate": "6/9/22 21:38",
+    "undefined": "0.0042"
+  },
+  {
+    "uid": "970",
+    "post_uid": "96",
+    "user_uid": "13",
+    "content": "Khiến mái rạ mục mủn, bạc như màu tóc bạc,",
+    "createdDate": "6/9/22 21:38",
+    "undefined": "0.0041"
+  },
+  {
+    "uid": "971",
+    "post_uid": "97",
+    "user_uid": "12",
+    "content": "Đôi sẻ tự tình bị hẫng hốt hoảng vù lên, bụi mù như tro bay…",
+    "createdDate": "6/9/22 21:38",
+    "undefined": "0.004"
+  },
+  {
+    "uid": "972",
+    "post_uid": "97",
+    "user_uid": "3",
+    "content": "Mong đợi",
+    "createdDate": "6/9/22 21:39",
+    "undefined": "0.0039"
+  },
+  {
+    "uid": "973",
+    "post_uid": "97",
+    "user_uid": "5",
+    "content": "Yêu đương,",
+    "createdDate": "6/9/22 21:39",
+    "undefined": "0.0038"
+  },
+  {
+    "uid": "974",
+    "post_uid": "97",
+    "user_uid": "19",
+    "content": "Giả định: sống chết",
+    "createdDate": "6/9/22 21:39",
+    "undefined": "0.0037"
+  },
+  {
+    "uid": "975",
+    "post_uid": "97",
+    "user_uid": "9",
+    "content": "Của mẹ về con, làm cho con được sống.",
+    "createdDate": "6/9/22 21:39",
+    "undefined": "0.0036"
+  },
+  {
+    "uid": "976",
+    "post_uid": "97",
+    "user_uid": "4",
+    "content": "Con trở về giản dị,",
+    "createdDate": "6/9/22 21:39",
+    "undefined": "0.0035"
+  },
+  {
+    "uid": "977",
+    "post_uid": "97",
+    "user_uid": "13",
+    "content": "Cái ngõ nhỏ, mái nhà quê,",
+    "createdDate": "6/9/22 21:39",
+    "undefined": "0.0034"
+  },
+  {
+    "uid": "978",
+    "post_uid": "97",
+    "user_uid": "18",
+    "content": "Biến thành cổng trời, thành lâu đài trong mắt mẹ đón con.",
+    "createdDate": "6/9/22 21:39",
+    "undefined": "0.0033"
+  },
+  {
+    "uid": "979",
+    "post_uid": "97",
+    "user_uid": "8",
+    "content": "Buổi sớm,",
+    "createdDate": "6/9/22 21:40",
+    "undefined": "0.0032"
+  },
+  {
+    "uid": "980",
+    "post_uid": "97",
+    "user_uid": "18",
+    "content": "Nắng xiên nghiêng,",
+    "createdDate": "6/9/22 21:40",
+    "undefined": "0.0031"
+  },
+  {
+    "uid": "981",
+    "post_uid": "98",
+    "user_uid": "12",
+    "content": "Anh nằm ngửa,",
+    "createdDate": "6/9/22 21:40",
+    "undefined": "0.003"
+  },
+  {
+    "uid": "982",
+    "post_uid": "98",
+    "user_uid": "8",
+    "content": "Mái nhà có mắt nhìn anh",
+    "createdDate": "6/9/22 21:40",
+    "undefined": "0.0029"
+  },
+  {
+    "uid": "983",
+    "post_uid": "98",
+    "user_uid": "16",
+    "content": "Người lính",
+    "createdDate": "6/9/22 21:40",
+    "undefined": "0.0028"
+  },
+  {
+    "uid": "984",
+    "post_uid": "98",
+    "user_uid": "14",
+    "content": "Lần đầu tiên giật mình…",
+    "createdDate": "6/9/22 21:40",
+    "undefined": "0.0027"
+  },
+  {
+    "uid": "985",
+    "post_uid": "98",
+    "user_uid": "20",
+    "content": "Những hạt bụi nhảy múa rung rinh,",
+    "createdDate": "6/9/22 21:40",
+    "undefined": "0.0026"
+  },
+  {
+    "uid": "986",
+    "post_uid": "98",
+    "user_uid": "18",
+    "content": "Những con đường sang lên như nắng",
+    "createdDate": "6/9/22 21:41",
+    "undefined": "0.0025"
+  },
+  {
+    "uid": "987",
+    "post_uid": "98",
+    "user_uid": "7",
+    "content": "Và mỗi người là hạt bụi lung linh.",
+    "createdDate": "6/9/22 21:41",
+    "undefined": "0.0024"
+  },
+  {
+    "uid": "988",
+    "post_uid": "98",
+    "user_uid": "18",
+    "content": "Mẹ vẫn lên nhà xuống bếp một mình,",
+    "createdDate": "6/9/22 21:41",
+    "undefined": "0.0023"
+  },
+  {
+    "uid": "989",
+    "post_uid": "98",
+    "user_uid": "15",
+    "content": "Chiến thắng của mẹ là anh",
+    "createdDate": "6/9/22 21:41",
+    "undefined": "0.0022"
+  },
+  {
+    "uid": "990",
+    "post_uid": "98",
+    "user_uid": "17",
+    "content": "Niềm vui của mẹ là anh.",
+    "createdDate": "6/9/22 21:41",
+    "undefined": "0.0021"
+  },
+  {
+    "uid": "991",
+    "post_uid": "99",
+    "user_uid": "3",
+    "content": "Nỗi buồn của anh không phải trong chiến tranh…",
+    "createdDate": "6/9/22 21:41",
+    "undefined": "0.002"
+  },
+  {
+    "uid": "992",
+    "post_uid": "99",
+    "user_uid": "16",
+    "content": "Njhững sợi nắng xuyên qua nhà mình",
+    "createdDate": "6/9/22 21:41",
+    "undefined": "0.0019"
+  },
+  {
+    "uid": "993",
+    "post_uid": "99",
+    "user_uid": "8",
+    "content": "Thành những mũi tên",
+    "createdDate": "6/9/22 21:42",
+    "undefined": "0.0018"
+  },
+  {
+    "uid": "994",
+    "post_uid": "99",
+    "user_uid": "1",
+    "content": "Thành những viên đạn,",
+    "createdDate": "6/9/22 21:42",
+    "undefined": "0.0017"
+  },
+  {
+    "uid": "995",
+    "post_uid": "99",
+    "user_uid": "4",
+    "content": "Bắn tiếp vào anh không gì che chắn",
+    "createdDate": "6/9/22 21:42",
+    "undefined": "0.0016"
+  },
+  {
+    "uid": "996",
+    "post_uid": "99",
+    "user_uid": "6",
+    "content": "Phải nhận tất cả,",
+    "createdDate": "6/9/22 21:42",
+    "undefined": "0.0015"
+  },
+  {
+    "uid": "997",
+    "post_uid": "99",
+    "user_uid": "9",
+    "content": "Vẫn anh.",
+    "createdDate": "6/9/22 21:42",
+    "undefined": "0.0014"
+  },
+  {
+    "uid": "998",
+    "post_uid": "99",
+    "user_uid": "2",
+    "content": "Hôm qua chưa nhận một viên đạn",
+    "createdDate": "6/9/22 21:42",
+    "undefined": "0.0013"
+  },
+  {
+    "uid": "999",
+    "post_uid": "99",
+    "user_uid": "4",
+    "content": "Hôm nay nhận những lỗ thủng",
+    "createdDate": "6/9/22 21:42",
+    "undefined": "0.0012"
+  },
+  {
+    "uid": "1000",
+    "post_uid": "99",
+    "user_uid": "19",
+    "content": "Anh về quê không mang súng",
+    "createdDate": "6/9/22 21:43",
+    "undefined": "0.0011"
+  },
+  {
+    "uid": "1001",
+    "post_uid": "100",
+    "user_uid": "2",
+    "content": "Vũ khí lúc này",
+    "createdDate": "6/9/22 21:43",
+    "undefined": "0.001"
+  },
+  {
+    "uid": "1002",
+    "post_uid": "100",
+    "user_uid": "1",
+    "content": "Hai bàn tay.",
+    "createdDate": "6/9/22 21:43",
+    "undefined": "0.0009"
+  },
+  {
+    "uid": "1003",
+    "post_uid": "100",
+    "user_uid": "7",
+    "content": "Mẹ giục:",
+    "createdDate": "6/9/22 21:43",
+    "undefined": "0.0008"
+  },
+  {
+    "uid": "1004",
+    "post_uid": "100",
+    "user_uid": "17",
+    "content": "- Ăn cơm, con!",
+    "createdDate": "6/9/22 21:43",
+    "undefined": "0.0007"
+  },
+  {
+    "uid": "1005",
+    "post_uid": "100",
+    "user_uid": "2",
+    "content": "Hoà bình trong canh cua, mồng tơi, cà",
+    "createdDate": "6/9/22 21:43",
+    "undefined": "0.0006"
+  },
+  {
+    "uid": "1006",
+    "post_uid": "100",
+    "user_uid": "11",
+    "content": "Và",
+    "createdDate": "6/9/22 21:43",
+    "undefined": "0.0005"
+  },
+  {
+    "uid": "1007",
+    "post_uid": "100",
+    "user_uid": "6",
+    "content": "Mùi ổ rơm.",
+    "createdDate": "6/9/22 21:44",
+    "undefined": "0.0004"
+  },
+  {
+    "uid": "1008",
+    "post_uid": "100",
+    "user_uid": "4",
+    "content": "Bởi vì em dắt anh lên những ngôi đền cổ",
+    "createdDate": "6/9/22 21:44",
+    "undefined": "0.0003"
+  },
+  {
+    "uid": "1009",
+    "post_uid": "100",
+    "user_uid": "11",
+    "content": "Chén ngọc giờ chìm dưới đáy sông sâu",
+    "createdDate": "6/9/22 21:44",
+    "undefined": "0.0002"
+  },
+  {
+    "uid": "1010",
+    "post_uid": "100",
+    "user_uid": "4",
+    "content": "Những lăng tẩm hoàng hôn chống lại ngày quên lãng",
+    "createdDate": "6/9/22 21:44",
+    "undefined": "0.0001"
+  }
+]

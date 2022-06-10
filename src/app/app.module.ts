@@ -4,13 +4,28 @@ import { RouteReuseStrategy } from '@angular/router';
 
 import { getApp, initializeApp, provideFirebaseApp } from '@angular/fire/app';
 import {
+  Auth,
+  connectAuthEmulator,
   getAuth,
   indexedDBLocalPersistence,
   initializeAuth,
   provideAuth,
 } from '@angular/fire/auth';
-import { getFirestore, provideFirestore } from '@angular/fire/firestore';
-import { getStorage, provideStorage } from '@angular/fire/storage';
+import {
+  connectFirestoreEmulator,
+  getFirestore,
+  provideFirestore,
+} from '@angular/fire/firestore';
+// import {
+//   connectFunctionsEmulator,
+//   getFunctions,
+//   provideFunctions,
+// } from '@angular/fire/functions';
+import {
+  connectStorageEmulator,
+  getStorage,
+  provideStorage,
+} from '@angular/fire/storage';
 
 import { IonicModule, IonicRouteStrategy } from '@ionic/angular';
 
@@ -22,7 +37,8 @@ import { Camera } from '@awesome-cordova-plugins/camera/ngx';
 import { Capacitor } from '@capacitor/core';
 
 import { environment } from 'src/environments/environment';
-import { AuthService } from './services/auth.service';
+import { AuthService } from './services/auth/auth.service';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [AppComponent],
@@ -33,17 +49,44 @@ import { AuthService } from './services/auth.service';
     AppRoutingModule,
     provideFirebaseApp(() => initializeApp(environment.firebase)),
     provideAuth(() => {
+      let auth: Auth;
       if (Capacitor.isNativePlatform()) {
-        return initializeAuth(getApp(), {
+        auth = initializeAuth(getApp(), {
           persistence: indexedDBLocalPersistence,
         });
       } else {
-        return getAuth();
+        auth = getAuth();
       }
+      if (!environment.production) {
+        connectAuthEmulator(auth, 'http://localhost:9099', {
+          disableWarnings: true,
+        });
+      }
+      return auth;
     }),
-    provideFirestore(() => getFirestore()),
-    provideStorage(() => getStorage()),
+    provideFirestore(() => {
+      const firestore = getFirestore();
+      if (!environment.production) {
+        connectFirestoreEmulator(firestore, 'localhost', 8080);
+      }
+      return firestore;
+    }),
+    provideStorage(() => {
+      const storage = getStorage();
+      if (!environment.production) {
+        connectStorageEmulator(storage, 'localhost', 9199);
+      }
+      return storage;
+    }),
+    // provideFunctions(() => {
+    //   const functions = getFunctions();
+    //   if (!environment.production) {
+    //     connectFunctionsEmulator(functions, 'localhost', 5001);
+    //   }
+    //   return functions;
+    // }),
     FormsModule,
+    HttpClientModule,
   ],
   providers: [
     { provide: RouteReuseStrategy, useClass: IonicRouteStrategy },

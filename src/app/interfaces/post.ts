@@ -1,11 +1,10 @@
+import { Comment } from './comment';
+import { Data } from './data';
+import { Followable } from './followable';
 import { Image } from './image';
-import { Page } from './page';
-import { Profile } from './profile';
 
-export interface Post {
-  readonly uid: string;
-  user: Profile;
-  page: Page;
+export interface Post extends Data {
+  author: Followable;
 
   content: string;
   images: Image[];

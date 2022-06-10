@@ -5,7 +5,7 @@ import {
   NavController,
   ToastController,
 } from '@ionic/angular';
-import { AuthService } from 'src/app/services/auth.service';
+import { AuthService } from 'src/app/services/auth/auth.service';
 
 @Component({
   selector: 'app-register-part2',

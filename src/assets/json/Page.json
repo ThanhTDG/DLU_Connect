@@ -1,0 +1,162 @@
+﻿[
+  {
+    "uid": "1",
+    "user_uid": "1",
+    "name": "Nhóm học tập",
+    "description": "Nhóm để học tập",
+    "photoURl": "hinh.png",
+    "createdDate": "6/9/21 21:47"
+  },
+  {
+    "uid": "2",
+    "user_uid": "2",
+    "name": "CNTT",
+    "description": "Nhóm để học tập",
+    "photoURl": "hinh.png",
+    "createdDate": "6/9/21 21:47"
+  },
+  {
+    "uid": "3",
+    "user_uid": "3",
+    "name": "Đoàn thanh niên",
+    "description": "Nhóm để học tập",
+    "photoURl": "hinh.png",
+    "createdDate": "6/9/21 21:47"
+  },
+  {
+    "uid": "4",
+    "user_uid": "4",
+    "name": "Nhóm sáng tạo",
+    "description": "Nhóm để học tập",
+    "photoURl": "hinh.png",
+    "createdDate": "6/9/21 21:47"
+  },
+  {
+    "uid": "5",
+    "user_uid": "5",
+    "name": "Nhóm nghiên cứu",
+    "description": "Nhóm để học tập",
+    "photoURl": "hinh.png",
+    "createdDate": "6/9/21 21:47"
+  },
+  {
+    "uid": "6",
+    "user_uid": "6",
+    "name": "Nhóm hội hoạ",
+    "description": "Nhóm để học tập",
+    "photoURl": "hinh.png",
+    "createdDate": "6/9/21 21:47"
+  },
+  {
+    "uid": "7",
+    "user_uid": "7",
+    "name": "Nhóm ý tưởng",
+    "description": "Nhóm để học tập",
+    "photoURl": "hinh.png",
+    "createdDate": "6/9/21 21:47"
+  },
+  {
+    "uid": "8",
+    "user_uid": "8",
+    "name": "Đại hội thể thao",
+    "description": "Nhóm để học tập",
+    "photoURl": "hinh.png",
+    "createdDate": "6/9/21 21:47"
+  },
+  {
+    "uid": "9",
+    "user_uid": "9",
+    "name": "Nhóm ăn chơi",
+    "description": "Nhóm để học tập",
+    "photoURl": "hinh.png",
+    "createdDate": "6/9/21 21:47"
+  },
+  {
+    "uid": "10",
+    "user_uid": "10",
+    "name": "Nhóm deadline",
+    "description": "Nhóm để học tập",
+    "photoURl": "hinh.png",
+    "createdDate": "6/9/21 21:47"
+  },
+  {
+    "uid": "11",
+    "user_uid": "11",
+    "name": "Đoàn trường",
+    "description": "Nhóm để học tập",
+    "photoURl": "hinh.png",
+    "createdDate": "6/9/21 21:47"
+  },
+  {
+    "uid": "12",
+    "user_uid": "12",
+    "name": "Confession",
+    "description": "Nhóm để học tập",
+    "photoURl": "hinh.png",
+    "createdDate": "6/9/21 21:47"
+  },
+  {
+    "uid": "13",
+    "user_uid": "13",
+    "name": "Professional",
+    "description": "Nhóm để học tập",
+    "photoURl": "hinh.png",
+    "createdDate": "6/9/21 21:47"
+  },
+  {
+    "uid": "14",
+    "user_uid": "14",
+    "name": "Lao động",
+    "description": "Nhóm để học tập",
+    "photoURl": "hinh.png",
+    "createdDate": "6/9/21 21:47"
+  },
+  {
+    "uid": "15",
+    "user_uid": "15",
+    "name": "Sáng tạo khoa học",
+    "description": "Nhóm để học tập",
+    "photoURl": "hinh.png",
+    "createdDate": "6/9/21 21:47"
+  },
+  {
+    "uid": "16",
+    "user_uid": "16",
+    "name": "Góc sáng tạo",
+    "description": "Nhóm để học tập",
+    "photoURl": "hinh.png",
+    "createdDate": "6/9/21 21:47"
+  },
+  {
+    "uid": "17",
+    "user_uid": "17",
+    "name": "Cảnh đẹp đà lạt",
+    "description": "Nhóm để học tập",
+    "photoURl": "hinh.png",
+    "createdDate": "6/9/21 21:47"
+  },
+  {
+    "uid": "18",
+    "user_uid": "18",
+    "name": "Langbian",
+    "description": "Nhóm để học tập",
+    "photoURl": "hinh.png",
+    "createdDate": "6/9/21 21:47"
+  },
+  {
+    "uid": "19",
+    "user_uid": "19",
+    "name": "DalatLaptop",
+    "description": "Nhóm để học tập",
+    "photoURl": "hinh.png",
+    "createdDate": "6/9/21 21:47"
+  },
+  {
+    "uid": "20",
+    "user_uid": "20",
+    "name": "Hội đông phương học",
+    "description": "Nhóm để học tập",
+    "photoURl": "hinh.png",
+    "createdDate": "6/9/21 21:47"
+  }
+]

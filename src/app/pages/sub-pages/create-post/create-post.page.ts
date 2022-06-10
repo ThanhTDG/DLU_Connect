@@ -10,7 +10,7 @@ import {
 } from '@angular/router';
 import { filter, pairwise } from 'rxjs/operators';
 import { NavController } from '@ionic/angular';
-import { AuthService } from 'src/app/services/auth.service';
+import { AuthService } from 'src/app/services/auth/auth.service';
 
 @Component({
   selector: 'app-create-post',
