@@ -41,7 +41,8 @@ export class NotificationItemComponent implements OnInit {
       component: NotificationOptionsDialogPage,
       breakpoints: [0, 0.44],
       initialBreakpoint: 0.44,
-      componentProps: {title: this.title, content: this.content}
+      componentProps: {title: this.title, content: this.content},
+      cssClass: 'custom-modal'
     });
     await modal.present();
   }

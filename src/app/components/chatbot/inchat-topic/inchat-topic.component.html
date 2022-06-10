@@ -1,0 +1,10 @@
+<div id="inchat-topic" [ngStyle]="ngStyleMain">
+  <div id="container">
+    <img id="avatar" src="{{imgAvatar}}">
+    <div id="content">
+      <span id="content-title">{{title}}</span>
+      <span id="content-content">{{content}}</span>
+    </div>
+    <img id="option" src="{{imgOption}}" (click)="onClose()">
+  </div>
+</div>

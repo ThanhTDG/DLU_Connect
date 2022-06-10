@@ -32,6 +32,8 @@ export class NavigationBarComponent implements OnInit, AfterViewInit {
   ngStyleNavContents: any;
   ngStypleNtfNumber: any;
 
+  imgBot='../../../assets/icon/chat-bot/bot.png';
+
   // eslint-disable-next-line @typescript-eslint/member-ordering
   @Input() location: any;
   // eslint-disable-next-line @typescript-eslint/member-ordering
@@ -90,6 +92,11 @@ export class NavigationBarComponent implements OnInit, AfterViewInit {
         display: 'none',
       };
     }
+  }
+
+  toToChatBot(){
+    this.nativePageTransitions.fade(this.options);
+    this.navCtrl.navigateRoot('chatbot-get-start');
   }
 
   clickHomeItem() {

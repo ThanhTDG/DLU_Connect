@@ -16,10 +16,7 @@ export class DepartmentPage implements OnInit {
   imgMore: any;
   departmentContentHot="Đáng lưu ý";
   departmentContent="Bài viết";
-  btnFollowStatus="Theo dõi";
   departmentContentTeachers="Đội ngũ giảng viên";
-  ngStyleBtnFollow: any;
-  followed = false;
   constructor(private route: ActivatedRoute, private router: Router) { }
 
   ngOnInit() {
@@ -41,18 +38,8 @@ export class DepartmentPage implements OnInit {
   toBack() {
     this.router.navigateByUrl(this.previousUrl);
   }
-  follow(){
-    if(this.followed===true){
-      this.ngStyleBtnFollow={
-        'background-color': 'var(--ion-color-app-orange-dark)'
-      };
-      this.followed=false;
-    }else{
-      this.ngStyleBtnFollow={
-        'background-color': 'var(--ion-color-app-green-dark)'
-      };
-      this.followed=true;
-    }
+  onFollow($event){
+    //console.log($event);
   }
 
 }

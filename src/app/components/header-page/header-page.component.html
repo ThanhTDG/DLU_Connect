@@ -1,10 +1,10 @@
-<ion-header>
-  <ion-toolbar>
+<ion-header >
+  <ion-toolbar [ngStyle]="ngStyleContainer">
     <div id="tb-back" (click)="toBack()" [ngStyle]="ngStyleBtnBack">
       <img src="../../../../assets/icon/main/back.png" />
     </div>
     <ion-title [ngStyle]="ngStyleTitle">{{pageTitle}}</ion-title>
-    <div id="search-bar-btn" (click)="toSearch()">
+    <div id="search-bar-btn" (click)="toSearch()" [ngStyle]="ngStyleSearch">
       <img src="../../../assets/icon/main/search.png" />
     </div>
   </ion-toolbar>

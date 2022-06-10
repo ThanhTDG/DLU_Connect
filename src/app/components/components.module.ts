@@ -24,6 +24,12 @@ import { IonicModule } from '@ionic/angular';
 import { MembersBarComponent } from './group/members-bar/members-bar.component';
 import { TeacherProfileComponent } from './department/teacher-profile/teacher-profile.component';
 import { HeaderPageComponent } from './header-page/header-page.component';
+import { TopicComponent } from './chatbot/topic/topic.component';
+import { MessengerReceiveComponent } from './chatbot/messenger-receive/messenger-receive.component';
+import { MessengerSenderComponent } from './chatbot/messenger-sender/messenger-sender.component';
+import { InchatTopicComponent } from './chatbot/inchat-topic/inchat-topic.component';
+import { FollowButtonComponent } from './follow-button/follow-button.component';
+import { ErrorUndefineComponent } from './error/error-undefine/error-undefine.component';
 
 @NgModule({
     imports: [
@@ -51,7 +57,13 @@ import { HeaderPageComponent } from './header-page/header-page.component';
       ReplyComponent,
       MembersBarComponent,
       TeacherProfileComponent,
-      HeaderPageComponent
+      HeaderPageComponent,
+      TopicComponent,
+      MessengerReceiveComponent,
+      MessengerSenderComponent,
+      InchatTopicComponent,
+      FollowButtonComponent,
+      ErrorUndefineComponent
     ],
     exports: [
       NavigationBarComponent,
@@ -73,7 +85,13 @@ import { HeaderPageComponent } from './header-page/header-page.component';
       ReplyComponent,
       MembersBarComponent,
       TeacherProfileComponent,
-      HeaderPageComponent
+      HeaderPageComponent,
+      TopicComponent,
+      MessengerReceiveComponent,
+      MessengerSenderComponent,
+      InchatTopicComponent,
+      FollowButtonComponent,
+      ErrorUndefineComponent
     ]
 })
 export class ComponentsModule{}

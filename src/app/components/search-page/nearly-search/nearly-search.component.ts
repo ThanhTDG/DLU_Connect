@@ -1,5 +1,6 @@
 /* eslint-disable @typescript-eslint/quotes */
 import { Component, Input, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-nearly-search',
@@ -34,7 +35,7 @@ export class NearlySearchComponent implements OnInit {
   "var(--ion-color-app-orange-light)",
   "var(--ion-color-app-blue-light)",
   "var(--ion-color-app-tea-light)",];
-  constructor() {
+  constructor(private router: Router) {
   }
 
   ngOnInit() {
@@ -150,6 +151,11 @@ export class NearlySearchComponent implements OnInit {
         this.currentOptions =2;
         this.imgOption = "../../../../assets/icon/main/follow.png";
         break;
+    }
+  }
+  toViewDetail(){
+    if(this.option === "student"){
+      this.router.navigateByUrl('personal-other');
     }
   }
 }

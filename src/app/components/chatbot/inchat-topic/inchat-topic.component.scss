@@ -1,0 +1,40 @@
+#inchat-topic{
+    #container{
+        position: relative;
+        width: 100%;
+        height: 48px;
+        background-color: var(--ion-color-app-green-light);
+        border-radius: 24px;
+        padding-left: 48px;
+        padding-right: 12px;
+        margin-bottom: 8px;
+        #avatar{
+            position: absolute;
+            top: 4px;
+            left: 4px;
+            width: 40x;
+            height: 40px;
+            border-radius: 20px;
+            border: 4px solid var(--ion-color-app-green-dark);
+        }
+        #content{
+            padding-top: 6px;
+            span{
+                display: block;
+                font-size: 12px;
+            }
+            #content-title{
+                font-size: 16px;
+            }
+            #content-content{
+                color: var(--ion-color-app-gray-dark);
+            }
+        }
+        #option{
+            position: absolute;
+            top: 12px;
+            right: 12px;
+        }
+
+    }
+}

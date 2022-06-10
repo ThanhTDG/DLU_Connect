@@ -27,3 +27,14 @@
     }
   }
 }
+#bolder{
+  position: relative;
+  ion-fab{
+    position: absolute;
+    bottom: 48px;
+    right: -4px;
+    ion-fab-button{
+      --background: var(--ion-color-app-green-dark);
+    }
+  }
+}

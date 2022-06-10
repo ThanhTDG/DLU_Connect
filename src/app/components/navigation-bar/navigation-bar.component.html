@@ -1,12 +1,17 @@
-<div id="nav-container">
-  <ul id="nav-contents" [ngStyle]="ngStyleNavContents">
-    <li (click)="clickHomeItem()"><img [ngStyle]="ngStyleHome" id="ic-home" src={{srcHome}}></li>
-    <li (click)="clickNotificationItem()"><div id="ntf-container">
-      <img [ngStyle]="ngStyleNotification" id="ic-notification" src={{srcNotification}}>
-      <div id="ntf-number" [ngStyle]="ngStypleNtfNumber"><p>{{ntfNumber}}</p></div>
-    </div></li>
-    <li (click)="clickFollowItem()"><img [ngStyle]="ngStyleFollow" id="ic-follow" src={{srcFollow}}></li>
-    <li (click)="clickGroup()"><img [ngStyle]="ngStyleGroup" id="ic-group" src={{srcGroup}}></li>
-    <li (click)="clickPerson()"><img [ngStyle]="ngStylePerson" id="ic-personal" src={{srcPerson}}></li>
-  </ul>
+<div id="bolder">
+  <div id="nav-container">
+    <ul id="nav-contents" [ngStyle]="ngStyleNavContents">
+      <li (click)="clickHomeItem()"><img [ngStyle]="ngStyleHome" id="ic-home" src={{srcHome}}></li>
+      <li (click)="clickNotificationItem()"><div id="ntf-container">
+        <img [ngStyle]="ngStyleNotification" id="ic-notification" src={{srcNotification}}>
+        <div id="ntf-number" [ngStyle]="ngStypleNtfNumber"><p>{{ntfNumber}}</p></div>
+      </div></li>
+      <li (click)="clickFollowItem()"><img [ngStyle]="ngStyleFollow" id="ic-follow" src={{srcFollow}}></li>
+      <li (click)="clickGroup()"><img [ngStyle]="ngStyleGroup" id="ic-group" src={{srcGroup}}></li>
+      <li (click)="clickPerson()"><img [ngStyle]="ngStylePerson" id="ic-personal" src={{srcPerson}}></li>
+    </ul>
+  </div>
+  <ion-fab slot="fixed">
+    <ion-fab-button size="small" (click)="toToChatBot()"><img src="{{imgBot}}"></ion-fab-button>
+  </ion-fab>
 </div>

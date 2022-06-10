@@ -1,0 +1,25 @@
+<ion-content [scrollEvents]="true">
+  <div id="header">
+    <div id="toolbar">
+      <img src="{{imgBack}}" (click)="onBack()">
+      <span id="pageName">{{pageName}}</span>
+    </div>
+    <div id="chat-member">
+      <app-inchat-topic (closeEmitter)="onCloseTopic($event)" *ngFor="let topic of selectedTopics" title="{{topic}}"></app-inchat-topic>
+    </div>
+  </div>
+  <div id="container">
+    <app-messenger-receive *ngFor="let rcvMess of messengerRevceives" time="1 giờ trước" content="{{rcvMess}}"></app-messenger-receive>
+    <app-messenger-sender *ngFor="let rcvSend of messengerSenders" time="1 giờ trước" content="{{rcvSend}}" status="true"></app-messenger-sender>
+  </div>
+</ion-content>
+<ion-footer>
+  <div id="send-bar">
+    <div id="input-container">
+      <input id="input-chat" placeholder="Nhập tin nhắn ..." type="text" name="chat-field" [(ngModel)]="ipChat" (input)="getMessenger()">
+    </div>
+    <div id="btn-container" (click)="sendMessenger()">
+      <img src="{{imgSend}}">
+    </div>
+  </div>
+</ion-footer>

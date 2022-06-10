@@ -1,0 +1,12 @@
+<div id="chatbot-topic" (click)="onSelect()">
+  <div id="avatar">
+    <img src="{{imgAvatar}}" alt="" [ngStyle]="ngStyleAvatar">
+  </div>
+  <div id="container" [ngStyle]="ngStyleContainer">
+    <span id="title">{{title}}</span>
+    <span id="content">{{content}}</span>
+  </div>
+  <div id="options" [ngStyle]="ngStyleOption">
+    <img src="{{imgOption}}">
+  </div>
+</div>

@@ -1,0 +1,21 @@
+<ion-content [ngStyle]="ngStyleContainer">
+  <div id="container">
+    <div id="title-container">
+      <div id="toolbar">
+        <img src="{{imgBack}}" (click)="onBack()">
+        <span id="pageName" [ngStyle]="ngStylePageName">{{pageName}}</span>
+      </div>
+      <div id="title-guide" [ngStyle]="ngStyleTitleGuide">
+        <span>{{tg01}}</span>
+        <span>{{tg02}}</span>
+      </div>
+    </div>
+    <div id="camera-guide">
+      <img src="{{imgGuide}}">
+    </div>
+    <div id="cameraPreview" class="cameraPreview">
+    </div>
+    
+    <app-error-undefine [ngStyle]="ngStyleError"></app-error-undefine>
+  </div>
+</ion-content>

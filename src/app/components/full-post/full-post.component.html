@@ -10,9 +10,9 @@
       </div>
     </div>
     <div id="fp-body">
-      <div id="fp-bd-text">
+      <div id="fp-bd-text" [ngStyle]="ngStyleTextBody">
         <span id="fp-bd-text-title">{{textTitle}}</span>
-        <span id="fp-bd-text-content">{{textContent}}<a>...Xem thêm</a></span>
+        <span id="fp-bd-text-content" [ngStyle]="ngStyleTextContent">{{textContent}}<a (click)="toViewMore()" [ngStyle]="ngStyleViewMore">...Xem thêm</a></span>
       </div>
       <div id="fp-bd-image">
         <ion-slides [options]="{ slidesPerView: 'auto', zoom: false, grabCursor: true }">
@@ -29,7 +29,7 @@
         <span>{{numshare}}</span>
       </div>
       <div id="fp-controls">
-        <div class="fp-ct-container">
+        <div class="fp-ct-container" (click)="onLike()">
           <img src="{{ctLike}}">
           <div>{{ctlbLike}}</div>
         </div> 

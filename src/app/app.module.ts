@@ -39,6 +39,7 @@ import { Capacitor } from '@capacitor/core';
 import { environment } from 'src/environments/environment';
 import { AuthService } from './services/auth/auth.service';
 import { HttpClientModule } from '@angular/common/http';
+import { CameraPreview } from '@awesome-cordova-plugins/camera-preview/ngx';
 
 @NgModule({
   declarations: [AppComponent],
@@ -93,6 +94,7 @@ import { HttpClientModule } from '@angular/common/http';
     NativePageTransitions,
     Camera,
     AuthService,
+    CameraPreview,
   ],
   bootstrap: [AppComponent],
 })
