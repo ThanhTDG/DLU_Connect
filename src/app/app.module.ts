@@ -17,6 +17,7 @@ import { Camera } from '@awesome-cordova-plugins/camera/ngx';
 
 import { environment } from 'src/environments/environment';
 import { AuthService } from './services/auth.service';
+import { CameraPreview } from '@awesome-cordova-plugins/camera-preview/ngx';
 
 @NgModule({
   declarations: [AppComponent],
@@ -36,6 +37,7 @@ import { AuthService } from './services/auth.service';
     NativePageTransitions,
     Camera,
     AuthService,
+    CameraPreview,
   ],
   bootstrap: [AppComponent],
 })

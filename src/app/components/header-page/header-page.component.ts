@@ -9,16 +9,21 @@ import { filter, pairwise } from 'rxjs/operators';
   templateUrl: './header-page.component.html',
   styleUrls: ['./header-page.component.scss'],
 })
-export class HeaderPageComponent implements OnInit {
+export class HeaderPageComponent implements OnInit{
   @Input() pageTitle = 'Page Name';
-  @Input() canBack = false;
+  @Input() canBack = 'false';
+  @Input() canSearch = 'true';
+  @Input() noneBackGround='false';
   ngStyleBtnBack: any;
   ngStyleTitle: any;
+  ngStyleSearch: any;
+  ngStyleContainer: any;
 
-  previousUrl=null;
+  prvHeaderUrl: string;
   constructor(private router: Router, private navCtrl: NavController) {
-    if(this.canBack===true){
-      this.previousUrl = this.getPathToBack();
+  }
+  ngOnInit() {
+    if(this.canBack==='true'){
       this.ngStyleBtnBack={
         display: "block"
       };
@@ -26,35 +31,47 @@ export class HeaderPageComponent implements OnInit {
         "padding-left": "60px"
       };
     }
-  }
-  ngOnInit() {
-  }
-  getPathToBack() {
-    let currentUrl = this.router.url;
-    let previousUrl = null;
-
-    this.router.events
-      .pipe(
-        filter((event: any) => event instanceof RoutesRecognized),
-        pairwise()
-      )
-      .subscribe((events: RoutesRecognized[]) => {
-        previousUrl = events[0].urlAfterRedirects;
-        currentUrl = events[1].urlAfterRedirects;
-      });
-    return previousUrl;
-  }
-  toBack() {
-    if(this.previousUrl!==null){
-      this.router.navigateByUrl(this.previousUrl);
-    }else{
-      this.ngStyleBtnBack={
-        display: "none"
+    if(this.canSearch==='true'){
+      this.ngStyleSearch={
+        display:'block'
       };
-      this.ngStyleTitle ={
-        "padding-left": "12px"
+    }else{
+      this.ngStyleSearch={
+        display: 'none'
       };
     }
+    if(this.noneBackGround ==='true'){
+      this.ngStyleContainer={
+        '--background-color': 'transparent',
+        '--ion-color-base': 'transparent !important'
+      };
+    }
+  }
+  // getPathToBack() {
+  //   let currentUrl = this.router.url;
+  //   this.router.events
+  //     .pipe(
+  //       filter((event: any) => event instanceof RoutesRecognized),
+  //       pairwise()
+  //     )
+  //     .subscribe((events: RoutesRecognized[]) => {
+  //       this.prvHeaderUrl = events[0].urlAfterRedirects;
+  //       currentUrl = events[1].urlAfterRedirects;
+  //       console.log(events);
+  //     });
+  // }
+  toBack() {
+    // if(this.prvHeaderUrl!==null){
+    //   this.router.navigateByUrl(this.prvHeaderUrl);
+    // }else{
+    //   this.ngStyleBtnBack={
+    //     display: "none"
+    //   };
+    //   this.ngStyleTitle ={
+    //     "padding-left": "12px"
+    //   };
+    // }
+    this.navCtrl.back();
   }
   toSearch(){
     let curUrl ="";

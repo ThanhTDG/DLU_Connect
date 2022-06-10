@@ -1,0 +1,29 @@
+#mess-sender{
+    #container{
+        font-size: 12px;
+        padding-left: 60px;
+        padding-top: 12px;
+        #content{
+            padding: 8px;
+            background-color: var(--ion-color-app-primary);
+            border-radius: 8px;
+        }
+        #details{
+            position: relative;
+            img{
+                position: absolute;
+                top: 2px;
+                right: 0;
+                width: 18px;
+                height: 18px;
+            }
+            padding-top: 4px;
+            span{
+                width: 100%;
+                text-align: right;
+                display: block;
+                padding-right: 32px;
+            }            
+        }
+    }
+}

@@ -1,11 +1,13 @@
 <div id="nearly-search" [ngStyle]="ngStyleNearlySearch">
   <div id="nearly-search-container" [ngStyle]="ngStyleContent">
-    <div id="ns-avatar" [ngStyle]="ngStyleAvatar">
-      <span [ngStyle]="ngStyleFtitle">{{ftitle}}</span>
-      <img src="{{imgAvatar}}" [ngStyle]="ngStyleImage">
-    </div>
-    <div id="ns-content" >
-      <span id="ns-c-title">{{title}}<span id="ns-c-content">{{content}}</span></span>
+    <div id="container" (click)="toViewDetail()">
+      <div id="ns-avatar" [ngStyle]="ngStyleAvatar">
+        <span [ngStyle]="ngStyleFtitle">{{ftitle}}</span>
+        <img src="{{imgAvatar}}" [ngStyle]="ngStyleImage">
+      </div>
+      <div id="ns-content" >
+        <span id="ns-c-title">{{title}}<span id="ns-c-content">{{content}}</span></span>
+      </div>
     </div>
     <div id="ns-option" (click)="onOption()">
       <img src="{{imgOption}}">

@@ -1,0 +1,19 @@
+<ion-content [scrollEvents]="true">
+  <div id="search-bar">
+    <app-search-bar-advance (searchEmitter)="receiveSearchValue($event)"></app-search-bar-advance>
+  </div>
+  <div id="container">
+    <div id="text-guide">
+      <span id="title">{{textGuide}}</span>
+      <span id="description">Chọn một hoặc nhiều chủ đề để bắt đầu câu hỏi của bạn</span>
+    </div>
+    <div id="topic-containter">
+      <app-topic *ngFor="let topic of topics" title="{{topic}}" (selectEmitter)="receiveSelectTopic($event)"></app-topic>
+    </div>
+  </div>
+</ion-content>
+<ion-footer>
+  <div id="btn-container">
+    <button (click)="toStartChat()" [ngStyle]="ngStyleButton">Tiếp tục</button>
+  </div>
+</ion-footer>

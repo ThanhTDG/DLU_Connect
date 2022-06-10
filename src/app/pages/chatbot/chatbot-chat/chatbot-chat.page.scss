@@ -1,0 +1,89 @@
+ion-content{
+    --offset-bottom: auto!important;
+    --overflow: hidden;
+    overflow: auto;
+    &::-webkit-scrollbar {
+        display: none;
+    }
+
+    height: 100%;
+    width: 100%;
+    background-color: var(--ion-color-app-white);
+    #header{
+        width: 100%;
+        height: 224px;
+        padding-top: 36px;
+        background: url('../../../../assets/icon/chat-bot/cb-3.png') no-repeat center center / cover;
+        #toolbar{
+            width: 100%;
+            height: 48px;
+            position: relative;
+            span{
+                display: block;
+                font-size: 24px;
+                font-family: 'Montserrat Bold';
+                color: white;
+                padding-left: 54px;
+                padding-top: 9px;
+            }
+            img{
+                position: absolute;
+                top:12px;
+                left: 12px;
+            }
+        }
+        #chat-member{
+            overflow: auto;
+            &::-webkit-scrollbar{
+                display: none;
+            }
+            height: 60%;
+            padding-top: 2px;
+        }
+    }
+    #container{
+        background-color: var(--ion-color-app-white);        
+        border-radius: 24px 24px 0 0;
+        margin-top: -24px;
+        height: 100%;
+        width: 100%;
+        padding-left: 12px;
+        padding-right: 12px;
+        padding-top: 24px;
+        padding-bottom: 12px;
+    }
+}
+
+ion-footer{
+    --background: none;
+    #send-bar{
+        width: 100%;
+        height: 48px;
+        padding-left: 12px;
+        padding-right: 56px;
+        border-radius: 24px;
+        padding-top: 8px;
+        background-color: var(--ion-color-app-green-dark);
+        position: relative;
+        #input-container{
+            padding-left: 12px;
+            padding-right: 12px;
+            height: 32px;
+            border-radius: 16px;
+            padding-top: 6px;
+            background-color: var(--ion-color-app-primary);
+            input{
+                background: none;
+                outline: none;
+                border: none;
+                font-size: 12px;
+                width: 100%;
+            }
+        }
+        #btn-container{
+            position: absolute;
+            top: 0px;
+            right: 0px;
+        }
+    }
+}

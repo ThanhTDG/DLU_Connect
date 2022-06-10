@@ -1,0 +1,51 @@
+<app-header-page pageTitle="Trang cá nhân" canBack = true></app-header-page>
+
+<ion-content>
+  <div class="container">
+    <div id="view-profile">
+      <app-view-profile title="{{title}}" content="{{content}}" imgBackground="{{imgBackground}}"
+        imgAvatar="{{imgAvatar}}"></app-view-profile>
+    </div>
+    <div id="content">
+      <div id="btn-follow">
+        <app-follow-button (followEmitter)="nFolloow($event)"></app-follow-button>
+      </div>
+      <div id="ct-posts">
+        <div class="content-title" id="ct-tt-posts">Bài viết</div>
+        <div id="ct-post-content" (click)="onViewUserPost()">
+          <app-setting-item title="Xem các bài viết của {{accountName}}" option="0"></app-setting-item>
+        </div>
+      </div>
+      <div id="ct-follows">
+        <div class="content-title">Theo dõi</div>
+        <div id="ct-follows-content">
+          <ion-slides [options]="{ slidesPerView: 'auto', zoom: false, grabCursor: true }">
+            <ion-slide id="ct-follows-slide" *ngFor="let card of [0,1,2,3,4,5,6]">
+              <ion-col>
+                <app-short-view-object color="{{card}}"></app-short-view-object>
+              </ion-col>
+            </ion-slide>
+            <ion-slide class="ct-fl-btn-more">
+              <div>
+                <img src="{{imgBtnNext}}" />
+              </div>
+            </ion-slide>
+          </ion-slides>
+          <ion-slides [options]="{ slidesPerView: 'auto', zoom: false, grabCursor: true }">
+            <ion-slide id="ct-follows-slide" *ngFor="let card of [0,1,2,3,4,5,6]">
+              <ion-col>
+                <app-short-view-object option="student" imgAvatar="../../../../assets/icon/default/default-avatar.png"
+                  color="{{card}}"></app-short-view-object>
+              </ion-col>
+            </ion-slide>
+            <ion-slide class="ct-fl-btn-more">
+              <div>
+                <img src="{{imgBtnNext}}" />
+              </div>
+            </ion-slide>
+          </ion-slides>
+        </div>
+      </div>
+    </div>
+  </div>
+</ion-content>

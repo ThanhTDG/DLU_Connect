@@ -1,3 +1,4 @@
+/* eslint-disable max-len */
 import { NgModule } from '@angular/core';
 import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
 import {
@@ -128,6 +129,31 @@ const routes: Routes = [
         (m) => m.DepartmentPageModule
       ),
   },
+  {
+    path: 'chatbot-get-start',
+    loadChildren: () => import('./pages/chatbot/chatbot-get-start/chatbot-get-start.module').then( m => m.ChatbotGetStartPageModule)
+  },
+  {
+    path: 'chatbot-select-topic',
+    loadChildren: () => import('./pages/chatbot/chatbot-select-topic/chatbot-select-topic.module').then( m => m.ChatbotSelectTopicPageModule)
+  },
+  {
+    path: 'chatbot-chat',
+    loadChildren: () => import('./pages/chatbot/chatbot-chat/chatbot-chat.module').then( m => m.ChatbotChatPageModule)
+  },
+  {
+    path: 'personal-other',
+    loadChildren: () => import('./pages/sub-pages/personal-other/personal-other.module').then( m => m.PersonalOtherPageModule)
+  },
+  {
+    path: 'personal-other-detail',
+    loadChildren: () => import('./pages/sub-pages/personal-other-detail/personal-other-detail.module').then( m => m.PersonalOtherDetailPageModule)
+  },
+  {
+    path: 'face-recognition-page',
+    loadChildren: () => import('./pages/face-recognition/face-recognition-page/face-recognition-page.module').then( m => m.FaceRecognitionPagePageModule)
+  },
+
 ];
 
 @NgModule({

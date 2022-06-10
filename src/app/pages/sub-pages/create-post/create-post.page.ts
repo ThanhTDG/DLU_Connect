@@ -139,40 +139,40 @@ export class CreatePostPage implements OnInit, AfterViewInit {
     this.getPhoto();
   }
   getPhoto() {
-    // const options: CameraOptions = {
-    //   quality: 100,
-    //   targetHeight: 300,
-    //   destinationType: this.camera.DestinationType.DATA_URL,
-    //   encodingType: this.camera.EncodingType.JPEG,
-    //   mediaType: this.camera.MediaType.PICTURE,
-    //   correctOrientation: true,
-    //   sourceType: 0,
-    //   saveToPhotoAlbum: false,
-    //   allowEdit: false
-    // };
-
-    // this.camera.getPicture(options).then((imageData) => {
-    //   const base64Image = 'data:image/jpeg;base64,' + imageData;
-    //   this.tagImagesBackUp.push(base64Image);
-    //   this.passChoseImgaeToDisplay();
-    //   this.ngStyleTags={
-    //     display: "flex"
-    //   };
-    // }, (err) => {
-    // });
-    this.tagImagesBackUp.push(
-      '../../../../assets/icon/default/default-post-bd-image.png'
-    );
-    this.tagImagesBackUp.push(
-      '../../../../assets/icon/default/default-post-bd-image.png'
-    );
-    this.tagImagesBackUp.push(
-      '../../../../assets/icon/default/default-post-bd-image.png'
-    );
-    this.passChoseImgaeToDisplay();
-    this.ngStyleTags = {
-      display: 'flex',
+    const options: CameraOptions = {
+      quality: 100,
+      targetHeight: 300,
+      destinationType: this.camera.DestinationType.DATA_URL,
+      encodingType: this.camera.EncodingType.JPEG,
+      mediaType: this.camera.MediaType.PICTURE,
+      correctOrientation: true,
+      sourceType: 0,
+      saveToPhotoAlbum: false,
+      allowEdit: false
     };
+
+    this.camera.getPicture(options).then((imageData) => {
+      const base64Image = 'data:image/jpeg;base64,' + imageData;
+      this.tagImagesBackUp.push(base64Image);
+      this.passChoseImgaeToDisplay();
+      this.ngStyleTags={
+        display: "flex"
+      };
+    }, (err) => {
+    });
+    // this.tagImagesBackUp.push(
+    //   '../../../../assets/icon/default/default-post-bd-image.png'
+    // );
+    // this.tagImagesBackUp.push(
+    //   '../../../../assets/icon/default/default-post-bd-image.png'
+    // );
+    // this.tagImagesBackUp.push(
+    //   '../../../../assets/icon/default/default-post-bd-image.png'
+    // );
+    // this.passChoseImgaeToDisplay();
+    // this.ngStyleTags = {
+    //   display: 'flex',
+    // };
   }
   passChoseImgaeToDisplay() {
     this.clearTagImages();

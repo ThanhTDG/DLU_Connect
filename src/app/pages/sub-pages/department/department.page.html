@@ -23,7 +23,9 @@
           </div>
           <img id="ch-c-more" src="{{imgMore}}">
         </div>
-        <button id="btn-follow" [ngStyle]="ngStyleBtnFollow" (click)="follow()">{{btnFollowStatus}}</button>
+        <div id="btn-follow">
+          <app-follow-button (followEmitter)="onFollow($event)"></app-follow-button>
+        </div>
         <app-members-bar></app-members-bar>
       </div>
     </div>
