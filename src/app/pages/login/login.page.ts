@@ -45,7 +45,7 @@ export class LoginPage implements OnInit {
     });
 
     // TODO: Fake data
-    loadFake(this.auth, this.http);
+    // loadFake(this.auth, this.http);
   }
 
   onInput() {
