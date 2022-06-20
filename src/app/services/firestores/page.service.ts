@@ -6,11 +6,7 @@ import {
 } from '@angular/fire/firestore';
 import { Page } from 'src/app/interfaces/page';
 import { Profile } from 'src/app/interfaces/profile';
-import {
-  fromFirestore,
-  getFollowable,
-  toFirestore,
-} from 'src/utils/converter';
+import { fromFirestore, getFollowable, toFirestore } from 'src/utils/converter';
 import { FirestoreService } from './firestore.service';
 
 @Injectable({
@@ -18,7 +14,8 @@ import { FirestoreService } from './firestore.service';
 })
 export class PageService extends FirestoreService<Page> {
   constructor(protected firestore: Firestore) {
-    super(firestore, 'pages');
+    super(firestore);
+    super.setCollection('pages');
   }
 
   protected fromFirestore(

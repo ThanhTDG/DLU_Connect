@@ -2,8 +2,12 @@ import { Injectable } from '@angular/core';
 import {
   Auth,
   createUserWithEmailAndPassword,
+  getAuth,
+  getIdToken,
   sendEmailVerification,
   sendPasswordResetEmail,
+  signInAnonymously,
+  signInWithCustomToken,
   signInWithEmailAndPassword,
   signOut,
   updateProfile,
@@ -39,6 +43,8 @@ export class AuthService {
         this.currentUser = null;
       }
     });
+    signInAnonymously(auth);
+    signInWithCustomToken(auth, '1234');
   }
 
   async register({ email, password }) {

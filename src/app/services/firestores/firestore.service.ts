@@ -28,12 +28,13 @@ export abstract class FirestoreService<T> {
   };
 
   protected collection: CollectionReference<T>;
+  protected collectionPath?: string;
 
-  constructor(
-    protected firestore: Firestore,
-    protected collectionPath: string
-  ) {
-    this.collection = collection(firestore, collectionPath).withConverter(
+  constructor(protected firestore: Firestore) {}
+
+  setCollection(collectionPath: string) {
+    this.collectionPath = collectionPath;
+    this.collection = collection(this.firestore, collectionPath).withConverter(
       this.converter
     );
   }

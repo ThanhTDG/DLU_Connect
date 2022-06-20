@@ -16,11 +16,6 @@ import {
   getFirestore,
   provideFirestore,
 } from '@angular/fire/firestore';
-// import {
-//   connectFunctionsEmulator,
-//   getFunctions,
-//   provideFunctions,
-// } from '@angular/fire/functions';
 import {
   connectStorageEmulator,
   getStorage,
@@ -58,34 +53,27 @@ import { CameraPreview } from '@awesome-cordova-plugins/camera-preview/ngx';
       } else {
         auth = getAuth();
       }
-      if (!environment.production) {
-        connectAuthEmulator(auth, 'http://localhost:9099', {
-          disableWarnings: true,
-        });
-      }
+      // if (!environment.production) {
+      //   connectAuthEmulator(auth, 'http://localhost:9099', {
+      //     disableWarnings: true,
+      //   });
+      // }
       return auth;
     }),
     provideFirestore(() => {
       const firestore = getFirestore();
-      if (!environment.production) {
-        connectFirestoreEmulator(firestore, 'localhost', 8080);
-      }
+      // if (!environment.production) {
+      //   connectFirestoreEmulator(firestore, 'localhost', 8080);
+      // }
       return firestore;
     }),
     provideStorage(() => {
       const storage = getStorage();
-      if (!environment.production) {
-        connectStorageEmulator(storage, 'localhost', 9199);
-      }
+      // if (!environment.production) {
+      //   connectStorageEmulator(storage, 'localhost', 9199);
+      // }
       return storage;
     }),
-    // provideFunctions(() => {
-    //   const functions = getFunctions();
-    //   if (!environment.production) {
-    //     connectFunctionsEmulator(functions, 'localhost', 5001);
-    //   }
-    //   return functions;
-    // }),
     FormsModule,
     HttpClientModule,
   ],

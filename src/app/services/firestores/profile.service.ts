@@ -14,7 +14,8 @@ import { FirestoreService } from './firestore.service';
 })
 export class ProfileService extends FirestoreService<Profile> {
   constructor(protected firestore: Firestore) {
-    super(firestore, 'profiles');
+    super(firestore);
+    super.setCollection('profiles');
   }
 
   async setProfile(data: Profile) {

@@ -15,7 +15,8 @@ import { RoleService } from './role.service';
 })
 export class GroupService extends FirestoreService<Group> {
   constructor(protected firestore: Firestore) {
-    super(firestore, 'groups');
+    super(firestore);
+    super.setCollection('groups');
   }
 
   protected fromFirestore(

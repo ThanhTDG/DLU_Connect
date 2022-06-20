@@ -9,16 +9,14 @@ import { FirestoreService } from './firestore.service';
   providedIn: 'root',
 })
 export class CommentService extends FirestoreService<Comment> {
-  constructor(
-    protected firestore: Firestore,
-    protected collectionPath: string
-  ) {
-    super(firestore, collectionPath);
+  constructor(protected firestore: Firestore) {
+    super(firestore);
   }
 
   async add(data: Comment) {
     const val = await super.add(data);
-    const service = new CommentService(this.firestore, `${val.path}/comments`);
+    const service = new CommentService(this.firestore);
+    service.setCollection(`${val.path}/comments`);
     data.comments.forEach(async (value) => {
       await service.add(value);
     });
@@ -44,11 +42,11 @@ export class CommentService extends FirestoreService<Comment> {
       obj.author = res;
     });
 
-    new CommentService(getFirestore(), `${obj.ref.path}/comments`)
-      .getAll()
-      .then((res) => {
-        obj.comments = res.docs.map((val) => val.data());
-      });
+    const service = new CommentService(getFirestore());
+    service.setCollection(`${obj.ref.path}/comments`);
+    service.getAll().then((res) => {
+      obj.comments = res.docs.map((val) => val.data());
+    });
 
     return obj;
   }

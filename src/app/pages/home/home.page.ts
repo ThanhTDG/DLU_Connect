@@ -44,59 +44,6 @@ export class HomePage implements OnInit, AfterViewInit {
     this.homeContentHot = 'Nổi bật';
     this.homeContentFollow = 'Đang theo dõi';
     // this.getPostData();
-
-    // this.page.getAll().then((res) => {
-    //   res.forEach((val) => {
-    //     console.log(val.data());
-    //   });
-    // });
-    const post: Post = {
-      uid: null,
-      ref: null,
-      author: null,
-      content: 'Bai viet na',
-      images: [],
-      updatedDate: new Date(),
-      createdDate: new Date(),
-      comments: [
-        {
-          uid: null,
-          ref: null,
-          author: null,
-          content: 'binh luan 1 na',
-          images: [],
-          createdDate: new Date(),
-          comments: [
-            {
-              uid: null,
-              ref: null,
-              author: null,
-              content: 'binh luan 2 na',
-              images: [],
-              createdDate: new Date(),
-              comments: [],
-            },
-          ],
-        },
-        {
-          uid: null,
-          ref: null,
-          author: null,
-          content: 'binh luan 3 na',
-          images: [],
-          createdDate: new Date(),
-          comments: [],
-        },
-      ],
-    };
-
-    // this.post.getAll().then((res) => {
-    //   res.forEach((val) => {
-    //     console.log(val.data());
-    //   });
-    // });
-
-    // this.post.add(post);
   }
 
   randomNumber() {
