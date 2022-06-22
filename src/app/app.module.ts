@@ -18,6 +18,8 @@ import { Camera } from '@awesome-cordova-plugins/camera/ngx';
 import { environment } from 'src/environments/environment';
 import { AuthService } from './services/auth.service';
 import { CameraPreview } from '@awesome-cordova-plugins/camera-preview/ngx';
+import { HttpClientModule } from '@angular/common/http';
+
 
 @NgModule({
   declarations: [AppComponent],
@@ -31,9 +33,10 @@ import { CameraPreview } from '@awesome-cordova-plugins/camera-preview/ngx';
     provideFirestore(() => getFirestore()),
     provideStorage(() => getStorage()),
     FormsModule,
+    HttpClientModule
   ],
   providers: [
-    { provide: RouteReuseStrategy, useClass: IonicRouteStrategy },
+    { provide: RouteReuseStrategy, useClass: IonicRouteStrategy},
     NativePageTransitions,
     Camera,
     AuthService,

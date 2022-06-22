@@ -70,4 +70,8 @@ export class PersonalPage implements OnInit {
         console.log(err);
       });
   }
+  faceRecognition() {
+    this.nativePageTransitions.fade(this.options);
+    this.navCtrl.navigateRoot('get-faces-data-page');
+  }
 }

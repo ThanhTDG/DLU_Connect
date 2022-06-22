@@ -153,6 +153,11 @@ const routes: Routes = [
     path: 'face-recognition-page',
     loadChildren: () => import('./pages/face-recognition/face-recognition-page/face-recognition-page.module').then( m => m.FaceRecognitionPagePageModule)
   },
+  {
+    path: 'get-faces-data-page',
+    loadChildren: () => import('./pages/face-recognition/get-faces-data-page/get-faces-data-page.module').then( m => m.GetFacesDataPagePageModule)
+  },
+
 
 ];
 
