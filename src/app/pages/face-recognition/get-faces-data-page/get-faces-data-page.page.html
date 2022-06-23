@@ -1,0 +1,46 @@
+<ion-content [ngStyle]="ngStyleContainer">
+  <div id="container" [ngStyle]="ngStyleBouder">
+    <div id="title-container" [ngStyle]="ngStyleTitle">
+      <div id="toolbar">
+        <img src="{{imgBack}}" (click)="onBack()">
+        <span id="pageName" [ngStyle]="ngStylePageName">{{pageName}}</span>
+      </div>
+      <div id="title-guide" [ngStyle]="ngStyleTitleGuide">
+        <span>{{tg01}}</span>
+        <span>{{tg02}}</span>
+      </div>
+    </div>
+    <div id="cameraPreview" class="cameraPreview">
+    </div>
+
+    <div id="guide-content" [ngStyle]="ngStyleCountDown">
+      <div id="countdown">
+        <div id="countdown-number">{{this.countDownNumber}}</div>
+        <svg>
+          <circle r="18" cx="20" cy="20"></circle>
+        </svg>
+      </div>
+      <div id="guide-text">
+        <span>
+          {{tg03}}
+        </span>
+      </div>
+    </div>
+    <div id="get-face-done" [ngStyle]="ngStyleDone">
+      <img src="{{successfulImg}}">
+      <button (click)="onGetFaceDone()">Hoàn thành</button>
+    </div>
+
+    <div id="taked-picture-content">
+      <ion-slides [options]="{slidesPerView: 'auto', zoom: false, grabCursor: true }">
+        <ion-slide class="taked-pictures" *ngFor="let image of takedPictures">
+          <img class="ti-picture" src="{{image}}" />
+        </ion-slide>
+      </ion-slides>
+    </div>
+
+
+    
+    <app-error-undefine [ngStyle]="ngStyleError"></app-error-undefine>
+  </div>
+</ion-content>

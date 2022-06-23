@@ -46,9 +46,9 @@ const routes: Routes = [
   {
     path: 'forgot-password',
     loadChildren: () =>
-      import(
-        './pages/forgot-password/forgot-password.module'
-      ).then((m) => m.ForgotPasswordPageModule),
+      import('./pages/forgot-password/forgot-password.module').then(
+        (m) => m.ForgotPasswordPageModule
+      ),
   },
   {
     path: 'home',
@@ -131,29 +131,54 @@ const routes: Routes = [
   },
   {
     path: 'chatbot-get-start',
-    loadChildren: () => import('./pages/chatbot/chatbot-get-start/chatbot-get-start.module').then( m => m.ChatbotGetStartPageModule)
+    loadChildren: () =>
+      import('./pages/chatbot/chatbot-get-start/chatbot-get-start.module').then(
+        (m) => m.ChatbotGetStartPageModule
+      ),
   },
   {
     path: 'chatbot-select-topic',
-    loadChildren: () => import('./pages/chatbot/chatbot-select-topic/chatbot-select-topic.module').then( m => m.ChatbotSelectTopicPageModule)
+    loadChildren: () =>
+      import(
+        './pages/chatbot/chatbot-select-topic/chatbot-select-topic.module'
+      ).then((m) => m.ChatbotSelectTopicPageModule),
   },
   {
     path: 'chatbot-chat',
-    loadChildren: () => import('./pages/chatbot/chatbot-chat/chatbot-chat.module').then( m => m.ChatbotChatPageModule)
+    loadChildren: () =>
+      import('./pages/chatbot/chatbot-chat/chatbot-chat.module').then(
+        (m) => m.ChatbotChatPageModule
+      ),
   },
   {
     path: 'personal-other',
-    loadChildren: () => import('./pages/sub-pages/personal-other/personal-other.module').then( m => m.PersonalOtherPageModule)
+    loadChildren: () =>
+      import('./pages/sub-pages/personal-other/personal-other.module').then(
+        (m) => m.PersonalOtherPageModule
+      ),
   },
   {
     path: 'personal-other-detail',
-    loadChildren: () => import('./pages/sub-pages/personal-other-detail/personal-other-detail.module').then( m => m.PersonalOtherDetailPageModule)
+    loadChildren: () =>
+      import(
+        './pages/sub-pages/personal-other-detail/personal-other-detail.module'
+      ).then((m) => m.PersonalOtherDetailPageModule),
   },
   {
     path: 'face-recognition-page',
-    loadChildren: () => import('./pages/face-recognition/face-recognition-page/face-recognition-page.module').then( m => m.FaceRecognitionPagePageModule)
+    loadChildren: () =>
+      import(
+        './pages/face-recognition/face-recognition-page/face-recognition-page.module'
+      ).then((m) => m.FaceRecognitionPagePageModule),
+    ...canActivate(redirectLoggedInToHome),
   },
-
+  {
+    path: 'get-faces-data-page',
+    loadChildren: () =>
+      import(
+        './pages/face-recognition/get-faces-data-page/get-faces-data-page.module'
+      ).then((m) => m.GetFacesDataPagePageModule),
+  },
 ];
 
 @NgModule({
@@ -162,4 +187,4 @@ const routes: Routes = [
   ],
   exports: [RouterModule],
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {}
