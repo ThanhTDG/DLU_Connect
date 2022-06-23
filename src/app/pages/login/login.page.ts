@@ -74,4 +74,7 @@ export class LoginPage implements OnInit {
       });
     await loading.dismiss();
   }
+  onFaceId(){
+    this.router.navigate(['face-recognition-page']);
+  }
 }

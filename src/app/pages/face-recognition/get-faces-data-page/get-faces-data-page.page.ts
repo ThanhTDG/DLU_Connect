@@ -58,7 +58,6 @@ export class GetFacesDataPagePage implements OnInit, AfterViewInit {
   successfulImg = '../../../../assets/icon/face-recognition/success.gif';
   constructor(private cameraPreview: CameraPreview, private navtrl: NavController) {}
   ngAfterViewInit(): void {
-    this.startTakePicture();
   }
   startTakePicture(){
     setTimeout(() => {
@@ -79,9 +78,9 @@ export class GetFacesDataPagePage implements OnInit, AfterViewInit {
   }
   ngOnInit() {
     this.startCamera();
-    this.setGuideContent();
   }
   onGetFaceDone(){
+    //hieu ne
   }
   startCamera() {
     this.cameraPreview.startCamera(this.cameraPreviewOpts).then(
@@ -92,6 +91,8 @@ export class GetFacesDataPagePage implements OnInit, AfterViewInit {
         this.ngStyleError = {
           display: 'none',
         };
+        this.setGuideContent();
+        this.startTakePicture();
       },
       (err) => {
         this.ngStyleCountDown ={

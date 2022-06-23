@@ -10,6 +10,23 @@
         <span>{{tg02}}</span>
       </div>
     </div>
+    <div id="guide-content" [ngStyle]="ngStyleCountDown">
+      <div id="countdown">
+        <div id="countdown-number">{{this.countDownNumber}}</div>
+        <svg>
+          <circle r="18" cx="20" cy="20"></circle>
+        </svg>
+      </div>
+      <div id="guide-text">
+        <span>
+          {{tg03}}
+        </span>
+      </div>
+    </div>
+    <div id="get-face-done" [ngStyle]="ngStyleDone">
+      <img src="{{errorImg}}">
+      <button (click)="onRetry()">Thử lại</button>
+    </div>
     <div id="camera-result-picture" [ngStyle]="ngStyleCameraResult">
       <img src="{{picture}}">
     </div>

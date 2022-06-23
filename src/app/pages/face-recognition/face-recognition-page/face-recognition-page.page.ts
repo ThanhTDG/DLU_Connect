@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/dot-notation */
 /* eslint-disable @typescript-eslint/quotes */
 /* eslint-disable quote-props */
 /* eslint-disable max-len */
@@ -8,6 +9,9 @@ import {
   CameraPreviewPictureOptions,
 } from '@awesome-cordova-plugins/camera-preview/ngx';
 import { HttpClient } from '@angular/common/http';
+import { VisionApiService } from 'src/app/services/api/vision-api.service';
+import { QueryConstraint } from 'firebase/firestore';
+import { NavController } from '@ionic/angular';
 @Component({
   selector: 'app-face-recognition-page',
   templateUrl: './face-recognition-page.page.html',
@@ -39,6 +43,8 @@ export class FaceRecognitionPagePage implements OnInit, AfterViewInit {
   ngStyleCameraResult: any;
   ngStyleBouder: any;
   ngStyleTitle: any;
+  ngStyleCountDown: any;
+  ngStyleDone: any;
   tg01 = 'Nhìn trực tiếp vào Camera';
   tg02 = 'Giữa cho khuôn mặt của bạn bên trong vùng được đánh dấu';
 
@@ -47,18 +53,18 @@ export class FaceRecognitionPagePage implements OnInit, AfterViewInit {
 
   picture= '';
   detectedPicture = '';
-  dectectType = 'LABEL_DETECTION';
-  apiKey = 'AIzaSyATnIDSpxoABIUxqqnGB16K9eKbJ8eCTYI';
-  visionAPIServer = 'https://vision.googleapis.com/v1/images:annotate?key=' + this.apiKey;
-  visionAPIJson: any;
-  fileContents: any;
-  constructor(private cameraPreview: CameraPreview, private http: HttpClient) {}
+
+  detectedSuccess = false;
+
+  countDownNumber = 5;
+  tg03 = '';
+  errorImg = '../../../../assets/icon/face-recognition/error.gif';
+  constructor(private cameraPreview: CameraPreview, private http: HttpClient, private visionApi: VisionApiService, private navCtrl: NavController) {}
   ngAfterViewInit(): void {
     setTimeout(() => {
       this.takePicture();
     }, 5000);
   }
-
   ngOnInit() {
     this.startCamera();
   }
@@ -71,6 +77,10 @@ export class FaceRecognitionPagePage implements OnInit, AfterViewInit {
         this.ngStyleError = {
           display: 'none',
         };
+        this.ngStyleCountDown = {
+          display: 'block'
+        };
+        this.setGuideContent();
       },
       (err) => {
         this.ngStyleError = {
@@ -92,19 +102,20 @@ export class FaceRecognitionPagePage implements OnInit, AfterViewInit {
   takePicture() {
     this.cameraPreview.takePicture(this.pictureOpts).then(
       (imageData) => {
-        this.picture = 'data:image/jpeg;base64,' + imageData;
-        this.tg02 = this.picture;
-        this.displayResult();
-        this.detectFace();
+        this.displayResult(imageData);
+        this.detectFace(''+imageData);
       },
       (err) => {
-        this.picture = '';
         this.tg02 = err;
       }
     );
   }
-  displayResult() {
+  displayResult(base64) {
+    this.picture ='data:image/jpeg;base64,' +  base64;
     this.cameraPreview.stopCamera();
+    this.ngStyleContainer = {
+      background: 'black',
+    };
     this.ngStyleCameraResult = {
       display: 'block',
     };
@@ -121,63 +132,78 @@ export class FaceRecognitionPagePage implements OnInit, AfterViewInit {
       'padding-top':'12px',
       position: 'absolute'
     };
-    //this.imgBack = '../../../../assets/icon/main/back.png';
   }
-  setVisionAPI(){
-    this.visionAPIJson= {
-      "requests":[
-        {
-          "image":{
-            "content": this.picture
-          },
-          "features":[
-            {
-              "type": this.dectectType,
-              "maxResults": 1
-            }
-          ]
-        }
-      ]
-    };
-  }
-  detectFace(){
-    this.setVisionAPI();
-    this.http.post('https://vision.googleapis.com/v1/images:annotate?key=' + this.apiKey, this.visionAPIJson).subscribe(
+  detectFace(base64: string){
+    this.visionApi.getFace(base64).subscribe(
       (result)=>{
-        this.tg01 = result.toString();
+        const label = result['responses'][0]['labelAnnotations'];
+              if (label === undefined || label === null) {
+                this.ngStyleDone={
+                  display: 'flex'
+                };
+              } else {
+                label.forEach((lb) =>{
+                  //to view respone
+                  this.tg02 = lb.description;
+                    const kq = ''+lb.description;
+                    if(kq === 'Forehead'){
+                      this.detectedSuccess = true;
+                      this.onDetectSuccess();
+                    }else{
+                      this.ngStyleDone={
+                        display: 'flex'
+                      };
+                      this.ngStyleCameraResult ={
+                        display: 'none'
+                      };
+                      this.ngStyleTitle={
+                        'padding-top':'12px',
+                      };
+                    }
+                }
+                );
+              }
       },
-      (err)=>{
-        this.tg01 = 'error';
-        this.tg02 = err.toString();
-      }
+      (err)=>{this.tg02 =err['error']['error']['message'];}
     );
   }
-  // detectFace(){
-  //   this.setVisionAPIJson();
-  //   this.file.writeFile(this.file.applicationStorageDirectory, 'file.json', this.fileContents).then(
-  //     (result)=>{
-  //       const filePath = this.file.applicationStorageDirectory+'file.json';
-  //       const options: FileUploadOptions = {
-  //         headers: {
-  //           // eslint-disable-next-line @typescript-eslint/naming-convention
-  //           'Content-Type': 'application/json'
-  //         }
-  //      };
-  //       this.fileTransfer.create().upload(this.visionAPIServer, filePath, options,true).then(
-  //         (res)=>{
-  //           const jsonResult = JSON.parse(result.response);
-  //           const key = 'labelAnnotations';
-  //           this.picture = res.response[key][0].description;
-  //         },
-  //         (error)=>{
-  //           this.tg01 = 'error upload';
-  //         }
-  //       );
-  //     },
-  //     (err)=>{
-  //       this.tg01 = 'error write';
-  //     }
-  //   );
-  // }
-  onBack() {}
+  setGuideContent(){
+    const i = 1;
+    this.tg03 = 'Vui lòng hướng khuôn mặt của bạn về camera';
+    setInterval(() => {
+      if(this.countDownNumber <=1)
+      {
+        this.countDownNumber=5;
+        if(i >=1){
+          this.ngStyleCountDown = {
+            display: 'none'
+          };
+        }
+      }
+      else{
+        this.countDownNumber -= 1;
+      }
+    }, 1000);
+  }
+  onBack() {
+    this.navCtrl.back();
+  }
+  onDetectSuccess(){
+    //banj hieu su ly o day hes
+  }
+  onRetry(){
+    this.ngStyleCameraResult ={
+      display: 'none'
+    };
+    this.ngStyleDone={
+      display: 'none'
+    };
+    this.ngStyleContainer = {
+      '--background': 'transparent'
+    };
+    this.startCamera();
+    setTimeout(() => {
+      this.takePicture();
+    }, 5000);
+  }
 }
