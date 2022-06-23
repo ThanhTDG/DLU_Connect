@@ -13,7 +13,7 @@ const redirectLoggedInToHome = () => redirectLoggedInTo(['home']);
 const routes: Routes = [
   {
     path: '',
-    redirectTo: 'face-recognition-page',
+    redirectTo: 'login',
     pathMatch: 'full',
   },
   {
