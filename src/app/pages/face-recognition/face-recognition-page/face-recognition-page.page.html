@@ -1,6 +1,6 @@
 <ion-content [ngStyle]="ngStyleContainer">
-  <div id="container">
-    <div id="title-container">
+  <div id="container" [ngStyle]="ngStyleBouder">
+    <div id="title-container" [ngStyle]="ngStyleTitle">
       <div id="toolbar">
         <img src="{{imgBack}}" (click)="onBack()">
         <span id="pageName" [ngStyle]="ngStylePageName">{{pageName}}</span>
@@ -10,8 +10,8 @@
         <span>{{tg02}}</span>
       </div>
     </div>
-    <div id="camera-guide">
-      <img src="{{imgGuide}}">
+    <div id="camera-result-picture" [ngStyle]="ngStyleCameraResult">
+      <img src="{{picture}}">
     </div>
     <div id="cameraPreview" class="cameraPreview">
     </div>

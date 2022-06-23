@@ -23,7 +23,8 @@ export class SettingItemComponent implements OnInit {
   "../../../../assets/icon/personal/setting/notification.png",
   "../../../../assets/icon/personal/setting/light.png",
   "../../../../assets/icon/personal/setting/switch-on.png",
-  "../../../../assets/icon/personal/setting/switch-off.png",];
+  "../../../../assets/icon/personal/setting/switch-off.png",
+  "../../../../assets/icon/personal/setting/face.png"];
   imgLogout = "../../../../assets/icon/personal/setting/logout.png";
   constructor() { }
 
@@ -80,6 +81,9 @@ export class SettingItemComponent implements OnInit {
           top: "6px"
         };
         this.isSwitch = false;
+        break;
+      case "5":
+        this.imgDescription=this.optionImages[7];
         break;
       case "-1":
         this.imgDescription=this.imgLogout;

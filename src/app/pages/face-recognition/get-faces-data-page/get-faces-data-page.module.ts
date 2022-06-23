@@ -4,9 +4,9 @@ import { FormsModule } from '@angular/forms';
 
 import { IonicModule } from '@ionic/angular';
 
-import { FaceRecognitionPagePageRoutingModule } from './face-recognition-page-routing.module';
+import { GetFacesDataPagePageRoutingModule } from './get-faces-data-page-routing.module';
 
-import { FaceRecognitionPagePage } from './face-recognition-page.page';
+import { GetFacesDataPagePage } from './get-faces-data-page.page';
 import { ComponentsModule } from 'src/app/components/components.module';
 
 @NgModule({
@@ -14,9 +14,9 @@ import { ComponentsModule } from 'src/app/components/components.module';
     CommonModule,
     FormsModule,
     IonicModule,
-    FaceRecognitionPagePageRoutingModule,
+    GetFacesDataPagePageRoutingModule,
     ComponentsModule
   ],
-  declarations: [FaceRecognitionPagePage],
+  declarations: [GetFacesDataPagePage]
 })
-export class FaceRecognitionPagePageModule {}
+export class GetFacesDataPagePageModule {}
