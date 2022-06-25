@@ -47,23 +47,25 @@
             Mật khẩu cần ít nhất 6 ký tự
           </ion-note>
         </ion-col>
+
         <ion-col size="12" style="padding: 0">
-          <button
-            id="btn_login"
-            type="submit"
-            expand="block"
-            fill="clear"
-            shape="round"
-            [disabled]="!credentials.valid"
-          >
-            Đăng nhập
-          </button>
+          <div id="advanceLogin">
+            <button
+              id="btn_login"
+              type="submit"
+              expand="block"
+              fill="clear"
+              shape="round"
+              [disabled]="!credentials.valid"
+            >
+              Đăng nhập
+            </button>
+            <div id="btn-face-id" (click)="onFaceId()">
+              <img src="../../../assets/icon/personal/setting/face.png" />
+            </div>
+          </div>
         </ion-col>
-        <ion-col size="12" style="padding: 0">
-          <a id="forgot_Password" (click)="faceRecognition()">
-            Đăng nhập bằng nhận diện khuôn mặt
-          </a>
-        </ion-col>
+
         <ion-col size="12" style="padding: 0">
           <a id="forgot_Password" (click)="forgotPassword()">
             Quên mật khẩu?

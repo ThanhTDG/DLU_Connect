@@ -4,8 +4,12 @@ import {
   CameraPreviewOptions,
   CameraPreviewPictureOptions,
 } from '@awesome-cordova-plugins/camera-preview/ngx';
-import { NativeBiometric } from 'capacitor-native-biometric';
-import { NavController, ToastController } from '@ionic/angular';
+// import { NativeBiometric } from 'capacitor-native-biometric';
+import {
+  LoadingController,
+  NavController,
+  ToastController,
+} from '@ionic/angular';
 import { AuthService } from 'src/app/services/auth/auth.service';
 import { ModelService } from 'src/app/services/auth/model.service';
 
@@ -70,13 +74,12 @@ export class GetFacesDataPagePage implements OnInit, AfterViewInit {
     private auth: AuthService,
     private model: ModelService,
     private cameraPreview: CameraPreview,
+    private loading: LoadingController,
     private toast: ToastController,
     private navtrl: NavController
   ) {}
 
-  ngAfterViewInit(): void {
-    this.startTakePicture();
-  }
+  ngAfterViewInit(): void {}
 
   startTakePicture() {
     setTimeout(() => {
@@ -98,55 +101,53 @@ export class GetFacesDataPagePage implements OnInit, AfterViewInit {
 
   ngOnInit() {
     this.startCamera();
-    this.setGuideContent();
   }
 
-  onGetFaceDone() {
+  async onGetFaceDone() {
+    // TODO:
     // this.setCredentials();
-    this.model
-      .predict(this.imgs[0])
-      .then(async (res) => {
-        console.log(res);
-        const toast = await this.toast.create({
-          message: 'OK: ' + res,
-          duration: 2000,
-        });
-        await toast.present();
-      })
-      .catch(async (err) => {
-        console.log(err);
-        const toast = await this.toast.create({
-          message: 'Error: ' + err,
-          duration: 2000,
-        });
-        await toast.present();
-      });
+    const loading = await this.loading.create({
+      message: 'Vui lòng chờ xíu...',
+    });
+    await loading.present();
+    this.model.train(this.takedPictures).then(async (res) => {
+      const pred = await this.model.predict(this.takedPictures[0]);
+      localStorage.setItem(
+        pred.toString(),
+        JSON.stringify({
+          email: this.auth.currentUser.email,
+          password: '123456',
+        })
+      );
+      this.navtrl.back();
+    });
+    await loading.dismiss();
   }
 
-  setCredentials() {
-    NativeBiometric.setCredentials({
-      server: 'dlu-connect.firebaseapp.com',
-      username: this.auth.currentUser.email,
-      password: '123456',
-    }).then(
-      async (res) => {
-        console.log(res);
-        const toast = await this.toast.create({
-          message: 'OK',
-          duration: 2000,
-        });
-        await toast.present();
-      },
-      async (err) => {
-        console.log(err);
-        const toast = await this.toast.create({
-          message: 'Error: ' + err,
-          duration: 2000,
-        });
-        await toast.present();
-      }
-    );
-  }
+  // setCredentials() {
+  //   NativeBiometric.setCredentials({
+  //     server: 'dlu-connect.firebaseapp.com',
+  //     username: this.auth.currentUser.email,
+  //     password: '123456',
+  //   }).then(
+  //     async (res) => {
+  //       console.log(res);
+  //       const toast = await this.toast.create({
+  //         message: 'OK',
+  //         duration: 2000,
+  //       });
+  //       await toast.present();
+  //     },
+  //     async (err) => {
+  //       console.log(err);
+  //       const toast = await this.toast.create({
+  //         message: 'Error: ' + err,
+  //         duration: 2000,
+  //       });
+  //       await toast.present();
+  //     }
+  //   );
+  // }
 
   startCamera() {
     this.cameraPreview.startCamera(this.cameraPreviewOpts).then(
@@ -157,6 +158,8 @@ export class GetFacesDataPagePage implements OnInit, AfterViewInit {
         this.ngStyleError = {
           display: 'none',
         };
+        this.setGuideContent();
+        this.startTakePicture();
       },
       (err) => {
         this.ngStyleCountDown = {
@@ -208,7 +211,7 @@ export class GetFacesDataPagePage implements OnInit, AfterViewInit {
   takePicture() {
     this.cameraPreview.takePicture(this.pictureOpts).then(
       async (imageData) => {
-        this.picture = 'data:image/jpeg;base64,' + imageData;
+        this.picture = 'data:image/png;base64,' + imageData;
         this.takedPictures.push(this.picture);
         this.imgs.push(imageData);
 

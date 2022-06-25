@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { Router } from '@angular/router';
 import { LoadingController } from '@ionic/angular';
-import { NativeBiometric } from 'capacitor-native-biometric';
+// import { NativeBiometric } from 'capacitor-native-biometric';
 import { AuthService } from 'src/app/services/auth/auth.service';
 import { loadFake } from 'src/utils/fakedata';
 
@@ -92,19 +92,23 @@ export class LoginPage implements OnInit {
     await loading.dismiss();
   }
 
-  private async loginByFaceRecognition() {
-    const available = await NativeBiometric.isAvailable();
-    if (available.isAvailable) {
-      const credentials = await NativeBiometric.getCredentials({
-        server: 'dlu-connect.firebaseapp.com',
-      });
-      NativeBiometric.verifyIdentity({
-        title: 'Đăng nhập',
-        subtitle: 'Lựa chọn phương thức đăng nhập',
-        negativeButtonText: 'Huỷ',
-      }).then(async () => {
-        await this.login(credentials.username, credentials.password);
-      });
-    }
+  onFaceId() {
+    this.router.navigate(['face-recognition-page']);
   }
+
+  // private async loginByFaceRecognition() {
+  //   const available = await NativeBiometric.isAvailable();
+  //   if (available.isAvailable) {
+  //     const credentials = await NativeBiometric.getCredentials({
+  //       server: 'dlu-connect.firebaseapp.com',
+  //     });
+  //     NativeBiometric.verifyIdentity({
+  //       title: 'Đăng nhập',
+  //       subtitle: 'Lựa chọn phương thức đăng nhập',
+  //       negativeButtonText: 'Huỷ',
+  //     }).then(async () => {
+  //       await this.login(credentials.username, credentials.password);
+  //     });
+  //   }
+  // }
 }
